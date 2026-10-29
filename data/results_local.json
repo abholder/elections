@@ -1,0 +1,6 @@
+{
+  "_about": "Hand-entered results for local items civicAPI doesn't carry. Edit on github.com (pencil icon), commit, and the next results run publishes it. Sources: Kansas City Election Board (kceb.org), Jackson County Election Board (jcebmo.org), Platte County Board of Elections (plattecountymovotes.gov). Shape: \"<id>\": {\"reporting\": 100, \"called\": null or \"Passed\"/\"Failed\"/name, \"votes\": {\"Yes\": 0, \"No\": 0}}",
+  "results": {
+    "_example_parkville-p": { "reporting": 0, "called": null, "votes": { "Yes": 0, "No": 0 } }
+  }
+}

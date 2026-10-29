@@ -16,8 +16,16 @@ GitHub Pages           →  index.html + app.js load data/*.json on every visit
 | `data/races.json` | The list of races, candidates and ballot questions | Hand |
 | `data/forecasts.json` | Control odds, generic ballot, per-race odds (with sources/dates) | Hand |
 | `data/money.json` | FEC fundraising totals | The Action, hourly |
-| `data/results.json` | Vote counts on election night | Coming next |
+| `data/results.json` | Vote counts on election night | `scripts/fetch_results.py` via the *Update results* Action |
+| `data/results_local.json` | Jackson County & Parkville results civicAPI doesn't carry | Hand, on election night |
 | `index.html`, `style.css`, `app.js` | The page | Hand |
+
+## Election night
+
+- **National and Missouri statewide results** come from [civicAPI](https://civicapi.org), free and keyless. The page reads civicAPI directly in the browser every 2 minutes (GitHub's timer runs late on busy nights), and the *Update results* Action saves a copy to `data/results.json` every 5 minutes as a backup and history.
+- **Local results** (Jackson County Executive, COMBAT, Parkville P/I/F) aren't in civicAPI. Enter them in `data/results_local.json` (edit on github.com) from the KC, Jackson County and Platte County election board sites.
+- **Rehearsal:** add `?rehearsal` to the site URL to show civicAPI's test elections, if one is running. Without it, test data is always ignored.
+- **The morning of Nov. 3:** check that civicAPI isn't still flagging its data as a test (if it were, real results would be ignored).
 
 ## Common tasks
 

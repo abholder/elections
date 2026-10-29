@@ -1,7 +1,8 @@
 // Midterms 2026 Tracker: loads the JSON files in data/ and draws the page.
 // No framework, no build step: edit, commit, and GitHub Pages serves it.
 
-const REFRESH_MINUTES = 5; // how often an open page re-checks for new data
+// How often an open page re-checks for new data. Faster on election night.
+const REFRESH_MINUTES = Date.now() > Date.parse("2026-11-03T23:00:00Z") && Date.now() < Date.parse("2026-11-05T12:00:00Z") ? 2 : 5;
 
 const PARTY_NAME = { D: "Democrat", R: "Republican", I: "Independent", L: "Libertarian" };
 
@@ -148,6 +149,68 @@ function renderSections(races, moneyData, fc, results) {
     </section>`).join("");
 }
 
+// ---------- live results straight from civicAPI ----------
+// data/results.json is refreshed by a GitHub Action, but GitHub's timer can run late on a
+// busy night. civicAPI allows browsers to call it directly, so the page also asks it for
+// the latest numbers and lays them over the saved copy. Same matching rules as
+// scripts/fetch_results.py.
+const CIVIC = "https://civicapi.org/api/v2";
+const CIVIC_DOCS = { senate: 87528, house: 87524 };
+const REHEARSAL = new URLSearchParams(location.search).has("rehearsal"); // ?rehearsal shows civicAPI test elections
+const LIVE_FROM = Date.parse("2026-11-03T23:00:00Z"); // 6pm Central: first polls close
+
+async function civic(id) {
+  try {
+    const res = await fetch(`${CIVIC}/race/${id}`);
+    if (!res.ok) return null;
+    const doc = await res.json();
+    if (doc.test_data && !REHEARSAL) return null; // never show test data as real
+    if (!REHEARSAL && !String(doc.election_date || "").startsWith("2026-11-03")) return null;
+    return doc;
+  } catch { return null; }
+}
+
+function civicMatch(ours, civicCands, reporting) {
+  const votes = {}; let called = null;
+  for (const cc of civicCands || []) {
+    let key = cc.name === "Yes" || cc.name === "No" ? cc.name
+      : ours.find((c) => cc.name.toLowerCase().includes(c.name.split(" ").pop().toLowerCase()))?.name || "Other";
+    votes[key] = (votes[key] || 0) + (cc.votes || 0);
+    if (cc.winner) called = { Yes: "Passed", No: "Failed" }[cc.name] || (key === "Other" ? cc.name : key);
+  }
+  if (!votes.Other) delete votes.Other;
+  return { reporting: reporting || 0, called, votes };
+}
+
+async function liveResults(races) {
+  if (Date.now() < LIVE_FROM && !REHEARSAL) return {};
+  const items = races.sections.flatMap((s) => [...(s.races || []), ...(s.measures || [])]).filter((i) => i.civic);
+  const ids = new Set(items.flatMap((i) => i.civic.races || []));
+  const [senate, house, ...singles] = await Promise.all(
+    [CIVIC_DOCS.senate, CIVIC_DOCS.house, ...ids].map(civic));
+  const docs = { senate, house };
+  const byId = Object.fromEntries([...ids].map((id, n) => [id, singles[n]]));
+
+  const out = {};
+  for (const item of items) {
+    const cands = item.candidates || [];
+    let r = null;
+    if (item.civic.doc) {
+      const region = docs[item.civic.doc]?.region_results?.[item.civic.region];
+      if (region) r = civicMatch(cands, region.candidates, region.percent_reporting);
+    } else {
+      for (const id of item.civic.races) {
+        const d = byId[id]; if (!d) continue;
+        const m = civicMatch(cands, d.candidates, d.percent_reporting);
+        const sum = (x) => Object.values(x.votes).reduce((a, b) => a + b, 0);
+        if (!r || sum(m) > sum(r)) r = m;
+      }
+    }
+    if (r && (r.called || Object.values(r.votes).some((v) => v > 0))) out[item.id] = r;
+  }
+  return out;
+}
+
 // ---------- main ----------
 async function refresh() {
   const status = document.getElementById("status");
@@ -158,10 +221,18 @@ async function refresh() {
       load("forecasts"),
       load("results"),
     ]);
+    // Live numbers win over the saved copy, except hand-entered local results civicAPI doesn't have.
+    const live = await liveResults(races);
+    const liveCount = Object.keys(live).length;
+    if (liveCount) results.results = { ...results.results, ...live };
+
     renderOverview(fc);
     renderSections(races, moneyData, fc, results);
+    const resultsNote = liveCount
+      ? `Live results from <a href="https://civicapi.org">civicAPI</a>, checked ${new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}`
+      : results.updated ? `Results updated ${ago(results.updated)}` : "Results start after polls close Nov. 3";
     status.innerHTML =
-      `<span class="dot"></span>Results ${results.updated ? "updated " + ago(results.updated) : "start after polls close Nov. 3"}` +
+      `<span class="dot"></span>${REHEARSAL ? "<b>REHEARSAL (test data)</b> · " : ""}${resultsNote}` +
       ` · Money updated ${ago(moneyData.updated)}` +
       ` · Page re-checks every ${REFRESH_MINUTES} min`;
   } catch (err) {

@@ -1,5 +1,5 @@
 {
-  "_about": "Hand-maintained list of what the site tracks. Edit this file to add or remove races. Candidate 'fec' blocks tell scripts/fetch_fec.py how to find each candidate in the FEC database; add \"fec_id\" to pin an exact candidate if the search ever picks the wrong person.",
+  "_about": "Hand-maintained list of what the site tracks. Edit this file to add or remove races. Candidate 'fec' blocks tell scripts/fetch_fec.py how to find each candidate in the FEC database; add \"fec_id\" to pin an exact candidate if the search ever picks the wrong person. 'civic' blocks map an entry to civicAPI results: {doc: senate|house, region} for congressional races, or {races: [ids]} for others (if several ids, the one with the most votes wins).",
   "election_date": "2026-11-03",
   "sections": [
     {
@@ -7,42 +7,360 @@
       "title": "U.S. Senate: key races",
       "blurb": "35 seats are up. Republicans hold 53, Democrats 47 (including two independents who caucus with them). Democrats need a net gain of 4 seats for control.",
       "races": [
-        { "id": "tx-sen", "title": "Texas", "note": "Open seat, R-held", "candidates": [
-          { "name": "James Talarico", "party": "D", "fec": { "q": "Talarico", "state": "TX", "office": "S" } },
-          { "name": "Ken Paxton", "party": "R", "fec": { "q": "Paxton", "state": "TX", "office": "S" } } ] },
-        { "id": "me-sen", "title": "Maine", "note": "R-held", "candidates": [
-          { "name": "Troy Jackson", "party": "D", "fec": { "q": "Jackson", "state": "ME", "office": "S" } },
-          { "name": "Susan Collins", "party": "R", "incumbent": true, "fec": { "q": "Collins", "state": "ME", "office": "S" } } ] },
-        { "id": "oh-sen", "title": "Ohio (special)", "note": "R-held", "candidates": [
-          { "name": "Sherrod Brown", "party": "D", "fec": { "q": "Brown", "state": "OH", "office": "S" } },
-          { "name": "Jon Husted", "party": "R", "incumbent": true, "fec": { "q": "Husted", "state": "OH", "office": "S" } } ] },
-        { "id": "ia-sen", "title": "Iowa", "note": "Open seat, R-held", "candidates": [
-          { "name": "Josh Turek", "party": "D", "fec": { "q": "Turek", "state": "IA", "office": "S" } },
-          { "name": "Ashley Hinson", "party": "R", "fec": { "q": "Hinson", "state": "IA", "office": "S" } } ] },
-        { "id": "ks-sen", "title": "Kansas", "note": "R-held", "candidates": [
-          { "name": "Adam Hamilton", "party": "D", "fec": { "q": "Hamilton", "state": "KS", "office": "S" } },
-          { "name": "Roger Marshall", "party": "R", "incumbent": true, "fec": { "q": "Marshall", "state": "KS", "office": "S" } } ] },
-        { "id": "ak-sen", "title": "Alaska", "note": "R-held", "candidates": [
-          { "name": "Mary Peltola", "party": "D", "fec": { "q": "Peltola", "state": "AK", "office": "S" } },
-          { "name": "Dan Sullivan", "party": "R", "incumbent": true, "fec": { "q": "Sullivan", "state": "AK", "office": "S" } } ] },
-        { "id": "mi-sen", "title": "Michigan", "note": "Open seat, D-held", "candidates": [
-          { "name": "Abdul El-Sayed", "party": "D", "fec": { "q": "El-Sayed", "state": "MI", "office": "S" } },
-          { "name": "Mike Rogers", "party": "R", "fec": { "q": "Rogers", "state": "MI", "office": "S" } } ] },
-        { "id": "ne-sen", "title": "Nebraska", "note": "R-held", "candidates": [
-          { "name": "Dan Osborn", "party": "I", "fec": { "q": "Osborn", "state": "NE", "office": "S" } },
-          { "name": "Pete Ricketts", "party": "R", "incumbent": true, "fec": { "q": "Ricketts", "state": "NE", "office": "S" } } ] },
-        { "id": "nh-sen", "title": "New Hampshire", "note": "Open seat, D-held", "candidates": [
-          { "name": "Chris Pappas", "party": "D", "fec": { "q": "Pappas", "state": "NH", "office": "S" } },
-          { "name": "John E. Sununu", "party": "R", "fec": { "q": "Sununu", "state": "NH", "office": "S" } } ] },
-        { "id": "nc-sen", "title": "North Carolina", "note": "Open seat, R-held", "candidates": [
-          { "name": "Roy Cooper", "party": "D", "fec": { "q": "Cooper", "state": "NC", "office": "S" } },
-          { "name": "Michael Whatley", "party": "R", "fec": { "q": "Whatley", "state": "NC", "office": "S" } } ] },
-        { "id": "ga-sen", "title": "Georgia", "note": "D-held", "candidates": [
-          { "name": "Jon Ossoff", "party": "D", "incumbent": true, "fec": { "q": "Ossoff", "state": "GA", "office": "S" } },
-          { "name": "Mike Collins", "party": "R", "fec": { "q": "Collins", "state": "GA", "office": "S" } } ] },
-        { "id": "mn-sen", "title": "Minnesota", "note": "Open seat, D-held", "candidates": [
-          { "name": "Peggy Flanagan", "party": "D", "fec": { "q": "Flanagan", "state": "MN", "office": "S" } },
-          { "name": "Michele Tafoya", "party": "R", "fec": { "q": "Tafoya", "state": "MN", "office": "S" } } ] }
+        {
+          "id": "tx-sen",
+          "title": "Texas",
+          "note": "Open seat, R-held",
+          "candidates": [
+            {
+              "name": "James Talarico",
+              "party": "D",
+              "fec": {
+                "q": "Talarico",
+                "state": "TX",
+                "office": "S"
+              }
+            },
+            {
+              "name": "Ken Paxton",
+              "party": "R",
+              "fec": {
+                "q": "Paxton",
+                "state": "TX",
+                "office": "S"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "senate",
+            "region": "tx"
+          }
+        },
+        {
+          "id": "me-sen",
+          "title": "Maine",
+          "note": "R-held",
+          "candidates": [
+            {
+              "name": "Troy Jackson",
+              "party": "D",
+              "fec": {
+                "q": "Jackson",
+                "state": "ME",
+                "office": "S"
+              }
+            },
+            {
+              "name": "Susan Collins",
+              "party": "R",
+              "incumbent": true,
+              "fec": {
+                "q": "Collins",
+                "state": "ME",
+                "office": "S"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "senate",
+            "region": "me"
+          }
+        },
+        {
+          "id": "oh-sen",
+          "title": "Ohio (special)",
+          "note": "R-held",
+          "candidates": [
+            {
+              "name": "Sherrod Brown",
+              "party": "D",
+              "fec": {
+                "q": "Brown",
+                "state": "OH",
+                "office": "S"
+              }
+            },
+            {
+              "name": "Jon Husted",
+              "party": "R",
+              "incumbent": true,
+              "fec": {
+                "q": "Husted",
+                "state": "OH",
+                "office": "S"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "senate",
+            "region": "oh"
+          }
+        },
+        {
+          "id": "ia-sen",
+          "title": "Iowa",
+          "note": "Open seat, R-held",
+          "candidates": [
+            {
+              "name": "Josh Turek",
+              "party": "D",
+              "fec": {
+                "q": "Turek",
+                "state": "IA",
+                "office": "S"
+              }
+            },
+            {
+              "name": "Ashley Hinson",
+              "party": "R",
+              "fec": {
+                "q": "Hinson",
+                "state": "IA",
+                "office": "S"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "senate",
+            "region": "ia"
+          }
+        },
+        {
+          "id": "ks-sen",
+          "title": "Kansas",
+          "note": "R-held",
+          "candidates": [
+            {
+              "name": "Adam Hamilton",
+              "party": "D",
+              "fec": {
+                "q": "Hamilton",
+                "state": "KS",
+                "office": "S"
+              }
+            },
+            {
+              "name": "Roger Marshall",
+              "party": "R",
+              "incumbent": true,
+              "fec": {
+                "q": "Marshall",
+                "state": "KS",
+                "office": "S"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "senate",
+            "region": "ks"
+          }
+        },
+        {
+          "id": "ak-sen",
+          "title": "Alaska",
+          "note": "R-held",
+          "candidates": [
+            {
+              "name": "Mary Peltola",
+              "party": "D",
+              "fec": {
+                "q": "Peltola",
+                "state": "AK",
+                "office": "S"
+              }
+            },
+            {
+              "name": "Dan Sullivan",
+              "party": "R",
+              "incumbent": true,
+              "fec": {
+                "q": "Sullivan",
+                "state": "AK",
+                "office": "S"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "senate",
+            "region": "ak"
+          }
+        },
+        {
+          "id": "mi-sen",
+          "title": "Michigan",
+          "note": "Open seat, D-held",
+          "candidates": [
+            {
+              "name": "Abdul El-Sayed",
+              "party": "D",
+              "fec": {
+                "q": "El-Sayed",
+                "state": "MI",
+                "office": "S"
+              }
+            },
+            {
+              "name": "Mike Rogers",
+              "party": "R",
+              "fec": {
+                "q": "Rogers",
+                "state": "MI",
+                "office": "S"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "senate",
+            "region": "mi"
+          }
+        },
+        {
+          "id": "ne-sen",
+          "title": "Nebraska",
+          "note": "R-held",
+          "candidates": [
+            {
+              "name": "Dan Osborn",
+              "party": "I",
+              "fec": {
+                "q": "Osborn",
+                "state": "NE",
+                "office": "S"
+              }
+            },
+            {
+              "name": "Pete Ricketts",
+              "party": "R",
+              "incumbent": true,
+              "fec": {
+                "q": "Ricketts",
+                "state": "NE",
+                "office": "S"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "senate",
+            "region": "ne"
+          }
+        },
+        {
+          "id": "nh-sen",
+          "title": "New Hampshire",
+          "note": "Open seat, D-held",
+          "candidates": [
+            {
+              "name": "Chris Pappas",
+              "party": "D",
+              "fec": {
+                "q": "Pappas",
+                "state": "NH",
+                "office": "S"
+              }
+            },
+            {
+              "name": "John E. Sununu",
+              "party": "R",
+              "fec": {
+                "q": "Sununu",
+                "state": "NH",
+                "office": "S"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "senate",
+            "region": "nh"
+          }
+        },
+        {
+          "id": "nc-sen",
+          "title": "North Carolina",
+          "note": "Open seat, R-held",
+          "candidates": [
+            {
+              "name": "Roy Cooper",
+              "party": "D",
+              "fec": {
+                "q": "Cooper",
+                "state": "NC",
+                "office": "S"
+              }
+            },
+            {
+              "name": "Michael Whatley",
+              "party": "R",
+              "fec": {
+                "q": "Whatley",
+                "state": "NC",
+                "office": "S"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "senate",
+            "region": "nc"
+          }
+        },
+        {
+          "id": "ga-sen",
+          "title": "Georgia",
+          "note": "D-held",
+          "candidates": [
+            {
+              "name": "Jon Ossoff",
+              "party": "D",
+              "incumbent": true,
+              "fec": {
+                "q": "Ossoff",
+                "state": "GA",
+                "office": "S"
+              }
+            },
+            {
+              "name": "Mike Collins",
+              "party": "R",
+              "fec": {
+                "q": "Collins",
+                "state": "GA",
+                "office": "S"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "senate",
+            "region": "ga"
+          }
+        },
+        {
+          "id": "mn-sen",
+          "title": "Minnesota",
+          "note": "Open seat, D-held",
+          "candidates": [
+            {
+              "name": "Peggy Flanagan",
+              "party": "D",
+              "fec": {
+                "q": "Flanagan",
+                "state": "MN",
+                "office": "S"
+              }
+            },
+            {
+              "name": "Michele Tafoya",
+              "party": "R",
+              "fec": {
+                "q": "Tafoya",
+                "state": "MN",
+                "office": "S"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "senate",
+            "region": "mn"
+          }
+        }
       ]
     },
     {
@@ -50,36 +368,324 @@
       "title": "U.S. House: races to watch",
       "blurb": "All 435 seats are up; 218 wins the majority. These ten were singled out by NewsNation as likely to decide control.",
       "races": [
-        { "id": "az-01", "title": "Arizona 1st", "note": "Open seat, R-held", "candidates": [
-          { "name": "Amish Shah", "party": "D", "fec": { "q": "Shah", "state": "AZ", "office": "H", "district": "01" } },
-          { "name": "Jay Feely", "party": "R", "fec": { "q": "Feely", "state": "AZ", "office": "H", "district": "01" } } ] },
-        { "id": "ca-22", "title": "California 22nd", "note": "R-held", "candidates": [
-          { "name": "Randy Villegas", "party": "D", "fec": { "q": "Villegas", "state": "CA", "office": "H", "district": "22" } },
-          { "name": "David Valadao", "party": "R", "incumbent": true, "fec": { "q": "Valadao", "state": "CA", "office": "H", "district": "22" } } ] },
-        { "id": "fl-14", "title": "Florida 14th", "note": "D-held", "candidates": [
-          { "name": "Kathy Castor", "party": "D", "incumbent": true, "fec": { "q": "Castor", "state": "FL", "office": "H", "district": "14" } },
-          { "name": "Mike Beltran", "party": "R", "fec": { "q": "Beltran", "state": "FL", "office": "H", "district": "14" } } ] },
-        { "id": "mi-10", "title": "Michigan 10th", "note": "Open seat, R-held", "candidates": [
-          { "name": "Christina Hines", "party": "D", "fec": { "q": "Hines", "state": "MI", "office": "H", "district": "10" } },
-          { "name": "Michael Bouchard", "party": "R", "fec": { "q": "Bouchard", "state": "MI", "office": "H", "district": "10" } } ] },
-        { "id": "ny-17", "title": "New York 17th", "note": "R-held", "candidates": [
-          { "name": "Cait Conley", "party": "D", "fec": { "q": "Conley", "state": "NY", "office": "H", "district": "17" } },
-          { "name": "Mike Lawler", "party": "R", "incumbent": true, "fec": { "q": "Lawler", "state": "NY", "office": "H", "district": "17" } } ] },
-        { "id": "oh-07", "title": "Ohio 7th", "note": "R-held", "candidates": [
-          { "name": "Brian Poindexter", "party": "D", "fec": { "q": "Poindexter", "state": "OH", "office": "H", "district": "07" } },
-          { "name": "Max Miller", "party": "R", "incumbent": true, "fec": { "q": "Miller", "state": "OH", "office": "H", "district": "07" } } ] },
-        { "id": "pa-10", "title": "Pennsylvania 10th", "note": "R-held", "candidates": [
-          { "name": "Janelle Stelson", "party": "D", "fec": { "q": "Stelson", "state": "PA", "office": "H", "district": "10" } },
-          { "name": "Scott Perry", "party": "R", "incumbent": true, "fec": { "q": "Perry", "state": "PA", "office": "H", "district": "10" } } ] },
-        { "id": "tx-34", "title": "Texas 34th", "note": "D-held", "candidates": [
-          { "name": "Vicente Gonzalez", "party": "D", "incumbent": true, "fec": { "q": "Gonzalez", "state": "TX", "office": "H", "district": "34" } },
-          { "name": "Eric Flores", "party": "R", "fec": { "q": "Flores", "state": "TX", "office": "H", "district": "34" } } ] },
-        { "id": "va-02", "title": "Virginia 2nd", "note": "R-held", "candidates": [
-          { "name": "Elaine Luria", "party": "D", "fec": { "q": "Luria", "state": "VA", "office": "H", "district": "02" } },
-          { "name": "Jen Kiggans", "party": "R", "incumbent": true, "fec": { "q": "Kiggans", "state": "VA", "office": "H", "district": "02" } } ] },
-        { "id": "wa-03", "title": "Washington 3rd", "note": "D-held", "candidates": [
-          { "name": "Marie Gluesenkamp Perez", "party": "D", "incumbent": true, "fec": { "q": "Gluesenkamp", "state": "WA", "office": "H", "district": "03" } },
-          { "name": "John Braun", "party": "R", "fec": { "q": "Braun", "state": "WA", "office": "H", "district": "03" } } ] }
+        {
+          "id": "az-01",
+          "title": "Arizona 1st",
+          "note": "Open seat, R-held",
+          "candidates": [
+            {
+              "name": "Amish Shah",
+              "party": "D",
+              "fec": {
+                "q": "Shah",
+                "state": "AZ",
+                "office": "H",
+                "district": "01"
+              }
+            },
+            {
+              "name": "Jay Feely",
+              "party": "R",
+              "fec": {
+                "q": "Feely",
+                "state": "AZ",
+                "office": "H",
+                "district": "01"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "house",
+            "region": "az-01"
+          }
+        },
+        {
+          "id": "ca-22",
+          "title": "California 22nd",
+          "note": "R-held",
+          "candidates": [
+            {
+              "name": "Randy Villegas",
+              "party": "D",
+              "fec": {
+                "q": "Villegas",
+                "state": "CA",
+                "office": "H",
+                "district": "22"
+              }
+            },
+            {
+              "name": "David Valadao",
+              "party": "R",
+              "incumbent": true,
+              "fec": {
+                "q": "Valadao",
+                "state": "CA",
+                "office": "H",
+                "district": "22"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "house",
+            "region": "ca-22"
+          }
+        },
+        {
+          "id": "fl-14",
+          "title": "Florida 14th",
+          "note": "D-held",
+          "candidates": [
+            {
+              "name": "Kathy Castor",
+              "party": "D",
+              "incumbent": true,
+              "fec": {
+                "q": "Castor",
+                "state": "FL",
+                "office": "H",
+                "district": "14"
+              }
+            },
+            {
+              "name": "Mike Beltran",
+              "party": "R",
+              "fec": {
+                "q": "Beltran",
+                "state": "FL",
+                "office": "H",
+                "district": "14"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "house",
+            "region": "fl-14"
+          }
+        },
+        {
+          "id": "mi-10",
+          "title": "Michigan 10th",
+          "note": "Open seat, R-held",
+          "candidates": [
+            {
+              "name": "Christina Hines",
+              "party": "D",
+              "fec": {
+                "q": "Hines",
+                "state": "MI",
+                "office": "H",
+                "district": "10"
+              }
+            },
+            {
+              "name": "Michael Bouchard",
+              "party": "R",
+              "fec": {
+                "q": "Bouchard",
+                "state": "MI",
+                "office": "H",
+                "district": "10"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "house",
+            "region": "mi-10"
+          }
+        },
+        {
+          "id": "ny-17",
+          "title": "New York 17th",
+          "note": "R-held",
+          "candidates": [
+            {
+              "name": "Cait Conley",
+              "party": "D",
+              "fec": {
+                "q": "Conley",
+                "state": "NY",
+                "office": "H",
+                "district": "17"
+              }
+            },
+            {
+              "name": "Mike Lawler",
+              "party": "R",
+              "incumbent": true,
+              "fec": {
+                "q": "Lawler",
+                "state": "NY",
+                "office": "H",
+                "district": "17"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "house",
+            "region": "ny-17"
+          }
+        },
+        {
+          "id": "oh-07",
+          "title": "Ohio 7th",
+          "note": "R-held",
+          "candidates": [
+            {
+              "name": "Brian Poindexter",
+              "party": "D",
+              "fec": {
+                "q": "Poindexter",
+                "state": "OH",
+                "office": "H",
+                "district": "07"
+              }
+            },
+            {
+              "name": "Max Miller",
+              "party": "R",
+              "incumbent": true,
+              "fec": {
+                "q": "Miller",
+                "state": "OH",
+                "office": "H",
+                "district": "07"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "house",
+            "region": "oh-07"
+          }
+        },
+        {
+          "id": "pa-10",
+          "title": "Pennsylvania 10th",
+          "note": "R-held",
+          "candidates": [
+            {
+              "name": "Janelle Stelson",
+              "party": "D",
+              "fec": {
+                "q": "Stelson",
+                "state": "PA",
+                "office": "H",
+                "district": "10"
+              }
+            },
+            {
+              "name": "Scott Perry",
+              "party": "R",
+              "incumbent": true,
+              "fec": {
+                "q": "Perry",
+                "state": "PA",
+                "office": "H",
+                "district": "10"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "house",
+            "region": "pa-10"
+          }
+        },
+        {
+          "id": "tx-34",
+          "title": "Texas 34th",
+          "note": "D-held",
+          "candidates": [
+            {
+              "name": "Vicente Gonzalez",
+              "party": "D",
+              "incumbent": true,
+              "fec": {
+                "q": "Gonzalez",
+                "state": "TX",
+                "office": "H",
+                "district": "34"
+              }
+            },
+            {
+              "name": "Eric Flores",
+              "party": "R",
+              "fec": {
+                "q": "Flores",
+                "state": "TX",
+                "office": "H",
+                "district": "34"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "house",
+            "region": "tx-34"
+          }
+        },
+        {
+          "id": "va-02",
+          "title": "Virginia 2nd",
+          "note": "R-held",
+          "candidates": [
+            {
+              "name": "Elaine Luria",
+              "party": "D",
+              "fec": {
+                "q": "Luria",
+                "state": "VA",
+                "office": "H",
+                "district": "02"
+              }
+            },
+            {
+              "name": "Jen Kiggans",
+              "party": "R",
+              "incumbent": true,
+              "fec": {
+                "q": "Kiggans",
+                "state": "VA",
+                "office": "H",
+                "district": "02"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "house",
+            "region": "va-02"
+          }
+        },
+        {
+          "id": "wa-03",
+          "title": "Washington 3rd",
+          "note": "D-held",
+          "candidates": [
+            {
+              "name": "Marie Gluesenkamp Perez",
+              "party": "D",
+              "incumbent": true,
+              "fec": {
+                "q": "Gluesenkamp",
+                "state": "WA",
+                "office": "H",
+                "district": "03"
+              }
+            },
+            {
+              "name": "John Braun",
+              "party": "R",
+              "fec": {
+                "q": "Braun",
+                "state": "WA",
+                "office": "H",
+                "district": "03"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "house",
+            "region": "wa-03"
+          }
+        }
       ]
     },
     {
@@ -87,34 +693,176 @@
       "title": "Missouri",
       "blurb": "Courts ruled the 2025 congressional map can't be used this year, so November uses the 2022 district lines. Most of Kansas City is in the 5th District; the Northland and Parkville (Platte County) are in the 6th.",
       "races": [
-        { "id": "mo-05", "title": "U.S. House, MO 5th", "note": "Most of Kansas City", "candidates": [
-          { "name": "Emanuel Cleaver", "party": "D", "incumbent": true, "fec": { "q": "Cleaver", "state": "MO", "office": "H", "district": "05" } },
-          { "name": "Rick Brattin", "party": "R", "fec": { "q": "Brattin", "state": "MO", "office": "H", "district": "05" } } ] },
-        { "id": "mo-06", "title": "U.S. House, MO 6th", "note": "Open seat (Sam Graves retiring); includes Parkville and the Northland", "candidates": [
-          { "name": "Josh Smead", "party": "D", "fec": { "q": "Smead", "state": "MO", "office": "H", "district": "06" } },
-          { "name": "Chris Stigall", "party": "R", "fec": { "q": "Stigall", "state": "MO", "office": "H", "district": "06" } },
-          { "name": "Andy Maidment", "party": "L", "fec": { "q": "Maidment", "state": "MO", "office": "H", "district": "06" } } ] },
-        { "id": "mo-auditor", "title": "State Auditor", "note": "Only statewide office on the ballot", "candidates": [
-          { "name": "Quentin Wilson", "party": "D" },
-          { "name": "Scott Fitzpatrick", "party": "R", "incumbent": true },
-          { "name": "Dustin Coffell", "party": "L" } ] }
+        {
+          "id": "mo-05",
+          "title": "U.S. House, MO 5th",
+          "note": "Most of Kansas City",
+          "candidates": [
+            {
+              "name": "Emanuel Cleaver",
+              "party": "D",
+              "incumbent": true,
+              "fec": {
+                "q": "Cleaver",
+                "state": "MO",
+                "office": "H",
+                "district": "05"
+              }
+            },
+            {
+              "name": "Rick Brattin",
+              "party": "R",
+              "fec": {
+                "q": "Brattin",
+                "state": "MO",
+                "office": "H",
+                "district": "05"
+              }
+            },
+            {
+              "name": "Randy Langkraehr",
+              "party": "L",
+              "fec": {
+                "q": "Langkraehr",
+                "state": "MO",
+                "office": "H",
+                "district": "05"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "house",
+            "region": "mo-05"
+          }
+        },
+        {
+          "id": "mo-06",
+          "title": "U.S. House, MO 6th",
+          "note": "Open seat (Sam Graves retiring); includes Parkville and the Northland",
+          "candidates": [
+            {
+              "name": "Josh Smead",
+              "party": "D",
+              "fec": {
+                "q": "Smead",
+                "state": "MO",
+                "office": "H",
+                "district": "06"
+              }
+            },
+            {
+              "name": "Chris Stigall",
+              "party": "R",
+              "fec": {
+                "q": "Stigall",
+                "state": "MO",
+                "office": "H",
+                "district": "06"
+              }
+            },
+            {
+              "name": "Andy Maidment",
+              "party": "L",
+              "fec": {
+                "q": "Maidment",
+                "state": "MO",
+                "office": "H",
+                "district": "06"
+              }
+            }
+          ],
+          "civic": {
+            "doc": "house",
+            "region": "mo-06"
+          }
+        },
+        {
+          "id": "mo-auditor",
+          "title": "State Auditor",
+          "note": "Only statewide office on the ballot",
+          "candidates": [
+            {
+              "name": "Quentin Wilson",
+              "party": "D"
+            },
+            {
+              "name": "Scott Fitzpatrick",
+              "party": "R",
+              "incumbent": true
+            },
+            {
+              "name": "Dustin Coffell",
+              "party": "L"
+            }
+          ],
+          "civic": {
+            "races": [
+              87242
+            ]
+          }
+        }
       ],
       "measures": [
-        { "id": "mo-a3", "title": "Amendment 3", "topic": "Abortion & minors' gender-transition care",
+        {
+          "id": "mo-a3",
+          "title": "Amendment 3",
+          "topic": "Abortion & minors' gender-transition care",
           "yes": "Repeals the 2024 reproductive-rights amendment; allows abortion only for medical emergencies, fetal anomalies, rape or incest; bans gender-transition procedures and puberty blockers for minors.",
-          "no": "Keeps the 2024 reproductive-rights amendment in the constitution." },
-        { "id": "mo-a6", "title": "Amendment 6", "topic": "Citizen initiatives",
+          "no": "Keeps the 2024 reproductive-rights amendment in the constitution.",
+          "civic": {
+            "races": [
+              87243
+            ]
+          }
+        },
+        {
+          "id": "mo-a6",
+          "title": "Amendment 6",
+          "topic": "Citizen initiatives",
           "yes": "Lawmakers would need 80% of both chambers, plus voter approval, to change a voter-passed initiative; makes the initiative process a fundamental right.",
-          "no": "The legislature can keep amending or repealing voter-passed laws by normal votes." },
-        { "id": "mo-a7", "title": "Amendment 7", "topic": "Show-Me Prosperity Fund",
+          "no": "The legislature can keep amending or repealing voter-passed laws by normal votes.",
+          "civic": {
+            "races": [
+              156339
+            ]
+          }
+        },
+        {
+          "id": "mo-a7",
+          "title": "Amendment 7",
+          "topic": "Show-Me Prosperity Fund",
           "yes": "Creates a permanent state investment fund whose earnings would eventually be used to cut and eliminate state taxes.",
-          "no": "No fund is created." },
-        { "id": "mo-a8", "title": "Amendment 8", "topic": "County sheriffs",
+          "no": "No fund is created.",
+          "civic": {
+            "races": [
+              156340
+            ]
+          }
+        },
+        {
+          "id": "mo-a8",
+          "title": "Amendment 8",
+          "topic": "County sheriffs",
           "yes": "Puts elected, four-year-term sheriffs in the constitution as each county's chief law enforcement officer, and limits their removal. St. Louis city, St. Louis County and St. Charles County are exempt.",
-          "no": "Current state law on sheriffs stays as-is." },
-        { "id": "mo-propa", "title": "Proposition A", "topic": "Congressional map",
+          "no": "Current state law on sheriffs stays as-is.",
+          "civic": {
+            "races": [
+              156341
+            ]
+          }
+        },
+        {
+          "id": "mo-propa",
+          "title": "Proposition A",
+          "topic": "Congressional map",
           "yes": "Approves the 2025 congressional map for future elections. It splits Kansas City along Troost Avenue.",
-          "no": "Rejects the 2025 map and keeps the 2022 district lines." }
+          "no": "Rejects the 2025 map and keeps the 2022 district lines.",
+          "civic": {
+            "races": [
+              156342
+            ]
+          }
+        }
       ]
     },
     {
@@ -122,43 +870,203 @@
       "title": "Kansas City & Parkville",
       "blurb": "Kansas City has no city questions this November. Jackson County voters (most of KC) have a county executive race and a sales tax renewal. Parkville voters decide three property tax propositions; each can pass or fail on its own.",
       "races": [
-        { "id": "jaco-exec", "title": "Jackson County Executive", "note": "First open race for the seat in 20 years", "candidates": [
-          { "name": "Stacy Lake", "party": "D" },
-          { "name": "Alan Rohlfing", "party": "R" } ] }
+        {
+          "id": "jaco-exec",
+          "title": "Jackson County Executive",
+          "note": "First open race for the seat in 20 years",
+          "candidates": [
+            {
+              "name": "Stacy Lake",
+              "party": "D"
+            },
+            {
+              "name": "Alan Rohlfing",
+              "party": "R"
+            }
+          ]
+        }
       ],
       "measures": [
-        { "id": "jaco-combat", "title": "Jackson County COMBAT Question 1", "topic": "Anti-crime sales tax renewal",
+        {
+          "id": "jaco-combat",
+          "title": "Jackson County COMBAT Question 1",
+          "topic": "Anti-crime sales tax renewal",
           "yes": "Renews the quarter-cent anti-crime sales tax (first approved in 1989) for 10 more years, about $31M a year for the jail, prosecutors, courts, police drug units and community programs like addiction treatment.",
-          "no": "The tax ends; community-funded programs would start closing in April 2027." },
-        { "id": "parkville-p", "title": "Parkville Proposition P", "topic": "Public safety property tax",
+          "no": "The tax ends; community-funded programs would start closing in April 2027."
+        },
+        {
+          "id": "parkville-p",
+          "title": "Parkville Proposition P",
+          "topic": "Public safety property tax",
           "yes": "Raises the city property tax levy to fund police salaries, equipment and training.",
-          "no": "No increase for public safety." },
-        { "id": "parkville-i", "title": "Parkville Proposition I", "topic": "Infrastructure property tax",
+          "no": "No increase for public safety."
+        },
+        {
+          "id": "parkville-i",
+          "title": "Parkville Proposition I",
+          "topic": "Infrastructure property tax",
           "yes": "Raises the levy for road repaving, curbs and sidewalks.",
-          "no": "No increase for infrastructure." },
-        { "id": "parkville-f", "title": "Parkville Proposition F", "topic": "City facilities property tax",
+          "no": "No increase for infrastructure."
+        },
+        {
+          "id": "parkville-f",
+          "title": "Parkville Proposition F",
+          "topic": "City facilities property tax",
           "yes": "Raises the levy to repair and upgrade city buildings, including a roughly 45-year-old transportation building.",
-          "no": "No increase for facilities." }
+          "no": "No increase for facilities."
+        }
       ],
       "footnote": "If all three Parkville propositions pass, the city's levy rises about 47%, roughly $25/month on a $400,000 home (city estimate). New rates would start in 2027."
     },
     {
       "id": "measures",
       "title": "Ballot measures in other states",
-      "blurb": "A selection of the higher-profile statewide questions. Names and numbers come from State Court Report's 2026 guide.",
+      "blurb": "A selection of the higher-profile statewide questions. Live results come from civicAPI where it covers the measure; Idaho, Massachusetts and Alaska aren't in its feed yet.",
       "measures": [
-        { "id": "nv-abortion", "state": "NV", "title": "Nevada reproductive rights amendment", "topic": "Abortion", "summary": "Second and final required approval to protect abortion until fetal viability in the state constitution." },
-        { "id": "va-q1", "state": "VA", "title": "Virginia Question 1", "topic": "Abortion", "summary": "Adds a right to reproductive freedom to the state constitution." },
-        { "id": "va-marriage", "state": "VA", "title": "Virginia marriage amendment", "topic": "Marriage", "summary": "Removes the constitution's same-sex marriage ban and affirms that two adults may marry regardless of sex, gender or race." },
-        { "id": "va-voting", "state": "VA", "title": "Virginia voting rights amendment", "topic": "Voting", "summary": "Restores voting rights to people with felony convictions when they are released from incarceration." },
-        { "id": "id-prop1", "state": "ID", "title": "Idaho Proposition 1", "topic": "Abortion", "summary": "Creates statutory protection for reproductive freedom and privacy." },
-        { "id": "ma-q8", "state": "MA", "title": "Massachusetts Question 8", "topic": "Marijuana", "summary": "Would repeal legal recreational marijuana sales." },
-        { "id": "mi-p1", "state": "MI", "title": "Michigan Proposal 1", "topic": "Constitution", "summary": "Asks whether to hold a state constitutional convention." },
-        { "id": "ak-rcv", "state": "AK", "title": "Alaska ranked-choice repeal", "topic": "Elections", "summary": "Repeals ranked-choice voting and open primaries adopted in 2020." },
-        { "id": "co-a86", "state": "CO", "title": "Colorado Amendment 86", "topic": "Redistricting", "summary": "Makes it harder to redraw congressional districts, starting with maps drawn in 2028." },
-        { "id": "md-redistricting", "state": "MD", "title": "Maryland congressional districts amendment", "topic": "Redistricting", "summary": "Exempts congressional districts from the constitution's legislative-district requirements." },
-        { "id": "oh-i3", "state": "OH", "title": "Ohio Issue 3", "topic": "Voting", "summary": "Adds a photo ID requirement for voting to the state constitution." },
-        { "id": "ut-b", "state": "UT", "title": "Utah Amendment B", "topic": "Initiatives", "summary": "Requires 60% approval for citizen initiatives on certain taxes." }
+        {
+          "id": "nv-abortion",
+          "state": "NV",
+          "title": "Nevada Question 6",
+          "topic": "Abortion",
+          "summary": "Second and final required approval to protect abortion until fetal viability in the state constitution.",
+          "civic": {
+            "races": [
+              157054
+            ]
+          }
+        },
+        {
+          "id": "nv-q7",
+          "state": "NV",
+          "title": "Nevada Question 7",
+          "topic": "Voting",
+          "summary": "Adds a voter ID requirement to the state constitution.",
+          "civic": {
+            "races": [
+              157055
+            ]
+          }
+        },
+        {
+          "id": "va-q1",
+          "state": "VA",
+          "title": "Virginia Question 1",
+          "topic": "Abortion",
+          "summary": "Adds a right to reproductive freedom to the state constitution.",
+          "civic": {
+            "races": [
+              139733,
+              140000
+            ]
+          }
+        },
+        {
+          "id": "va-marriage",
+          "state": "VA",
+          "title": "Virginia Question 2",
+          "topic": "Marriage",
+          "summary": "Removes the constitution's same-sex marriage ban and affirms that two adults may marry regardless of sex, gender or race.",
+          "civic": {
+            "races": [
+              139734,
+              140001
+            ]
+          }
+        },
+        {
+          "id": "va-voting",
+          "state": "VA",
+          "title": "Virginia Question 3",
+          "topic": "Voting",
+          "summary": "Restores voting rights to people with felony convictions when they are released from incarceration.",
+          "civic": {
+            "races": [
+              139732,
+              140002
+            ]
+          }
+        },
+        {
+          "id": "id-prop1",
+          "state": "ID",
+          "title": "Idaho Proposition 1",
+          "topic": "Abortion",
+          "summary": "Creates statutory protection for reproductive freedom and privacy."
+        },
+        {
+          "id": "ma-q8",
+          "state": "MA",
+          "title": "Massachusetts Question 8",
+          "topic": "Marijuana",
+          "summary": "Would repeal legal recreational marijuana sales."
+        },
+        {
+          "id": "mi-p1",
+          "state": "MI",
+          "title": "Michigan Proposal 1",
+          "topic": "Constitution",
+          "summary": "Asks whether to hold a state constitutional convention.",
+          "civic": {
+            "races": [
+              87220
+            ]
+          }
+        },
+        {
+          "id": "ak-rcv",
+          "state": "AK",
+          "title": "Alaska ranked-choice repeal",
+          "topic": "Elections",
+          "summary": "Repeals ranked-choice voting and open primaries adopted in 2020."
+        },
+        {
+          "id": "co-a86",
+          "state": "CO",
+          "title": "Colorado Amendment 86",
+          "topic": "Redistricting",
+          "summary": "Makes it harder to redraw congressional districts, starting with maps drawn in 2028.",
+          "civic": {
+            "races": [
+              170005
+            ]
+          }
+        },
+        {
+          "id": "md-redistricting",
+          "state": "MD",
+          "title": "Maryland Question 3",
+          "topic": "Redistricting",
+          "summary": "Exempts congressional districts from the constitution's legislative-district requirements.",
+          "civic": {
+            "races": [
+              155237
+            ]
+          }
+        },
+        {
+          "id": "oh-i3",
+          "state": "OH",
+          "title": "Ohio Issue 3",
+          "topic": "Voting",
+          "summary": "Adds a photo ID requirement for voting to the state constitution.",
+          "civic": {
+            "races": [
+              158443
+            ]
+          }
+        },
+        {
+          "id": "ut-b",
+          "state": "UT",
+          "title": "Utah Amendment B",
+          "topic": "Initiatives",
+          "summary": "Requires 60% approval for citizen initiatives on certain taxes.",
+          "civic": {
+            "races": [
+              163201
+            ]
+          }
+        }
       ]
     }
   ]
