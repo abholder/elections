@@ -1,0 +1,31 @@
+# Temporary: test the Alaska PDF parser against the real August primary report. Delete after use.
+name: Probe Alaska
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/probe.yml"]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pypdf
+      - run: |
+          python3 - <<'PY' > probe/alaska.txt 2>&1 || true
+          import sys; sys.path.insert(0, "scripts")
+          import fetch_alaska as a
+          t = a.pdf_text(a.SUMMARY_URL)
+          print("=== FIRST 2500 CHARS ===\n" + t[:2500])
+          for pat in [r"BM\s*#?\s*1\b", r"U\.S\. Senator"]:
+              b = a.find_contest(t, pat)
+              print(f"=== {pat} ===\n", (b or "NOT FOUND")[:2500])
+              if b: print(a.parse_measure(b))
+          PY
+          python3 scripts/fetch_early_vote.py >> probe/alaska.txt 2>&1 || true
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add probe/ data/early_vote.json && git commit -m "Probe Alaska" && git pull --rebase && git push
