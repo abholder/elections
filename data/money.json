@@ -1,8 +1,53 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-10-29T23:41:31+00:00",
+  "updated": "2026-10-29T23:43:45+00:00",
   "candidates": {
+    "ne-sen|Pete Ricketts": {
+      "fec_id": "S6NE00129",
+      "fec_name": "RICKETTS, PETE",
+      "raised": 14546959.4,
+      "spent": 13815789.54,
+      "cash_on_hand": 1218138.97,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:43:24+00:00"
+    },
+    "nh-sen|Chris Pappas": {
+      "fec_id": "S6NH00141",
+      "fec_name": "PAPPAS, CHRIS",
+      "raised": 23703648.39,
+      "spent": 22126866.8,
+      "cash_on_hand": 1984365.82,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:43:25+00:00"
+    },
+    "nh-sen|John E. Sununu": {
+      "fec_id": "S6NH00208",
+      "fec_name": "SUNUNU, JOHN E",
+      "raised": 5681528.08,
+      "spent": 3936990.86,
+      "cash_on_hand": 1711396.49,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:43:27+00:00"
+    },
+    "nc-sen|Roy Cooper": {
+      "fec_id": "S6NC00407",
+      "fec_name": "COOPER, ROY",
+      "raised": 49585341.29,
+      "spent": 40496481.72,
+      "cash_on_hand": 9088859.57,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:43:28+00:00"
+    },
+    "nc-sen|Michael Whatley": {
+      "fec_id": "S6NC00415",
+      "fec_name": "WHATLEY, MICHAEL",
+      "raised": 13668467.53,
+      "spent": 12766229.48,
+      "cash_on_hand": 902238.05,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:43:29+00:00"
+    },
     "ak-sen|Mary Peltola": {
       "fec_id": "S6AK00276",
       "fec_name": "PELTOLA, MARY",
