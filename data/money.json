@@ -1,8 +1,53 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-10-29T23:48:14+00:00",
+  "updated": "2026-10-29T23:56:11+00:00",
   "candidates": {
+    "az-01|Jay Feely": {
+      "fec_id": "H6AZ05190",
+      "fec_name": "FEELY, THOMAS JAMES",
+      "raised": 3799654.13,
+      "spent": 3616889.81,
+      "cash_on_hand": 182764.32,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:55:52+00:00"
+    },
+    "ca-22|Randy Villegas": {
+      "fec_id": "H6CA22190",
+      "fec_name": "VILLEGAS, RANDY",
+      "raised": 5942030.17,
+      "spent": 4979678.4,
+      "cash_on_hand": 962351.77,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:55:53+00:00"
+    },
+    "ca-22|David Valadao": {
+      "fec_id": "H2CA20094",
+      "fec_name": "VALADAO, DAVID",
+      "raised": 6325324.07,
+      "spent": 4659208.33,
+      "cash_on_hand": 1711651.27,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:55:54+00:00"
+    },
+    "fl-14|Kathy Castor": {
+      "fec_id": "H6FL11126",
+      "fec_name": "CASTOR, KATHY",
+      "raised": 4930537.26,
+      "spent": 4579831.79,
+      "cash_on_hand": 577435.34,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:55:54+00:00"
+    },
+    "fl-14|Mike Beltran": {
+      "fec_id": "H6FL14237",
+      "fec_name": "BELTRAN, MIKE",
+      "raised": 2731427.99,
+      "spent": 999910.27,
+      "cash_on_hand": 1731517.72,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:55:55+00:00"
+    },
     "ga-sen|Jon Ossoff": {
       "fec_id": "S8GA00180",
       "fec_name": "OSSOFF, T. JONATHAN",
