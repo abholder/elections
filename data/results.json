@@ -1,5 +1,5 @@
 {
-  "_about": "Election-night results, keyed by the race/measure ids in races.json. Empty until results feeds are wired up. Shape: { \"<id>\": { \"reporting\": 42, \"called\": \"Name\" or null, \"votes\": { \"Candidate Name\": 12345 } or { \"Yes\": 1, \"No\": 2 } } }",
+  "source": "civicAPI (civicapi.org); local results entered by hand",
   "updated": null,
   "results": {}
 }
