@@ -1,8 +1,53 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-10-29T23:43:45+00:00",
+  "updated": "2026-10-29T23:48:14+00:00",
   "candidates": {
+    "ga-sen|Jon Ossoff": {
+      "fec_id": "S8GA00180",
+      "fec_name": "OSSOFF, T. JONATHAN",
+      "raised": 136610982.33,
+      "spent": 125808379.9,
+      "cash_on_hand": 15134335.92,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:47:53+00:00"
+    },
+    "ga-sen|Mike Collins": {
+      "fec_id": "S6GA00390",
+      "fec_name": "COLLINS, MICHAEL A JR",
+      "raised": 10679277.11,
+      "spent": 10178765.75,
+      "cash_on_hand": 1103681.9,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:47:54+00:00"
+    },
+    "mn-sen|Peggy Flanagan": {
+      "fec_id": "S6MN00440",
+      "fec_name": "FLANAGAN, MARGARET",
+      "raised": 11563963.37,
+      "spent": 10570749.3,
+      "cash_on_hand": 993214.07,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:47:55+00:00"
+    },
+    "mn-sen|Michele Tafoya": {
+      "fec_id": "S6MN00556",
+      "fec_name": "TAFOYA, MICHELE",
+      "raised": 12501785.59,
+      "spent": 9682729.8,
+      "cash_on_hand": 2819386.89,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:47:57+00:00"
+    },
+    "az-01|Amish Shah": {
+      "fec_id": "H4AZ01194",
+      "fec_name": "SHAH, AMISH DR.",
+      "raised": 5654453.93,
+      "spent": 5540210.49,
+      "cash_on_hand": 206045.34,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:47:58+00:00"
+    },
     "ne-sen|Pete Ricketts": {
       "fec_id": "S6NE00129",
       "fec_name": "RICKETTS, PETE",
