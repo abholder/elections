@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Midterms 2026 Tracker</title>
+  <meta name="description" content="Tracking the 2026 midterms: Senate, House, Missouri, Kansas City and Parkville. Results, forecasts and campaign money.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <p class="kicker">Election Day · Tuesday, Nov. 3, 2026</p>
+      <h1>Midterms 2026 Tracker</h1>
+      <p class="dek">The national picture, plus Missouri, Kansas City and Parkville.</p>
+      <p class="status" id="status">Loading…</p>
+    </div>
+    <nav class="tabs" id="tabs" aria-label="Sections"></nav>
+  </header>
+
+  <main class="wrap">
+    <section id="overview" class="overview" aria-label="Overview"></section>
+    <div id="sections"></div>
+  </main>
+
+  <footer class="wrap footer">
+    <p><strong>Sources.</strong> Campaign money: <a href="https://api.open.fec.gov/developers/">FEC</a>, refreshed every 6 hours.
+      Forecasts and polling: <span id="forecast-sources"></span>, updated by hand.
+      Race summaries: KCTV5, KCUR, Missouri Independent, The Beacon, Kansas City Defender, State Court Report, NewsNation.</p>
+    <p>Built on GitHub Pages. <a href="https://github.com/abholder/elections">Source code</a>.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "_about": "Snapshot of forecasts and polling averages, updated by hand. These sources don't offer open data feeds, so each number carries its source and date.",
+  "updated": "2026-10-29",
+  "control": [
+    {
+      "chamber": "Senate",
+      "status": "Republicans 53, Democrats 47 (incl. 2 independents). Democrats need a net +4.",
+      "forecasts": [
+        { "source": "Decision Desk HQ", "url": "https://votes.decisiondeskhq.com/forecast/2026/senate", "as_of": "2026-10-29", "d": 60, "r": 40, "note": "Projects 52 D, 48 R" },
+        { "source": "Kalshi (prediction market)", "url": "https://news.kalshi.com/p/who-will-control-the-senate-2026", "as_of": "2026-10-28", "d": 65, "r": 35 }
+      ]
+    },
+    {
+      "chamber": "House",
+      "status": "218 seats needed for a majority.",
+      "forecasts": [
+        { "source": "Decision Desk HQ", "url": "https://votes.decisiondeskhq.com/forecast/2026/house", "as_of": "2026-10-29", "d": 80, "r": 20, "note": "Projects 238 D, 197 R" }
+      ]
+    }
+  ],
+  "generic_ballot": { "source": "Silver Bulletin", "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls", "as_of": "2026-10-29", "margin": "D +8.7" },
+  "races": {
+    "_about": "Per-race odds from Kalshi, a prediction market, as of 2026-10-28. pct = chance the named candidate wins.",
+    "source": "Kalshi",
+    "url": "https://news.kalshi.com/p/who-will-control-the-senate-2026",
+    "as_of": "2026-10-28",
+    "odds": {
+      "tx-sen": { "leader": "James Talarico", "pct": 67 },
+      "me-sen": { "leader": "Troy Jackson", "pct": 61 },
+      "oh-sen": { "leader": "Sherrod Brown", "pct": 68 },
+      "ia-sen": { "leader": "Ashley Hinson", "pct": 54 },
+      "ks-sen": { "leader": "Roger Marshall", "pct": 61 },
+      "ak-sen": { "leader": "Mary Peltola", "pct": 70, "note": "priced by party" },
+      "mi-sen": { "leader": "Abdul El-Sayed", "pct": 69 },
+      "ne-sen": { "leader": "Pete Ricketts", "pct": 71 },
+      "nh-sen": { "leader": "Chris Pappas", "pct": 89 },
+      "nc-sen": { "leader": "Roy Cooper", "pct": 97 },
+      "ga-sen": { "leader": "Jon Ossoff", "pct": 95 },
+      "mn-sen": { "leader": "Peggy Flanagan", "pct": 90 }
+    }
+  }
+}

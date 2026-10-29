@@ -1,0 +1,49 @@
+# Runs scripts/fetch_fec.py on a timer and commits any new data back to the repo.
+# GitHub Pages then republishes the site automatically.
+name: Update data
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"     # every 6 hours (times are UTC). FEC data only changes when campaigns file.
+  workflow_dispatch:            # adds a "Run workflow" button on the Actions tab
+  push:
+    branches: [main]
+    paths:                      # also run when the race list or the script changes
+      - "data/races.json"
+      - "scripts/**"
+      - ".github/workflows/update-data.yml"
+
+permissions:
+  contents: write               # lets the job commit data back to the repo
+
+concurrency:
+  group: update-data            # never run two of these at once
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch FEC money
+        run: python scripts/fetch_fec.py
+        env:
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update data $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase
+            git push
+          fi
