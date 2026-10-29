@@ -15,7 +15,7 @@ GitHub Pages           →  index.html + app.js load data/*.json on every visit
 |---|---|---|
 | `data/races.json` | The list of races, candidates and ballot questions | Hand |
 | `data/forecasts.json` | Control odds, generic ballot, per-race odds (with sources/dates) | Hand |
-| `data/money.json` | FEC fundraising totals | The Action, every 6 hours |
+| `data/money.json` | FEC fundraising totals | The Action, hourly |
 | `data/results.json` | Vote counts on election night | Coming next |
 | `index.html`, `style.css`, `app.js` | The page | Hand |
 

@@ -4,7 +4,7 @@ name: Update data
 
 on:
   schedule:
-    - cron: "23 */6 * * *"     # every 6 hours (times are UTC). FEC data only changes when campaigns file.
+    - cron: "23 * * * *"       # hourly (UTC). Each run picks up where the last left off.
   workflow_dispatch:            # adds a "Run workflow" button on the Actions tab
   push:
     branches: [main]

@@ -92,40 +92,40 @@ def main():
     races = json.loads(RACES.read_text())
     previous = json.loads(OUT.read_text())["candidates"] if OUT.exists() else {}
 
-    out, problems, rate_limited = {}, [], False
+    # Flatten to one list of (key, candidate). Candidates fetched longest ago go first,
+    # so if a rate limit cuts a run short, the next run picks up where this one stopped.
+    todo = []
     for section in races["sections"]:
         for race in section.get("races", []):
             for c in race.get("candidates", []):
-                fec = c.get("fec")
-                if not fec:
-                    continue
-                key = f'{race["id"]}|{c["name"]}'
-                try:
-                    cid = c.get("fec_id") or fec.get("fec_id")
-                    fec_name = None
-                    if not cid:
-                        cid, fec_name = find_candidate_id(fec, c["name"])
-                    if not cid:
-                        problems.append(f"{c['name']}: not found in FEC search")
-                        continue
-                    totals = get_totals(cid)
-                    out[key] = {"fec_id": cid, "fec_name": fec_name, **(totals or {})}
-                    print(f"ok   {c['name']:<28} {cid}  raised={out[key].get('raised')}")
-                except RateLimited as e:
-                    problems.append(str(e))
-                    rate_limited = True
-                    break
-                except Exception as e:  # keep going; one bad candidate shouldn't sink the run
-                    problems.append(f"{c['name']}: {e}")
-                    if key in previous:  # keep the last good numbers instead of blanking them
-                        out[key] = previous[key]
-                time.sleep(0.5)  # be gentle with the API
-            if rate_limited:
-                break
-        if rate_limited:
-            break
+                if c.get("fec"):
+                    todo.append((f'{race["id"]}|{c["name"]}', c))
+    todo.sort(key=lambda kc: (kc[0] in previous, previous.get(kc[0], {}).get("fetched_at", "")))
 
-    # Anyone we didn't reach this run keeps their previous numbers.
+    out, problems = {}, []
+    for key, c in todo:
+        fec, prev = c["fec"], previous.get(key, {})
+        try:
+            # Reuse the id we found last time: saves one API call per candidate.
+            cid = c.get("fec_id") or fec.get("fec_id") or prev.get("fec_id")
+            fec_name = prev.get("fec_name")
+            if not cid:
+                cid, fec_name = find_candidate_id(fec, c["name"])
+            if not cid:
+                problems.append(f"{c['name']}: not found in FEC search")
+                continue
+            totals = get_totals(cid)
+            out[key] = {"fec_id": cid, "fec_name": fec_name, **(totals or {}),
+                        "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+            print(f"ok   {c['name']:<28} {cid}  raised={out[key].get('raised')}")
+        except RateLimited as e:
+            problems.append(str(e))
+            break
+        except Exception as e:  # keep going; one bad candidate shouldn't sink the run
+            problems.append(f"{c['name']}: {e}")
+        time.sleep(0.5)  # be gentle with the API
+
+    # Anyone we didn't reach (or who errored) keeps their previous numbers.
     for key, val in previous.items():
         out.setdefault(key, val)
 
