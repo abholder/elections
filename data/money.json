@@ -1,8 +1,53 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-10-29T23:04:04+00:00",
+  "updated": "2026-10-29T23:39:59+00:00",
   "candidates": {
+    "oh-sen|Jon Husted": {
+      "fec_id": "S6OH00304",
+      "fec_name": "HUSTED, JON",
+      "raised": 19894785.94,
+      "spent": 15655689.37,
+      "cash_on_hand": 4239096.57,
+      "through": "2026-10-22",
+      "fetched_at": "2026-10-29T23:39:40+00:00"
+    },
+    "ia-sen|Josh Turek": {
+      "fec_id": "S6IA00298",
+      "fec_name": "TUREK, JOSHUA",
+      "raised": 24290521.1,
+      "spent": 21217670.1,
+      "cash_on_hand": 3072851.0,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:39:40+00:00"
+    },
+    "ia-sen|Ashley Hinson": {
+      "fec_id": "S6IA00314",
+      "fec_name": "ARENHOLZ, ASHLEY HINSON",
+      "raised": 14147972.57,
+      "spent": 13903059.38,
+      "cash_on_hand": 2172988.59,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:39:42+00:00"
+    },
+    "ks-sen|Adam Hamilton": {
+      "fec_id": "S6KS00312",
+      "fec_name": "HAMILTON, ADAM",
+      "raised": 19175044.34,
+      "spent": 16300680.6,
+      "cash_on_hand": 2874363.74,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:39:42+00:00"
+    },
+    "ks-sen|Roger Marshall": {
+      "fec_id": "S0KS00315",
+      "fec_name": "MARSHALL, ROGER W",
+      "raised": 7546611.06,
+      "spent": 6946763.46,
+      "cash_on_hand": 809806.46,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:39:43+00:00"
+    },
     "tx-sen|James Talarico": {
       "fec_id": "S6TX00479",
       "fec_name": "TALARICO, JAMES",
