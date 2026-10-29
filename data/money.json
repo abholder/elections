@@ -1,8 +1,53 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-10-29T23:39:59+00:00",
+  "updated": "2026-10-29T23:41:31+00:00",
   "candidates": {
+    "ak-sen|Mary Peltola": {
+      "fec_id": "S6AK00276",
+      "fec_name": "PELTOLA, MARY",
+      "raised": 36887509.15,
+      "spent": 32785383.22,
+      "cash_on_hand": 4102125.93,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:41:12+00:00"
+    },
+    "ak-sen|Dan Sullivan": {
+      "fec_id": "S4AK00214",
+      "fec_name": "SULLIVAN, DAN",
+      "raised": 14107205.4,
+      "spent": 11999190.88,
+      "cash_on_hand": 2839757.54,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:41:13+00:00"
+    },
+    "mi-sen|Abdul El-Sayed": {
+      "fec_id": "S6MI00418",
+      "fec_name": "EL-SAYED, ABDUL",
+      "raised": 53830872.19,
+      "spent": 51096843.3,
+      "cash_on_hand": 2734028.89,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:41:14+00:00"
+    },
+    "mi-sen|Mike Rogers": {
+      "fec_id": "S4MI00595",
+      "fec_name": "ROGERS, MICHAEL J",
+      "raised": 23016438.64,
+      "spent": 19369636.6,
+      "cash_on_hand": 3902505.76,
+      "through": "2026-10-22",
+      "fetched_at": "2026-10-29T23:41:15+00:00"
+    },
+    "ne-sen|Dan Osborn": {
+      "fec_id": "S4NE00207",
+      "fec_name": "OSBORN, DAN",
+      "raised": 11029845.41,
+      "spent": 9139828.03,
+      "cash_on_hand": 1953183.3,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-29T23:41:15+00:00"
+    },
     "oh-sen|Jon Husted": {
       "fec_id": "S6OH00304",
       "fec_name": "HUSTED, JON",
