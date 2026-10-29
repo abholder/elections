@@ -18,11 +18,12 @@ permissions:
 
 concurrency:
   group: update-data            # never run two of these at once
-  cancel-in-progress: false
+  cancel-in-progress: true      # a newer run replaces an older one still going
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15         # safety net: never let a stuck run hang for hours
     steps:
       - uses: actions/checkout@v4
 

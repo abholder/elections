@@ -31,18 +31,26 @@ CYCLE = 2026
 KEY = os.environ.get("FEC_API_KEY") or "DEMO_KEY"
 
 
+class RateLimited(Exception):
+    """The FEC said 'too many requests' and waiting didn't help. Stop the run."""
+
+
 def get(path, **params):
-    """GET an FEC endpoint and return the parsed JSON. Retries politely on rate limits."""
+    """GET an FEC endpoint and return the parsed JSON. Retries once on a rate limit."""
     params["api_key"] = KEY
     url = f"{API}{path}?{urllib.parse.urlencode(params)}"
-    for attempt in range(4):
+    for attempt in range(2):
         try:
             with urllib.request.urlopen(url, timeout=30) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 3:  # rate limited: wait and try again
-                time.sleep(10 * (attempt + 1))
-                continue
+            if e.code == 429:
+                if attempt == 0:
+                    time.sleep(15)
+                    continue
+                # Rate limits last an hour, so more waiting won't help. Give up and let
+                # main() keep the previous numbers. (The shared DEMO_KEY hits this fast.)
+                raise RateLimited("FEC rate limit hit. Is the FEC_API_KEY secret set?")
             raise
 
 
@@ -84,7 +92,7 @@ def main():
     races = json.loads(RACES.read_text())
     previous = json.loads(OUT.read_text())["candidates"] if OUT.exists() else {}
 
-    out, problems = {}, []
+    out, problems, rate_limited = {}, [], False
     for section in races["sections"]:
         for race in section.get("races", []):
             for c in race.get("candidates", []):
@@ -103,11 +111,23 @@ def main():
                     totals = get_totals(cid)
                     out[key] = {"fec_id": cid, "fec_name": fec_name, **(totals or {})}
                     print(f"ok   {c['name']:<28} {cid}  raised={out[key].get('raised')}")
+                except RateLimited as e:
+                    problems.append(str(e))
+                    rate_limited = True
+                    break
                 except Exception as e:  # keep going; one bad candidate shouldn't sink the run
                     problems.append(f"{c['name']}: {e}")
                     if key in previous:  # keep the last good numbers instead of blanking them
                         out[key] = previous[key]
                 time.sleep(0.5)  # be gentle with the API
+            if rate_limited:
+                break
+        if rate_limited:
+            break
+
+    # Anyone we didn't reach this run keeps their previous numbers.
+    for key, val in previous.items():
+        out.setdefault(key, val)
 
     OUT.write_text(json.dumps({
         "source": "Federal Election Commission (api.open.fec.gov)",
@@ -120,6 +140,8 @@ def main():
     print(f"\nwrote {len(out)} candidates to data/{OUT.name}")
     for p in problems:
         print("WARN", p)
+    if KEY == "DEMO_KEY":
+        print("NOTE: using the shared DEMO_KEY. Add an FEC_API_KEY repo secret for reliable runs.")
     if not out:
         sys.exit("No data fetched at all. Check the FEC_API_KEY secret.")
 
