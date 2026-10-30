@@ -1,8 +1,98 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-10-30T13:08:40+00:00",
+  "updated": "2026-10-30T13:13:06+00:00",
   "candidates": {
+    "oh-07|Brian Poindexter": {
+      "fec_id": "H6OH07168",
+      "fec_name": "POINDEXTER, BRIAN",
+      "raised": 3720341.61,
+      "spent": 2926666.41,
+      "cash_on_hand": 793675.2,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:12:38+00:00"
+    },
+    "oh-07|Max Miller": {
+      "fec_id": "H2OH16051",
+      "fec_name": "MILLER, MAX",
+      "raised": 3324941.88,
+      "spent": 3363842.44,
+      "cash_on_hand": 135628.83,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:12:45+00:00"
+    },
+    "pa-10|Janelle Stelson": {
+      "fec_id": "H4PA10104",
+      "fec_name": "STELSON, JANELLE",
+      "raised": 9234259.74,
+      "spent": 7180190.91,
+      "cash_on_hand": 2069306.31,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:12:46+00:00"
+    },
+    "pa-10|Scott Perry": {
+      "fec_id": "H2PA04135",
+      "fec_name": "PERRY, SCOTT",
+      "raised": 6791519.08,
+      "spent": 5849868.83,
+      "cash_on_hand": 1023569.23,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:12:47+00:00"
+    },
+    "tx-34|Vicente Gonzalez": {
+      "fec_id": "H6TX15162",
+      "fec_name": "GONZALEZ, VICENTE",
+      "raised": 5211344.04,
+      "spent": 4096454.52,
+      "cash_on_hand": 1396949.28,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:12:47+00:00"
+    },
+    "tx-34|Eric Flores": {
+      "fec_id": "H6TX34080",
+      "fec_name": "FLORES, ERIC",
+      "raised": 4009073.67,
+      "spent": 3762621.4,
+      "cash_on_hand": 246427.27,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:12:48+00:00"
+    },
+    "sc-sen|Annie Andrews": {
+      "fec_id": "S6SC04239",
+      "fec_name": "ANDREWS, ANNIE",
+      "raised": 24216840.67,
+      "spent": 22507375.14,
+      "cash_on_hand": 1709465.53,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:12:48+00:00"
+    },
+    "sc-sen|Darline Graham": {
+      "fec_id": "S6SC04437",
+      "fec_name": "GRAHAM, DARLINE",
+      "raised": 1917646.09,
+      "spent": 1283216.19,
+      "cash_on_hand": 634429.9,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:12:49+00:00"
+    },
+    "sc-sen|Kasie Whitener": {
+      "fec_id": "S6SC04247",
+      "fec_name": "WHITENER, KASIE DR.",
+      "raised": 27614.81,
+      "spent": 21833.35,
+      "cash_on_hand": 5781.46,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:12:50+00:00"
+    },
+    "va-02|Elaine Luria": {
+      "fec_id": "H6VA02198",
+      "fec_name": "LURIA, ELAINE",
+      "raised": 8044063.94,
+      "spent": 7565201.72,
+      "cash_on_hand": 478862.22,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:12:50+00:00"
+    },
     "az-01|Amish Shah": {
       "fec_id": "H4AZ01194",
       "fec_name": "SHAH, AMISH DR.",
@@ -373,42 +463,6 @@
       "fec_name": "LANGKRAEHR, RANDALL DAVID (RANDY)",
       "fetched_at": "2026-10-30T00:29:11+00:00"
     },
-    "sc-sen|Annie Andrews": {
-      "fec_id": "S6SC04239",
-      "fec_name": "ANDREWS, ANNIE",
-      "raised": 24216840.67,
-      "spent": 22507375.14,
-      "cash_on_hand": 1709465.53,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T00:14:29+00:00"
-    },
-    "sc-sen|Darline Graham": {
-      "fec_id": "S6SC04437",
-      "fec_name": "GRAHAM, DARLINE",
-      "raised": 1917646.09,
-      "spent": 1283216.19,
-      "cash_on_hand": 634429.9,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T00:14:30+00:00"
-    },
-    "sc-sen|Kasie Whitener": {
-      "fec_id": "S6SC04247",
-      "fec_name": "WHITENER, KASIE DR.",
-      "raised": 27614.81,
-      "spent": 21833.35,
-      "cash_on_hand": 5781.46,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T00:14:31+00:00"
-    },
-    "va-02|Elaine Luria": {
-      "fec_id": "H6VA02198",
-      "fec_name": "LURIA, ELAINE",
-      "raised": 8044063.94,
-      "spent": 7565201.72,
-      "cash_on_hand": 478862.22,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T00:14:32+00:00"
-    },
     "va-02|Jen Kiggans": {
       "fec_id": "H2VA02064",
       "fec_name": "KIGGANS, JENNIFER",
@@ -417,60 +471,6 @@
       "cash_on_hand": 1292408.37,
       "through": "2026-10-14",
       "fetched_at": "2026-10-30T00:14:33+00:00"
-    },
-    "oh-07|Max Miller": {
-      "fec_id": "H2OH16051",
-      "fec_name": "MILLER, MAX",
-      "raised": 3324941.88,
-      "spent": 3363842.44,
-      "cash_on_hand": 135628.83,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T00:08:11+00:00"
-    },
-    "pa-10|Janelle Stelson": {
-      "fec_id": "H4PA10104",
-      "fec_name": "STELSON, JANELLE",
-      "raised": 9234259.74,
-      "spent": 7180190.91,
-      "cash_on_hand": 2069306.31,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T00:08:12+00:00"
-    },
-    "pa-10|Scott Perry": {
-      "fec_id": "H2PA04135",
-      "fec_name": "PERRY, SCOTT",
-      "raised": 6791519.08,
-      "spent": 5849868.83,
-      "cash_on_hand": 1023569.23,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T00:08:14+00:00"
-    },
-    "tx-34|Vicente Gonzalez": {
-      "fec_id": "H6TX15162",
-      "fec_name": "GONZALEZ, VICENTE",
-      "raised": 5211344.04,
-      "spent": 4096454.52,
-      "cash_on_hand": 1396949.28,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T00:08:15+00:00"
-    },
-    "tx-34|Eric Flores": {
-      "fec_id": "H6TX34080",
-      "fec_name": "FLORES, ERIC",
-      "raised": 4009073.67,
-      "spent": 3762621.4,
-      "cash_on_hand": 246427.27,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T00:08:16+00:00"
-    },
-    "oh-07|Brian Poindexter": {
-      "fec_id": "H6OH07168",
-      "fec_name": "POINDEXTER, BRIAN",
-      "raised": 3720341.61,
-      "spent": 2926666.41,
-      "cash_on_hand": 793675.2,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T00:06:04+00:00"
     }
   },
   "problems": [

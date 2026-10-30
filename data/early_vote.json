@@ -2,7 +2,7 @@
  "source": "University of Florida Election Lab",
  "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
  "license": "CC BY-NC-ND 4.0",
- "updated": "2026-10-30T13:08:40+00:00",
+ "updated": "2026-10-30T13:13:07+00:00",
  "total": 45561828,
  "states": {
   "AK": {
@@ -1923,6 +1923,12 @@
    "MO|Clay County": 20227,
    "MO|Platte County": 7897,
    "KS|Johnson": 135425
+  },
+  "2026-10-30": {
+   "KS|Johnson": 135425,
+   "MO|Kansas City": 18858,
+   "MO|Clay County": 20227,
+   "MO|Platte County": 7897
   }
  }
 }
