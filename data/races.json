@@ -10,7 +10,7 @@
         {
           "id": "tx-sen",
           "title": "Texas",
-          "note": "Open seat, R-held",
+          "note": "Open seat, R-held. Attorney General Ken Paxton ousted Sen. John Cornyn in the GOP runoff with Trump's backing. State Rep. James Talarico, a former teacher, has led most polls since August; no Democrat has won statewide in Texas since 1994.",
           "candidates": [
             {
               "name": "James Talarico",
@@ -39,7 +39,7 @@
         {
           "id": "me-sen",
           "title": "Maine",
-          "note": "R-held",
+          "note": "R-held. Susan Collins, first elected in 1996, is seeking a sixth term. Former state lawmaker Troy Jackson, a logger from Aroostook County, became the Democratic nominee July 25 after Graham Platner left the race over a sexual assault allegation he denied.",
           "candidates": [
             {
               "name": "Troy Jackson",
@@ -69,7 +69,7 @@
         {
           "id": "oh-sen",
           "title": "Ohio (special)",
-          "note": "R-held",
+          "note": "R-held special election for JD Vance's old seat. Gov. Mike DeWine appointed Jon Husted when Vance became vice president. Sherrod Brown, who lost his own seat in 2024 by about 3.5 points, is attempting a comeback.",
           "candidates": [
             {
               "name": "Sherrod Brown",
@@ -142,7 +142,7 @@
         {
           "id": "ia-sen",
           "title": "Iowa",
-          "note": "Open seat, R-held",
+          "note": "Open seat, R-held. Sen. Joni Ernst is retiring. State Rep. Josh Turek, a Paralympic medalist and former pro basketball player, faces Rep. Ashley Hinson. Polls show a dead heat.",
           "candidates": [
             {
               "name": "Josh Turek",
@@ -171,7 +171,7 @@
         {
           "id": "ks-sen",
           "title": "Kansas",
-          "note": "R-held",
+          "note": "R-held. Kansas hasn't elected a Democrat to the Senate since 1932, but Adam Hamilton, founder of a Methodist megachurch, has made it a race. Analysts point to missteps by Sen. Roger Marshall.",
           "candidates": [
             {
               "name": "Adam Hamilton",
@@ -231,7 +231,7 @@
         {
           "id": "mi-sen",
           "title": "Michigan",
-          "note": "Open seat, D-held",
+          "note": "Open seat, D-held (Gary Peters is retiring). Progressive Abdul El-Sayed, a former Detroit health director, narrowly beat Rep. Haley Stevens in the primary despite $60M+ in outside spending. Republican Mike Rogers lost Michigan's 2024 Senate race by about 19,000 votes.",
           "candidates": [
             {
               "name": "Abdul El-Sayed",
@@ -260,7 +260,7 @@
         {
           "id": "ne-sen",
           "title": "Nebraska",
-          "note": "R-held",
+          "note": "R-held. Independent Dan Osborn, a former union leader, came within about 7 points of Sen. Deb Fischer in 2024. Democrats again aren't fielding a candidate, and Osborn says he won't caucus with either party.",
           "candidates": [
             {
               "name": "Dan Osborn",
@@ -290,7 +290,7 @@
         {
           "id": "nh-sen",
           "title": "New Hampshire",
-          "note": "Open seat, D-held",
+          "note": "Open seat, D-held (Jeanne Shaheen is retiring). Rep. Chris Pappas faces former Sen. John E. Sununu, from the family that has produced two New Hampshire governors.",
           "candidates": [
             {
               "name": "Chris Pappas",
@@ -319,7 +319,7 @@
         {
           "id": "nc-sen",
           "title": "North Carolina",
-          "note": "Open seat, R-held",
+          "note": "Open seat, R-held (Thom Tillis is retiring). Former two-term Gov. Roy Cooper faces Trump-endorsed former RNC chair Michael Whatley. Cooper has led comfortably in polls.",
           "candidates": [
             {
               "name": "Roy Cooper",
@@ -348,7 +348,7 @@
         {
           "id": "ga-sen",
           "title": "Georgia",
-          "note": "D-held",
+          "note": "D-held. Jon Ossoff, first elected in 2021, faces Rep. Mike Collins. An Oct. 21 Atlanta Journal-Constitution poll had Ossoff ahead 48-40 with 12% undecided.",
           "candidates": [
             {
               "name": "Jon Ossoff",
@@ -378,7 +378,7 @@
         {
           "id": "mn-sen",
           "title": "Minnesota",
-          "note": "Open seat, D-held",
+          "note": "Open seat, D-held (Tina Smith is retiring). Lt. Gov. Peggy Flanagan beat better-funded Rep. Angie Craig in the primary. Republican Michele Tafoya is a former sports broadcaster.",
           "candidates": [
             {
               "name": "Peggy Flanagan",
