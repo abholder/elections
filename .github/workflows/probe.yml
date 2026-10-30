@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - run: pip install pypdf
+      - run: pip install pypdf && mkdir -p probe
       - run: |
           python3 - <<'PY' > probe/alaska.txt 2>&1 || true
           import sys; sys.path.insert(0, "scripts")
