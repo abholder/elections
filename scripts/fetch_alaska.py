@@ -17,7 +17,9 @@ Needs the pypdf package (pip install pypdf).
 
 import io
 import re
+import ssl
 import sys
+import urllib.error
 import urllib.request
 
 # Update this if the Division of Elections posts the general election somewhere else.
@@ -25,11 +27,26 @@ SUMMARY_URL = "https://www.elections.alaska.gov/enr26/results/ElectionSummaryRep
 MEASURE_PATTERN = r"(BM\s*#?\s*2\b|Ballot\s+Measure\s+(No\.\s*)?2\b)"
 
 
+def download(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "abholder-elections/1.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return r.read()
+    except urllib.error.URLError as e:
+        if "CERTIFICATE_VERIFY_FAILED" not in str(e):
+            raise
+        # Alaska's server leaves out part of its certificate chain. Browsers quietly fetch the
+        # missing piece; Python doesn't, so the secure connection fails. This is a public,
+        # read-only results file, so we retry without certificate checking and say so in the log.
+        print("WARN: elections.alaska.gov certificate chain incomplete; fetching without verification")
+        ctx = ssl._create_unverified_context()
+        with urllib.request.urlopen(req, timeout=60, context=ctx) as r:
+            return r.read()
+
+
 def pdf_text(url):
     from pypdf import PdfReader  # imported here so the rest of the site never needs it
-    req = urllib.request.Request(url, headers={"User-Agent": "abholder-elections/1.0"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        reader = PdfReader(io.BytesIO(r.read()))
+    reader = PdfReader(io.BytesIO(download(url)))
     return "\n".join(page.extract_text() or "" for page in reader.pages)
 
 

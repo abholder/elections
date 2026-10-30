@@ -1,4 +1,4 @@
-# Temporary: test the Alaska PDF parser against the real August primary report. Delete after use.
+# Temporary: test the Alaska PDF parser (round 2). Delete after use.
 name: Probe Alaska
 on:
   push:
