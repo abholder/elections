@@ -30,6 +30,58 @@ OUT = ROOT / "data" / "early_vote.json"
 URL = "https://election.lab.ufl.edu/data-downloads/earlyvote/2026/US.csv"
 FIELDS = ["voted_all", "inperson_all", "accept_all", "request_all", "turn_2022", "voted_dem", "voted_rep", "voted_none"]
 
+# Kansas City-area counties. UF also publishes one file per state with a row per county
+# (Missouri's comes from an AP feed that splits Kansas City's own election board out of
+# Jackson County). (state, row name in UF's file, label we show)
+COUNTY_URL = "https://election.lab.ufl.edu/data-downloads/earlyvote/2026/{st}_county.csv"
+LOCAL = [
+    ("MO", "Kansas City", "Kansas City (Jackson Co. part)"),
+    ("MO", "Rest of Jackson County", "Jackson County, outside KC"),
+    ("MO", "Clay County", "Clay County, MO"),
+    ("MO", "Platte County", "Platte County, MO"),
+    ("KS", "Johnson", "Johnson County, KS"),
+]
+LOCAL_FIELDS = ["voted_all", "inperson_all", "accept_all", "request_all", "voted_dem", "voted_rep", "voted_none"]
+# Hand-entered numbers for counties the feed hasn't picked up yet (shown with their source and date).
+MANUAL = ROOT / "data" / "early_vote_manual.json"
+
+
+def get_text(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "abholder-elections/1.0"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return r.read().decode("utf-8-sig")
+
+
+def parse_counties(text, st):
+    """One state's county CSV -> {'MO|Clay County': {...}} for the counties in LOCAL."""
+    wanted = {name: label for s, name, label in LOCAL if s == st}
+    out = {}
+    for row in csv.DictReader(io.StringIO(text)):
+        name = (row.get("county") or "").strip()
+        if name in wanted:
+            out[f"{st}|{name}"] = {"label": wanted[name], "state": st,
+                                   **{f: num(row.get(f)) for f in LOCAL_FIELDS}}
+    return out
+
+
+def local_counties():
+    counties = {}
+    for st in sorted({s for s, _, _ in LOCAL}):
+        try:
+            counties.update(parse_counties(get_text(COUNTY_URL.format(st=st)), st))
+        except Exception as e:
+            print(f"WARN {st} county file: {e}")
+    manual = json.loads(MANUAL.read_text()).get("counties", {}) if MANUAL.exists() else {}
+    for key, m in manual.items():
+        c = counties.get(key)
+        if key.startswith("_") or (c and c["voted_all"] > 0):
+            continue  # the feed has real numbers now; the hand-entered ones are no longer needed
+        st, name = key.split("|")
+        label = next((l for s, n, l in LOCAL if s == st and n == name), name)
+        counties[key] = {"label": label, "state": st, **{f: 0 for f in LOCAL_FIELDS},
+                         "voted_all": m["voted_all"], "manual": {k: m.get(k) for k in ("as_of", "source", "url")}}
+    return counties
+
 
 def num(x):
     try:
@@ -86,7 +138,13 @@ def main():
     if not states:
         sys.exit("UF file had no rows; keeping the old data")
 
-    add_history(history, datetime.now(timezone.utc).date().isoformat(), states)
+    today = datetime.now(timezone.utc).date().isoformat()
+    add_history(history, today, states)
+
+    counties = local_counties()
+    local_history = data.get("local_history", {})
+    if counties:
+        local_history[today] = {k: c["voted_all"] for k, c in counties.items() if not c.get("manual")}
 
     OUT.write_text(json.dumps({
         "source": "University of Florida Election Lab",
@@ -96,6 +154,9 @@ def main():
         "total": sum(s["voted_all"] for s in states.values()),
         "states": states,
         "history": dict(sorted(history.items())),
+        "local": counties or data.get("local", {}),
+        "local_order": [f"{s}|{n}" for s, n, _ in LOCAL],
+        "local_history": dict(sorted(local_history.items())),
     }, indent=1) + "\n")
     print(f"{len(states)} states, {sum(s['voted_all'] for s in states.values()):,} ballots cast; "
           f"history has {len(history)} days")

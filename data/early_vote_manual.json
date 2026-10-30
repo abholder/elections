@@ -1,0 +1,11 @@
+{
+  "_about": "Early-vote counts entered by hand for counties UF's feed doesn't have yet. Used only while the feed shows zero for that county. Key = 'STATE|row name in UF's county file'.",
+  "counties": {
+    "MO|Rest of Jackson County": {
+      "voted_all": 11329,
+      "as_of": "2026-10-27",
+      "source": "Jackson County Election Board, via KSHB",
+      "url": "https://www.kshb.com/news/local-news/missouri/jackson-county/early-voting-surges-in-jackson-county-as-residents-cite-high-stakes-and-desire-for-change-this-election"
+    }
+  }
+}

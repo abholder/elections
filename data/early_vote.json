@@ -1827,5 +1827,102 @@
     "WY": 52691
    }
   }
+ },
+ "local": {
+  "KS|Johnson": {
+   "label": "Johnson County, KS",
+   "state": "KS",
+   "voted_all": 135425,
+   "inperson_all": 112509,
+   "accept_all": 22916,
+   "request_all": 35446,
+   "voted_dem": 63136,
+   "voted_rep": 52556,
+   "voted_none": 19733
+  },
+  "MO|Rest of Jackson County": {
+   "label": "Jackson County, outside KC",
+   "state": "MO",
+   "voted_all": 11329,
+   "inperson_all": 0,
+   "accept_all": 0,
+   "request_all": 0,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
+   "manual": {
+    "as_of": "2026-10-27",
+    "source": "Jackson County Election Board, via KSHB",
+    "url": "https://www.kshb.com/news/local-news/missouri/jackson-county/early-voting-surges-in-jackson-county-as-residents-cite-high-stakes-and-desire-for-change-this-election"
+   }
+  },
+  "MO|Kansas City": {
+   "label": "Kansas City (Jackson Co. part)",
+   "state": "MO",
+   "voted_all": 18858,
+   "inperson_all": 17224,
+   "accept_all": 1634,
+   "request_all": 2112,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0
+  },
+  "MO|Clay County": {
+   "label": "Clay County, MO",
+   "state": "MO",
+   "voted_all": 20227,
+   "inperson_all": 18683,
+   "accept_all": 1544,
+   "request_all": 2574,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0
+  },
+  "MO|Platte County": {
+   "label": "Platte County, MO",
+   "state": "MO",
+   "voted_all": 7897,
+   "inperson_all": 7218,
+   "accept_all": 679,
+   "request_all": 1102,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0
+  }
+ },
+ "local_order": [
+  "MO|Kansas City",
+  "MO|Rest of Jackson County",
+  "MO|Clay County",
+  "MO|Platte County",
+  "KS|Johnson"
+ ],
+ "local_history": {
+  "2026-10-20": {
+   "KS|Johnson": 29104
+  },
+  "2026-10-22": {
+   "KS|Johnson": 58314
+  },
+  "2026-10-23": {
+   "KS|Johnson": 69595
+  },
+  "2026-10-24": {},
+  "2026-10-25": {},
+  "2026-10-26": {
+   "KS|Johnson": 92738
+  },
+  "2026-10-27": {
+   "KS|Johnson": 108241
+  },
+  "2026-10-28": {
+   "KS|Johnson": 122396
+  },
+  "2026-10-29": {
+   "MO|Kansas City": 18858,
+   "MO|Clay County": 20227,
+   "MO|Platte County": 7897,
+   "KS|Johnson": 135425
+  }
  }
 }

@@ -194,6 +194,46 @@ function lineChart(points) {
     </div>`;
 }
 
+// Kansas City-area counties (Jackson, Clay, Platte in MO; Johnson in KS).
+function sparkline(values) {
+  if (values.length < 2) return "";
+  const max = Math.max(...values) || 1, W = 80, H = 20;
+  const pts = values.map((v, i) => `${((i / (values.length - 1)) * W).toFixed(1)},${(H - (v / max) * (H - 2)).toFixed(1)}`).join(" ");
+  return `<svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="var(--ink)" stroke-width="1.5" vector-effect="non-scaling-stroke"/></svg>`;
+}
+
+function renderLocalEarly(ev) {
+  const order = ev.local_order || Object.keys(ev.local || {});
+  const rows = order.map((k) => [k, ev.local?.[k]]).filter(([, c]) => c);
+  if (!rows.length) return "";
+  const notes = [];
+  const body = rows.map(([k, c]) => {
+    const hist = Object.values(ev.local_history || {}).map((h) => h[k]).filter((v) => v > 0);
+    const mail = c.accept_all, inp = c.inperson_all, split = mail + inp;
+    let extra = "";
+    if (c.manual) {
+      notes.push(`${c.label}: ${fmt(c.voted_all)} as of ${shortDate(c.manual.as_of)}, from the <a href="${esc(c.manual.url)}">${esc(c.manual.source)}</a>; the data feed doesn't report it yet.`);
+      extra = ` <span class="note">as of ${shortDate(c.manual.as_of)}*</span>`;
+    }
+    const party = c.voted_dem || c.voted_rep
+      ? `<div class="note">Party registration: D ${Math.round((c.voted_dem / c.voted_all) * 100)}% · R ${Math.round((c.voted_rep / c.voted_all) * 100)}% · other ${Math.round((c.voted_none / c.voted_all) * 100)}%</div>` : "";
+    return `<tr>
+      <td>${esc(c.label)}${party}</td>
+      <td class="num">${c.voted_all ? fmt(c.voted_all) : "–"}${extra}</td>
+      <td class="note">${split ? `${Math.round((inp / split) * 100)}% in person` : ""}</td>
+      <td>${sparkline(hist)}</td>
+    </tr>`;
+  }).join("");
+  return `
+    <div class="stat local-ev">
+      <h3>Kansas City area</h3>
+      <p class="sub">Ballots cast early, in person or by mail. Kansas opened in-person advance voting earlier; Missouri's no-excuse early voting only began Oct. 20, so its counts start lower.</p>
+      <table class="ev-table"><thead><tr><th>County</th><th class="num">Cast</th><th></th><th>Trend</th></tr></thead><tbody>${body}</tbody></table>
+      ${notes.length ? `<p class="sub">*${notes.join(" ")}</p>` : ""}
+      <p class="sub">Kansas City spans four counties: "Kansas City" here is the part in Jackson County (the KC Election Board); the Northland is counted with Clay and Platte.</p>
+    </div>`;
+}
+
 // "Where things are leaning": Senate polling averages + party registration of early voters.
 function renderLeanCards(ev, races) {
   const senate = races.sections.find((s) => s.id === "senate").races;
@@ -274,6 +314,7 @@ function renderEarlyVote(ev, races) {
         <p class="sub">States count and report differently; hover ⓘ for UF's notes on a state.</p>
       </div>
     </div>
+    <div class="ev-grid lean-grid">${renderLocalEarly(ev)}</div>
     ${renderLeanCards(ev, races)}
     <p class="footnote">Early votes: <a href="${esc(ev.source_url)}">University of Florida Election Lab</a> (CC BY-NC-ND 4.0), updated ${ago(ev.updated)}.
       Polls: <a href="https://votehub.com/polls/">VoteHub</a>, updated ${ago(POLLS.updated)}. Our average uses polls from the last 45 days, skips internal and party-sponsored polls, and counts each pollster once (its latest, likely voters preferred).</p>`;
