@@ -324,13 +324,13 @@ function renderEarlyVote(ev, races) {
           <tbody>${rows.map((r) => {
             const pct = r.turn_2022 ? Math.round((r.voted_all / r.turn_2022) * 100) : null;
             return `<tr${r.ab === "AK" ? ' class="hl"' : ""}>
-              <td>${esc(r.name || r.ab)}${r.notes ? ` <span class="note info" title="${esc(r.notes)}">ⓘ</span>` : ""}</td>
+              <td>${esc(r.name || r.ab)}${r.notes ? ` <button type="button" class="info-btn" aria-expanded="false" aria-controls="note-${r.ab}" aria-label="Notes on ${esc(r.name || r.ab)}">ⓘ</button>` : ""}</td>
               <td class="num">${r.voted_all ? fmt(r.voted_all) : "–"}</td>
               <td>${pct != null && r.voted_all ? `<div class="mini"><span style="width:${Math.min(pct, 100)}%"></span></div><span class="pct">${pct}%</span>` : '<span class="note">not reported</span>'}</td>
-            </tr>`; }).join("")}
+            </tr>${r.notes ? `<tr class="note-row" id="note-${r.ab}" hidden><td colspan="3">${esc(r.notes)}</td></tr>` : ""}`; }).join("")}
           </tbody>
         </table>
-        <p class="sub">States count and report differently; hover ⓘ for UF's notes on a state.</p>
+        <p class="sub">States count and report differently; tap ⓘ for UF's notes on how a state reports.</p>
       </div>
     </div>
     <div class="ev-grid lean-grid">${renderLocalEarly(ev)}</div>
@@ -467,6 +467,16 @@ async function refresh() {
     status.innerHTML = `<span class="error">Couldn't load data: ${esc(err.message)}</span>`;
   }
 }
+
+// Tap/click an ⓘ button to show or hide its note row.
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest(".info-btn");
+  if (!btn) return;
+  const row = document.getElementById(btn.getAttribute("aria-controls"));
+  const open = btn.getAttribute("aria-expanded") === "true";
+  btn.setAttribute("aria-expanded", String(!open));
+  if (row) row.hidden = open;
+});
 
 refresh();
 setInterval(refresh, REFRESH_MINUTES * 60 * 1000);

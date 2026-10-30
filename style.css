@@ -157,7 +157,10 @@ h1 { font: 700 clamp(30px, 5vw, 44px)/1.1 var(--serif); margin: 6px 0 6px; lette
 .ev-table .mini { display: inline-block; width: calc(100% - 44px); max-width: 140px; height: 8px; background: var(--line); border-radius: 4px; overflow: hidden; vertical-align: middle; }
 .ev-table .mini span { display: block; height: 100%; background: var(--ink); }
 .ev-table .pct { display: inline-block; width: 40px; text-align: right; font-size: 12px; font-variant-numeric: tabular-nums; }
-.note.info { cursor: help; }
+.info-btn { -webkit-tap-highlight-color: transparent; border: 0; background: none; padding: 0 2px; font: inherit; font-size: 13px; color: var(--muted); cursor: pointer; }
+.info-btn:hover, .info-btn[aria-expanded="true"] { color: var(--ink); }
+.info-btn:focus-visible { outline: 2px solid var(--dem); border-radius: 4px; }
+.ev-table tr.note-row td { font-size: 12px; color: var(--muted); padding: 2px 0 10px; line-height: 1.45; }
 .chip.C { background: var(--line); color: var(--muted); }
 
 /* ---------- Polls ---------- */
