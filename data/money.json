@@ -1,8 +1,53 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-10-30T00:06:20+00:00",
+  "updated": "2026-10-30T00:08:32+00:00",
   "candidates": {
+    "oh-07|Max Miller": {
+      "fec_id": "H2OH16051",
+      "fec_name": "MILLER, MAX",
+      "raised": 3324941.88,
+      "spent": 3363842.44,
+      "cash_on_hand": 135628.83,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:08:11+00:00"
+    },
+    "pa-10|Janelle Stelson": {
+      "fec_id": "H4PA10104",
+      "fec_name": "STELSON, JANELLE",
+      "raised": 9234259.74,
+      "spent": 7180190.91,
+      "cash_on_hand": 2069306.31,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:08:12+00:00"
+    },
+    "pa-10|Scott Perry": {
+      "fec_id": "H2PA04135",
+      "fec_name": "PERRY, SCOTT",
+      "raised": 6791519.08,
+      "spent": 5849868.83,
+      "cash_on_hand": 1023569.23,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:08:14+00:00"
+    },
+    "tx-34|Vicente Gonzalez": {
+      "fec_id": "H6TX15162",
+      "fec_name": "GONZALEZ, VICENTE",
+      "raised": 5211344.04,
+      "spent": 4096454.52,
+      "cash_on_hand": 1396949.28,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:08:15+00:00"
+    },
+    "tx-34|Eric Flores": {
+      "fec_id": "H6TX34080",
+      "fec_name": "FLORES, ERIC",
+      "raised": 4009073.67,
+      "spent": 3762621.4,
+      "cash_on_hand": 246427.27,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:08:16+00:00"
+    },
     "mi-10|Christina Hines": {
       "fec_id": "H6MI10276",
       "fec_name": "HINES, CHRISTINA",
