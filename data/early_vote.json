@@ -2,7 +2,7 @@
  "source": "University of Florida Election Lab",
  "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
  "license": "CC BY-NC-ND 4.0",
- "updated": "2026-10-30T00:14:49+00:00",
+ "updated": "2026-10-30T00:29:30+00:00",
  "total": 44278284,
  "states": {
   "AK": {
@@ -12,6 +12,9 @@
    "accept_all": 20619,
    "request_all": 49248,
    "turn_2022": 267047,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/28/2026",
    "source": "https://www.elections.alaska.gov/research/statistics/#aeqstats",
    "notes": null
@@ -23,6 +26,9 @@
    "accept_all": 1295955,
    "request_all": 3298281,
    "turn_2022": 2592313,
+   "voted_dem": 486459,
+   "voted_rep": 500567,
+   "voted_none": 308929,
    "last_update": "10/29/2026",
    "source": "https://www.stealth-analytics.com/early-ballots",
    "notes": "Arizona's request_* figures are mail ballots issued (sent out), not applications received - this state's early voting is run through a permanent early-voting list rather than a one-off per-election request."
@@ -34,6 +40,9 @@
    "accept_all": 7305,
    "request_all": 13119,
    "turn_2022": 914227,
+   "voted_dem": 27140,
+   "voted_rep": 36456,
+   "voted_none": 350209,
    "last_update": "10/29/2026",
    "source": "Arkansas Secretary of State",
    "notes": null
@@ -45,6 +54,9 @@
    "accept_all": 4508669,
    "request_all": 23450456,
    "turn_2022": 11146610,
+   "voted_dem": 2167243,
+   "voted_rep": 1220499,
+   "voted_none": 900753,
    "last_update": "10/29/2026",
    "source": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026",
    "notes": "Some statistics provided by [PDI](https://politicaldata.com/). The higher value provided by the California Secretary of State or PDI is used where reporting differences exist. Because PDI, the source for party registration data, does not report by method of voting, all party registration calculations include in-person early and mail ballots."
@@ -56,6 +68,9 @@
    "accept_all": 1209788,
    "request_all": 4064271,
    "turn_2022": 2540666,
+   "voted_dem": 388962,
+   "voted_rep": 300147,
+   "voted_none": 531733,
    "last_update": "10/28/2026",
    "source": "Colorado Secretary of State",
    "notes": null
@@ -67,6 +82,9 @@
    "accept_all": 44488,
    "request_all": 67958,
    "turn_2022": 1297811,
+   "voted_dem": 174716,
+   "voted_rep": 65924,
+   "voted_none": 108880,
    "last_update": "10/29/2026",
    "source": "Connecticut Secretary of the State",
    "notes": null
@@ -78,6 +96,9 @@
    "accept_all": 116273,
    "request_all": 116273,
    "turn_2022": 325632,
+   "voted_dem": 62432,
+   "voted_rep": 32264,
+   "voted_none": 21577,
    "last_update": "10/29/2026",
    "source": "Delaware Department of Elections",
    "notes": "Delaware does not publish mail ballot request data. The \"ballots requested\" figures shown for Delaware are the number of mail ballots received and counted, treated as equal to requests for lack of any other source."
@@ -89,6 +110,9 @@
    "accept_all": 68499,
    "request_all": 492023,
    "turn_2022": 205774,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "https://dcboe.org/",
    "notes": "The DC Board of Elections reports ballots in three separate files: mail ballots returned by drop box, mail ballots returned by USPS, and in-person votes cast at Early Vote Centers (EVC). DC is vote-by-mail, so request_all reflects active voter registration rather than anything derived from these files. No party, age, or geographic breakdown is available."
@@ -100,6 +124,9 @@
    "accept_all": 1767532,
    "request_all": 2479926,
    "turn_2022": 7796916,
+   "voted_dem": 1645471,
+   "voted_rep": 1721370,
+   "voted_none": 899159,
    "last_update": "10/29/2026",
    "source": "https://countyfilesvbm-ev.floridados.gov/VoteByMailEarlyVotingReports/PublicStats",
    "notes": "Some Florida statistics are obtained from county websites that may report more recent and higher numbers than the Florida Division of Elections reports."
@@ -111,6 +138,9 @@
    "accept_all": 110970,
    "request_all": 157132,
    "turn_2022": 3964926,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "https://mvp.sos.ga.gov/s/voter-absentee-files",
    "notes": "Georgia's county-level \"Ballots Issued and Accepted\" and \"Ballots to Date\" downloads (from the state's election-data-hub dashboard, https://sos.ga.gov/page/election-data-hub-unofficial-turnout) are compared against the statewide absentee file, county by county, using whichever is higher - this is how same-day in-person early-voting activity (which the statewide absentee file doesn't carry until the next overnight refresh) gets folded in. No district or demographic breakdown is available from these county-level downloads."
@@ -122,6 +152,9 @@
    "accept_all": 187379,
    "request_all": 727772,
    "turn_2022": 423443,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "https://elections.hawaii.gov/resources/absentee-voting-report/",
    "notes": null
@@ -133,6 +166,9 @@
    "accept_all": 104664,
    "request_all": 163608,
    "turn_2022": 595350,
+   "voted_dem": 20348,
+   "voted_rep": 63473,
+   "voted_none": 20843,
    "last_update": "10/29/2026",
    "source": "Idaho Secretary of State",
    "notes": "Idaho's daily absentee file covers mail ballots only - in-person early voting counts are scraped separately from the state's own dashboard (https://voteidaho.gov/data-and-dashboards/absentee-tracker/) and added in as a single statewide/county total, with no party, age, or gender breakdown available for it (the dashboard's own party breakdown mixes mail and in-person together, so it can't be used to split out the in-person-only portion). Congressional and state-legislative district totals are mail ballots only and do not include in-person early voting, so they will run lower than the statewide/county totals."
@@ -144,6 +180,9 @@
    "accept_all": 583691,
    "request_all": 1175326,
    "turn_2022": 4144125,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "https://www.elections.il.gov/VotingAndRegistrationSystems/PreElectionCounts.aspx",
    "notes": null
@@ -155,6 +194,9 @@
    "accept_all": 552934,
    "request_all": 588569,
    "turn_2022": 1880755,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "Indiana Secretary of State",
    "notes": null
@@ -166,6 +208,9 @@
    "accept_all": 133704,
    "request_all": 161728,
    "turn_2022": 1230417,
+   "voted_dem": 178663,
+   "voted_rep": 124738,
+   "voted_none": 69985,
    "last_update": "10/29/2026",
    "source": "Iowa Secretary of State",
    "notes": "Statewide and county totals, method of voting (mail vs. in-person), and party registration all come from two public JSON files the state's own Vivid dashboard uses. District (congressional/legislative), age, and district-level party breakdowns come from a separate individual-level file and may not sum to exactly the same statewide total."
@@ -177,6 +222,9 @@
    "accept_all": 66007,
    "request_all": 107813,
    "turn_2022": 1008998,
+   "voted_dem": 142173,
+   "voted_rep": 138829,
+   "voted_none": 47520,
    "last_update": "10/29/2026",
    "source": "Kansas Secretary of State",
    "notes": null
@@ -188,6 +236,9 @@
    "accept_all": 40760,
    "request_all": 67508,
    "turn_2022": 1502550,
+   "voted_dem": 27955,
+   "voted_rep": 22074,
+   "voted_none": 4190,
    "last_update": "10/29/2026",
    "source": "https://elect.ky.gov/Pages/default.aspx",
    "notes": "Kentucky reports are typically time-stamped one day behind when they are updated to this site. The reported date is as of the upload to this site is so that site vistors can be aware when a new report is available."
@@ -199,6 +250,9 @@
    "accept_all": 75760,
    "request_all": 75760,
    "turn_2022": 1410466,
+   "voted_dem": 222806,
+   "voted_rep": 206278,
+   "voted_none": 95262,
    "last_update": "10/29/2026",
    "source": "https://www.sos.la.gov/elections-voting/early-voting-statistics-statewide",
    "notes": "Louisiana does not publish mail ballot request data - the ballots requested figures shown for Louisiana equal ballots returned. Louisiana rreports statistics for Whites, Blacks, and other only."
@@ -210,6 +264,9 @@
    "accept_all": 273984,
    "request_all": 309557,
    "turn_2022": 680909,
+   "voted_dem": 129966,
+   "voted_rep": 61975,
+   "voted_none": 82043,
    "last_update": "10/29/2026",
    "source": "https://www.maine.gov/sos/cec/elec/data/index.html",
    "notes": null
@@ -221,6 +278,9 @@
    "accept_all": 339594,
    "request_all": 651907,
    "turn_2022": 2031635,
+   "voted_dem": 526545,
+   "voted_rep": 172660,
+   "voted_none": 120596,
    "last_update": "10/29/2026",
    "source": "https://elections.maryland.gov/press_room/index.html",
    "notes": "Maryland reports are typically time-stamped one day behind when they are updated to this site. The reported date is as of the upload to this site is so that site vistors can be aware when a new report is available."
@@ -232,6 +292,9 @@
    "accept_all": 697157,
    "request_all": 1063852,
    "turn_2022": 2511461,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "Massachusetts Secretary of the Commonwealth",
    "notes": null
@@ -243,6 +306,9 @@
    "accept_all": 1376007,
    "request_all": 2170628,
    "turn_2022": 4500400,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "Data provided by Michigan Secretary of State",
    "notes": "Michigan does not identify how voters cast their ballots. The in-person numbers differ from the state's dashboard in that in-person reported here is estimated from mail ballot application data."
@@ -254,6 +320,9 @@
    "accept_all": 177841,
    "request_all": 447340,
    "turn_2022": 2526646,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/23/2026",
    "source": "https://www.sos.mn.gov/election-administration-campaigns/data-maps/absentee-data/",
    "notes": null
@@ -265,6 +334,9 @@
    "accept_all": 56049,
    "request_all": 64537,
    "turn_2022": 709100,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/26/2026",
    "source": "Mississippi Secretary of State - Statewide Election Management System",
    "notes": null
@@ -276,6 +348,9 @@
    "accept_all": 33774,
    "request_all": 49163,
    "turn_2022": 2304250,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "Associated Press (AP) county-level advance-turnout feed, supplemented by direct county clerk contact",
    "notes": "Statewide AP county-level advance-turnout feed; county coverage fills in through the day as clerks report in."
@@ -287,6 +362,9 @@
    "accept_all": 257566,
    "request_all": 527595,
    "turn_2022": 468326,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "https://sosmt.gov/elections/absentee-ballot-count/",
    "notes": null
@@ -298,6 +376,9 @@
    "accept_all": 164227,
    "request_all": 245415,
    "turn_2022": 682716,
+   "voted_dem": 78591,
+   "voted_rep": 87797,
+   "voted_none": 34067,
    "last_update": "10/29/2026",
    "source": "Data file provided by Nebraska Secretary of State",
    "notes": null
@@ -309,6 +390,9 @@
    "accept_all": 348483,
    "request_all": 2090945,
    "turn_2022": 1023617,
+   "voted_dem": 240269,
+   "voted_rep": 206970,
+   "voted_none": 156374,
    "last_update": "10/29/2026",
    "source": "https://www.nvsos.gov/elections/election-information/vivid-project",
    "notes": "Statewide and county totals, method of voting (mail vs. in-person), and party registration all come from two public JSON files the state's own Vivid dashboard uses. District (congressional/legislative), age, and district-level party breakdowns come from a separate individual-level file and may not sum to exactly the same statewide total."
@@ -320,6 +404,9 @@
    "accept_all": 523228,
    "request_all": 929146,
    "turn_2022": 2645539,
+   "voted_dem": 492283,
+   "voted_rep": 179826,
+   "voted_none": 141480,
    "last_update": "10/29/2026",
    "source": "New Jersey Secretary of State",
    "notes": null
@@ -331,6 +418,9 @@
    "accept_all": 62242,
    "request_all": 89170,
    "turn_2022": 714754,
+   "voted_dem": 185177,
+   "voted_rep": 103964,
+   "voted_none": 57548,
    "last_update": "10/29/2026",
    "source": "New Mexico Secretary of State",
    "notes": null
@@ -342,6 +432,9 @@
    "accept_all": 145865,
    "request_all": 279463,
    "turn_2022": 5962278,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "New York early vote statistics provided by the State Board of elections. Mail ballot statistics are provided courtesy of the Associated Press who contacted county offices for statistics. Coverage is not complete and may vary on day of reporting.",
    "notes": "New York's daily turnout report provides a cumulative county-level total for in-person early voters only. Mail-ballot figures (request_all = ballots issued, accept_all = ballots returned, per county) come from a separate Associated Press phone-survey tracker of county election offices - 13 of 62 counties have not been reached yet as of this file and are treated as 0 for the mail component only (their in-person total is unaffected). No demographic breakdown is available for either source."
@@ -353,6 +446,9 @@
    "accept_all": 76557,
    "request_all": 165953,
    "turn_2022": 3790202,
+   "voted_dem": 856353,
+   "voted_rep": 543174,
+   "voted_none": 750498,
    "last_update": "10/29/2026",
    "source": "https://dl.ncsbe.gov/?prefix=ENRS/2026_11_03/",
    "notes": "North Carolina provides summary ballot request statistics available for counties only. No mail ballot request statistics by district are available."
@@ -364,6 +460,9 @@
    "accept_all": 40398,
    "request_all": 56122,
    "turn_2022": 242566,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/28/2026",
    "source": "https://vip.sos.nd.gov/abev.aspx?eid=348",
    "notes": null
@@ -375,6 +474,9 @@
    "accept_all": 544698,
    "request_all": 732168,
    "turn_2022": 4201368,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "https://data.ohiosos.gov/portal/election-dashboards",
    "notes": "In-person early votes may be different than reported by the Ohio Secretary of State. They are approximated by counting a ballot sent and received on the same day as an in-person early vote."
@@ -386,6 +488,9 @@
    "accept_all": 35712,
    "request_all": 64918,
    "turn_2022": 1153284,
+   "voted_dem": 15024,
+   "voted_rep": 16091,
+   "voted_none": 4597,
    "last_update": "10/29/2026",
    "source": "Oklahoma State Board of Elections",
    "notes": "These data are obtained from the Oklahoma State Board of Elections Election Data Warehouse. A link is provided to the state public reporting site for when it becomes available."
@@ -397,6 +502,9 @@
    "accept_all": 963640,
    "request_all": 3117439,
    "turn_2022": 1997689,
+   "voted_dem": 411633,
+   "voted_rep": 297631,
+   "voted_none": 254376,
    "last_update": "10/29/2026",
    "source": "https://sos.oregon.gov/elections/Documents/2026-general-election-unofficial-ballot-returns.pdf",
    "notes": null
@@ -408,6 +516,9 @@
    "accept_all": 966863,
    "request_all": 1297152,
    "turn_2022": 5410022,
+   "voted_dem": 629865,
+   "voted_rep": 243499,
+   "voted_none": 93499,
    "last_update": "10/29/2026",
    "source": "https://data.pa.gov/Government-Efficiency-Citizen-Engagement/2026-General-Election-Mail-Ballot-Requests-Departm/nbwd-pfn4/about_data",
    "notes": "The statewide and county statistics are compiled from the state dashobard. The district and age statistics are from an individual level file which may have slightly different statistics than the state's summary report, which the state did not update on Friday"
@@ -419,6 +530,9 @@
    "accept_all": 21759,
    "request_all": 33192,
    "turn_2022": 361449,
+   "voted_dem": 44579,
+   "voted_rep": 9776,
+   "voted_none": 47724,
    "last_update": "10/29/2026",
    "source": "Rhode Island Secretary of State",
    "notes": null
@@ -430,6 +544,9 @@
    "accept_all": 36132,
    "request_all": 56910,
    "turn_2022": 1718626,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "https://scvotes.gov/elections-statistics/voter-participation/",
    "notes": "South Carolina's in-person early-voting total (by county) comes from a separate report with no race or Hispanic ethnicity breakdown; the race/ethnicity figures shown reflect mail ballots only."
@@ -441,6 +558,9 @@
    "accept_all": 66534,
    "request_all": 76162,
    "turn_2022": 354670,
+   "voted_dem": 19847,
+   "voted_rep": 35557,
+   "voted_none": 11130,
    "last_update": "10/29/2026",
    "source": "South Dakota Secretary of State",
    "notes": null
@@ -452,6 +572,9 @@
    "accept_all": 0,
    "request_all": 0,
    "turn_2022": 1756397,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "https://sos.tn.gov/govotetn",
    "notes": "Tennessee's daily turnout report provides a cumulative county-level total for in-person early voters only. No mail-ballot figures or demographic data are available for Tennessee at at this time."
@@ -463,6 +586,9 @@
    "accept_all": 249144,
    "request_all": 249144,
    "turn_2022": 8151590,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "https://goelect.txelections.civixapps.com/ivis-evr-ui/evr",
    "notes": "Texas does not report mail ballot requests. Requests are equal to mail ballots sent. For some counties, I may scrape directly from a county website. These do not always provide breakdowns of early voting by mail and in-person voting."
@@ -474,6 +600,9 @@
    "accept_all": 350893,
    "request_all": 1786661,
    "turn_2022": 1084634,
+   "voted_dem": 75598,
+   "voted_rep": 186083,
+   "voted_none": 95750,
    "last_update": "10/29/2026",
    "source": "Utah Lt. Governor",
    "notes": "Utah is a universal vote-by-mail state - every \"Active\" registered voter is automatically mailed a ballot each election, and a 2025 law phasing this out does not take effect until 2029. Statewide and county \"ballots requested\" figures are therefore the number of Active registered voters by party, scraped from the Lt. Governor's current voter registration statistics page. Congressional district figures instead use accepted ballots as a stand-in, since Utah does not publish district-level registration or request data."
@@ -485,6 +614,9 @@
    "accept_all": 131610,
    "request_all": 458003,
    "turn_2022": 291955,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "Data provided Vermont Secretary of State",
    "notes": null
@@ -496,6 +628,9 @@
    "accept_all": 292221,
    "request_all": 462844,
    "turn_2022": 3021956,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "https://www.vpap.org/elections/early-voting/",
    "notes": null
@@ -507,6 +642,9 @@
    "accept_all": 1356057,
    "request_all": 5131622,
    "turn_2022": 3067686,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/28/2026",
    "source": "https://www.sos.wa.gov/elections/data-research/election-data-and-maps/ballot-return-statistics",
    "notes": null
@@ -518,6 +656,9 @@
    "accept_all": 4489,
    "request_all": 9584,
    "turn_2022": 494753,
+   "voted_dem": 44638,
+   "voted_rep": 46632,
+   "voted_none": 23121,
    "last_update": "10/29/2026",
    "source": "https://sos.wv.gov/article/secretary-warner-announces-more-115000-ballots-have-been-cast-absentee-voting-and-during",
    "notes": "West Virginia publishes mail ballots requested and returned, and in-person early vote returns, by county and party. No age, gender, race, or district-level data is available."
@@ -529,6 +670,9 @@
    "accept_all": 288891,
    "request_all": 737687,
    "turn_2022": 2673154,
+   "voted_dem": 0,
+   "voted_rep": 0,
+   "voted_none": 0,
    "last_update": "10/29/2026",
    "source": "https://elections.wi.gov/resources/statistics/absentee-ballot-report-november-3-2026-general-election-0",
    "notes": null
@@ -540,6 +684,9 @@
    "accept_all": 52691,
    "request_all": 60275,
    "turn_2022": 198198,
+   "voted_dem": 9141,
+   "voted_rep": 39638,
+   "voted_none": 3912,
    "last_update": "10/29/2026",
    "source": "Wyoming Secretary of State",
    "notes": null

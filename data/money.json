@@ -1,8 +1,49 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-10-30T00:14:48+00:00",
+  "updated": "2026-10-30T00:29:27+00:00",
   "candidates": {
+    "wa-03|Marie Gluesenkamp Perez": {
+      "fec_id": "H2WA03217",
+      "fec_name": "GLUESENKAMP PEREZ, MARIE",
+      "raised": 9472266.66,
+      "spent": 9264207.1,
+      "cash_on_hand": 234519.93,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:29:08+00:00"
+    },
+    "wa-03|John Braun": {
+      "fec_id": "H6WA03275",
+      "fec_name": "BRAUN, JOHN",
+      "raised": 3311756.42,
+      "spent": 2639837.28,
+      "cash_on_hand": 671919.14,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:29:09+00:00"
+    },
+    "mo-05|Emanuel Cleaver": {
+      "fec_id": "H4MO05234",
+      "fec_name": "CLEAVER II, EMANUEL",
+      "raised": 1766864.4,
+      "spent": 1773542.92,
+      "cash_on_hand": 882948.3,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:29:09+00:00"
+    },
+    "mo-05|Rick Brattin": {
+      "fec_id": "H2MO04199",
+      "fec_name": "BRATTIN, RICHARD",
+      "raised": 457467.1,
+      "spent": 457107.77,
+      "cash_on_hand": 359.33,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:29:10+00:00"
+    },
+    "mo-05|Randy Langkraehr": {
+      "fec_id": "H6MO05197",
+      "fec_name": "LANGKRAEHR, RANDALL DAVID (RANDY)",
+      "fetched_at": "2026-10-30T00:29:11+00:00"
+    },
     "sc-sen|Annie Andrews": {
       "fec_id": "S6SC04239",
       "fec_name": "ANDREWS, ANNIE",
