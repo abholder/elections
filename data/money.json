@@ -1,8 +1,53 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-10-29T23:56:11+00:00",
+  "updated": "2026-10-30T00:06:20+00:00",
   "candidates": {
+    "mi-10|Christina Hines": {
+      "fec_id": "H6MI10276",
+      "fec_name": "HINES, CHRISTINA",
+      "raised": 4159692.85,
+      "spent": 3152065.09,
+      "cash_on_hand": 1007627.76,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:05:49+00:00"
+    },
+    "mi-10|Michael Bouchard": {
+      "fec_id": "H6MI10359",
+      "fec_name": "BOUCHARD, MICHAEL",
+      "raised": 2884259.39,
+      "spent": 1310789.75,
+      "cash_on_hand": 1573469.64,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:05:50+00:00"
+    },
+    "ny-17|Cait Conley": {
+      "fec_id": "H6NY17171",
+      "fec_name": "CONLEY, CAIT",
+      "raised": 10706692.07,
+      "spent": 9758152.57,
+      "cash_on_hand": 948539.5,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:05:51+00:00"
+    },
+    "ny-17|Mike Lawler": {
+      "fec_id": "H2NY17162",
+      "fec_name": "LAWLER, MICHAEL VINCENT",
+      "raised": 10317627.15,
+      "spent": 8527471.61,
+      "cash_on_hand": 1959524.06,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:06:02+00:00"
+    },
+    "oh-07|Brian Poindexter": {
+      "fec_id": "H6OH07168",
+      "fec_name": "POINDEXTER, BRIAN",
+      "raised": 3720341.61,
+      "spent": 2926666.41,
+      "cash_on_hand": 793675.2,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T00:06:04+00:00"
+    },
     "az-01|Jay Feely": {
       "fec_id": "H6AZ05190",
       "fec_name": "FEELY, THOMAS JAMES",
