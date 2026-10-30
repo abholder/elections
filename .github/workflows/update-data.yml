@@ -35,6 +35,7 @@ jobs:
         run: python scripts/fetch_fec.py
         env:
           FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+        continue-on-error: true   # one source failing shouldn't block the others
 
       - name: Fetch early-vote numbers (UF Election Lab)
         run: python scripts/fetch_early_vote.py
