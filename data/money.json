@@ -1,8 +1,67 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-10-30T00:29:27+00:00",
+  "updated": "2026-10-30T02:08:09+00:00",
   "candidates": {
+    "mo-06|Josh Smead": {
+      "fec_id": "H6MO06260",
+      "fec_name": "SMEAD, JOSH",
+      "raised": 145752.57,
+      "spent": 110551.76,
+      "cash_on_hand": 35200.81,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T02:07:48+00:00"
+    },
+    "mo-06|Chris Stigall": {
+      "fec_id": "H6MO06310",
+      "fec_name": "STIGALL, CHRIS",
+      "raised": 1045323.71,
+      "spent": 834318.78,
+      "cash_on_hand": 211004.93,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T02:07:49+00:00"
+    },
+    "mo-06|Andy Maidment": {
+      "fec_id": "H2MO06269",
+      "fec_name": "MAIDMENT, EDWARD A. (ANDY)",
+      "fetched_at": "2026-10-30T02:07:50+00:00"
+    },
+    "tx-sen|James Talarico": {
+      "fec_id": "S6TX00479",
+      "fec_name": "TALARICO, JAMES",
+      "raised": 146349912.38,
+      "spent": 136427054.98,
+      "cash_on_hand": 9922857.4,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T02:07:51+00:00"
+    },
+    "tx-sen|Ken Paxton": {
+      "fec_id": "S6TX00388",
+      "fec_name": "PAXTON, WARREN KENNETH JR.",
+      "raised": 22327473.92,
+      "spent": 17543065.62,
+      "cash_on_hand": 4784408.3,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T02:07:52+00:00"
+    },
+    "me-sen|Troy Jackson": {
+      "fec_id": "S6ME00464",
+      "fec_name": "JACKSON, TROY DALE",
+      "raised": 26872873.96,
+      "spent": 25276003.4,
+      "cash_on_hand": 1596870.56,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T02:07:52+00:00"
+    },
+    "me-sen|Susan Collins": {
+      "fec_id": "S6ME00159",
+      "fec_name": "COLLINS, SUSAN M.",
+      "raised": 25225468.39,
+      "spent": 23830778.33,
+      "cash_on_hand": 2689882.54,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T02:07:53+00:00"
+    },
     "wa-03|Marie Gluesenkamp Perez": {
       "fec_id": "H2WA03217",
       "fec_name": "GLUESENKAMP PEREZ, MARIE",
@@ -403,38 +462,6 @@
       "cash_on_hand": 809806.46,
       "through": "2026-10-14",
       "fetched_at": "2026-10-29T23:39:43+00:00"
-    },
-    "tx-sen|James Talarico": {
-      "fec_id": "S6TX00479",
-      "fec_name": "TALARICO, JAMES",
-      "raised": 146349912.38,
-      "spent": 136427054.98,
-      "cash_on_hand": 9922857.4,
-      "through": "2026-10-14"
-    },
-    "tx-sen|Ken Paxton": {
-      "fec_id": "S6TX00388",
-      "fec_name": "PAXTON, WARREN KENNETH JR.",
-      "raised": 22327473.92,
-      "spent": 17543065.62,
-      "cash_on_hand": 4784408.3,
-      "through": "2026-10-14"
-    },
-    "me-sen|Troy Jackson": {
-      "fec_id": "S6ME00464",
-      "fec_name": "JACKSON, TROY DALE",
-      "raised": 26872873.96,
-      "spent": 25276003.4,
-      "cash_on_hand": 1596870.56,
-      "through": "2026-10-14"
-    },
-    "me-sen|Susan Collins": {
-      "fec_id": "S6ME00159",
-      "fec_name": "COLLINS, SUSAN M.",
-      "raised": 25225468.39,
-      "spent": 23830778.33,
-      "cash_on_hand": 2689882.54,
-      "through": "2026-10-14"
     },
     "oh-sen|Sherrod Brown": {
       "fec_id": "S6OH00163",

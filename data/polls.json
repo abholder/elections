@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-10-30T00:29:37+00:00",
+ "updated": "2026-10-30T02:08:17+00:00",
  "races": {
   "ak-sen": {
    "count": 3,
