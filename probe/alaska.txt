@@ -1,51 +1,210 @@
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/urllib/request.py", line 1344, in do_open
-    h.request(req.get_method(), req.selector, req.data, headers,
-  File "/usr/lib/python3.12/http/client.py", line 1365, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "/usr/lib/python3.12/http/client.py", line 1411, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "/usr/lib/python3.12/http/client.py", line 1360, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "/usr/lib/python3.12/http/client.py", line 1120, in _send_output
-    self.send(msg)
-  File "/usr/lib/python3.12/http/client.py", line 1064, in send
-    self.connect()
-  File "/usr/lib/python3.12/http/client.py", line 1506, in connect
-    self.sock = self._context.wrap_socket(self.sock,
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/ssl.py", line 455, in wrap_socket
-    return self.sslsocket_class._create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/ssl.py", line 1042, in _create
-    self.do_handshake()
-  File "/usr/lib/python3.12/ssl.py", line 1320, in do_handshake
-    self._sslobj.do_handshake()
-ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+WARN: elections.alaska.gov certificate chain incomplete; fetching without verification
+=== FIRST 2500 CHARS ===
+8/31/2026 12:43:34 PM
+Page: 
+1
+ of 
+15
+Candidate
+Party
+Total
+Darden, Dustin Thomas 
+House
+ 
+REP
+808
+0.49%
+Grauberger, Fred C.
+ 
+REP
+479
+0.29%
+Grayson, Richard
+ 
+GRN
+432
+0.26%
+Hafner, Carol "Kitty"
+ 
+DEM
+1,009
+0.61%
+Heikes, Gerald L.
+ 
+REP
+1,741
+1.05%
+Hill, Sidney "Sid"
+ 
+UND
+522
+0.31%
+Kohlhaas, Scott A.
+ 
+LIB
+794
+0.48%
+Leslie, David B.
+ 
+DEM
+1,850
+1.11%
+Mayers, Richard B.
+ 
+REP
+609
+0.37%
+McElwain, Heather
+ 
+REP
+972
+0.59%
+Peltola, Mary
+ 
+DEM
+82,244
+49.54%
+Roberts, Reece J.
+ 
+NON
+602
+0.36%
+Saucerman, Shirley A.
+ 
+NON
+306
+0.18%
+Southworth, Earl D. "Skip"
+ 
+RAP
+803
+0.48%
+Sullivan, Daniel J. Jr.
+ 
+4,107
+2.47%
+Sullivan, Dan S.
+ 
+REP
+68,726
+41.40%
+Total Votes
+166,004
+Total
+Times Cast
+166,992
+ 
+/ 
+601,906
+ 
+27.74%
+Precincts Reported: 
+401
+ of 
+403
+ 
+(99.50%)
+U.S. Senator
+ 
+(Vote for  1)
+ 
+ 
+Precincts Reported: 
+401
+ of 
+403
+ (
+99.50%
+)
+Voters Cast: 
+166,992
+ of 
+601,906
+ (
+27.74%
+)
+State of Alaska
+2026
+ PRIMARY ELECTION
+Election Summary Report
+August 
+18
+, 
+2026
+OFFICIAL RESULTS
 
-During handling of the above exception, another exception occurred:
+8/31/2026 12:43:34 PMPage: 2 of 15
+Candidate Party Total
+Ambrose, David R. II NON 523 0.32%
+Begich, Nick REP 72,696 44.62%
+Dutchess, Lady Donna NON 715 0.44%
+Foddrill, John E. Sr. LIB 358 0.22%
+Goldfarb, Eddie REP 943 0.58%
+Hafner, Eric DEM 6,175 3.79%
+Hill, Bill NON 53,008 32.53%
+McDermott, James C. "Jim" LIB 1,951 1.20%
+Reynoso, Yaquelin DEM 2,928 1.80%
+Richey, David NON 579 0.36%
+Salazar, Melanie A. NON 1,181 0.72%
+Schultz, Matt DEM 13,149 8.07%
+Strickland, Clay REP 3,681 2.26%
+Williams, John B. DEM 4,413 2.71%
+Williams, Matthew "Bronco" UND 632 0.39%
+Total Votes 162,932
+Total
+Times Cast 166,992 / 601,906 27.74%
+Precincts Reported: 401 of 403 (99.50%)
+U.S. Representative (Vote for  1) 
+Candidate Party Total
+Begich/Hnilicka DEM 34,172 20.80%
+Bishop/Schuerch REP/NON 11,527 7.02%
+Bronson/Church REP 13,364 8.13%
+Crum/Craig REP 8,922 5.43%
+DeVries/Hightower REP 2,167 1.32%
+DeWitt/Steere NON 4,184 2.55%
+Gilbert/Hickel REP 675 0.41%
+Heilala/Sumner REP 4,330 2.64%
+Hughes/Gettys REP 8,776 5.34%
+Kreiss-Tomkins/Johnson DEM/NON 37,006 22.52%
+Kroll/Nicholson REP/UND 335 0.20%
+McGuire/Rasmussen REP 2,098 1.28%
+Parkin IV/Greer REP/DEM 638 0.39%
+Payne/Silvers UND 372 0.23%
+Taylor/English REP 11,928 7.26%
+Walker/Hoffbeck NON 7,341 4.47%
+Wilson/Shower REP 16,468 10.02%
+Total Votes 164,303
+Total
+Times Cast 166,931 / 601,104 27.77%
+Precincts Reported: 400 of 402 (99.50%)
+Governor / Lieutenant Governor (Vote for  1) 
+8/31/2026 12:43:34 PM
+Page: 
+3
+ of 
+15
+Candidate
+Party
+Total
+Stedman, Bert K.
+ 
+REP
+5,851
 
-Traceback (most recent call last):
-  File "<stdin>", line 3, in <module>
-  File "/home/runner/work/elections/elections/scripts/fetch_alaska.py", line 31, in pdf_text
-    with urllib.request.urlopen(req, timeout=60) as r:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/urllib/request.py", line 215, in urlopen
-    return opener.open(url, data, timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/urllib/request.py", line 515, in open
-    response = self._open(req, data)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/urllib/request.py", line 532, in _open
-    result = self._call_chain(self.handle_open, protocol, protocol +
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
-    result = func(*args)
-             ^^^^^^^^^^^
-  File "/usr/lib/python3.12/urllib/request.py", line 1392, in https_open
-    return self.do_open(http.client.HTTPSConnection, req,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/urllib/request.py", line 1347, in do_open
-    raise URLError(err)
-urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>
+=== BM\s*#?\s*1\b ===
+ BM#1 23RCF2
+ 
+(Vote for  1)
+ 
+ 
+
+{'reporting': 0, 'called': None, 'votes': {'Yes': 0, 'No': 0}}
+=== U\.S\. Senator ===
+ U.S. Senator
+ 
+(Vote for  1)
+ 
+ 
+Precincts Reported: 
+{'reporting': 0, 'called': None, 'votes': {'Yes': 0, 'No': 0}}
 49 states, 44,278,284 ballots cast; history has 21 days
