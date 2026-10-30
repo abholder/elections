@@ -1,4 +1,4 @@
-# Temporary: check that every "Official results" link loads. Delete after use.
+# Temporary: check that every "Official results" link loads (round 2). Delete after use.
 name: Probe links
 on:
   push:
