@@ -132,9 +132,70 @@ function renderMeasure(m, results) {
     </article>`;
 }
 
+// ---------- early voting ----------
+const fmt = (n) => (n ?? 0).toLocaleString();
+
+function lineChart(points) {
+  // points: [{label, value}] -> a small inline SVG line chart (no chart library needed)
+  if (points.length < 2) return "";
+  const W = 640, H = 160, P = { l: 8, r: 8, t: 12, b: 22 };
+  const max = Math.max(...points.map((p) => p.value)) || 1;
+  const x = (i) => P.l + (i / (points.length - 1)) * (W - P.l - P.r);
+  const y = (v) => H - P.b - (v / max) * (H - P.t - P.b);
+  const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.value).toFixed(1)}`).join("");
+  const area = `${path}L${x(points.length - 1)},${H - P.b}L${x(0)},${H - P.b}Z`;
+  const last = points[points.length - 1];
+  return `
+    <svg viewBox="0 0 ${W} ${H}" class="chart" role="img" aria-label="Early votes cast over time, now ${fmt(last.value)}">
+      <path d="${area}" fill="var(--dem-soft)" opacity=".6"></path>
+      <path d="${path}" fill="none" stroke="var(--ink)" stroke-width="2"></path>
+      <circle cx="${x(points.length - 1)}" cy="${y(last.value)}" r="4" fill="var(--ink)"></circle>
+      <text x="${P.l}" y="${H - 6}" class="axis">${esc(shortDate(points[0].label))}</text>
+      <text x="${W - P.r}" y="${H - 6}" class="axis" text-anchor="end">${esc(shortDate(last.label))}</text>
+    </svg>`;
+}
+
+function renderEarlyVote(ev, races) {
+  const el = document.getElementById("early");
+  if (!ev) { el.innerHTML = ""; return; }
+  // States we care about: every Senate race on the page, plus Missouri.
+  const tracked = new Set(["MO", ...races.sections.find((s) => s.id === "senate").races.map((r) => r.id.slice(0, 2).toUpperCase())]);
+  const rows = [...tracked].map((ab) => ({ ab, ...(ev.states[ab] || {}) }))
+    .sort((a, b) => (b.voted_all / b.turn_2022 || 0) - (a.voted_all / a.turn_2022 || 0));
+  const history = Object.entries(ev.history).map(([label, h]) => ({ label, value: h.total }));
+
+  el.innerHTML = `
+    <h2>Early voting</h2>
+    <p class="blurb">Ballots already cast by mail or in person, from states that report them. The share compares against each state's <em>total</em> 2022 midterm turnout, so 50% means half as many people have already voted as voted in all of 2022.</p>
+    <div class="ev-grid">
+      <div class="stat">
+        <h3>Ballots cast nationally</h3>
+        <div class="big">${fmt(ev.total)}</div>
+        <p class="sub">${Object.keys(ev.states).length} states reporting. The line rises partly as more states start reporting.</p>
+        ${lineChart(history)}
+      </div>
+      <div class="stat">
+        <h3>States we're watching</h3>
+        <table class="ev-table">
+          <thead><tr><th>State</th><th class="num">Cast</th><th>vs. 2022 turnout</th></tr></thead>
+          <tbody>${rows.map((r) => {
+            const pct = r.turn_2022 ? Math.round((r.voted_all / r.turn_2022) * 100) : null;
+            return `<tr${r.ab === "AK" ? ' class="hl"' : ""}>
+              <td>${esc(r.name || r.ab)}${r.notes ? ` <span class="note info" title="${esc(r.notes)}">ⓘ</span>` : ""}</td>
+              <td class="num">${r.voted_all ? fmt(r.voted_all) : "–"}</td>
+              <td>${pct != null && r.voted_all ? `<div class="mini"><span style="width:${Math.min(pct, 100)}%"></span></div><span class="pct">${pct}%</span>` : '<span class="note">not reported</span>'}</td>
+            </tr>`; }).join("")}
+          </tbody>
+        </table>
+        <p class="sub">States count and report differently; hover ⓘ for UF's notes on a state.</p>
+      </div>
+    </div>
+    <p class="footnote">Source: <a href="${esc(ev.source_url)}">University of Florida Election Lab</a> (CC BY-NC-ND 4.0), updated ${ago(ev.updated)}.</p>`;
+}
+
 function renderSections(races, moneyData, fc, results) {
   document.getElementById("tabs").innerHTML =
-    `<a href="#overview">Overview</a>` +
+    `<a href="#overview">Overview</a><a href="#early">Early voting</a>` +
     races.sections.map((s) => `<a href="#${s.id}">${esc(s.title.split(":")[0])}</a>`).join("");
 
   document.getElementById("sections").innerHTML = races.sections.map((s) => `
@@ -170,11 +231,27 @@ async function civic(id) {
   } catch { return null; }
 }
 
+// Same rules as pick() in scripts/fetch_results.py: exact name first, then last name only if
+// nobody else in the race shares it (Alaska has "Dan Sullivan" AND "Daniel J. Jr. Sullivan").
+const norm = (s) => s.toLowerCase().replace(/[“”"]/g, "").split(/\s+/).filter(Boolean).join(" ");
+function pick(ours, civicNames, cname) {
+  const exact = ours.find((c) => norm(c.name) === norm(cname));
+  if (exact) return exact.name;
+  for (const c of ours) {
+    const last = c.name.split(" ").pop().toLowerCase();
+    if (!cname.toLowerCase().includes(last)) continue;
+    const sharing = civicNames.filter((n) => n.toLowerCase().includes(last));
+    const exactElsewhere = civicNames.some((n) => norm(n) === norm(c.name));
+    if (sharing.length === 1 && !exactElsewhere) return c.name;
+  }
+  return null;
+}
+
 function civicMatch(ours, civicCands, reporting) {
   const votes = {}; let called = null;
+  const names = (civicCands || []).map((c) => c.name || "");
   for (const cc of civicCands || []) {
-    let key = cc.name === "Yes" || cc.name === "No" ? cc.name
-      : ours.find((c) => cc.name.toLowerCase().includes(c.name.split(" ").pop().toLowerCase()))?.name || "Other";
+    const key = cc.name === "Yes" || cc.name === "No" ? cc.name : pick(ours, names, cc.name || "") || "Other";
     votes[key] = (votes[key] || 0) + (cc.votes || 0);
     if (cc.winner) called = { Yes: "Passed", No: "Failed" }[cc.name] || (key === "Other" ? cc.name : key);
   }
@@ -215,12 +292,14 @@ async function liveResults(races) {
 async function refresh() {
   const status = document.getElementById("status");
   try {
-    const [races, moneyData, fc, results] = await Promise.all([
+    const [races, moneyData, fc, results, ev] = await Promise.all([
       load("races"),
       load("money").catch(() => ({ candidates: {} })), // page still works before the first FEC run
       load("forecasts"),
       load("results"),
+      load("early_vote").catch(() => null),
     ]);
+    renderEarlyVote(ev, races);
     // Live numbers win over the saved copy, except hand-entered local results civicAPI doesn't have.
     const live = await liveResults(races);
     const liveCount = Object.keys(live).length;

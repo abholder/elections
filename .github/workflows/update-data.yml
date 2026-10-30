@@ -1,4 +1,4 @@
-# Runs scripts/fetch_fec.py on a timer and commits any new data back to the repo.
+# Runs scripts/fetch_fec.py and scripts/fetch_early_vote.py on a timer and commits any new data back to the repo.
 # GitHub Pages then republishes the site automatically.
 name: Update data
 
@@ -35,6 +35,10 @@ jobs:
         run: python scripts/fetch_fec.py
         env:
           FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+
+      - name: Fetch early-vote numbers (UF Election Lab)
+        run: python scripts/fetch_early_vote.py
+        continue-on-error: true   # if UF is down, still save the money data
 
       - name: Commit if anything changed
         run: |

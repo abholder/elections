@@ -2,29 +2,35 @@
 
 civicAPI doesn't carry this measure, so we read Alaska's own "Election Summary Report"
 PDF, the statewide results file the Division of Elections updates on election night.
+We turn the PDF into text with `pdftotext -layout` (from poppler-utils), which keeps the
+visual layout. Each contest then looks like this:
 
-The report lists each contest as:
-    <contest title> (Vote for 1)
-    YES   12,345   51.20%
-    NO    11,765   48.80%
-    Total Votes ...
-    Precincts Reported: 120 of 403 (29.78%)
+    BM#1 23RCF2 (Vote for 1)
+    Precincts Reported: 400 of 402 (99.50%)
+    ...
+    Candidate                               Party           Total
+    YES                                                  117,962        72.20%
+    NO                                                    45,418        27.80%
+    Total Votes                                          163,380
 
-Used by scripts/fetch_results.py; run on its own to test:
-    python scripts/fetch_alaska.py [URL] ["contest title pattern"]
-Needs the pypdf package (pip install pypdf).
+(That example is the real August primary's measure, used to test this parser.)
+
+Used by scripts/fetch_results.py. To test on its own:
+    python scripts/fetch_alaska.py [URL] ["title pattern"]
 """
 
-import io
 import re
 import ssl
+import subprocess
 import sys
+import tempfile
 import urllib.error
 import urllib.request
 
-# Update this if the Division of Elections posts the general election somewhere else.
+# Change this if the Division of Elections posts the general election somewhere else.
 SUMMARY_URL = "https://www.elections.alaska.gov/enr26/results/ElectionSummaryReportRPT.pdf"
-MEASURE_PATTERN = r"(BM\s*#?\s*2\b|Ballot\s+Measure\s+(No\.\s*)?2\b)"
+# On the ballot as "Ballot Measure 2", file number 24ESEG.
+MEASURE_PATTERN = r"(BM\s*#?\s*2\b|24ESEG|Ballot\s+Measure\s+(No\.\s*)?2\b)"
 
 
 def download(url):
@@ -39,52 +45,67 @@ def download(url):
         # missing piece; Python doesn't, so the secure connection fails. This is a public,
         # read-only results file, so we retry without certificate checking and say so in the log.
         print("WARN: elections.alaska.gov certificate chain incomplete; fetching without verification")
-        ctx = ssl._create_unverified_context()
-        with urllib.request.urlopen(req, timeout=60, context=ctx) as r:
+        with urllib.request.urlopen(req, timeout=60, context=ssl._create_unverified_context()) as r:
             return r.read()
 
 
 def pdf_text(url):
-    from pypdf import PdfReader  # imported here so the rest of the site never needs it
-    reader = PdfReader(io.BytesIO(download(url)))
-    return "\n".join(page.extract_text() or "" for page in reader.pages)
+    with tempfile.NamedTemporaryFile(suffix=".pdf") as f:
+        f.write(download(url))
+        f.flush()
+        return subprocess.run(["pdftotext", "-layout", f.name, "-"],
+                              capture_output=True, text=True, check=True).stdout
 
 
 def find_contest(text, title_pattern):
-    """Return the chunk of report text for the first contest whose title matches."""
-    m = re.search(title_pattern + r".{0,80}?\(Vote for", text, re.I | re.S)
-    if not m:
-        return None
-    end = text.find("Precincts Reported", m.end())
-    end = text.find("\n", end) if end != -1 else m.end() + 3000
-    return text[m.start(): end if end != -1 else None]
+    """Lines of the first contest whose title matches, from its title to 'Total Votes'."""
+    lines = text.splitlines()
+    for i, line in enumerate(lines):
+        if "(Vote for" in line and re.search(title_pattern, line, re.I):
+            block = [line]
+            for nxt in lines[i + 1:]:
+                block.append(nxt)
+                if nxt.strip().startswith("Total Votes"):
+                    break
+            return block
+    return None
 
 
-def parse_measure(block):
-    """Pull YES/NO totals and the precincts-reported percentage out of one contest block."""
-    def count(label):
-        m = re.search(rf"\b{label}\b\s+([\d,]+)", block)
-        return int(m.group(1).replace(",", "")) if m else 0
-    pct = re.search(r"Precincts Reported:\s*\d+\s+of\s+\d+\s*\(([\d.]+)%\)", block)
-    return {"reporting": float(pct.group(1)) if pct else 0,
-            "called": None,
-            "votes": {"Yes": count("YES"), "No": count("NO")}}
+def parse_contest(block):
+    """{'reporting': %, 'votes': {name: count}} from a contest's lines."""
+    pct = re.search(r"Precincts Reported:\s*\d+\s+of\s+\d+\s*\(([\d.]+)%\)", "\n".join(block))
+    votes, in_rows = {}, False
+    for line in block:
+        if line.strip().startswith("Candidate"):
+            in_rows = True
+            continue
+        if line.strip().startswith("Total Votes"):
+            break
+        # A row ends with:  <count>  <percent>%   e.g. "YES      117,962   72.20%"
+        m = re.match(r"\s*(.+?)\s{2,}(?:[A-Z]{2,3}\s+)?([\d,]+)\s+[\d.]+%\s*$", line)
+        if in_rows and m:
+            votes[m.group(1).strip()] = int(m.group(2).replace(",", ""))
+    return {"reporting": float(pct.group(1)) if pct else 0, "votes": votes}
 
 
 def ballot_measure_2(url=SUMMARY_URL):
-    """Results dict for Ballot Measure 2, or None if it isn't in the report yet."""
+    """Results for Ballot Measure 2 in our results.json shape, or None if not posted yet."""
     text = pdf_text(url)
-    if "General Election" not in text[:2000]:
-        return None  # still the primary report; nothing to show
+    if "GENERAL ELECTION" not in text[:1500].upper():
+        print("Alaska report is not the general election yet; skipping")
+        return None
     block = find_contest(text, MEASURE_PATTERN)
-    return parse_measure(block) if block else None
+    if not block:
+        print("Alaska report has no Ballot Measure 2 contest; skipping")
+        return None
+    r = parse_contest(block)
+    return {"reporting": r["reporting"], "called": None,
+            "votes": {"Yes": r["votes"].get("YES", 0), "No": r["votes"].get("NO", 0)}}
 
 
 if __name__ == "__main__":
-    url = sys.argv[1] if len(sys.argv) > 1 else SUMMARY_URL
-    pattern = sys.argv[2] if len(sys.argv) > 2 else MEASURE_PATTERN
-    text = pdf_text(url)
-    block = find_contest(text, pattern)
-    print(block or "contest not found")
+    text = pdf_text(sys.argv[1] if len(sys.argv) > 1 else SUMMARY_URL)
+    block = find_contest(text, sys.argv[2] if len(sys.argv) > 2 else MEASURE_PATTERN)
+    print("\n".join(block) if block else "contest not found")
     if block:
-        print(parse_measure(block))
+        print(parse_contest(block))

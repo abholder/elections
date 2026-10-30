@@ -158,7 +158,7 @@
         {
           "id": "ak-sen",
           "title": "Alaska",
-          "note": "R-held",
+          "note": "R-held. Ranked-choice: if no one tops 50% of first choices, the ranked-choice count happens Nov. 18. A second candidate, Daniel J. Sullivan Jr., is also on the ballot (2.5% in the August primary).",
           "candidates": [
             {
               "name": "Mary Peltola",
@@ -921,7 +921,7 @@
     {
       "id": "measures",
       "title": "Ballot measures in other states",
-      "blurb": "A selection of the higher-profile statewide questions. Live results come from civicAPI where it covers the measure; Idaho, Massachusetts and Alaska aren't in its feed yet.",
+      "blurb": "A selection of the higher-profile statewide questions. Live results come from civicAPI, or for Alaska from the state's own results report. Idaho and Massachusetts aren't in any free feed yet.",
       "measures": [
         {
           "id": "nv-abortion",
@@ -1015,9 +1015,10 @@
         {
           "id": "ak-rcv",
           "state": "AK",
-          "title": "Alaska ranked-choice repeal",
+          "title": "Alaska Ballot Measure 2",
           "topic": "Elections",
-          "summary": "Repeals ranked-choice voting and open primaries adopted in 2020."
+          "summary": "Repeals the 2020 system of open top-four primaries and ranked-choice general elections, returning to party primaries, and repeals the 2020 campaign-disclosure rules. A 2024 repeal attempt failed 49.9% to 50.1%.",
+          "source": "alaska"
         },
         {
           "id": "co-a86",

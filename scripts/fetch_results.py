@@ -6,8 +6,8 @@ race or measure in data/races.json with a "civic" block gets results:
   {"doc": "house",  "region": "mo-05"} -> the national House document, MO-5 entry
   {"races": [87243]}                 -> a single civicAPI race (measures, state offices)
 
-Local items civicAPI doesn't carry (Jackson County, Parkville) come from
-data/results_local.json, which is edited by hand on election night.
+Alaska Ballot Measure 2 isn't in civicAPI, so items with "source": "alaska" are read from
+Alaska's own results PDF (see scripts/fetch_alaska.py).
 
 The page also reads civicAPI directly in the browser, so this file is the backup
 copy and the history (every update is a commit).
@@ -24,7 +24,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 RACES = ROOT / "data" / "races.json"
-LOCAL = ROOT / "data" / "results_local.json"
 OUT = ROOT / "data" / "results.json"
 BASE = "https://civicapi.org/api/v2"
 DOCS = {"senate": 87528, "house": 87524}
@@ -53,19 +52,39 @@ def usable(doc):
     return (doc.get("election_date") or ELECTION_DATE).startswith(ELECTION_DATE)
 
 
+def norm(name):
+    return " ".join(name.lower().replace("\u201c", "").replace("\u201d", "").replace('"', "").split())
+
+
+def pick(our_candidates, civic_names, cname):
+    """Which of our candidates is civicAPI's `cname`? Returns our name, or None.
+
+    1. Exact name match wins ("Dan Sullivan" == "Dan Sullivan").
+    2. Otherwise match on last name ("Randall (Randy) Langkraehr" -> "Randy Langkraehr"),
+       but ONLY if nobody else in the race shares that last name. Alaska's Senate ballot has
+       both "Dan Sullivan" and "Daniel J. Jr. Sullivan", and they must not be merged.
+    """
+    for c in our_candidates:
+        if norm(c["name"]) == norm(cname):
+            return c["name"]
+    for c in our_candidates:
+        last = c["name"].split()[-1].lower()
+        if last in cname.lower():
+            sharing = [n for n in civic_names if last in n.lower()]
+            exact_elsewhere = any(norm(n) == norm(c["name"]) for n in civic_names)
+            if len(sharing) == 1 and not exact_elsewhere:
+                return c["name"]
+    return None
+
+
 def match(our_candidates, civic_candidates, percent_reporting):
     """Turn civicAPI's candidate list into our shape, keyed by the names we use.
-
-    Names don't always match exactly ("Randall (Randy) Langkraehr" vs "Randy Langkraehr",
-    "Jennifer" vs "Jen"), so we match on last name. Anyone we don't track is lumped into "Other".
-    """
+    Anyone we don't track is lumped into "Other"."""
+    names = [cc.get("name", "") for cc in civic_candidates]
     votes, called = {}, None
     for cc in civic_candidates:
         cname = cc.get("name", "")
-        ours = next((c["name"] for c in our_candidates
-                     if c["name"].split()[-1].lower() in cname.lower()), None)
-        if cname in ("Yes", "No"):
-            ours = cname
+        ours = cname if cname in ("Yes", "No") else pick(our_candidates, names, cname)
         key = ours or "Other"
         votes[key] = votes.get(key, 0) + (cc.get("votes") or 0)
         if cc.get("winner"):
@@ -113,13 +132,20 @@ def main():
     # Only keep entries that have actual votes, so the page shows "no results yet" until counting starts.
     results = {k: v for k, v in results.items() if sum(v["votes"].values()) > 0 or v["called"]}
 
-    # Hand-entered local results win over anything automatic.
-    if LOCAL.exists():
-        local = json.loads(LOCAL.read_text()).get("results", {})
-        results.update({k: v for k, v in local.items() if not k.startswith("_")})
+    # Alaska Ballot Measure 2 comes from the state's own report. If that fails, the rest still publishes.
+    alaska_items = [m for s in races["sections"] for m in s.get("measures", []) if m.get("source") == "alaska"]
+    if alaska_items:
+        try:
+            import fetch_alaska
+            r = fetch_alaska.ballot_measure_2()
+            if r and sum(r["votes"].values()) > 0:
+                for m in alaska_items:
+                    results[m["id"]] = r
+        except Exception as e:
+            print(f"WARN Alaska report: {e}")
 
     OUT.write_text(json.dumps({
-        "source": "civicAPI (civicapi.org); local results entered by hand",
+        "source": "civicAPI (civicapi.org); Alaska Division of Elections",
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds") if results else None,
         "results": results,
     }, indent=2) + "\n")

@@ -140,3 +140,17 @@ h1 { font: 700 clamp(30px, 5vw, 44px)/1.1 var(--serif); margin: 6px 0 6px; lette
 
 .footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; padding-bottom: 40px; font-size: 13px; color: var(--muted); }
 .error { background: var(--rep-soft); color: var(--rep); padding: 12px 16px; border-radius: var(--radius); }
+
+/* ---------- Early voting ---------- */
+.ev-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.chart { width: 100%; height: auto; margin-top: 8px; }
+.chart .axis { font: 11px var(--sans); fill: var(--muted); }
+.ev-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.ev-table th { text-align: left; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); padding: 4px 0; border-bottom: 1px solid var(--line); }
+.ev-table td { padding: 6px 0; border-bottom: 1px solid var(--line); vertical-align: middle; }
+.ev-table .num { text-align: right; padding-right: 12px; font-variant-numeric: tabular-nums; }
+.ev-table tr.hl td { font-weight: 600; }
+.ev-table .mini { display: inline-block; width: calc(100% - 44px); max-width: 140px; height: 8px; background: var(--line); border-radius: 4px; overflow: hidden; vertical-align: middle; }
+.ev-table .mini span { display: block; height: 100%; background: var(--ink); }
+.ev-table .pct { display: inline-block; width: 40px; text-align: right; font-size: 12px; font-variant-numeric: tabular-nums; }
+.note.info { cursor: help; }
