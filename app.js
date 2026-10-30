@@ -2,7 +2,10 @@
 // No framework, no build step: edit, commit, and GitHub Pages serves it.
 
 // How often an open page re-checks for new data. Faster on election night.
-const REFRESH_MINUTES = Date.now() > Date.parse("2026-11-03T23:00:00Z") && Date.now() < Date.parse("2026-11-05T12:00:00Z") ? 2 : 5;
+// Election night (Tue 5pm Central to Thu morning): live results, so re-check every 2 minutes.
+// Otherwise the data only changes twice a day, so an open page re-checks every 30 minutes.
+const ELECTION_NIGHT = Date.now() > Date.parse("2026-11-03T23:00:00Z") && Date.now() < Date.parse("2026-11-05T12:00:00Z");
+const REFRESH_MINUTES = ELECTION_NIGHT ? 2 : 30;
 
 const PARTY_NAME = { D: "Democrat", R: "Republican", I: "Independent", L: "Libertarian", C: "Constitution" };
 
@@ -441,7 +444,7 @@ async function refresh() {
     status.innerHTML =
       `<span class="dot"></span>${REHEARSAL ? "<b>REHEARSAL (test data)</b> · " : ""}${resultsNote}` +
       ` · Money updated ${ago(moneyData.updated)}` +
-      ` · Page re-checks every ${REFRESH_MINUTES} min`;
+      (ELECTION_NIGHT ? ` · Page updates every ${REFRESH_MINUTES} min` : " · Data refreshes about 6am and 6pm Central");
   } catch (err) {
     console.error(err);
     status.innerHTML = `<span class="error">Couldn't load data: ${esc(err.message)}</span>`;
