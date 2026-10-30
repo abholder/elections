@@ -93,6 +93,20 @@ function renderCandidate(c, raceId, moneyData, result) {
     </div>`;
 }
 
+// ---------- official results links ----------
+let OFFICIAL = {}; // set in refresh() from races.json "official_results"
+const LOCAL_BOARDS = { jaco: ["JACKSON", "Jackson County Election Board"], parkville: ["PLATTE", "Platte County election board"] };
+
+function officialLink(item) {
+  const prefix = item.id.split("-")[0];
+  const [key, label] = LOCAL_BOARDS[prefix] || [(item.state || prefix).toUpperCase(), "Official results"];
+  const url = OFFICIAL[key];
+  if (!url) return "";
+  const extra = prefix === "jaco" && OFFICIAL.KC
+    ? ` · <a href="${esc(OFFICIAL.KC)}" target="_blank" rel="noopener">KC Election Board ↗</a>` : "";
+  return `<div class="official"><a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)} ↗</a>${extra}</div>`;
+}
+
 // ---------- polls ----------
 let POLLS = { races: {} }; // set in refresh() from data/polls.json
 const PARTY_VAR = { D: "dem", R: "rep", I: "ind", L: "lib", C: "ind" };
@@ -144,6 +158,7 @@ function renderRace(race, moneyData, fc, results) {
         <div class="odds">${esc(odds.source || fc.races.source)}: <b>${esc(odds.leader)}</b> ${odds.pct}% to win${odds.note ? ` (${esc(odds.note)})` : ""}
           <div class="bar"><span style="width:${odds.pct}%;background:${color}"></span></div>
         </div>` : ""}
+      ${officialLink(race)}
     </article>`;
 }
 
@@ -166,6 +181,7 @@ function renderMeasure(m, results) {
       <div class="topic">${esc(m.topic)}</div>
       ${body}
       ${tally}
+      ${officialLink(m)}
     </article>`;
 }
 
@@ -430,6 +446,7 @@ async function refresh() {
       load("early_vote").catch(() => null),
       load("polls").catch(() => ({ races: {} })),
     ]).then((all) => { POLLS = all.pop(); return all; });
+    OFFICIAL = races.official_results || {};
     renderEarlyVote(ev, races);
     // Live numbers win over the saved copy, except hand-entered local results civicAPI doesn't have.
     const live = await liveResults(races);

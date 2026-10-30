@@ -185,3 +185,6 @@ h1 { font: 700 clamp(30px, 5vw, 44px)/1.1 var(--serif); margin: 6px 0 6px; lette
 .local-ev .ev-table td { vertical-align: middle; }
 .local-ev .ev-table td .note { font-size: 12px; font-weight: 400; }
 @media (max-width: 520px) { .local-ev th:nth-child(3), .local-ev td:nth-child(3) { display: none; } }
+.official { margin-top: auto; padding-top: 6px; font-size: 12px; text-align: right; }
+.official a { color: var(--muted); text-decoration: none; white-space: nowrap; }
+.official a:hover { color: var(--ink); text-decoration: underline; }

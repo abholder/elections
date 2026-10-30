@@ -27,6 +27,7 @@ GitHub Pages           →  index.html + app.js load data/*.json on every visit
 - **Alaska Ballot Measure 2** isn't in civicAPI. `scripts/fetch_alaska.py` reads the state's Election Summary Report PDF (tested against the August primary report). If the state posts the general election at a different address, update `SUMMARY_URL` in that file.
 - **Alaska Senate** uses ranked-choice voting: if no one tops 50% of first choices on election night, the ranked-choice count is Nov. 18.
 - **Local items** (Jackson County, Parkville) are shown for reference only; no results feed.
+- **Official results links:** every card links to that state's (or county board's) official results page, listed under `official_results` in `data/races.json`. Some state sites block automated checks but open normally in a browser.
 - **Rehearsal:** add `?rehearsal` to the site URL to show civicAPI's test elections, if one is running. Without it, test data is always ignored.
 - **The morning of Nov. 3:** check that civicAPI isn't still flagging its data as a test (if it were, real results would be ignored).
 
