@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-10-30T16:14:15+00:00",
+ "updated": "2026-10-30T17:14:18+00:00",
  "races": {
   "ak-sen": {
    "count": 3,
@@ -49,15 +49,26 @@
    ]
   },
   "az-01": {
-   "count": 1,
+   "count": 2,
    "from": "2026-10-01",
-   "to": "2026-10-01",
+   "to": "2026-10-28",
    "stale": false,
    "avg": {
-    "Amish Shah": 44.4,
-    "Jay Feely": 41.6
+    "Amish Shah": 46.7,
+    "Jay Feely": 43.3
    },
    "polls": [
+    {
+     "pollster": "Keating Research",
+     "end": "2026-10-28",
+     "pop": "lv",
+     "n": 500,
+     "url": "https://keatingresearch.com/polls/az-01-october-2026/",
+     "values": {
+      "Amish Shah": 49.0,
+      "Jay Feely": 45.0
+     }
+    },
     {
      "pollster": "FirstStrategic",
      "end": "2026-10-01",
@@ -67,6 +78,29 @@
      "values": {
       "Amish Shah": 44.4,
       "Jay Feely": 41.6
+     }
+    }
+   ]
+  },
+  "ca-22": {
+   "count": 1,
+   "from": "2026-10-28",
+   "to": "2026-10-28",
+   "stale": false,
+   "avg": {
+    "Randy Villegas": 54.0,
+    "David Valadao": 44.0
+   },
+   "polls": [
+    {
+     "pollster": "University of Southern California Democracy and Fair Elections Lab/University of Southern California Dornsife Center for Economic and Social Research",
+     "end": "2026-10-28",
+     "pop": "lv",
+     "n": 356,
+     "url": "https://www.thedemocracylab.com/ca-polling-2026",
+     "values": {
+      "Randy Villegas": 54.0,
+      "David Valadao": 44.0
      }
     }
    ]
@@ -251,15 +285,26 @@
    ]
   },
   "ks-sen": {
-   "count": 4,
-   "from": "2026-09-16",
-   "to": "2026-10-26",
+   "count": 5,
+   "from": "2026-09-24",
+   "to": "2026-10-28",
    "stale": false,
    "avg": {
-    "Adam Hamilton": 47.8,
-    "Roger Marshall": 46.0
+    "Adam Hamilton": 49.5,
+    "Roger Marshall": 46.2
    },
    "polls": [
+    {
+     "pollster": "Emerson College",
+     "end": "2026-10-28",
+     "pop": "lv",
+     "n": 800,
+     "url": "https://emersoncollegepolling.com/october-2026-kansas-poll-hamilton-maintains-edge-over-marshall/",
+     "values": {
+      "Roger Marshall": 47.1,
+      "Adam Hamilton": 49.5
+     }
+    },
     {
      "pollster": "CNN/SSRS",
      "end": "2026-10-26",
@@ -269,6 +314,17 @@
      "values": {
       "Roger Marshall": 45.0,
       "Adam Hamilton": 49.0
+     }
+    },
+    {
+     "pollster": "The Washington Post/George Mason University Schar School of Policy and Government",
+     "end": "2026-10-26",
+     "pop": "lv",
+     "n": 801,
+     "url": "https://www.washingtonpost.com/politics/2026/10/30/we-polled-kansas-democrats-wanted-talk-republicans-not-so-much/",
+     "values": {
+      "Roger Marshall": 43.0,
+      "Adam Hamilton": 52.0
      }
     },
     {
@@ -291,17 +347,6 @@
      "values": {
       "Roger Marshall": 48.0,
       "Adam Hamilton": 50.0
-     }
-    },
-    {
-     "pollster": "Emerson College",
-     "end": "2026-09-16",
-     "pop": "lv",
-     "n": 750,
-     "url": "https://emersoncollegepolling.com/kansas-2026/",
-     "values": {
-      "Roger Marshall": 43.0,
-      "Adam Hamilton": 45.0
      }
     }
    ]
@@ -901,13 +946,35 @@
   "tx-sen": {
    "count": 16,
    "from": "2026-09-28",
-   "to": "2026-10-27",
+   "to": "2026-10-28",
    "stale": false,
    "avg": {
-    "James Talarico": 48.5,
-    "Ken Paxton": 45.9
+    "James Talarico": 48.7,
+    "Ken Paxton": 46.0
    },
    "polls": [
+    {
+     "pollster": "ActiVote",
+     "end": "2026-10-28",
+     "pop": "lv",
+     "n": 400,
+     "url": "https://www.activote.net/polls/2026/tx-u-s-senate/",
+     "values": {
+      "James Talarico": 52.1,
+      "Ken Paxton": 47.9
+     }
+    },
+    {
+     "pollster": "Quantus Insights",
+     "end": "2026-10-28",
+     "pop": "lv",
+     "n": 1221,
+     "url": "https://quantusinsights.org/polling/f/texas-survey-paxton-up-one-abbott-ahead-by-five",
+     "values": {
+      "Ken Paxton": 49.4,
+      "James Talarico": 48.4
+     }
+    },
     {
      "pollster": "CNN/SSRS",
      "end": "2026-10-27",
@@ -942,17 +1009,6 @@
      }
     },
     {
-     "pollster": "ActiVote",
-     "end": "2026-10-21",
-     "pop": "lv",
-     "n": 400,
-     "url": "https://www.activote.net/polls/2026/tx-u-s-senate/",
-     "values": {
-      "James Talarico": 51.0,
-      "Ken Paxton": 49.0
-     }
-    },
-    {
      "pollster": "YouGov",
      "end": "2026-10-21",
      "pop": "rv",
@@ -961,17 +1017,6 @@
      "values": {
       "James Talarico": 50.0,
       "Ken Paxton": 45.0
-     }
-    },
-    {
-     "pollster": "VoteHub/Verasight",
-     "end": "2026-10-20",
-     "pop": "lv",
-     "n": 601,
-     "url": "https://votehub.com/2026/10/23/votehub-verasight-poll-surveys-texass-u-s-senate-and-gubernatorial-races/",
-     "values": {
-      "James Talarico": 47.6,
-      "Ken Paxton": 45.2
      }
     }
    ]

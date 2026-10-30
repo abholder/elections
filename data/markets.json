@@ -1,13 +1,13 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-10-30T16:14:15+00:00",
+ "updated": "2026-10-30T17:14:18+00:00",
  "control": {
   "Senate": {
    "D": 70,
    "R": 30
   },
   "House": {
-   "D": 92,
+   "D": 93,
    "R": 8
   }
  },
@@ -21,20 +21,20 @@
    "Susan Collins": 32
   },
   "oh-sen": {
-   "Jon Husted": 30,
-   "Sherrod Brown": 70
+   "Sherrod Brown": 70,
+   "Jon Husted": 30
   },
   "sc-sen": {
-   "Darline Graham": 72,
-   "Annie Andrews": 28
+   "Annie Andrews": 28,
+   "Darline Graham": 72
   },
   "ia-sen": {
-   "Josh Turek": 44,
-   "Ashley Hinson": 56
+   "Ashley Hinson": 56,
+   "Josh Turek": 44
   },
   "ks-sen": {
-   "Roger Marshall": 48,
-   "Adam Hamilton": 52
+   "Adam Hamilton": 52,
+   "Roger Marshall": 48
   },
   "ak-sen": {
    "Mary Peltola": 68,
@@ -53,20 +53,20 @@
    "Chris Pappas": 92
   },
   "nc-sen": {
-   "Michael Whatley": 3,
-   "Roy Cooper": 97
+   "Roy Cooper": 97,
+   "Michael Whatley": 3
   },
   "ga-sen": {
-   "Jon Ossoff": 97,
-   "Mike Collins": 3
+   "Mike Collins": 3,
+   "Jon Ossoff": 97
   },
   "mn-sen": {
-   "Michele Tafoya": 10,
-   "Peggy Flanagan": 90
+   "Peggy Flanagan": 90,
+   "Michele Tafoya": 10
   },
   "fl-14": {
-   "Mike Beltran": 29,
-   "Kathy Castor": 72
+   "Kathy Castor": 72,
+   "Mike Beltran": 29
   },
   "oh-07": {
    "Max Miller": 16,
