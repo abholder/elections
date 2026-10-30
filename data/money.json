@@ -1,7 +1,7 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-10-30T14:29:11+00:00",
+  "updated": "2026-10-30T14:29:52+00:00",
   "candidates": {
     "mo-06|Chris Stigall": {
       "fec_id": "H6MO06310",
@@ -10,12 +10,12 @@
       "spent": 834318.78,
       "cash_on_hand": 211004.93,
       "through": "2026-10-14",
-      "fetched_at": "2026-10-30T14:28:49+00:00"
+      "fetched_at": "2026-10-30T14:29:30+00:00"
     },
     "mo-06|Andy Maidment": {
       "fec_id": "H2MO06269",
       "fec_name": "MAIDMENT, EDWARD A. (ANDY)",
-      "fetched_at": "2026-10-30T14:28:50+00:00"
+      "fetched_at": "2026-10-30T14:29:31+00:00"
     },
     "tx-sen|James Talarico": {
       "fec_id": "S6TX00479",
@@ -24,7 +24,7 @@
       "spent": 136427054.98,
       "cash_on_hand": 9922857.4,
       "through": "2026-10-14",
-      "fetched_at": "2026-10-30T14:28:50+00:00"
+      "fetched_at": "2026-10-30T14:29:31+00:00"
     },
     "tx-sen|Ken Paxton": {
       "fec_id": "S6TX00388",
@@ -33,7 +33,7 @@
       "spent": 17543065.62,
       "cash_on_hand": 4784408.3,
       "through": "2026-10-14",
-      "fetched_at": "2026-10-30T14:28:51+00:00"
+      "fetched_at": "2026-10-30T14:29:32+00:00"
     },
     "me-sen|Troy Jackson": {
       "fec_id": "S6ME00464",
@@ -42,7 +42,7 @@
       "spent": 25276003.4,
       "cash_on_hand": 1596870.56,
       "through": "2026-10-14",
-      "fetched_at": "2026-10-30T14:28:52+00:00"
+      "fetched_at": "2026-10-30T14:29:33+00:00"
     },
     "me-sen|Susan Collins": {
       "fec_id": "S6ME00159",
@@ -51,7 +51,7 @@
       "spent": 23830778.33,
       "cash_on_hand": 2689882.54,
       "through": "2026-10-14",
-      "fetched_at": "2026-10-30T14:28:52+00:00"
+      "fetched_at": "2026-10-30T14:29:33+00:00"
     },
     "oh-sen|Sherrod Brown": {
       "fec_id": "S6OH00163",
@@ -60,7 +60,7 @@
       "spent": 63956396.53,
       "cash_on_hand": 4452803.32,
       "through": "2026-10-14",
-      "fetched_at": "2026-10-30T14:28:53+00:00"
+      "fetched_at": "2026-10-30T14:29:34+00:00"
     },
     "oh-sen|Jon Husted": {
       "fec_id": "S6OH00304",
@@ -69,7 +69,7 @@
       "spent": 15655689.37,
       "cash_on_hand": 4239096.57,
       "through": "2026-10-22",
-      "fetched_at": "2026-10-30T14:28:54+00:00"
+      "fetched_at": "2026-10-30T14:29:35+00:00"
     },
     "ia-sen|Josh Turek": {
       "fec_id": "S6IA00298",
@@ -78,7 +78,7 @@
       "spent": 21217670.1,
       "cash_on_hand": 3072851.0,
       "through": "2026-10-14",
-      "fetched_at": "2026-10-30T14:28:55+00:00"
+      "fetched_at": "2026-10-30T14:29:35+00:00"
     },
     "ia-sen|Ashley Hinson": {
       "fec_id": "S6IA00314",
@@ -87,7 +87,7 @@
       "spent": 13903059.38,
       "cash_on_hand": 2172988.59,
       "through": "2026-10-14",
-      "fetched_at": "2026-10-30T14:28:55+00:00"
+      "fetched_at": "2026-10-30T14:29:36+00:00"
     },
     "sc-sen|Darline Graham": {
       "fec_id": "S6SC04437",
