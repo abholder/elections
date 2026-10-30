@@ -1,8 +1,98 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-10-30T13:42:59+00:00",
+  "updated": "2026-10-30T14:14:27+00:00",
   "candidates": {
+    "mi-10|Michael Bouchard": {
+      "fec_id": "H6MI10359",
+      "fec_name": "BOUCHARD, MICHAEL",
+      "raised": 2884259.39,
+      "spent": 1310789.75,
+      "cash_on_hand": 1573469.64,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T14:13:39+00:00"
+    },
+    "ny-17|Cait Conley": {
+      "fec_id": "H6NY17171",
+      "fec_name": "CONLEY, CAIT",
+      "raised": 10706692.07,
+      "spent": 9758152.57,
+      "cash_on_hand": 948539.5,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T14:13:40+00:00"
+    },
+    "ny-17|Mike Lawler": {
+      "fec_id": "H2NY17162",
+      "fec_name": "LAWLER, MICHAEL VINCENT",
+      "raised": 10317627.15,
+      "spent": 8527471.61,
+      "cash_on_hand": 1959524.06,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T14:13:41+00:00"
+    },
+    "oh-07|Brian Poindexter": {
+      "fec_id": "H6OH07168",
+      "fec_name": "POINDEXTER, BRIAN",
+      "raised": 3720341.61,
+      "spent": 2926666.41,
+      "cash_on_hand": 793675.2,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T14:13:42+00:00"
+    },
+    "oh-07|Max Miller": {
+      "fec_id": "H2OH16051",
+      "fec_name": "MILLER, MAX",
+      "raised": 3324941.88,
+      "spent": 3363842.44,
+      "cash_on_hand": 135628.83,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T14:13:42+00:00"
+    },
+    "pa-10|Janelle Stelson": {
+      "fec_id": "H4PA10104",
+      "fec_name": "STELSON, JANELLE",
+      "raised": 9234259.74,
+      "spent": 7180190.91,
+      "cash_on_hand": 2069306.31,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T14:13:50+00:00"
+    },
+    "pa-10|Scott Perry": {
+      "fec_id": "H2PA04135",
+      "fec_name": "PERRY, SCOTT",
+      "raised": 6791519.08,
+      "spent": 5849868.83,
+      "cash_on_hand": 1023569.23,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T14:13:51+00:00"
+    },
+    "tx-34|Vicente Gonzalez": {
+      "fec_id": "H6TX15162",
+      "fec_name": "GONZALEZ, VICENTE",
+      "raised": 5211344.04,
+      "spent": 4096454.52,
+      "cash_on_hand": 1396949.28,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T14:13:52+00:00"
+    },
+    "sc-sen|Annie Andrews": {
+      "fec_id": "S6SC04239",
+      "fec_name": "ANDREWS, ANNIE",
+      "raised": 24216840.67,
+      "spent": 22507375.14,
+      "cash_on_hand": 1709465.53,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T14:14:09+00:00"
+    },
+    "tx-34|Eric Flores": {
+      "fec_id": "H6TX34080",
+      "fec_name": "FLORES, ERIC",
+      "raised": 4009073.67,
+      "spent": 3762621.4,
+      "cash_on_hand": 246427.27,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T14:14:11+00:00"
+    },
     "ga-sen|Mike Collins": {
       "fec_id": "S6GA00390",
       "fec_name": "COLLINS, MICHAEL A JR",
@@ -355,69 +445,6 @@
       "through": "2026-10-14",
       "fetched_at": "2026-10-30T13:13:46+00:00"
     },
-    "oh-07|Brian Poindexter": {
-      "fec_id": "H6OH07168",
-      "fec_name": "POINDEXTER, BRIAN",
-      "raised": 3720341.61,
-      "spent": 2926666.41,
-      "cash_on_hand": 793675.2,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:12:38+00:00"
-    },
-    "oh-07|Max Miller": {
-      "fec_id": "H2OH16051",
-      "fec_name": "MILLER, MAX",
-      "raised": 3324941.88,
-      "spent": 3363842.44,
-      "cash_on_hand": 135628.83,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:12:45+00:00"
-    },
-    "pa-10|Janelle Stelson": {
-      "fec_id": "H4PA10104",
-      "fec_name": "STELSON, JANELLE",
-      "raised": 9234259.74,
-      "spent": 7180190.91,
-      "cash_on_hand": 2069306.31,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:12:46+00:00"
-    },
-    "pa-10|Scott Perry": {
-      "fec_id": "H2PA04135",
-      "fec_name": "PERRY, SCOTT",
-      "raised": 6791519.08,
-      "spent": 5849868.83,
-      "cash_on_hand": 1023569.23,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:12:47+00:00"
-    },
-    "tx-34|Vicente Gonzalez": {
-      "fec_id": "H6TX15162",
-      "fec_name": "GONZALEZ, VICENTE",
-      "raised": 5211344.04,
-      "spent": 4096454.52,
-      "cash_on_hand": 1396949.28,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:12:47+00:00"
-    },
-    "tx-34|Eric Flores": {
-      "fec_id": "H6TX34080",
-      "fec_name": "FLORES, ERIC",
-      "raised": 4009073.67,
-      "spent": 3762621.4,
-      "cash_on_hand": 246427.27,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:12:48+00:00"
-    },
-    "sc-sen|Annie Andrews": {
-      "fec_id": "S6SC04239",
-      "fec_name": "ANDREWS, ANNIE",
-      "raised": 24216840.67,
-      "spent": 22507375.14,
-      "cash_on_hand": 1709465.53,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:12:48+00:00"
-    },
     "sc-sen|Darline Graham": {
       "fec_id": "S6SC04437",
       "fec_name": "GRAHAM, DARLINE",
@@ -444,33 +471,6 @@
       "cash_on_hand": 478862.22,
       "through": "2026-10-14",
       "fetched_at": "2026-10-30T13:12:50+00:00"
-    },
-    "mi-10|Michael Bouchard": {
-      "fec_id": "H6MI10359",
-      "fec_name": "BOUCHARD, MICHAEL",
-      "raised": 2884259.39,
-      "spent": 1310789.75,
-      "cash_on_hand": 1573469.64,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:08:22+00:00"
-    },
-    "ny-17|Cait Conley": {
-      "fec_id": "H6NY17171",
-      "fec_name": "CONLEY, CAIT",
-      "raised": 10706692.07,
-      "spent": 9758152.57,
-      "cash_on_hand": 948539.5,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:08:23+00:00"
-    },
-    "ny-17|Mike Lawler": {
-      "fec_id": "H2NY17162",
-      "fec_name": "LAWLER, MICHAEL VINCENT",
-      "raised": 10317627.15,
-      "spent": 8527471.61,
-      "cash_on_hand": 1959524.06,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:08:24+00:00"
     }
   },
   "problems": [
