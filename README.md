@@ -32,7 +32,7 @@ GitHub Pages           →  index.html + app.js load data/*.json on every visit
 
 ## The clock
 
-GitHub's built-in timer is best-effort and fired only once in 12 hours on this repo. `.github/workflows/scheduler.yml` keeps a steady clock instead: it stays running ~5.5 hours, starts *Update data* hourly (and *Update results* every 5 minutes on election night, every 30 minutes the week after), then starts a fresh copy of itself. Its own timer only restarts the chain if it ever breaks. To stop everything: Actions tab → *Scheduler* → "…" → Disable workflow.
+GitHub's built-in timer is best-effort and fired only once in 12 hours on this repo. `.github/workflows/scheduler.yml` keeps a steady clock instead: it stays running ~5.5 hours, starts *Update data* hourly (and *Update results* every 5 minutes on election night, every 30 minutes the week after), then starts a fresh copy of itself. Its own timer only restarts the chain if it ever breaks. It stops by itself after Nov. 14, 2026. To stop everything: Actions tab → *Scheduler* → "…" → Disable workflow.
 
 ## Common tasks
 

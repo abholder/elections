@@ -10,6 +10,7 @@
 # Actions minutes are free and unlimited for public repositories.
 #
 # The schedule below is only a safety net: if the chain ever breaks, it restarts it.
+# Everything stops on its own after Nov 14, 2026 (see the first step).
 name: Scheduler
 
 on:
@@ -36,7 +37,16 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       GH_REPO: ${{ github.repository }}
     steps:
+      - name: Stop for good once the election is over
+        id: season
+        run: |
+          # After Nov 14 (a week of late counting) the chain ends: no more jobs, no hand-off.
+          if [ "$(date +%s)" -ge "$(date -d '2026-11-14T00:00:00Z' +%s)" ]; then
+            echo "Election season is over; not running." ; echo "over=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Start the other jobs on a steady clock
+        if: steps.season.outputs.over != 'true'
         run: |
           stop=$(( $(date +%s) + 330*60 ))        # run for 5.5 hours
           night_start=$(date -d "2026-11-04T00:00:00Z" +%s)   # 7pm Central, Nov 3
@@ -60,7 +70,7 @@ jobs:
           done
 
       - name: Hand off to a fresh copy of this job
-        if: always()
+        if: always() && steps.season.outputs.over != 'true'
         run: |
           # If a copy is already waiting (e.g. the safety-net timer started one), let it take over.
           waiting=$(gh run list --workflow scheduler.yml --status queued --json databaseId --jq length)
