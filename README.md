@@ -17,6 +17,7 @@ GitHub Pages           →  index.html + app.js load data/*.json on every visit
 | `data/forecasts.json` | Control odds, generic ballot, per-race odds (with sources/dates) | Hand |
 | `data/money.json` | FEC fundraising totals | The Action, hourly |
 | `data/results.json` | Vote counts on election night | `scripts/fetch_results.py` via the *Update results* Action |
+| `data/polls.json` | Polling averages per race (VoteHub polls, simple average) | `scripts/fetch_polls.py`, hourly |
 | `data/early_vote.json` | Early/mail ballots cast by state, with daily history | `scripts/fetch_early_vote.py`, hourly (UF updates ~daily) |
 | `index.html`, `style.css`, `app.js` | The page | Hand |
 

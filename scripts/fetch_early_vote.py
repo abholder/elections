@@ -28,7 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "early_vote.json"
 URL = "https://election.lab.ufl.edu/data-downloads/earlyvote/2026/US.csv"
-FIELDS = ["voted_all", "inperson_all", "accept_all", "request_all", "turn_2022"]
+FIELDS = ["voted_all", "inperson_all", "accept_all", "request_all", "turn_2022", "voted_dem", "voted_rep", "voted_none"]
 
 
 def num(x):

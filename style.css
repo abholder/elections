@@ -159,3 +159,25 @@ h1 { font: 700 clamp(30px, 5vw, 44px)/1.1 var(--serif); margin: 6px 0 6px; lette
 .ev-table .pct { display: inline-block; width: 40px; text-align: right; font-size: 12px; font-variant-numeric: tabular-nums; }
 .note.info { cursor: help; }
 .chip.C { background: var(--line); color: var(--muted); }
+
+/* ---------- Polls ---------- */
+.polls { border-top: 1px dashed var(--line); padding-top: 8px; font-size: 13px; }
+.polls summary { cursor: pointer; display: flex; justify-content: space-between; gap: 8px; list-style: none; }
+.polls summary::-webkit-details-marker { display: none; }
+.polls summary::before { content: "▸"; color: var(--muted); margin-right: -2px; }
+.polls[open] summary::before { content: "▾"; }
+.polls summary span:first-of-type { flex: 1; }
+.polls .lean { font-weight: 700; white-space: nowrap; }
+.polls ul { margin: 6px 0 0; padding-left: 16px; }
+.polls li { margin-bottom: 4px; }
+.polls p.note { margin: 6px 0 0; }
+.lean-grid { margin-top: 14px; }
+.lean-table td:nth-child(2) { width: 45%; }
+.div-bar { position: relative; height: 10px; background: var(--line); border-radius: 5px; overflow: hidden; }
+.div-bar span { position: absolute; top: 0; bottom: 0; }
+.div-bar i { position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--muted); }
+.party-bar { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: var(--line); min-width: 100px; }
+.party-bar .d { background: var(--dem); }
+.party-bar .r { background: var(--rep); }
+.party-bar .o { background: var(--no); opacity: .5; }
+.lean-table .num { white-space: nowrap; }

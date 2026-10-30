@@ -90,6 +90,39 @@ function renderCandidate(c, raceId, moneyData, result) {
     </div>`;
 }
 
+// ---------- polls ----------
+let POLLS = { races: {} }; // set in refresh() from data/polls.json
+const PARTY_VAR = { D: "dem", R: "rep", I: "ind", L: "lib", C: "ind" };
+
+// Leader and margin from a polling average, e.g. {party: "R", label: "R +2.0", margin: 2.0}
+function pollLean(race, avg) {
+  const ranked = Object.entries(avg).sort((a, b) => b[1] - a[1]);
+  if (ranked.length < 2) return null;
+  const leader = race.candidates.find((c) => c.name === ranked[0][0]);
+  const margin = ranked[0][1] - ranked[1][1];
+  return { party: leader?.party || "", name: ranked[0][0], margin,
+           label: margin < 0.05 ? "Tied" : `${leader?.party || ""} +${margin.toFixed(1)}` };
+}
+
+function renderPolls(race) {
+  const p = POLLS.races?.[race.id];
+  if (!p) return "";
+  const lean = pollLean(race, p.avg);
+  const span = p.from === p.to ? shortDate(p.to) : `${shortDate(p.from)}–${shortDate(p.to)}`;
+  const vals = race.candidates.filter((c) => p.avg[c.name] != null && p.avg[c.name] >= 5)
+    .map((c) => `${esc(c.name.split(" ").pop())} ${p.avg[c.name].toFixed(1)}`).join(" · ");
+  return `
+    <details class="polls">
+      <summary>
+        <span>Polls: ${vals}</span>
+        ${lean ? `<span class="lean" style="color:var(--${PARTY_VAR[lean.party] || "muted"})">${esc(lean.label)}</span>` : ""}
+      </summary>
+      <p class="note">Average of ${p.count} poll${p.count > 1 ? "s" : ""}, ${span}${p.stale ? " (no recent polls; older ones shown)" : ""}.</p>
+      <ul>${p.polls.map((q) => `<li><a href="${esc(q.url || "#")}">${esc(q.pollster)}</a> <span class="note">${shortDate(q.end)} · ${esc((q.pop || "").toUpperCase())}${q.n ? " · n=" + fmt(q.n) : ""}</span><br>
+        ${Object.entries(q.values).map(([n, v]) => `${esc(n.split(" ").pop())} ${v}`).join(" · ")}</li>`).join("")}</ul>
+    </details>`;
+}
+
 function renderRace(race, moneyData, fc, results) {
   const result = results.results?.[race.id];
   const odds = fc.races?.odds?.[race.id];
@@ -103,6 +136,7 @@ function renderRace(race, moneyData, fc, results) {
       <div class="card-head"><h4>${esc(race.title)}</h4>${tag}</div>
       ${race.note ? `<div class="note">${esc(race.note)}</div>` : ""}
       <div class="cands">${race.candidates.map((c) => renderCandidate(c, race.id, moneyData, result)).join("")}</div>
+      ${result ? "" : renderPolls(race)}
       ${odds && !result ? `
         <div class="odds">${esc(odds.source || fc.races.source)}: <b>${esc(odds.leader)}</b> ${odds.pct}% to win${odds.note ? ` (${esc(odds.note)})` : ""}
           <div class="bar"><span style="width:${odds.pct}%;background:${color}"></span></div>
@@ -160,6 +194,50 @@ function lineChart(points) {
     </div>`;
 }
 
+// "Where things are leaning": Senate polling averages + party registration of early voters.
+function renderLeanCards(ev, races) {
+  const senate = races.sections.find((s) => s.id === "senate").races;
+  const leans = senate.map((r) => ({ r, p: POLLS.races?.[r.id] }))
+    .filter((x) => x.p).map((x) => ({ ...x, lean: pollLean(x.r, x.p.avg) })).filter((x) => x.lean)
+    .map((x) => ({ ...x, signed: x.lean.party === "D" ? x.lean.margin : x.lean.party === "R" ? -x.lean.margin : x.lean.margin * (x.lean.party === "I" ? 1 : 0) }))
+    .sort((a, b) => b.signed - a.signed);
+  const MAX = 12; // a 12-point lead fills half the bar
+  const pollRows = leans.map(({ r, p, lean, signed }) => {
+    const w = Math.min(Math.abs(signed) / MAX, 1) * 50;
+    const left = signed >= 0 ? 50 : 50 - w;
+    return `<tr><td>${esc(r.title.replace(/ \(.*\)/, ""))}</td>
+      <td><div class="div-bar"><span style="left:${left}%;width:${w}%;background:var(--${PARTY_VAR[lean.party] || "muted"})"></span><i></i></div></td>
+      <td class="num" style="color:var(--${PARTY_VAR[lean.party] || "muted"})">${esc(lean.label)}</td>
+      <td class="num note">${p.count}</td></tr>`;
+  }).join("");
+
+  const party = Object.entries(ev.states).filter(([, s]) => s.voted_dem || s.voted_rep)
+    .map(([ab, s]) => ({ ab, ...s })).filter((s) => leans.some((x) => x.r.id.startsWith(s.ab.toLowerCase())) || s.ab === "MO");
+  const partyRows = party.map((s) => {
+    const t = s.voted_dem + s.voted_rep + (s.voted_none || 0) || 1;
+    const d = (s.voted_dem / t) * 100, r = (s.voted_rep / t) * 100, o = 100 - d - r;
+    return `<tr><td>${esc(s.name)}</td>
+      <td><div class="party-bar"><span class="d" style="width:${d}%"></span><span class="o" style="width:${o}%"></span><span class="r" style="width:${r}%"></span></div></td>
+      <td class="num note">D ${d.toFixed(0)} · R ${r.toFixed(0)}</td></tr>`;
+  }).join("");
+
+  return `
+    <div class="ev-grid lean-grid">
+      <div class="stat">
+        <h3>Senate polling averages</h3>
+        <p class="sub">Who leads in recent polls, and by how much. Sorted from most Democratic to most Republican.</p>
+        <table class="ev-table lean-table"><thead><tr><th>Race</th><th></th><th class="num">Margin</th><th class="num">Polls</th></tr></thead>
+          <tbody>${pollRows}</tbody></table>
+        <p class="sub">Polling margins of a few points are within the typical error. Treat anything under ~4 as a toss-up.</p>
+      </div>
+      ${partyRows ? `<div class="stat">
+        <h3>Early voters by party registration</h3>
+        <p class="sub">Only some states register voters by party. Registration isn't a vote: independents (gray) are often the deciding bloc, and some voters cross over.</p>
+        <table class="ev-table"><tbody>${partyRows}</tbody></table>
+      </div>` : ""}
+    </div>`;
+}
+
 function renderEarlyVote(ev, races) {
   const el = document.getElementById("early");
   if (!ev) { el.innerHTML = ""; return; }
@@ -171,7 +249,7 @@ function renderEarlyVote(ev, races) {
   const history = Object.entries(ev.history).map(([label, h]) => ({ label, value: h.total }));
 
   el.innerHTML = `
-    <h2>Early voting</h2>
+    <h2>Early voting & polls</h2>
     <p class="blurb">Ballots already cast by mail or in person, from states that report them. The share compares against each state's <em>total</em> 2022 midterm turnout, so 50% means half as many people have already voted as voted in all of 2022.</p>
     <div class="ev-grid">
       <div class="stat stat-chart">
@@ -196,12 +274,14 @@ function renderEarlyVote(ev, races) {
         <p class="sub">States count and report differently; hover ⓘ for UF's notes on a state.</p>
       </div>
     </div>
-    <p class="footnote">Source: <a href="${esc(ev.source_url)}">University of Florida Election Lab</a> (CC BY-NC-ND 4.0), updated ${ago(ev.updated)}.</p>`;
+    ${renderLeanCards(ev, races)}
+    <p class="footnote">Early votes: <a href="${esc(ev.source_url)}">University of Florida Election Lab</a> (CC BY-NC-ND 4.0), updated ${ago(ev.updated)}.
+      Polls: <a href="https://votehub.com/polls/">VoteHub</a>, updated ${ago(POLLS.updated)}. Our average uses polls from the last 45 days, skips internal and party-sponsored polls, and counts each pollster once (its latest, likely voters preferred).</p>`;
 }
 
 function renderSections(races, moneyData, fc, results) {
   document.getElementById("tabs").innerHTML =
-    `<a href="#overview">Overview</a><a href="#early">Early voting</a>` +
+    `<a href="#overview">Overview</a><a href="#early">Early voting & polls</a>` +
     races.sections.map((s) => `<a href="#${s.id}">${esc(s.title.split(":")[0])}</a>`).join("");
 
   document.getElementById("sections").innerHTML = races.sections.map((s) => `
@@ -304,7 +384,8 @@ async function refresh() {
       load("forecasts"),
       load("results"),
       load("early_vote").catch(() => null),
-    ]);
+      load("polls").catch(() => ({ races: {} })),
+    ]).then((all) => { POLLS = all.pop(); return all; });
     renderEarlyVote(ev, races);
     // Live numbers win over the saved copy, except hand-entered local results civicAPI doesn't have.
     const live = await liveResults(races);
