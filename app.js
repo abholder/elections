@@ -49,16 +49,19 @@ function splitBar(d, r) {
 }
 
 function renderOverview(fc) {
-  const control = fc.control.map((c) => `
+  const control = fc.control.map((c) => {
+    const k = MARKETS.control?.[c.chamber];
+    const forecasts = k ? [...c.forecasts, { source: "Kalshi (prediction market)", url: "https://kalshi.com", d: k.D, r: k.R, note: "updated " + ago(MARKETS.updated) }] : c.forecasts;
+    return `
     <div class="stat">
       <h3>${esc(c.chamber)} control</h3>
       <p class="sub">${esc(c.status)}</p>
-      ${c.forecasts.map((f) => `
+      ${forecasts.map((f) => `
         <div class="fc">
           <div class="fc-label"><a href="${esc(f.url)}">${esc(f.source)}</a><span class="src">${[f.note, shortDate(f.as_of)].filter(Boolean).map(esc).join(" · ")}</span></div>
           ${splitBar(f.d, f.r)}
         </div>`).join("")}
-    </div>`).join("");
+    </div>`; }).join("");
 
   const gb = fc.generic_ballot;
   const generic = `
@@ -140,11 +143,24 @@ function renderPolls(race) {
     </details>`;
 }
 
+// "Win chance" line: Kalshi (market, auto-updated) and Decision Desk HQ (model, daily).
+let MARKETS = { races: {}, control: {} }; // set in refresh() from data/markets.json
+function winChance(race, fc) {
+  const parts = [];
+  const short = (n) => esc(n.split(" ").pop());
+  const colorOf = (name) => `var(--${PARTY_VAR[race.candidates.find((c) => c.name === name)?.party] || "muted"})`;
+  const k = MARKETS.races?.[race.id];
+  if (k) {
+    const [name, pct] = Object.entries(k).sort((a, b) => b[1] - a[1])[0];
+    parts.push(`<a href="https://kalshi.com" title="Prediction market, updated ${esc(ago(MARKETS.updated))}">Kalshi</a> <b style="color:${colorOf(name)}">${short(name)} ${pct}%</b>`);
+  }
+  const d = fc.races?.odds?.[race.id];
+  if (d) parts.push(`<a href="${esc(fc.races.url)}" title="Forecast model, as of ${esc(shortDate(fc.races.as_of))}">Decision Desk HQ</a> <b style="color:${colorOf(d.leader)}">${short(d.leader)} ${d.pct}%</b>`);
+  return parts.length ? `<div class="odds"><span class="odds-label">Win chance</span> ${parts.join(" · ")}</div>` : "";
+}
+
 function renderRace(race, moneyData, fc, results) {
   const result = results.results?.[race.id];
-  const odds = fc.races?.odds?.[race.id];
-  const leader = odds && race.candidates.find((c) => c.name === odds.leader);
-  const color = leader ? `var(--${{ D: "dem", R: "rep", I: "ind", L: "lib", C: "ind" }[leader.party]})` : "var(--muted)";
   const tag = result
     ? result.called ? `<span class="tag called">Called</span>` : `<span class="tag">${result.reporting ?? 0}% in</span>`
     : "";
@@ -154,10 +170,7 @@ function renderRace(race, moneyData, fc, results) {
       ${race.note ? `<div class="note">${esc(race.note)}</div>` : ""}
       <div class="cands">${race.candidates.map((c) => renderCandidate(c, race.id, moneyData, result)).join("")}</div>
       ${result ? "" : renderPolls(race)}
-      ${odds && !result ? `
-        <div class="odds">${esc(odds.source || fc.races.source)}: <b>${esc(odds.leader)}</b> ${odds.pct}% to win${odds.note ? ` (${esc(odds.note)})` : ""}
-          <div class="bar"><span style="width:${odds.pct}%;background:${color}"></span></div>
-        </div>` : ""}
+      ${result ? "" : winChance(race, fc)}
       ${officialLink(race)}
     </article>`;
 }
@@ -445,7 +458,8 @@ async function refresh() {
       load("results"),
       load("early_vote").catch(() => null),
       load("polls").catch(() => ({ races: {} })),
-    ]).then((all) => { POLLS = all.pop(); return all; });
+      load("markets").catch(() => ({ races: {}, control: {} })),
+    ]).then((all) => { MARKETS = all.pop(); POLLS = all.pop(); return all; });
     OFFICIAL = races.official_results || {};
     renderEarlyVote(ev, races);
     // Live numbers win over the saved copy, except hand-entered local results civicAPI doesn't have.

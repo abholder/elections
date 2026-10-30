@@ -1,4 +1,4 @@
-# Runs the money, early-vote and poll scripts twice a day and commits any new data back to the repo.
+# Runs the money, early-vote, poll and market-odds scripts twice a day and commits any new data back to the repo.
 # GitHub Pages then republishes the site automatically.
 name: Update data
 
@@ -48,6 +48,10 @@ jobs:
 
       - name: Fetch polls and build averages (VoteHub)
         run: python scripts/fetch_polls.py
+        continue-on-error: true
+
+      - name: Fetch prediction-market odds (Kalshi)
+        run: python scripts/fetch_kalshi.py
         continue-on-error: true
 
       - name: Commit if anything changed

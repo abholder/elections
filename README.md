@@ -14,9 +14,10 @@ GitHub Pages           →  index.html + app.js load data/*.json on every visit
 | File | What it is | Updated by |
 |---|---|---|
 | `data/races.json` | The list of races, candidates and ballot questions | Hand |
-| `data/forecasts.json` | Control odds, generic ballot, per-race odds (with sources/dates) | Hand |
+| `data/forecasts.json` | Decision Desk HQ forecast (control + each Senate race) and the generic ballot, with dates | Hand / daily scheduled task |
 | `data/money.json` | FEC fundraising totals | The Action, twice a day |
 | `data/results.json` | Vote counts on election night | `scripts/fetch_results.py` via the *Update results* Action |
+| `data/markets.json` | Kalshi prediction-market odds: chamber control and each race | `scripts/fetch_kalshi.py`, twice a day |
 | `data/polls.json` | Polling averages per race (VoteHub polls, simple average) | `scripts/fetch_polls.py`, twice a day |
 | `data/early_vote.json` | Early/mail ballots cast by state, with daily history | `scripts/fetch_early_vote.py`, twice a day (UF updates ~daily) |
 | `index.html`, `style.css`, `app.js` | The page | Hand |
