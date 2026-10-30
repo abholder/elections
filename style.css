@@ -143,8 +143,12 @@ h1 { font: 700 clamp(30px, 5vw, 44px)/1.1 var(--serif); margin: 6px 0 6px; lette
 
 /* ---------- Early voting ---------- */
 .ev-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
-.chart { width: 100%; height: auto; margin-top: 8px; }
-.chart .axis { font: 11px var(--sans); fill: var(--muted); }
+.stat-chart { display: flex; flex-direction: column; }
+.chart { flex: 1; display: flex; flex-direction: column; min-height: 160px; margin-top: 8px; }
+.chart-plot { position: relative; flex: 1; }
+.chart-plot svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.chart-dot { position: absolute; right: -4px; width: 8px; height: 8px; margin-top: -4px; border-radius: 50%; background: var(--ink); }
+.chart-axis { display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); padding-top: 6px; border-top: 1px solid var(--line); }
 .ev-table { width: 100%; border-collapse: collapse; font-size: 14px; }
 .ev-table th { text-align: left; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); padding: 4px 0; border-bottom: 1px solid var(--line); }
 .ev-table td { padding: 6px 0; border-bottom: 1px solid var(--line); vertical-align: middle; }

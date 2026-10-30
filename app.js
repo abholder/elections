@@ -136,23 +136,28 @@ function renderMeasure(m, results) {
 const fmt = (n) => (n ?? 0).toLocaleString();
 
 function lineChart(points) {
-  // points: [{label, value}] -> a small inline SVG line chart (no chart library needed)
+  // points: [{label, value}] -> an inline SVG line chart (no chart library needed).
+  // The SVG stretches to fill whatever height its card has (preserveAspectRatio="none"),
+  // so the line chart and the state table next to it end up the same height.
+  // non-scaling-stroke keeps the line 2px thick however much it's stretched.
   if (points.length < 2) return "";
-  const W = 640, H = 160, P = { l: 8, r: 8, t: 12, b: 22 };
+  const W = 100, H = 100, top = 6; // work in percentages of the box
   const max = Math.max(...points.map((p) => p.value)) || 1;
-  const x = (i) => P.l + (i / (points.length - 1)) * (W - P.l - P.r);
-  const y = (v) => H - P.b - (v / max) * (H - P.t - P.b);
-  const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.value).toFixed(1)}`).join("");
-  const area = `${path}L${x(points.length - 1)},${H - P.b}L${x(0)},${H - P.b}Z`;
+  const x = (i) => (i / (points.length - 1)) * W;
+  const y = (v) => H - (v / max) * (H - top);
+  const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(2)},${y(p.value).toFixed(2)}`).join("");
   const last = points[points.length - 1];
   return `
-    <svg viewBox="0 0 ${W} ${H}" class="chart" role="img" aria-label="Early votes cast over time, now ${fmt(last.value)}">
-      <path d="${area}" fill="var(--dem-soft)" opacity=".6"></path>
-      <path d="${path}" fill="none" stroke="var(--ink)" stroke-width="2"></path>
-      <circle cx="${x(points.length - 1)}" cy="${y(last.value)}" r="4" fill="var(--ink)"></circle>
-      <text x="${P.l}" y="${H - 6}" class="axis">${esc(shortDate(points[0].label))}</text>
-      <text x="${W - P.r}" y="${H - 6}" class="axis" text-anchor="end">${esc(shortDate(last.label))}</text>
-    </svg>`;
+    <div class="chart" role="img" aria-label="Early votes cast over time, now ${fmt(last.value)}">
+      <div class="chart-plot">
+        <svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true">
+          <path d="${path}L${W},${H}L0,${H}Z" fill="var(--dem-soft)" opacity=".6"></path>
+          <path d="${path}" fill="none" stroke="var(--ink)" stroke-width="2" vector-effect="non-scaling-stroke"></path>
+        </svg>
+        <span class="chart-dot" style="top:${y(last.value)}%"></span>
+      </div>
+      <div class="chart-axis"><span>${esc(shortDate(points[0].label))}</span><span>${esc(shortDate(last.label))}</span></div>
+    </div>`;
 }
 
 function renderEarlyVote(ev, races) {
@@ -160,7 +165,8 @@ function renderEarlyVote(ev, races) {
   if (!ev) { el.innerHTML = ""; return; }
   // States we care about: every Senate race on the page, plus Missouri.
   const tracked = new Set(["MO", ...races.sections.find((s) => s.id === "senate").races.map((r) => r.id.slice(0, 2).toUpperCase())]);
-  const rows = [...tracked].map((ab) => ({ ab, ...(ev.states[ab] || {}) }))
+  const titles = Object.fromEntries(races.sections.find((s) => s.id === "senate").races.map((r) => [r.id.slice(0, 2).toUpperCase(), r.title.replace(/ \(.*\)/, "")]));
+  const rows = [...tracked].map((ab) => ({ ab, name: titles[ab], ...(ev.states[ab] || {}) }))
     .sort((a, b) => (b.voted_all / b.turn_2022 || 0) - (a.voted_all / a.turn_2022 || 0));
   const history = Object.entries(ev.history).map(([label, h]) => ({ label, value: h.total }));
 
@@ -168,7 +174,7 @@ function renderEarlyVote(ev, races) {
     <h2>Early voting</h2>
     <p class="blurb">Ballots already cast by mail or in person, from states that report them. The share compares against each state's <em>total</em> 2022 midterm turnout, so 50% means half as many people have already voted as voted in all of 2022.</p>
     <div class="ev-grid">
-      <div class="stat">
+      <div class="stat stat-chart">
         <h3>Ballots cast nationally</h3>
         <div class="big">${fmt(ev.total)}</div>
         <p class="sub">${Object.keys(ev.states).length} states reporting. The line rises partly as more states start reporting.</p>
