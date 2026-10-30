@@ -194,3 +194,6 @@ h1 { font: 700 clamp(30px, 5vw, 44px)/1.1 var(--serif); margin: 6px 0 6px; lette
 .ev-table .sub-num { display: block; font-size: 11px; font-weight: 400; white-space: nowrap; }
 .odds .odds-label { font-weight: 600; text-transform: uppercase; letter-spacing: .05em; font-size: 11px; margin-right: 4px; }
 .odds a { color: inherit; }
+.odds .odds-label { display: block; margin-bottom: 2px; }
+.odds-grid { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; font-size: 13px; }
+.odds-grid b { text-align: right; font-variant-numeric: tabular-nums; }

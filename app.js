@@ -152,11 +152,11 @@ function winChance(race, fc) {
   const k = MARKETS.races?.[race.id];
   if (k) {
     const [name, pct] = Object.entries(k).sort((a, b) => b[1] - a[1])[0];
-    parts.push(`<a href="https://kalshi.com" title="Prediction market, updated ${esc(ago(MARKETS.updated))}">Kalshi</a> <b style="color:${colorOf(name)}">${short(name)} ${pct}%</b>`);
+    parts.push(`<span><a href="https://kalshi.com" title="Prediction market, updated ${esc(ago(MARKETS.updated))}">Kalshi</a> <span class="note">market</span></span><b style="color:${colorOf(name)}">${short(name)} ${pct}%</b>`);
   }
   const d = fc.races?.odds?.[race.id];
-  if (d) parts.push(`<a href="${esc(fc.races.url)}" title="Forecast model, as of ${esc(shortDate(fc.races.as_of))}">Decision Desk HQ</a> <b style="color:${colorOf(d.leader)}">${short(d.leader)} ${d.pct}%</b>`);
-  return parts.length ? `<div class="odds"><span class="odds-label">Win chance</span> ${parts.join(" · ")}</div>` : "";
+  if (d) parts.push(`<span><a href="${esc(fc.races.url)}" title="Forecast model, as of ${esc(shortDate(fc.races.as_of))}">Decision Desk HQ</a> <span class="note">model</span></span><b style="color:${colorOf(d.leader)}">${short(d.leader)} ${d.pct}%</b>`);
+  return parts.length ? `<div class="odds"><div class="odds-label">Win chance</div><div class="odds-grid">${parts.join("")}</div></div>` : "";
 }
 
 function renderRace(race, moneyData, fc, results) {
