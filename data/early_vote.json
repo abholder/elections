@@ -2,8 +2,8 @@
  "source": "University of Florida Election Lab",
  "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
  "license": "CC BY-NC-ND 4.0",
- "updated": "2026-10-30T14:30:58+00:00",
- "total": 46033293,
+ "updated": "2026-10-30T15:14:05+00:00",
+ "total": 46075144,
  "states": {
   "AK": {
    "name": "Alaska",
@@ -399,15 +399,15 @@
   },
   "NJ": {
    "name": "New Jersey",
-   "voted_all": 813589,
-   "inperson_all": 290361,
-   "accept_all": 523228,
-   "request_all": 929146,
+   "voted_all": 855440,
+   "inperson_all": 350596,
+   "accept_all": 504844,
+   "request_all": 928377,
    "turn_2022": 2645539,
-   "voted_dem": 492283,
-   "voted_rep": 179826,
-   "voted_none": 141480,
-   "last_update": "10/29/2026",
+   "voted_dem": 509983,
+   "voted_rep": 195033,
+   "voted_none": 150424,
+   "last_update": "10/30/2026",
    "source": "New Jersey Secretary of State",
    "notes": null
   },
@@ -1774,7 +1774,7 @@
    }
   },
   "2026-10-30": {
-   "total": 46033293,
+   "total": 46075144,
    "states": {
     "AK": 72150,
     "AZ": 1457053,
@@ -1804,7 +1804,7 @@
     "MT": 274985,
     "NE": 215424,
     "NV": 603613,
-    "NJ": 813589,
+    "NJ": 855440,
     "NM": 346689,
     "NY": 1423100,
     "NC": 2353234,
