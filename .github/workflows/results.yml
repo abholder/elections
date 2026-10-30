@@ -1,12 +1,12 @@
 # Election-night results: runs scripts/fetch_results.py and commits data/results.json.
-# GitHub's timer is "best effort": on a busy night runs can start 5-20 minutes late,
-# which is why the page also reads civicAPI directly in the browser.
+# On election night the Scheduler workflow starts this every 5 minutes. Afterwards it
+# runs twice a day for the week of late counting. The page also reads civicAPI directly
+# in the browser, so most results don't wait for this job at all.
 name: Update results
 
 on:
   schedule:
-    - cron: "*/5 0-11 4 11 *"   # every 5 min, Nov 3 7pm to Nov 4 6am Central (times are UTC)
-    - cron: "*/30 * 5-13 11 *"  # every 30 min for the following week of late counting
+    - cron: "7,37 12,0 4-13 11 *"  # ~6am and ~6pm Central, Nov 4-13 (UTC; Central is UTC-6 then)
   workflow_dispatch:            # "Run workflow" button, also handy for a test run
   push:
     branches: [main]

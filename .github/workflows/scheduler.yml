@@ -1,25 +1,24 @@
-# A dependable clock for the other two jobs.
+# Election-night clock.
 #
-# GitHub's built-in timer ("schedule:") is best-effort: on this repo it fired once in
-# 12 hours instead of hourly. This job is the workaround. It stays running for ~5.5 hours,
-# starting "Update data" every hour and, on election night, "Update results" every 5 minutes.
-# Before it times out it starts a fresh copy of itself, so the chain keeps going.
+# GitHub's built-in timer is best-effort (it skipped most hourly runs on this repo), which
+# is fine for twice-a-day data but not for election night. So on election night only, this
+# job stays awake and starts "Update results" every 5 minutes and "Update data" every hour.
+#
+#   Window: Nov 4 00:00-12:00 UTC = Tue Nov 3, 6pm to Wed Nov 4, 6am Central.
+#
+# It's started by several timer attempts Tuesday afternoon (any one is enough; extra copies
+# wait in line). If a run starts early, it waits for the window. A run reaches GitHub's
+# 6-hour limit partway through the night, so it starts a fresh copy of itself to finish.
+# Outside election night it does nothing and exits.
 #
 # Why this is allowed: runs started with the built-in GITHUB_TOKEN can't trigger other
 # workflows, EXCEPT through workflow_dispatch, which is what `gh workflow run` uses.
-# Actions minutes are free and unlimited for public repositories.
-#
-# The schedule below is only a safety net: if the chain ever breaks, it restarts it.
-# Everything stops on its own after Nov 14, 2026 (see the first step).
 name: Scheduler
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: [".github/workflows/scheduler.yml"]
   schedule:
-    - cron: "41 */2 * * *"
+    - cron: "*/20 20-23 3 11 *"   # Tue Nov 3, 2pm-5:40pm Central: tries to start the night
 
 permissions:
   actions: write   # lets this job start the other workflows
@@ -30,48 +29,42 @@ concurrency:
   cancel-in-progress: false   # a second copy waits its turn instead of running alongside
 
 jobs:
-  tick:
+  night:
     runs-on: ubuntu-latest
     timeout-minutes: 345
     env:
       GH_TOKEN: ${{ github.token }}
       GH_REPO: ${{ github.repository }}
     steps:
-      - name: Stop for good once the election is over
-        id: season
+      - name: Run the election-night clock
+        id: clock
         run: |
-          # After Nov 14 (a week of late counting) the chain ends: no more jobs, no hand-off.
-          if [ "$(date +%s)" -ge "$(date -d '2026-11-14T00:00:00Z' +%s)" ]; then
-            echo "Election season is over; not running." ; echo "over=true" >> "$GITHUB_OUTPUT"
+          start=$(date -d "2026-11-04T00:00:00Z" +%s)
+          end=$(date -d "2026-11-04T12:00:00Z" +%s)
+          stop=$(( $(date +%s) + 330*60 ))      # stay under GitHub's 6-hour job limit
+          now=$(date +%s)
+          if [ "$now" -ge "$end" ] || [ "$now" -lt $((start - 6*3600)) ]; then
+            echo "Not election night; nothing to do."; exit 0
           fi
-
-      - name: Start the other jobs on a steady clock
-        if: steps.season.outputs.over != 'true'
-        run: |
-          stop=$(( $(date +%s) + 330*60 ))        # run for 5.5 hours
-          night_start=$(date -d "2026-11-04T00:00:00Z" +%s)   # 7pm Central, Nov 3
-          night_end=$(date -d "2026-11-04T12:00:00Z" +%s)     # 6am Central, Nov 4
-          late_end=$(date -d "2026-11-14T00:00:00Z" +%s)      # a week of late counting
+          if [ "$now" -lt "$start" ]; then
+            echo "Early; waiting $(( (start - now) / 60 )) minutes for polls to close."
+            sleep $((start - now))
+          fi
           last_data=0; last_results=0
-          while [ "$(date +%s)" -lt "$stop" ]; do
+          while [ "$(date +%s)" -lt "$end" ] && [ "$(date +%s)" -lt "$stop" ]; do
             now=$(date +%s)
+            if [ $((now - last_results)) -ge 300 ]; then
+              gh workflow run results.yml && echo "$(date -u +%H:%M) started Update results"; last_results=$now
+            fi
             if [ $((now - last_data)) -ge 3600 ]; then
-              gh workflow run update-data.yml && echo "$(date -u +%H:%M) started Update data"
-              last_data=$now
+              gh workflow run update-data.yml && echo "$(date -u +%H:%M) started Update data"; last_data=$now
             fi
-            every=0
-            if [ "$now" -ge "$night_start" ] && [ "$now" -lt "$night_end" ]; then every=300
-            elif [ "$now" -ge "$night_end" ] && [ "$now" -lt "$late_end" ]; then every=1800; fi
-            if [ "$every" -gt 0 ] && [ $((now - last_results)) -ge "$every" ]; then
-              gh workflow run results.yml && echo "$(date -u +%H:%M) started Update results"
-              last_results=$now
-            fi
-            sleep 60
+            sleep 30
           done
+          if [ "$(date +%s)" -lt "$end" ]; then echo "handoff=true" >> "$GITHUB_OUTPUT"; fi
 
-      - name: Hand off to a fresh copy of this job
-        if: always() && steps.season.outputs.over != 'true'
+      - name: Hand off to a fresh copy to finish the night
+        if: steps.clock.outputs.handoff == 'true'
         run: |
-          # If a copy is already waiting (e.g. the safety-net timer started one), let it take over.
           waiting=$(gh run list --workflow scheduler.yml --status queued --json databaseId --jq length)
           if [ "$waiting" = "0" ]; then gh workflow run scheduler.yml && echo "Handed off."; else echo "A copy is already queued."; fi

@@ -15,10 +15,10 @@ GitHub Pages           →  index.html + app.js load data/*.json on every visit
 |---|---|---|
 | `data/races.json` | The list of races, candidates and ballot questions | Hand |
 | `data/forecasts.json` | Control odds, generic ballot, per-race odds (with sources/dates) | Hand |
-| `data/money.json` | FEC fundraising totals | The Action, hourly |
+| `data/money.json` | FEC fundraising totals | The Action, twice a day |
 | `data/results.json` | Vote counts on election night | `scripts/fetch_results.py` via the *Update results* Action |
-| `data/polls.json` | Polling averages per race (VoteHub polls, simple average) | `scripts/fetch_polls.py`, hourly |
-| `data/early_vote.json` | Early/mail ballots cast by state, with daily history | `scripts/fetch_early_vote.py`, hourly (UF updates ~daily) |
+| `data/polls.json` | Polling averages per race (VoteHub polls, simple average) | `scripts/fetch_polls.py`, twice a day |
+| `data/early_vote.json` | Early/mail ballots cast by state, with daily history | `scripts/fetch_early_vote.py`, twice a day (UF updates ~daily) |
 | `index.html`, `style.css`, `app.js` | The page | Hand |
 
 ## Election night
@@ -30,9 +30,12 @@ GitHub Pages           →  index.html + app.js load data/*.json on every visit
 - **Rehearsal:** add `?rehearsal` to the site URL to show civicAPI's test elections, if one is running. Without it, test data is always ignored.
 - **The morning of Nov. 3:** check that civicAPI isn't still flagging its data as a test (if it were, real results would be ignored).
 
-## The clock
+## When things run
 
-GitHub's built-in timer is best-effort and fired only once in 12 hours on this repo. `.github/workflows/scheduler.yml` keeps a steady clock instead: it stays running ~5.5 hours, starts *Update data* hourly (and *Update results* every 5 minutes on election night, every 30 minutes the week after), then starts a fresh copy of itself. Its own timer only restarts the chain if it ever breaks. It stops by itself after Nov. 14, 2026. To stop everything: Actions tab → *Scheduler* → "…" → Disable workflow.
+- **Before election night:** *Update data* (money, early vote, polls) runs twice a day, around 6am and 6pm Central, using GitHub's built-in timer. That timer sometimes skips runs, so each time gets a few tries; runs that find nothing new don't save anything.
+- **Election night** (Tue 6pm to Wed 6am Central): the *Scheduler* workflow stays awake and starts *Update results* every 5 minutes and *Update data* hourly. The page also reads civicAPI directly every 2 minutes, so most results appear even without it.
+- **Nov. 4-13:** *Update results* runs twice a day for late-counted ballots.
+- **Anytime:** Actions tab -> pick a workflow -> *Run workflow* to refresh now.
 
 ## Common tasks
 

@@ -1,10 +1,15 @@
-# Runs scripts/fetch_fec.py and scripts/fetch_early_vote.py on a timer and commits any new data back to the repo.
+# Runs the money, early-vote and poll scripts twice a day and commits any new data back to the repo.
 # GitHub Pages then republishes the site automatically.
 name: Update data
 
 on:
   schedule:
-    - cron: "23 * * * *"       # hourly (UTC). Each run picks up where the last left off.
+    # Twice a day, around 6am and 6pm Central. Times are UTC, and Central moves from
+    # UTC-5 to UTC-6 on Nov. 1, so both hours are listed. GitHub's timer sometimes skips
+    # runs, so each target gets a few tries 30 minutes apart; a run that finds nothing
+    # new just exits without saving anything.
+    - cron: "7,37 11,12 * * *"   # ~6am Central
+    - cron: "7,37 23,0 * * *"    # ~6pm Central
   workflow_dispatch:            # adds a "Run workflow" button on the Actions tab
   push:
     branches: [main]
