@@ -97,6 +97,49 @@
           }
         },
         {
+          "id": "sc-sen",
+          "title": "South Carolina",
+          "civic": {
+            "doc": "senate",
+            "region": "sc"
+          },
+          "note": "R-held. Sen. Lindsey Graham died in July; Gov. McMaster appointed his sister Darline Graham, who then beat Rep. Ralph Norman in an Aug. 25 runoff for the nomination. Polls show it within a point or two.",
+          "candidates": [
+            {
+              "name": "Annie Andrews",
+              "party": "D",
+              "fec": {
+                "q": "Andrews",
+                "state": "SC",
+                "office": "S"
+              }
+            },
+            {
+              "name": "Darline Graham",
+              "party": "R",
+              "incumbent": true,
+              "fec": {
+                "q": "Graham",
+                "state": "SC",
+                "office": "S"
+              }
+            },
+            {
+              "name": "Mark Hackett",
+              "party": "C"
+            },
+            {
+              "name": "Kasie Whitener",
+              "party": "L",
+              "fec": {
+                "q": "Whitener",
+                "state": "SC",
+                "office": "S"
+              }
+            }
+          ]
+        },
+        {
           "id": "ia-sen",
           "title": "Iowa",
           "note": "Open seat, R-held",

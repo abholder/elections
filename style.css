@@ -154,3 +154,4 @@ h1 { font: 700 clamp(30px, 5vw, 44px)/1.1 var(--serif); margin: 6px 0 6px; lette
 .ev-table .mini span { display: block; height: 100%; background: var(--ink); }
 .ev-table .pct { display: inline-block; width: 40px; text-align: right; font-size: 12px; font-variant-numeric: tabular-nums; }
 .note.info { cursor: help; }
+.chip.C { background: var(--line); color: var(--muted); }

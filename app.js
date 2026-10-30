@@ -4,7 +4,7 @@
 // How often an open page re-checks for new data. Faster on election night.
 const REFRESH_MINUTES = Date.now() > Date.parse("2026-11-03T23:00:00Z") && Date.now() < Date.parse("2026-11-05T12:00:00Z") ? 2 : 5;
 
-const PARTY_NAME = { D: "Democrat", R: "Republican", I: "Independent", L: "Libertarian" };
+const PARTY_NAME = { D: "Democrat", R: "Republican", I: "Independent", L: "Libertarian", C: "Constitution" };
 
 // ---------- small helpers ----------
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
@@ -94,7 +94,7 @@ function renderRace(race, moneyData, fc, results) {
   const result = results.results?.[race.id];
   const odds = fc.races?.odds?.[race.id];
   const leader = odds && race.candidates.find((c) => c.name === odds.leader);
-  const color = leader ? `var(--${{ D: "dem", R: "rep", I: "ind", L: "lib" }[leader.party]})` : "var(--muted)";
+  const color = leader ? `var(--${{ D: "dem", R: "rep", I: "ind", L: "lib", C: "ind" }[leader.party]})` : "var(--muted)";
   const tag = result
     ? result.called ? `<span class="tag called">Called</span>` : `<span class="tag">${result.reporting ?? 0}% in</span>`
     : "";
@@ -104,7 +104,7 @@ function renderRace(race, moneyData, fc, results) {
       ${race.note ? `<div class="note">${esc(race.note)}</div>` : ""}
       <div class="cands">${race.candidates.map((c) => renderCandidate(c, race.id, moneyData, result)).join("")}</div>
       ${odds && !result ? `
-        <div class="odds">${esc(fc.races.source)}: <b>${esc(odds.leader)}</b> ${odds.pct}% to win${odds.note ? ` (${esc(odds.note)})` : ""}
+        <div class="odds">${esc(odds.source || fc.races.source)}: <b>${esc(odds.leader)}</b> ${odds.pct}% to win${odds.note ? ` (${esc(odds.note)})` : ""}
           <div class="bar"><span style="width:${odds.pct}%;background:${color}"></span></div>
         </div>` : ""}
     </article>`;
