@@ -16,7 +16,7 @@ jobs:
           mkdir -p probe
           python3 -c "import json;[print(v) for k,v in json.load(open('data/races.json'))['official_results'].items() if not k.startswith('_')]" > /tmp/urls
           while read u; do
-            code=$(curl -s -o /dev/null -L -k -m 25 -A "Mozilla/5.0 (Macintosh) Chrome/124" -w "%{http_code} %{url_effective}" "$u")
+            code=$(curl -s -o /dev/null -L -k -m 25 -A "Mozilla/5.0 (Macintosh) Chrome/124" -w "%{http_code} %{url_effective}" "$u" || true)
             echo "$u -> $code" | tee -a probe/links.txt
           done < /tmp/urls
       - run: |
