@@ -215,7 +215,7 @@ function lineChart(points) {
 
 // Kansas City-area counties (Jackson, Clay, Platte in MO; Johnson in KS).
 function sparkline(values) {
-  if (values.length < 2) return "";
+  if (values.length < 2 || Math.min(...values) === Math.max(...values)) return ""; // need a change to show a trend
   const max = Math.max(...values) || 1, W = 80, H = 20;
   const pts = values.map((v, i) => `${((i / (values.length - 1)) * W).toFixed(1)},${(H - (v / max) * (H - 2)).toFixed(1)}`).join(" ");
   return `<svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="var(--ink)" stroke-width="1.5" vector-effect="non-scaling-stroke"/></svg>`;
@@ -232,7 +232,7 @@ function renderLocalEarly(ev) {
     let extra = "";
     if (c.manual) {
       notes.push(`${c.label}: ${fmt(c.voted_all)} as of ${shortDate(c.manual.as_of)}, from the <a href="${esc(c.manual.url)}">${esc(c.manual.source)}</a>; the data feed doesn't report it yet.`);
-      extra = ` <span class="note">as of ${shortDate(c.manual.as_of)}*</span>`;
+      extra = `<span class="note sub-num">as of ${shortDate(c.manual.as_of)}*</span>`;
     }
     const party = c.voted_dem || c.voted_rep
       ? `<div class="note">Party registration: D ${Math.round((c.voted_dem / c.voted_all) * 100)}% · R ${Math.round((c.voted_rep / c.voted_all) * 100)}% · other ${Math.round((c.voted_none / c.voted_all) * 100)}%</div>` : "";
