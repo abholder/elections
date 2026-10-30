@@ -1,8 +1,98 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-10-30T13:34:01+00:00",
+  "updated": "2026-10-30T13:42:59+00:00",
   "candidates": {
+    "ga-sen|Mike Collins": {
+      "fec_id": "S6GA00390",
+      "fec_name": "COLLINS, MICHAEL A JR",
+      "raised": 10679277.11,
+      "spent": 10178765.75,
+      "cash_on_hand": 1103681.9,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:42:37+00:00"
+    },
+    "mn-sen|Peggy Flanagan": {
+      "fec_id": "S6MN00440",
+      "fec_name": "FLANAGAN, MARGARET",
+      "raised": 11563963.37,
+      "spent": 10570749.3,
+      "cash_on_hand": 993214.07,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:42:38+00:00"
+    },
+    "mn-sen|Michele Tafoya": {
+      "fec_id": "S6MN00556",
+      "fec_name": "TAFOYA, MICHELE",
+      "raised": 12501785.59,
+      "spent": 9682729.8,
+      "cash_on_hand": 2819386.89,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:42:39+00:00"
+    },
+    "az-01|Amish Shah": {
+      "fec_id": "H4AZ01194",
+      "fec_name": "SHAH, AMISH DR.",
+      "raised": 5654453.93,
+      "spent": 5540210.49,
+      "cash_on_hand": 206045.34,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:42:39+00:00"
+    },
+    "az-01|Jay Feely": {
+      "fec_id": "H6AZ05190",
+      "fec_name": "FEELY, THOMAS JAMES",
+      "raised": 3799654.13,
+      "spent": 3616889.81,
+      "cash_on_hand": 182764.32,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:42:40+00:00"
+    },
+    "ca-22|Randy Villegas": {
+      "fec_id": "H6CA22190",
+      "fec_name": "VILLEGAS, RANDY",
+      "raised": 5942030.17,
+      "spent": 4979678.4,
+      "cash_on_hand": 962351.77,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:42:41+00:00"
+    },
+    "ca-22|David Valadao": {
+      "fec_id": "H2CA20094",
+      "fec_name": "VALADAO, DAVID",
+      "raised": 6325324.07,
+      "spent": 4659208.33,
+      "cash_on_hand": 1711651.27,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:42:41+00:00"
+    },
+    "fl-14|Kathy Castor": {
+      "fec_id": "H6FL11126",
+      "fec_name": "CASTOR, KATHY",
+      "raised": 4930537.26,
+      "spent": 4579831.79,
+      "cash_on_hand": 577435.34,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:42:42+00:00"
+    },
+    "fl-14|Mike Beltran": {
+      "fec_id": "H6FL14237",
+      "fec_name": "BELTRAN, MIKE",
+      "raised": 2731427.99,
+      "spent": 999910.27,
+      "cash_on_hand": 1731517.72,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:42:42+00:00"
+    },
+    "mi-10|Christina Hines": {
+      "fec_id": "H6MI10276",
+      "fec_name": "HINES, CHRISTINA",
+      "raised": 4159692.85,
+      "spent": 3152065.09,
+      "cash_on_hand": 1007627.76,
+      "through": "2026-10-14",
+      "fetched_at": "2026-10-30T13:42:43+00:00"
+    },
     "ak-sen|Dan Sullivan": {
       "fec_id": "S4AK00214",
       "fec_name": "SULLIVAN, DAN",
@@ -355,69 +445,6 @@
       "through": "2026-10-14",
       "fetched_at": "2026-10-30T13:12:50+00:00"
     },
-    "az-01|Amish Shah": {
-      "fec_id": "H4AZ01194",
-      "fec_name": "SHAH, AMISH DR.",
-      "raised": 5654453.93,
-      "spent": 5540210.49,
-      "cash_on_hand": 206045.34,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:07:59+00:00"
-    },
-    "az-01|Jay Feely": {
-      "fec_id": "H6AZ05190",
-      "fec_name": "FEELY, THOMAS JAMES",
-      "raised": 3799654.13,
-      "spent": 3616889.81,
-      "cash_on_hand": 182764.32,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:07:59+00:00"
-    },
-    "ca-22|Randy Villegas": {
-      "fec_id": "H6CA22190",
-      "fec_name": "VILLEGAS, RANDY",
-      "raised": 5942030.17,
-      "spent": 4979678.4,
-      "cash_on_hand": 962351.77,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:08:00+00:00"
-    },
-    "ca-22|David Valadao": {
-      "fec_id": "H2CA20094",
-      "fec_name": "VALADAO, DAVID",
-      "raised": 6325324.07,
-      "spent": 4659208.33,
-      "cash_on_hand": 1711651.27,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:08:01+00:00"
-    },
-    "fl-14|Kathy Castor": {
-      "fec_id": "H6FL11126",
-      "fec_name": "CASTOR, KATHY",
-      "raised": 4930537.26,
-      "spent": 4579831.79,
-      "cash_on_hand": 577435.34,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:08:02+00:00"
-    },
-    "fl-14|Mike Beltran": {
-      "fec_id": "H6FL14237",
-      "fec_name": "BELTRAN, MIKE",
-      "raised": 2731427.99,
-      "spent": 999910.27,
-      "cash_on_hand": 1731517.72,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:08:03+00:00"
-    },
-    "mi-10|Christina Hines": {
-      "fec_id": "H6MI10276",
-      "fec_name": "HINES, CHRISTINA",
-      "raised": 4159692.85,
-      "spent": 3152065.09,
-      "cash_on_hand": 1007627.76,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T13:08:21+00:00"
-    },
     "mi-10|Michael Bouchard": {
       "fec_id": "H6MI10359",
       "fec_name": "BOUCHARD, MICHAEL",
@@ -444,33 +471,6 @@
       "cash_on_hand": 1959524.06,
       "through": "2026-10-14",
       "fetched_at": "2026-10-30T13:08:24+00:00"
-    },
-    "ga-sen|Mike Collins": {
-      "fec_id": "S6GA00390",
-      "fec_name": "COLLINS, MICHAEL A JR",
-      "raised": 10679277.11,
-      "spent": 10178765.75,
-      "cash_on_hand": 1103681.9,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T12:13:40+00:00"
-    },
-    "mn-sen|Peggy Flanagan": {
-      "fec_id": "S6MN00440",
-      "fec_name": "FLANAGAN, MARGARET",
-      "raised": 11563963.37,
-      "spent": 10570749.3,
-      "cash_on_hand": 993214.07,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T12:13:41+00:00"
-    },
-    "mn-sen|Michele Tafoya": {
-      "fec_id": "S6MN00556",
-      "fec_name": "TAFOYA, MICHELE",
-      "raised": 12501785.59,
-      "spent": 9682729.8,
-      "cash_on_hand": 2819386.89,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T12:13:42+00:00"
     }
   },
   "problems": [
