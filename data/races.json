@@ -1113,5 +1113,38 @@
         }
       ]
     }
-  ]
+  ],
+  "official_results": {
+    "_about": "Each state's official election results page. Shown as an 'Official results' link on race and measure cards so numbers can be checked against the source.",
+    "AK": "https://www.elections.alaska.gov/",
+    "AZ": "https://results.arizona.vote/",
+    "CA": "https://electionresults.sos.ca.gov/",
+    "CO": "https://results.enr.clarityelections.com/CO/",
+    "FL": "https://results.elections.myflorida.com/",
+    "GA": "https://results.sos.ga.gov/",
+    "IA": "https://electionresults.iowa.gov/",
+    "ID": "https://results.voteidaho.gov/",
+    "KS": "https://sos.ks.gov/elections/elections-results.html",
+    "MA": "https://www.sec.state.ma.us/divisions/elections/",
+    "MD": "https://elections.maryland.gov/",
+    "ME": "https://www.maine.gov/sos/cec/elec/results/",
+    "MI": "https://mielections.us/election/results/",
+    "MN": "https://electionresults.sos.mn.gov/",
+    "MO": "https://www.sos.mo.gov/elections/results",
+    "NC": "https://er.ncsbe.gov/",
+    "NE": "https://electionresults.nebraska.gov/",
+    "NH": "https://www.sos.nh.gov/elections/elections/election-results",
+    "NV": "https://silverstateelection.nv.gov/",
+    "NY": "https://nyenr.elections.ny.gov/",
+    "OH": "https://www.ohiosos.gov/elections/election-results-and-data/",
+    "PA": "https://www.electionreturns.pa.gov/",
+    "SC": "https://www.enr-scvotes.org/",
+    "TX": "https://results.texas-election.com/",
+    "UT": "https://electionresults.utah.gov/",
+    "VA": "https://enr.elections.virginia.gov/",
+    "WA": "https://results.vote.wa.gov/",
+    "KC": "https://www.kceb.org/",
+    "JACKSON": "https://jcebmo.org/",
+    "PLATTE": "https://www.plattecountymovotes.gov/"
+  }
 }
