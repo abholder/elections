@@ -30,6 +30,10 @@ GitHub Pages           →  index.html + app.js load data/*.json on every visit
 - **Rehearsal:** add `?rehearsal` to the site URL to show civicAPI's test elections, if one is running. Without it, test data is always ignored.
 - **The morning of Nov. 3:** check that civicAPI isn't still flagging its data as a test (if it were, real results would be ignored).
 
+## The clock
+
+GitHub's built-in timer is best-effort and fired only once in 12 hours on this repo. `.github/workflows/scheduler.yml` keeps a steady clock instead: it stays running ~5.5 hours, starts *Update data* hourly (and *Update results* every 5 minutes on election night, every 30 minutes the week after), then starts a fresh copy of itself. Its own timer only restarts the chain if it ever breaks. To stop everything: Actions tab → *Scheduler* → "…" → Disable workflow.
+
 ## Common tasks
 
 - **Add a race:** copy an existing entry in `data/races.json`, change the fields, commit. The Action runs automatically and pulls its money data.
