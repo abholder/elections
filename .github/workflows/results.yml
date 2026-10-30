@@ -10,7 +10,7 @@ on:
   workflow_dispatch:            # "Run workflow" button, also handy for a test run
   push:
     branches: [main]
-    paths: ["scripts/fetch_results.py", "scripts/fetch_alaska.py"]
+    paths: ["scripts/fetch_results.py", "scripts/fetch_alaska.py", ".github/workflows/results.yml"]
 
 permissions:
   contents: write
