@@ -1,24 +1,24 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-10-31T02:13:11+00:00",
+ "updated": "2026-10-31T16:03:47+00:00",
  "control": {
   "Senate": {
-   "D": 70,
-   "R": 30
+   "D": 72,
+   "R": 29
   },
   "House": {
    "D": 94,
-   "R": 7
+   "R": 6
   }
  },
  "races": {
   "tx-sen": {
-   "Ken Paxton": 30,
-   "James Talarico": 70
+   "James Talarico": 70,
+   "Ken Paxton": 30
   },
   "me-sen": {
-   "Troy Jackson": 68,
-   "Susan Collins": 32
+   "Susan Collins": 32,
+   "Troy Jackson": 68
   },
   "oh-sen": {
    "Sherrod Brown": 70,
@@ -29,40 +29,40 @@
    "Darline Graham": 72
   },
   "ia-sen": {
-   "Ashley Hinson": 56,
-   "Josh Turek": 44
+   "Josh Turek": 44,
+   "Ashley Hinson": 56
   },
   "ks-sen": {
    "Roger Marshall": 50,
-   "Adam Hamilton": 52
+   "Adam Hamilton": 50
   },
   "ak-sen": {
-   "Dan Sullivan": 32,
-   "Mary Peltola": 68
+   "Dan Sullivan": 30,
+   "Mary Peltola": 70
   },
   "mi-sen": {
    "Abdul El-Sayed": 76,
    "Mike Rogers": 24
   },
   "ne-sen": {
-   "Dan Osborn": 34,
-   "Pete Ricketts": 68
+   "Pete Ricketts": 76,
+   "Dan Osborn": 26
   },
   "nh-sen": {
-   "Chris Pappas": 92,
-   "John E. Sununu": 8
+   "John E. Sununu": 8,
+   "Chris Pappas": 92
   },
   "nc-sen": {
-   "Michael Whatley": 3,
-   "Roy Cooper": 97
+   "Roy Cooper": 97,
+   "Michael Whatley": 3
   },
   "ga-sen": {
    "Jon Ossoff": 97,
    "Mike Collins": 3
   },
   "mn-sen": {
-   "Michele Tafoya": 10,
-   "Peggy Flanagan": 90
+   "Peggy Flanagan": 91,
+   "Michele Tafoya": 9
   },
   "fl-14": {
    "Mike Beltran": 26,
@@ -70,11 +70,11 @@
   },
   "oh-07": {
    "Max Miller": 16,
-   "Brian Poindexter": 84
+   "Brian Poindexter": 86
   },
   "mo-06": {
-   "Chris Stigall": 97,
-   "Josh Smead": 4
+   "Josh Smead": 4,
+   "Chris Stigall": 97
   }
  },
  "problems": []
