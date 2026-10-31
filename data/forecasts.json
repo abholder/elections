@@ -9,9 +9,9 @@
         {
           "source": "Decision Desk HQ",
           "url": "https://votes.decisiondeskhq.com/forecast/2026/senate",
-          "as_of": "2026-10-29",
-          "d": 60,
-          "r": 40,
+          "as_of": "2026-10-31",
+          "d": 62,
+          "r": 38,
           "note": "Projects 52 D, 48 R"
         }
       ]
@@ -23,10 +23,10 @@
         {
           "source": "Decision Desk HQ",
           "url": "https://votes.decisiondeskhq.com/forecast/2026/house",
-          "as_of": "2026-10-29",
-          "d": 80,
-          "r": 20,
-          "note": "Projects 238 D, 197 R"
+          "as_of": "2026-10-31",
+          "d": 82,
+          "r": 18,
+          "note": "Projects 239 D, 196 R"
         }
       ]
     }
@@ -41,7 +41,7 @@
     "_about": "Decision Desk HQ's forecast model: each race's favored candidate and win chance, copied from its race pages (votes.decisiondeskhq.com) once a day.",
     "source": "Decision Desk HQ",
     "url": "https://votes.decisiondeskhq.com/forecast/2026/senate",
-    "as_of": "2026-10-29",
+    "as_of": "2026-10-31",
     "odds": {
       "tx-sen": {
         "leader": "James Talarico",
@@ -49,11 +49,11 @@
       },
       "me-sen": {
         "leader": "Troy Jackson",
-        "pct": 57
+        "pct": 60
       },
       "oh-sen": {
         "leader": "Sherrod Brown",
-        "pct": 54
+        "pct": 55
       },
       "sc-sen": {
         "leader": "Darline Graham",
@@ -61,11 +61,11 @@
       },
       "ia-sen": {
         "leader": "Ashley Hinson",
-        "pct": 53
+        "pct": 55
       },
       "ks-sen": {
         "leader": "Roger Marshall",
-        "pct": 58
+        "pct": 53
       },
       "ak-sen": {
         "leader": "Mary Peltola",
@@ -73,11 +73,11 @@
       },
       "mi-sen": {
         "leader": "Abdul El-Sayed",
-        "pct": 72
+        "pct": 73
       },
       "ne-sen": {
         "leader": "Pete Ricketts",
-        "pct": 73
+        "pct": 72
       },
       "nh-sen": {
         "leader": "Chris Pappas",
@@ -85,7 +85,7 @@
       },
       "nc-sen": {
         "leader": "Roy Cooper",
-        "pct": 84
+        "pct": 85
       },
       "ga-sen": {
         "leader": "Jon Ossoff",
