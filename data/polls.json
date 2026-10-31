@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-10-30T17:14:18+00:00",
+ "updated": "2026-10-31T02:13:11+00:00",
  "races": {
   "ak-sen": {
    "count": 3,
@@ -352,12 +352,12 @@
    ]
   },
   "me-sen": {
-   "count": 12,
-   "from": "2026-09-15",
+   "count": 11,
+   "from": "2026-09-21",
    "to": "2026-10-26",
    "stale": false,
    "avg": {
-    "Troy Jackson": 49.0,
+    "Troy Jackson": 49.3,
     "Susan Collins": 46.9
    },
    "polls": [
@@ -563,17 +563,6 @@
      }
     },
     {
-     "pollster": "Harper Polling",
-     "end": "2026-10-20",
-     "pop": "lv",
-     "n": 600,
-     "url": "https://www.carolinajournal.com/polls/october-2026-coopers-lead-over-whatley-narrows-to-10-points-in-nc-senate-race/",
-     "values": {
-      "Roy Cooper": 49.0,
-      "Michael Whatley": 39.0
-     }
-    },
-    {
      "pollster": "High Point University Survey Research Center",
      "end": "2026-10-20",
      "pop": "lv",
@@ -593,6 +582,17 @@
      "values": {
       "Roy Cooper": 56.9,
       "Michael Whatley": 43.1
+     }
+    },
+    {
+     "pollster": "Harper Polling",
+     "end": "2026-10-20",
+     "pop": "lv",
+     "n": 600,
+     "url": "https://www.carolinajournal.com/polls/october-2026-coopers-lead-over-whatley-narrows-to-10-points-in-nc-senate-race/",
+     "values": {
+      "Roy Cooper": 49.0,
+      "Michael Whatley": 39.0
      }
     },
     {

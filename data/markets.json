@@ -1,20 +1,20 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-10-30T17:14:18+00:00",
+ "updated": "2026-10-31T02:13:11+00:00",
  "control": {
   "Senate": {
    "D": 70,
    "R": 30
   },
   "House": {
-   "D": 93,
-   "R": 8
+   "D": 94,
+   "R": 7
   }
  },
  "races": {
   "tx-sen": {
-   "James Talarico": 72,
-   "Ken Paxton": 29
+   "Ken Paxton": 30,
+   "James Talarico": 70
   },
   "me-sen": {
    "Troy Jackson": 68,
@@ -33,40 +33,40 @@
    "Josh Turek": 44
   },
   "ks-sen": {
-   "Adam Hamilton": 52,
-   "Roger Marshall": 48
+   "Roger Marshall": 50,
+   "Adam Hamilton": 52
   },
   "ak-sen": {
-   "Mary Peltola": 68,
-   "Dan Sullivan": 32
+   "Dan Sullivan": 32,
+   "Mary Peltola": 68
   },
   "mi-sen": {
-   "Abdul El-Sayed": 74,
-   "Mike Rogers": 26
+   "Abdul El-Sayed": 76,
+   "Mike Rogers": 24
   },
   "ne-sen": {
    "Dan Osborn": 34,
-   "Pete Ricketts": 66
+   "Pete Ricketts": 68
   },
   "nh-sen": {
-   "John E. Sununu": 8,
-   "Chris Pappas": 92
+   "Chris Pappas": 92,
+   "John E. Sununu": 8
   },
   "nc-sen": {
-   "Roy Cooper": 97,
-   "Michael Whatley": 3
+   "Michael Whatley": 3,
+   "Roy Cooper": 97
   },
   "ga-sen": {
-   "Mike Collins": 3,
-   "Jon Ossoff": 97
+   "Jon Ossoff": 97,
+   "Mike Collins": 3
   },
   "mn-sen": {
-   "Peggy Flanagan": 90,
-   "Michele Tafoya": 10
+   "Michele Tafoya": 10,
+   "Peggy Flanagan": 90
   },
   "fl-14": {
-   "Kathy Castor": 72,
-   "Mike Beltran": 29
+   "Mike Beltran": 26,
+   "Kathy Castor": 74
   },
   "oh-07": {
    "Max Miller": 16,
@@ -74,7 +74,7 @@
   },
   "mo-06": {
    "Chris Stigall": 97,
-   "Josh Smead": 3
+   "Josh Smead": 4
   }
  },
  "problems": []
