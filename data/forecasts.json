@@ -9,9 +9,9 @@
         {
           "source": "Decision Desk HQ",
           "url": "https://votes.decisiondeskhq.com/forecast/2026/senate",
-          "as_of": "2026-10-31",
-          "d": 62,
-          "r": 38,
+          "as_of": "2026-11-01",
+          "d": 63,
+          "r": 37,
           "note": "Projects 52 D, 48 R"
         }
       ]
@@ -23,10 +23,10 @@
         {
           "source": "Decision Desk HQ",
           "url": "https://votes.decisiondeskhq.com/forecast/2026/house",
-          "as_of": "2026-10-31",
-          "d": 82,
-          "r": 18,
-          "note": "Projects 239 D, 196 R"
+          "as_of": "2026-11-01",
+          "d": 83,
+          "r": 17,
+          "note": "Projects 241 D, 194 R"
         }
       ]
     }
@@ -41,19 +41,19 @@
     "_about": "Decision Desk HQ's forecast model: each race's favored candidate and win chance, copied from its race pages (votes.decisiondeskhq.com) once a day.",
     "source": "Decision Desk HQ",
     "url": "https://votes.decisiondeskhq.com/forecast/2026/senate",
-    "as_of": "2026-10-31",
+    "as_of": "2026-11-01",
     "odds": {
       "tx-sen": {
         "leader": "James Talarico",
-        "pct": 60
+        "pct": 59
       },
       "me-sen": {
         "leader": "Troy Jackson",
-        "pct": 60
+        "pct": 61
       },
       "oh-sen": {
         "leader": "Sherrod Brown",
-        "pct": 55
+        "pct": 56
       },
       "sc-sen": {
         "leader": "Darline Graham",
@@ -73,15 +73,15 @@
       },
       "mi-sen": {
         "leader": "Abdul El-Sayed",
-        "pct": 73
+        "pct": 74
       },
       "ne-sen": {
         "leader": "Pete Ricketts",
-        "pct": 72
+        "pct": 76
       },
       "nh-sen": {
         "leader": "Chris Pappas",
-        "pct": 85
+        "pct": 86
       },
       "nc-sen": {
         "leader": "Roy Cooper",
@@ -93,7 +93,7 @@
       },
       "mn-sen": {
         "leader": "Peggy Flanagan",
-        "pct": 85
+        "pct": 86
       }
     }
   }
