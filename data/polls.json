@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-10-31T16:03:47+00:00",
+ "updated": "2026-11-01T02:02:33+00:00",
  "races": {
   "ak-sen": {
    "count": 3,
@@ -563,17 +563,6 @@
      }
     },
     {
-     "pollster": "High Point University Survey Research Center",
-     "end": "2026-10-20",
-     "pop": "lv",
-     "n": 620,
-     "url": "https://www.highpoint.edu/blog/2026/10/hpu-yougov-poll-north-carolina-likely-voters-weigh-in-on-u-s-senate-race-and-more/",
-     "values": {
-      "Roy Cooper": 54.0,
-      "Michael Whatley": 40.0
-     }
-    },
-    {
      "pollster": "ActiVote",
      "end": "2026-10-20",
      "pop": "lv",
@@ -593,6 +582,17 @@
      "values": {
       "Roy Cooper": 49.0,
       "Michael Whatley": 39.0
+     }
+    },
+    {
+     "pollster": "High Point University Survey Research Center",
+     "end": "2026-10-20",
+     "pop": "lv",
+     "n": 620,
+     "url": "https://www.highpoint.edu/blog/2026/10/hpu-yougov-poll-north-carolina-likely-voters-weigh-in-on-u-s-senate-race-and-more/",
+     "values": {
+      "Roy Cooper": 54.0,
+      "Michael Whatley": 40.0
      }
     },
     {
