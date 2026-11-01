@@ -1,8 +1,98 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-11-01T02:02:26+00:00",
+  "updated": "2026-11-01T17:06:24+00:00",
   "candidates": {
+    "az-01|Jay Feely": {
+      "fec_id": "H6AZ05190",
+      "fec_name": "FEELY, THOMAS JAMES",
+      "raised": 3799654.13,
+      "spent": 3616889.81,
+      "cash_on_hand": 182764.32,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-01T17:06:00+00:00"
+    },
+    "ca-22|Randy Villegas": {
+      "fec_id": "H6CA22190",
+      "fec_name": "VILLEGAS, RANDY",
+      "raised": 5942030.17,
+      "spent": 4979678.4,
+      "cash_on_hand": 962351.77,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-01T17:06:01+00:00"
+    },
+    "ca-22|David Valadao": {
+      "fec_id": "H2CA20094",
+      "fec_name": "VALADAO, DAVID",
+      "raised": 6325324.07,
+      "spent": 4659208.33,
+      "cash_on_hand": 1711651.27,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-01T17:06:03+00:00"
+    },
+    "fl-14|Kathy Castor": {
+      "fec_id": "H6FL11126",
+      "fec_name": "CASTOR, KATHY",
+      "raised": 4930537.26,
+      "spent": 4579831.79,
+      "cash_on_hand": 577435.34,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-01T17:06:04+00:00"
+    },
+    "fl-14|Mike Beltran": {
+      "fec_id": "H6FL14237",
+      "fec_name": "BELTRAN, MIKE",
+      "raised": 2731427.99,
+      "spent": 999910.27,
+      "cash_on_hand": 1731517.72,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-01T17:06:04+00:00"
+    },
+    "mi-10|Christina Hines": {
+      "fec_id": "H6MI10276",
+      "fec_name": "HINES, CHRISTINA",
+      "raised": 4159692.85,
+      "spent": 3152065.09,
+      "cash_on_hand": 1007627.76,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-01T17:06:05+00:00"
+    },
+    "mi-10|Michael Bouchard": {
+      "fec_id": "H6MI10359",
+      "fec_name": "BOUCHARD, MICHAEL",
+      "raised": 2884259.39,
+      "spent": 1310789.75,
+      "cash_on_hand": 1573469.64,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-01T17:06:06+00:00"
+    },
+    "ny-17|Cait Conley": {
+      "fec_id": "H6NY17171",
+      "fec_name": "CONLEY, CAIT",
+      "raised": 10706692.07,
+      "spent": 9758152.57,
+      "cash_on_hand": 948539.5,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-01T17:06:07+00:00"
+    },
+    "ny-17|Mike Lawler": {
+      "fec_id": "H2NY17162",
+      "fec_name": "LAWLER, MICHAEL VINCENT",
+      "raised": 10317627.15,
+      "spent": 8527471.61,
+      "cash_on_hand": 1959524.06,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-01T17:06:07+00:00"
+    },
+    "oh-07|Brian Poindexter": {
+      "fec_id": "H6OH07168",
+      "fec_name": "POINDEXTER, BRIAN",
+      "raised": 3720341.61,
+      "spent": 2926666.41,
+      "cash_on_hand": 793675.2,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-01T17:06:08+00:00"
+    },
     "ne-sen|Pete Ricketts": {
       "fec_id": "S6NE00129",
       "fec_name": "RICKETTS, PETE",
@@ -355,69 +445,6 @@
       "through": "2026-10-14",
       "fetched_at": "2026-10-30T17:13:53+00:00"
     },
-    "fl-14|Kathy Castor": {
-      "fec_id": "H6FL11126",
-      "fec_name": "CASTOR, KATHY",
-      "raised": 4930537.26,
-      "spent": 4579831.79,
-      "cash_on_hand": 577435.34,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T16:13:44+00:00"
-    },
-    "fl-14|Mike Beltran": {
-      "fec_id": "H6FL14237",
-      "fec_name": "BELTRAN, MIKE",
-      "raised": 2731427.99,
-      "spent": 999910.27,
-      "cash_on_hand": 1731517.72,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T16:13:45+00:00"
-    },
-    "mi-10|Christina Hines": {
-      "fec_id": "H6MI10276",
-      "fec_name": "HINES, CHRISTINA",
-      "raised": 4159692.85,
-      "spent": 3152065.09,
-      "cash_on_hand": 1007627.76,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T16:13:46+00:00"
-    },
-    "mi-10|Michael Bouchard": {
-      "fec_id": "H6MI10359",
-      "fec_name": "BOUCHARD, MICHAEL",
-      "raised": 2884259.39,
-      "spent": 1310789.75,
-      "cash_on_hand": 1573469.64,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T16:13:47+00:00"
-    },
-    "ny-17|Cait Conley": {
-      "fec_id": "H6NY17171",
-      "fec_name": "CONLEY, CAIT",
-      "raised": 10706692.07,
-      "spent": 9758152.57,
-      "cash_on_hand": 948539.5,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T16:13:47+00:00"
-    },
-    "ny-17|Mike Lawler": {
-      "fec_id": "H2NY17162",
-      "fec_name": "LAWLER, MICHAEL VINCENT",
-      "raised": 10317627.15,
-      "spent": 8527471.61,
-      "cash_on_hand": 1959524.06,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T16:13:48+00:00"
-    },
-    "oh-07|Brian Poindexter": {
-      "fec_id": "H6OH07168",
-      "fec_name": "POINDEXTER, BRIAN",
-      "raised": 3720341.61,
-      "spent": 2926666.41,
-      "cash_on_hand": 793675.2,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T16:13:49+00:00"
-    },
     "oh-07|Max Miller": {
       "fec_id": "H2OH16051",
       "fec_name": "MILLER, MAX",
@@ -444,33 +471,6 @@
       "cash_on_hand": 1023569.23,
       "through": "2026-10-14",
       "fetched_at": "2026-10-30T16:13:52+00:00"
-    },
-    "az-01|Jay Feely": {
-      "fec_id": "H6AZ05190",
-      "fec_name": "FEELY, THOMAS JAMES",
-      "raised": 3799654.13,
-      "spent": 3616889.81,
-      "cash_on_hand": 182764.32,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T15:13:46+00:00"
-    },
-    "ca-22|Randy Villegas": {
-      "fec_id": "H6CA22190",
-      "fec_name": "VILLEGAS, RANDY",
-      "raised": 5942030.17,
-      "spent": 4979678.4,
-      "cash_on_hand": 962351.77,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T15:13:47+00:00"
-    },
-    "ca-22|David Valadao": {
-      "fec_id": "H2CA20094",
-      "fec_name": "VALADAO, DAVID",
-      "raised": 6325324.07,
-      "spent": 4659208.33,
-      "cash_on_hand": 1711651.27,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-30T15:13:48+00:00"
     }
   },
   "problems": [
