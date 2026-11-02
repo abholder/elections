@@ -1,18 +1,29 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-02T02:17:18+00:00",
+ "updated": "2026-11-02T20:44:41+00:00",
  "races": {
   "ak-sen": {
-   "count": 2,
+   "count": 3,
    "from": "2026-09-30",
-   "to": "2026-10-16",
+   "to": "2026-10-30",
    "stale": false,
    "avg": {
-    "Mary Peltola": 49.1,
-    "Dan Sullivan": 48.4
+    "Mary Peltola": 48.7,
+    "Dan Sullivan": 47.6
    },
    "polls": [
+    {
+     "pollster": "The New York Times/Siena University",
+     "end": "2026-10-30",
+     "pop": "lv",
+     "n": 610,
+     "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ak-poll-toplines.html",
+     "values": {
+      "Mary Peltola": 48.0,
+      "Dan Sullivan": 46.0
+     }
+    },
     {
      "pollster": "Data for Progress",
      "end": "2026-10-16",
@@ -196,15 +207,37 @@
    ]
   },
   "ia-sen": {
-   "count": 9,
+   "count": 11,
    "from": "2026-09-28",
-   "to": "2026-10-23",
+   "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Josh Turek": 45.8,
-    "Ashley Hinson": 45.6
+    "Josh Turek": 46.0,
+    "Ashley Hinson": 46.0
    },
    "polls": [
+    {
+     "pollster": "The New York Times/Siena University",
+     "end": "2026-11-01",
+     "pop": "lv",
+     "n": 705,
+     "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ia-poll-toplines.html",
+     "values": {
+      "Josh Turek": 48.0,
+      "Ashley Hinson": 47.0
+     }
+    },
+    {
+     "pollster": "GrayHouse",
+     "end": "2026-10-31",
+     "pop": "lv",
+     "n": 601,
+     "url": "https://www.grayhouse.com/post/grayhouse-poll-hinson-leads-in-iowa-by-2",
+     "values": {
+      "Ashley Hinson": 48.0,
+      "Josh Turek": 46.0
+     }
+    },
     {
      "pollster": "Echelon Insights",
      "end": "2026-10-23",
@@ -248,41 +281,30 @@
       "Ashley Hinson": 46.0,
       "Josh Turek": 47.0
      }
-    },
-    {
-     "pollster": "National Public Affairs",
-     "end": "2026-10-12",
-     "pop": "lv",
-     "n": 678,
-     "url": "https://backend.natpublicaffairs.com/media/Iowa_General_Election_Memo_101526.3.pdf",
-     "values": {
-      "Ashley Hinson": 47.0,
-      "Josh Turek": 44.0
-     }
-    },
-    {
-     "pollster": "Marist University",
-     "end": "2026-10-11",
-     "pop": "lv",
-     "n": 1100,
-     "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-october-2026/",
-     "values": {
-      "Ashley Hinson": 45.0,
-      "Josh Turek": 48.0
-     }
     }
    ]
   },
   "ks-sen": {
-   "count": 5,
+   "count": 6,
    "from": "2026-09-24",
-   "to": "2026-10-28",
+   "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Adam Hamilton": 49.5,
-    "Roger Marshall": 46.2
+    "Adam Hamilton": 49.4,
+    "Roger Marshall": 45.9
    },
    "polls": [
+    {
+     "pollster": "The New York Times/Siena University",
+     "end": "2026-11-01",
+     "pop": "lv",
+     "n": 736,
+     "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ks-poll-toplines.html",
+     "values": {
+      "Roger Marshall": 44.0,
+      "Adam Hamilton": 49.0
+     }
+    },
     {
      "pollster": "Emerson College",
      "end": "2026-10-28",
@@ -342,14 +364,36 @@
   },
   "me-sen": {
    "count": 11,
-   "from": "2026-09-21",
-   "to": "2026-10-26",
+   "from": "2026-09-22",
+   "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Troy Jackson": 49.3,
-    "Susan Collins": 46.9
+    "Troy Jackson": 50.0,
+    "Susan Collins": 46.4
    },
    "polls": [
+    {
+     "pollster": "The New York Times/Siena University",
+     "end": "2026-11-01",
+     "pop": "lv",
+     "n": 714,
+     "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-me-poll-toplines.html",
+     "values": {
+      "Troy Jackson": 51.0,
+      "Susan Collins": 45.0
+     }
+    },
+    {
+     "pollster": "University of New Hampshire",
+     "end": "2026-10-31",
+     "pop": "lv",
+     "n": 1654,
+     "url": "https://scholars.unh.edu/survey_center_polls/1013/",
+     "values": {
+      "Troy Jackson": 54.0,
+      "Susan Collins": 45.0
+     }
+    },
     {
      "pollster": "CNN/SSRS",
      "end": "2026-10-26",
@@ -393,41 +437,30 @@
       "Troy Jackson": 49.0,
       "Susan Collins": 49.0
      }
-    },
-    {
-     "pollster": "InsiderAdvantage",
-     "end": "2026-10-14",
-     "pop": "lv",
-     "n": 1200,
-     "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/",
-     "values": {
-      "Troy Jackson": 49.0,
-      "Susan Collins": 47.0
-     }
-    },
-    {
-     "pollster": "The Washington Post/George Mason University School of Policy and Government",
-     "end": "2026-10-05",
-     "pop": "lv",
-     "n": 800,
-     "url": "https://www.washingtonpost.com/tablet/2026/10/09/sept-30-oct-5-2026-washington-post-schar-school-poll-maine-voters",
-     "values": {
-      "Troy Jackson": 50.0,
-      "Susan Collins": 45.0
-     }
     }
    ]
   },
   "mi-sen": {
    "count": 14,
    "from": "2026-09-20",
-   "to": "2026-10-29",
+   "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Abdul El-Sayed": 49.1,
-    "Mike Rogers": 44.8
+    "Abdul El-Sayed": 49.4,
+    "Mike Rogers": 44.6
    },
    "polls": [
+    {
+     "pollster": "The New York Times/Siena University",
+     "end": "2026-11-01",
+     "pop": "lv",
+     "n": 1011,
+     "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-mi-poll-toplines.html",
+     "values": {
+      "Abdul El-Sayed": 53.0,
+      "Mike Rogers": 42.0
+     }
+    },
     {
      "pollster": "YouGov",
      "end": "2026-10-29",
@@ -482,30 +515,30 @@
       "Abdul El-Sayed": 47.0,
       "Mike Rogers": 46.0
      }
-    },
-    {
-     "pollster": "Glengariff Group, Inc.",
-     "end": "2026-10-22",
-     "pop": "lv",
-     "n": 600,
-     "url": "https://www.detroitnews.com/story/news/politics/2026/10/27/jocelyn-bensons-lead-over-john-james-grows-in-michigan-governor-race/92441176007/",
-     "values": {
-      "Abdul El-Sayed": 51.4,
-      "Mike Rogers": 45.1
-     }
     }
    ]
   },
   "mn-sen": {
-   "count": 2,
+   "count": 3,
    "from": "2026-09-30",
-   "to": "2026-10-12",
+   "to": "2026-10-30",
    "stale": false,
    "avg": {
-    "Peggy Flanagan": 45.5,
-    "Michele Tafoya": 43.0
+    "Peggy Flanagan": 46.7,
+    "Michele Tafoya": 44.0
    },
    "polls": [
+    {
+     "pollster": "InsiderAdvantage",
+     "end": "2026-10-30",
+     "pop": "lv",
+     "n": 1200,
+     "url": "https://insideradvantage.com/insideradvantage-final-minnesota-senate-survey-flanagan-49-tafoya-46/",
+     "values": {
+      "Peggy Flanagan": 49.0,
+      "Michele Tafoya": 46.0
+     }
+    },
     {
      "pollster": "SurveyUSA",
      "end": "2026-10-12",
@@ -533,13 +566,24 @@
   "nc-sen": {
    "count": 8,
    "from": "2026-09-29",
-   "to": "2026-10-25",
+   "to": "2026-10-29",
    "stale": false,
    "avg": {
-    "Roy Cooper": 52.7,
-    "Michael Whatley": 41.1
+    "Roy Cooper": 52.8,
+    "Michael Whatley": 41.0
    },
    "polls": [
+    {
+     "pollster": "East Carolina University",
+     "end": "2026-10-29",
+     "pop": "lv",
+     "n": 1041,
+     "url": "https://surveyresearch-ecu.reportablenews.com/pr/ecu-poll-cooper-leads-whatley-by-9-points-as-election-day-nears",
+     "values": {
+      "Roy Cooper": 54.0,
+      "Michael Whatley": 45.0
+     }
+    },
     {
      "pollster": "Quantus Insights",
      "end": "2026-10-25",
@@ -594,17 +638,6 @@
       "Roy Cooper": 54.0,
       "Michael Whatley": 40.0
      }
-    },
-    {
-     "pollster": "Elon University/YouGov",
-     "end": "2026-10-08",
-     "pop": "lv",
-     "n": 561,
-     "url": "https://eloncdn.blob.core.windows.net/eu3/sites/819/2026/10/Elon-Poll-news-release-10-20-26.pdf",
-     "values": {
-      "Roy Cooper": 52.0,
-      "Michael Whatley": 39.0
-     }
     }
    ]
   },
@@ -644,14 +677,25 @@
   },
   "nh-sen": {
    "count": 4,
-   "from": "2026-09-21",
-   "to": "2026-10-20",
+   "from": "2026-09-22",
+   "to": "2026-10-31",
    "stale": false,
    "avg": {
-    "Chris Pappas": 49.5,
+    "Chris Pappas": 50.5,
     "John E. Sununu": 42.8
    },
    "polls": [
+    {
+     "pollster": "University of New Hampshire",
+     "end": "2026-10-31",
+     "pop": "lv",
+     "n": 2040,
+     "url": "https://scholars.unh.edu/survey_center_polls/1011/",
+     "values": {
+      "Chris Pappas": 54.0,
+      "John E. Sununu": 42.0
+     }
+    },
     {
      "pollster": "Saint Anselm",
      "end": "2026-10-20",
@@ -683,17 +727,6 @@
      "values": {
       "Chris Pappas": 50.0,
       "John E. Sununu": 45.0
-     }
-    },
-    {
-     "pollster": "University of New Hampshire",
-     "end": "2026-09-21",
-     "pop": "lv",
-     "n": 1418,
-     "url": "https://scholars.unh.edu/survey_center_polls/1005/",
-     "values": {
-      "Chris Pappas": 50.0,
-      "John E. Sununu": 42.0
      }
     }
    ]
@@ -745,15 +778,26 @@
    ]
   },
   "oh-sen": {
-   "count": 10,
+   "count": 11,
    "from": "2026-09-23",
-   "to": "2026-10-23",
+   "to": "2026-11-01",
    "stale": false,
    "avg": {
     "Sherrod Brown": 48.2,
-    "Jon Husted": 44.4
+    "Jon Husted": 44.3
    },
    "polls": [
+    {
+     "pollster": "The New York Times/Siena University",
+     "end": "2026-11-01",
+     "pop": "lv",
+     "n": 717,
+     "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-oh-poll-toplines.html",
+     "values": {
+      "Sherrod Brown": 49.0,
+      "Jon Husted": 44.0
+     }
+    },
     {
      "pollster": "Echelon Insights",
      "end": "2026-10-23",
@@ -807,17 +851,6 @@
      "values": {
       "Sherrod Brown": 48.0,
       "Jon Husted": 44.0
-     }
-    },
-    {
-     "pollster": "New River Strategies/GS Strategy Group",
-     "end": "2026-10-13",
-     "pop": "lv",
-     "n": 959,
-     "url": "https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/senate-battleground-district-project-october?utm_medium=email_action&utm_source=customer.io",
-     "values": {
-      "Sherrod Brown": 49.0,
-      "Jon Husted": 43.0
      }
     }
    ]
@@ -922,15 +955,26 @@
    ]
   },
   "tx-sen": {
-   "count": 16,
+   "count": 17,
    "from": "2026-09-28",
-   "to": "2026-10-28",
+   "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "James Talarico": 48.7,
-    "Ken Paxton": 46.0
+    "James Talarico": 48.8,
+    "Ken Paxton": 45.8
    },
    "polls": [
+    {
+     "pollster": "The New York Times/Siena University",
+     "end": "2026-11-01",
+     "pop": "lv",
+     "n": 1215,
+     "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-tx-poll-toplines.html",
+     "values": {
+      "James Talarico": 50.0,
+      "Ken Paxton": 43.0
+     }
+    },
     {
      "pollster": "ActiVote",
      "end": "2026-10-28",
@@ -984,17 +1028,6 @@
      "values": {
       "James Talarico": 49.0,
       "Ken Paxton": 47.0
-     }
-    },
-    {
-     "pollster": "YouGov",
-     "end": "2026-10-21",
-     "pop": "rv",
-     "n": 1000,
-     "url": "https://www.univision.com/noticias/politica/poll-univision-texas-latinos",
-     "values": {
-      "James Talarico": 50.0,
-      "Ken Paxton": 45.0
      }
     }
    ]
