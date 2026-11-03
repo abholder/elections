@@ -2,8 +2,8 @@
  "source": "University of Florida Election Lab",
  "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
  "license": "CC BY-NC-ND 4.0",
- "updated": "2026-11-03T18:24:45+00:00",
- "total": 59419424,
+ "updated": "2026-11-03T18:51:40+00:00",
+ "total": 59459283,
  "states": {
   "AK": {
    "name": "Alaska",
@@ -63,15 +63,15 @@
   },
   "CO": {
    "name": "Colorado",
-   "voted_all": 1859900,
-   "inperson_all": 38976,
-   "accept_all": 1820924,
-   "request_all": 4054503,
+   "voted_all": 1899759,
+   "inperson_all": 50976,
+   "accept_all": 1848783,
+   "request_all": 4056293,
    "turn_2022": 2540666,
-   "voted_dem": 563387,
-   "voted_rep": 456327,
-   "voted_none": 840186,
-   "last_update": "11/2/2026",
+   "voted_dem": 572642,
+   "voted_rep": 467376,
+   "voted_none": 859741,
+   "last_update": "11/3/2026",
    "source": "Colorado Secretary of State",
    "notes": null
   },
@@ -491,7 +491,7 @@
    "voted_dem": 90337,
    "voted_rep": 109672,
    "voted_none": 31081,
-   "last_update": "11/03/2026",
+   "last_update": "11/3/2026",
    "source": "Oklahoma State Board of Elections",
    "notes": "Individual absentee ballot data are obtained from the Oklahoma State Board of Elections Election Data Warehouse, which enable calculation of statistics by district. The in-person early vote data are from a pdf of county-level reports that do not enable district statistics."
   },
@@ -589,7 +589,7 @@
    "voted_dem": 0,
    "voted_rep": 0,
    "voted_none": 0,
-   "last_update": "11/02/2026",
+   "last_update": "11/2/2026",
    "source": "https://goelect.txelections.civixapps.com/ivis-evr-ui/evr",
    "notes": "Texas does not report mail ballot requests. Requests are equal to mail ballots sent. For some counties, I may scrape directly from a county website. These do not always provide breakdowns of early voting by mail and in-person voting."
   },
@@ -1990,13 +1990,13 @@
    }
   },
   "2026-11-03": {
-   "total": 59419424,
+   "total": 59459283,
    "states": {
     "AK": 99424,
     "AZ": 1648197,
     "AR": 612987,
     "CA": 6662914,
-    "CO": 1859900,
+    "CO": 1899759,
     "CT": 505945,
     "DE": 148738,
     "DC": 111150,
