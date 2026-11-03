@@ -9,9 +9,9 @@
         {
           "source": "Decision Desk HQ",
           "url": "https://votes.decisiondeskhq.com/forecast/2026/senate",
-          "as_of": "2026-11-02",
-          "d": 62,
-          "r": 38,
+          "as_of": "2026-11-03",
+          "d": 65,
+          "r": 35,
           "note": "Projects 52 D, 48 R"
         }
       ]
@@ -23,9 +23,9 @@
         {
           "source": "Decision Desk HQ",
           "url": "https://votes.decisiondeskhq.com/forecast/2026/house",
-          "as_of": "2026-11-02",
-          "d": 83,
-          "r": 17,
+          "as_of": "2026-11-03",
+          "d": 84,
+          "r": 16,
           "note": "Projects 241 D, 194 R"
         }
       ]
@@ -41,47 +41,47 @@
     "_about": "Decision Desk HQ's forecast model: each race's favored candidate and win chance, copied from its race pages (votes.decisiondeskhq.com) once a day.",
     "source": "Decision Desk HQ",
     "url": "https://votes.decisiondeskhq.com/forecast/2026/senate",
-    "as_of": "2026-11-02",
+    "as_of": "2026-11-03",
     "odds": {
       "tx-sen": {
         "leader": "James Talarico",
-        "pct": 61
+        "pct": 62
       },
       "me-sen": {
         "leader": "Troy Jackson",
-        "pct": 63
+        "pct": 65
       },
       "oh-sen": {
         "leader": "Sherrod Brown",
-        "pct": 55
+        "pct": 54
       },
       "sc-sen": {
         "leader": "Darline Graham",
-        "pct": 62
+        "pct": 61
       },
       "ia-sen": {
         "leader": "Ashley Hinson",
         "pct": 53
       },
       "ks-sen": {
-        "leader": "Roger Marshall",
-        "pct": 54
+        "leader": "Adam Hamilton",
+        "pct": 51
       },
       "ak-sen": {
         "leader": "Mary Peltola",
-        "pct": 60
+        "pct": 61
       },
       "mi-sen": {
         "leader": "Abdul El-Sayed",
-        "pct": 73
+        "pct": 75
       },
       "ne-sen": {
         "leader": "Pete Ricketts",
-        "pct": 74
+        "pct": 73
       },
       "nh-sen": {
         "leader": "Chris Pappas",
-        "pct": 86
+        "pct": 88
       },
       "nc-sen": {
         "leader": "Roy Cooper",
