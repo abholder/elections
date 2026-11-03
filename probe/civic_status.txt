@@ -1,3 +1,0 @@
-87528 United States Senate test_data= False date= 2026-11-03T05:00:00.000Z updated= 2026-10-23T15:37:21.863Z reporting= 0
-87524 United States House of Representatives test_data= False date= 2026-11-03T05:00:00.000Z updated= 2026-10-23T15:37:21.662Z reporting= 0
-87243 Missouri Amendment 3 test_data= False date= 2026-11-03T05:00:00.000Z updated= 2026-10-26T23:25:55.828Z reporting= 0
