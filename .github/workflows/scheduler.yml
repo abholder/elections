@@ -17,6 +17,9 @@ name: Scheduler
 
 on:
   workflow_dispatch:
+  push:                           # pushing this file starts it too (more reliable than the timer);
+    branches: [main]              # a run that starts early just waits for polls to close
+    paths: [".github/workflows/scheduler.yml"]
   schedule:
     - cron: "*/20 20-23 3 11 *"   # Tue Nov 3, 2pm-5:40pm Central: tries to start the night
 

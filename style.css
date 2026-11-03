@@ -197,3 +197,10 @@ h1 { font: 700 clamp(30px, 5vw, 44px)/1.1 var(--serif); margin: 6px 0 6px; lette
 .odds .odds-label { display: block; margin-bottom: 2px; }
 .odds-grid { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; font-size: 13px; }
 .odds-grid b { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* ---------- Scorecard ---------- */
+.score-table { overflow-x: auto; margin-top: 14px; }
+.score-table table { min-width: 520px; }
+.score-table td, .score-table th { padding-right: 10px; white-space: nowrap; }
+.ok { color: var(--yes); font-weight: 700; }
+.miss { color: var(--rep); font-weight: 700; }

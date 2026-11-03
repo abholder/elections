@@ -145,6 +145,7 @@ function renderPolls(race) {
 
 // "Win chance" line: Kalshi (market, auto-updated) and Decision Desk HQ (model, daily).
 let MARKETS = { races: {}, control: {} }; // set in refresh() from data/markets.json
+let PRED = null; // frozen predictions, data/predictions_final.json (exists from 4pm Central Nov 3)
 function winChance(race, fc) {
   const parts = [];
   const short = (n) => esc(n.split(" ").pop());
@@ -354,7 +355,7 @@ function renderEarlyVote(ev, races) {
 
 function renderSections(races, moneyData, fc, results) {
   document.getElementById("tabs").innerHTML =
-    `<a href="#overview">Overview</a><a href="#early">Early voting & polls</a>` +
+    `<a href="#overview">Overview</a>${PRED ? `<a href="#scorecard">Forecast scorecard</a>` : ""}<a href="#early">Early voting & polls</a>` +
     races.sections.map((s) => `<a href="#${s.id}">${esc(s.title.split(":")[0])}</a>`).join("");
 
   document.getElementById("sections").innerHTML = races.sections.map((s) => `
@@ -447,6 +448,57 @@ async function liveResults(races) {
   return out;
 }
 
+// ---------- scorecard: frozen predictions vs. actual winners ----------
+// data/predictions_final.json is taken once at 4pm Central on Nov 3, before any polls close.
+function renderScorecard(pred, results, races) {
+  const el = document.getElementById("scorecard");
+  if (!pred?.races) { el.hidden = true; return; }
+  el.hidden = false;
+  const all = races.sections.flatMap((s) => s.races || []);
+  const cand = (rid, name) => all.find((r) => r.id === rid)?.candidates.find((c) => c.name === name);
+  const color = (rid, name) => `var(--${PARTY_VAR[cand(rid, name)?.party] || "muted"})`;
+  const last = (n) => esc(n.split(" ").pop());
+  const SRC = ["kalshi", "ddhq", "polls"];
+  const score = Object.fromEntries(SRC.map((k) => [k, { right: 0, total: 0, brier: [] }]));
+
+  const rows = Object.entries(pred.races).map(([rid, p]) => {
+    const winner = results.results?.[rid]?.called || null;
+    const cell = (k) => {
+      const x = p[k];
+      if (!x) return `<td class="note">–</td>`;
+      if (k === "polls" && x.margin < 0.05) return `<td class="note">Tied</td>`; // no pick to score
+      const label = k === "polls" ? `${last(x.leader)} +${x.margin}` : `${last(x.leader)} ${x.pct}%`;
+      let mark = "";
+      if (winner) {
+        const right = x.leader === winner;
+        score[k].total++; if (right) score[k].right++;
+        if (k !== "polls") { const pw = (right ? x.pct : 100 - x.pct) / 100; score[k].brier.push((1 - pw) ** 2); }
+        mark = right ? ' <span class="ok">✓</span>' : ' <span class="miss">✗</span>';
+      }
+      return `<td style="color:${color(rid, x.leader)}">${label}${mark}</td>`;
+    };
+    return `<tr><td>${esc(p.title)}</td>${cell("kalshi")}${cell("ddhq")}${cell("polls")}
+      <td>${winner ? `<b style="color:${color(rid, winner)}">${last(winner)}</b>` : '<span class="note">not called</span>'}</td></tr>`;
+  }).join("");
+
+  const called = score.kalshi.total || score.ddhq.total || score.polls.total;
+  const summary = SRC.map((k) => {
+    const s = score[k], name = pred.sources[k].name.replace(" (VoteHub polls)", "");
+    if (!s.total) return "";
+    const brier = s.brier.length ? ` · Brier ${(s.brier.reduce((a, b) => a + b, 0) / s.brier.length).toFixed(3)}` : "";
+    return `<div class="stat"><h3>${esc(name)}</h3><div class="big">${s.right}/${s.total}</div><p class="sub">winners picked${brier}</p></div>`;
+  }).join("");
+
+  el.innerHTML = `
+    <h2>How the forecasts did</h2>
+    <p class="blurb">Every prediction on this page was frozen at ${new Date(pred.taken_at).toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" })}, before any polls closed. As races are called, each pick gets a ✓ or ✗.
+      ${called ? 'The Brier score rewards confident correct picks and punishes confident misses: 0 is perfect, 0.25 is what always saying 50/50 would get. Lower is better.' : ""}</p>
+    ${called ? `<div class="overview">${summary}</div>` : ""}
+    <div class="stat score-table"><table class="ev-table">
+      <thead><tr><th>Race</th><th>Kalshi</th><th>DDHQ</th><th>Polls</th><th>Winner</th></tr></thead>
+      <tbody>${rows}</tbody></table></div>`;
+}
+
 // ---------- main ----------
 async function refresh() {
   const status = document.getElementById("status");
@@ -459,7 +511,8 @@ async function refresh() {
       load("early_vote").catch(() => null),
       load("polls").catch(() => ({ races: {} })),
       load("markets").catch(() => ({ races: {}, control: {} })),
-    ]).then((all) => { MARKETS = all.pop(); POLLS = all.pop(); return all; });
+      load("predictions_final").catch(() => null),
+    ]).then((all) => { PRED = all.pop(); MARKETS = all.pop(); POLLS = all.pop(); return all; });
     OFFICIAL = races.official_results || {};
     renderEarlyVote(ev, races);
     // Live numbers win over the saved copy, except hand-entered local results civicAPI doesn't have.
@@ -468,6 +521,7 @@ async function refresh() {
     if (liveCount) results.results = { ...results.results, ...live };
 
     renderOverview(fc);
+    renderScorecard(PRED, results, races);
     renderSections(races, moneyData, fc, results);
     const resultsNote = liveCount
       ? `Live results from <a href="https://civicapi.org">civicAPI</a>, checked ${new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}`

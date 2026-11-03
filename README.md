@@ -35,6 +35,10 @@ GitHub Pages           →  index.html + app.js load data/*.json on every visit
 - **Rehearsal:** add `?rehearsal` to the site URL to show civicAPI's test elections, if one is running. Without it, test data is always ignored.
 - **The morning of Nov. 3:** check that civicAPI isn't still flagging its data as a test (if it were, real results would be ignored).
 
+## Forecast scorecard
+
+At 4pm Central on Nov. 3 (an hour before the first polls close), the *Snapshot predictions* workflow freezes every prediction on the page into `data/predictions_final.json`: Kalshi's market price, Decision Desk HQ's model and our polling average for each race, plus chamber control. It never overwrites an existing snapshot and won't run once polls start closing. As races are called, the "How the forecasts did" section marks each pick right or wrong and scores each source (winners picked, and a Brier score for the two that give probabilities).
+
 ## When things run
 
 - **Before election night:** *Update data* (money, early vote, polls) runs twice a day, around 6am and 6pm Central, using GitHub's built-in timer. That timer sometimes skips runs, so each time gets a few tries; runs that find nothing new don't save anything.

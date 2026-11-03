@@ -1,0 +1,52 @@
+# Freezes all predictions (Kalshi, Decision Desk HQ, polling averages) once, just before polls
+# close, so the site can later compare them with who actually won. See scripts/snapshot_predictions.py.
+#
+# The first run is started by a push and waits until the cutoff (Nov 3, 22:00 UTC = 4pm Central).
+# GitHub's timer adds a few backup tries in case that run fails; the script never overwrites a
+# snapshot that already exists, and refuses to run once polls start closing (23:00 UTC).
+name: Snapshot predictions
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/snapshot.yml", "scripts/snapshot_predictions.py"]
+  schedule:
+    - cron: "5,25,45 22 3 11 *"   # backups: 4:05, 4:25, 4:45pm Central on Nov 3
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Wait for the cutoff (4pm Central, Nov 3)
+        run: |
+          cutoff=$(date -d "2026-11-03T22:00:00Z" +%s); now=$(date +%s)
+          if [ "$now" -lt "$cutoff" ]; then echo "Waiting $(( (cutoff-now)/60 )) minutes"; sleep $((cutoff-now)); fi
+      - name: Take the snapshot
+        run: |
+          git pull -q origin main   # pick up the morning's Decision Desk HQ update and latest polls
+          python scripts/snapshot_predictions.py
+      - name: Save it
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/predictions_final.json data/markets.json
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          git commit -m "Freeze predictions before polls close"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
