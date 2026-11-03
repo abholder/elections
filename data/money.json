@@ -1,8 +1,98 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-11-03T03:53:36+00:00",
+  "updated": "2026-11-03T18:24:44+00:00",
   "candidates": {
+    "mi-sen|Abdul El-Sayed": {
+      "fec_id": "S6MI00418",
+      "fec_name": "EL-SAYED, ABDUL",
+      "raised": 53830872.19,
+      "spent": 51096843.3,
+      "cash_on_hand": 2734028.89,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-03T18:24:21+00:00"
+    },
+    "mi-sen|Mike Rogers": {
+      "fec_id": "S4MI00595",
+      "fec_name": "ROGERS, MICHAEL J",
+      "raised": 23016438.64,
+      "spent": 19369636.6,
+      "cash_on_hand": 3902505.76,
+      "through": "2026-10-22",
+      "fetched_at": "2026-11-03T18:24:21+00:00"
+    },
+    "ne-sen|Dan Osborn": {
+      "fec_id": "S4NE00207",
+      "fec_name": "OSBORN, DAN",
+      "raised": 11029845.41,
+      "spent": 9139828.03,
+      "cash_on_hand": 1953183.3,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-03T18:24:22+00:00"
+    },
+    "ne-sen|Pete Ricketts": {
+      "fec_id": "S6NE00129",
+      "fec_name": "RICKETTS, PETE",
+      "raised": 14546959.4,
+      "spent": 13815789.54,
+      "cash_on_hand": 1218138.97,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-03T18:24:23+00:00"
+    },
+    "nh-sen|Chris Pappas": {
+      "fec_id": "S6NH00141",
+      "fec_name": "PAPPAS, CHRIS",
+      "raised": 23703648.39,
+      "spent": 22126866.8,
+      "cash_on_hand": 1984365.82,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-03T18:24:24+00:00"
+    },
+    "nh-sen|John E. Sununu": {
+      "fec_id": "S6NH00208",
+      "fec_name": "SUNUNU, JOHN E",
+      "raised": 5681528.08,
+      "spent": 3936990.86,
+      "cash_on_hand": 1711396.49,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-03T18:24:25+00:00"
+    },
+    "nc-sen|Roy Cooper": {
+      "fec_id": "S6NC00407",
+      "fec_name": "COOPER, ROY",
+      "raised": 49585341.29,
+      "spent": 40496481.72,
+      "cash_on_hand": 9088859.57,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-03T18:24:26+00:00"
+    },
+    "nc-sen|Michael Whatley": {
+      "fec_id": "S6NC00415",
+      "fec_name": "WHATLEY, MICHAEL",
+      "raised": 13668467.53,
+      "spent": 12766229.48,
+      "cash_on_hand": 902238.05,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-03T18:24:27+00:00"
+    },
+    "ga-sen|Jon Ossoff": {
+      "fec_id": "S8GA00180",
+      "fec_name": "OSSOFF, T. JONATHAN",
+      "raised": 136610982.33,
+      "spent": 125808379.9,
+      "cash_on_hand": 15134335.92,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-03T18:24:27+00:00"
+    },
+    "ga-sen|Mike Collins": {
+      "fec_id": "S6GA00390",
+      "fec_name": "COLLINS, MICHAEL A JR",
+      "raised": 10679277.11,
+      "spent": 10178765.75,
+      "cash_on_hand": 1103681.9,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-03T18:24:28+00:00"
+    },
     "me-sen|Troy Jackson": {
       "fec_id": "S6ME00464",
       "fec_name": "JACKSON, TROY DALE",
@@ -355,69 +445,6 @@
       "through": "2026-10-14",
       "fetched_at": "2026-11-01T17:06:08+00:00"
     },
-    "ne-sen|Pete Ricketts": {
-      "fec_id": "S6NE00129",
-      "fec_name": "RICKETTS, PETE",
-      "raised": 14546959.4,
-      "spent": 13815789.54,
-      "cash_on_hand": 1218138.97,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-01T02:02:02+00:00"
-    },
-    "nh-sen|Chris Pappas": {
-      "fec_id": "S6NH00141",
-      "fec_name": "PAPPAS, CHRIS",
-      "raised": 23703648.39,
-      "spent": 22126866.8,
-      "cash_on_hand": 1984365.82,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-01T02:02:03+00:00"
-    },
-    "nh-sen|John E. Sununu": {
-      "fec_id": "S6NH00208",
-      "fec_name": "SUNUNU, JOHN E",
-      "raised": 5681528.08,
-      "spent": 3936990.86,
-      "cash_on_hand": 1711396.49,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-01T02:02:04+00:00"
-    },
-    "nc-sen|Roy Cooper": {
-      "fec_id": "S6NC00407",
-      "fec_name": "COOPER, ROY",
-      "raised": 49585341.29,
-      "spent": 40496481.72,
-      "cash_on_hand": 9088859.57,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-01T02:02:05+00:00"
-    },
-    "nc-sen|Michael Whatley": {
-      "fec_id": "S6NC00415",
-      "fec_name": "WHATLEY, MICHAEL",
-      "raised": 13668467.53,
-      "spent": 12766229.48,
-      "cash_on_hand": 902238.05,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-01T02:02:06+00:00"
-    },
-    "ga-sen|Jon Ossoff": {
-      "fec_id": "S8GA00180",
-      "fec_name": "OSSOFF, T. JONATHAN",
-      "raised": 136610982.33,
-      "spent": 125808379.9,
-      "cash_on_hand": 15134335.92,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-01T02:02:07+00:00"
-    },
-    "ga-sen|Mike Collins": {
-      "fec_id": "S6GA00390",
-      "fec_name": "COLLINS, MICHAEL A JR",
-      "raised": 10679277.11,
-      "spent": 10178765.75,
-      "cash_on_hand": 1103681.9,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-01T02:02:08+00:00"
-    },
     "mn-sen|Peggy Flanagan": {
       "fec_id": "S6MN00440",
       "fec_name": "FLANAGAN, MARGARET",
@@ -444,33 +471,6 @@
       "cash_on_hand": 206045.34,
       "through": "2026-10-14",
       "fetched_at": "2026-11-01T02:02:10+00:00"
-    },
-    "mi-sen|Abdul El-Sayed": {
-      "fec_id": "S6MI00418",
-      "fec_name": "EL-SAYED, ABDUL",
-      "raised": 53830872.19,
-      "spent": 51096843.3,
-      "cash_on_hand": 2734028.89,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-31T16:03:20+00:00"
-    },
-    "mi-sen|Mike Rogers": {
-      "fec_id": "S4MI00595",
-      "fec_name": "ROGERS, MICHAEL J",
-      "raised": 23016438.64,
-      "spent": 19369636.6,
-      "cash_on_hand": 3902505.76,
-      "through": "2026-10-22",
-      "fetched_at": "2026-10-31T16:03:21+00:00"
-    },
-    "ne-sen|Dan Osborn": {
-      "fec_id": "S4NE00207",
-      "fec_name": "OSBORN, DAN",
-      "raised": 11029845.41,
-      "spent": 9139828.03,
-      "cash_on_hand": 1953183.3,
-      "through": "2026-10-14",
-      "fetched_at": "2026-10-31T16:03:22+00:00"
     }
   },
   "problems": [
