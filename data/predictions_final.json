@@ -1,0 +1,355 @@
+{
+ "taken_at": "2026-11-03T22:00:02+00:00",
+ "cutoff": "2026-11-03T22:00:00+00:00",
+ "about": "Predictions frozen before polls closed, for comparing with actual results.",
+ "sources": {
+  "kalshi": {
+   "name": "Kalshi",
+   "kind": "prediction market",
+   "as_of": "2026-11-03T22:00:02+00:00"
+  },
+  "ddhq": {
+   "name": "Decision Desk HQ",
+   "kind": "forecast model",
+   "as_of": "2026-11-03"
+  },
+  "polls": {
+   "name": "Polling average (VoteHub polls)",
+   "kind": "polls",
+   "as_of": "2026-11-03T18:51:47+00:00"
+  }
+ },
+ "control": {
+  "Senate": {
+   "ddhq": {
+    "D": 65,
+    "R": 35
+   },
+   "kalshi": {
+    "R": 26,
+    "D": 74
+   }
+  },
+  "House": {
+   "ddhq": {
+    "D": 84,
+    "R": 16
+   },
+   "kalshi": {
+    "D": 93,
+    "R": 7
+   }
+  }
+ },
+ "races": {
+  "tx-sen": {
+   "title": "Texas",
+   "section": "senate",
+   "kalshi": {
+    "leader": "James Talarico",
+    "pct": 74
+   },
+   "ddhq": {
+    "leader": "James Talarico",
+    "pct": 62
+   },
+   "polls": {
+    "leader": "James Talarico",
+    "margin": 3.0,
+    "count": 17
+   }
+  },
+  "me-sen": {
+   "title": "Maine",
+   "section": "senate",
+   "kalshi": {
+    "leader": "Troy Jackson",
+    "pct": 70
+   },
+   "ddhq": {
+    "leader": "Troy Jackson",
+    "pct": 65
+   },
+   "polls": {
+    "leader": "Troy Jackson",
+    "margin": 3.7,
+    "count": 12
+   }
+  },
+  "oh-sen": {
+   "title": "Ohio (special)",
+   "section": "senate",
+   "kalshi": {
+    "leader": "Sherrod Brown",
+    "pct": 72
+   },
+   "ddhq": {
+    "leader": "Sherrod Brown",
+    "pct": 54
+   },
+   "polls": {
+    "leader": "Sherrod Brown",
+    "margin": 3.9,
+    "count": 12
+   }
+  },
+  "sc-sen": {
+   "title": "South Carolina",
+   "section": "senate",
+   "kalshi": {
+    "leader": "Darline Graham",
+    "pct": 70
+   },
+   "ddhq": {
+    "leader": "Darline Graham",
+    "pct": 61
+   },
+   "polls": {
+    "leader": "Darline Graham",
+    "margin": 1.1,
+    "count": 4
+   }
+  },
+  "ia-sen": {
+   "title": "Iowa",
+   "section": "senate",
+   "kalshi": {
+    "leader": "Josh Turek",
+    "pct": 50
+   },
+   "ddhq": {
+    "leader": "Ashley Hinson",
+    "pct": 53
+   },
+   "polls": {
+    "leader": "Josh Turek",
+    "margin": 0.0,
+    "count": 11
+   }
+  },
+  "ks-sen": {
+   "title": "Kansas",
+   "section": "senate",
+   "kalshi": {
+    "leader": "Adam Hamilton",
+    "pct": 64
+   },
+   "ddhq": {
+    "leader": "Adam Hamilton",
+    "pct": 51
+   },
+   "polls": {
+    "leader": "Adam Hamilton",
+    "margin": 4.1,
+    "count": 7
+   }
+  },
+  "ak-sen": {
+   "title": "Alaska",
+   "section": "senate",
+   "kalshi": {
+    "leader": "Mary Peltola",
+    "pct": 68
+   },
+   "ddhq": {
+    "leader": "Mary Peltola",
+    "pct": 61
+   },
+   "polls": {
+    "leader": "Mary Peltola",
+    "margin": 1.1,
+    "count": 3
+   }
+  },
+  "mi-sen": {
+   "title": "Michigan",
+   "section": "senate",
+   "kalshi": {
+    "leader": "Abdul El-Sayed",
+    "pct": 76
+   },
+   "ddhq": {
+    "leader": "Abdul El-Sayed",
+    "pct": 75
+   },
+   "polls": {
+    "leader": "Abdul El-Sayed",
+    "margin": 4.8,
+    "count": 14
+   }
+  },
+  "ne-sen": {
+   "title": "Nebraska",
+   "section": "senate",
+   "kalshi": {
+    "leader": "Pete Ricketts",
+    "pct": 72
+   },
+   "ddhq": {
+    "leader": "Pete Ricketts",
+    "pct": 73
+   },
+   "polls": {
+    "leader": "Pete Ricketts",
+    "margin": 2.0,
+    "count": 2
+   }
+  },
+  "nh-sen": {
+   "title": "New Hampshire",
+   "section": "senate",
+   "kalshi": {
+    "leader": "Chris Pappas",
+    "pct": 94
+   },
+   "ddhq": {
+    "leader": "Chris Pappas",
+    "pct": 88
+   },
+   "polls": {
+    "leader": "Chris Pappas",
+    "margin": 7.7,
+    "count": 4
+   }
+  },
+  "nc-sen": {
+   "title": "North Carolina",
+   "section": "senate",
+   "kalshi": {
+    "leader": "Roy Cooper",
+    "pct": 97
+   },
+   "ddhq": {
+    "leader": "Roy Cooper",
+    "pct": 85
+   },
+   "polls": {
+    "leader": "Roy Cooper",
+    "margin": 12.2,
+    "count": 9
+   }
+  },
+  "ga-sen": {
+   "title": "Georgia",
+   "section": "senate",
+   "kalshi": {
+    "leader": "Jon Ossoff",
+    "pct": 97
+   },
+   "ddhq": {
+    "leader": "Jon Ossoff",
+    "pct": 89
+   },
+   "polls": {
+    "leader": "Jon Ossoff",
+    "margin": 9.4,
+    "count": 7
+   }
+  },
+  "mn-sen": {
+   "title": "Minnesota",
+   "section": "senate",
+   "kalshi": {
+    "leader": "Peggy Flanagan",
+    "pct": 91
+   },
+   "ddhq": {
+    "leader": "Peggy Flanagan",
+    "pct": 85
+   },
+   "polls": {
+    "leader": "Peggy Flanagan",
+    "margin": 2.5,
+    "count": 4
+   }
+  },
+  "az-01": {
+   "title": "Arizona 1st",
+   "section": "house",
+   "polls": {
+    "leader": "Amish Shah",
+    "margin": 3.4,
+    "count": 2
+   }
+  },
+  "ca-22": {
+   "title": "California 22nd",
+   "section": "house",
+   "polls": {
+    "leader": "Randy Villegas",
+    "margin": 10.0,
+    "count": 1
+   }
+  },
+  "fl-14": {
+   "title": "Florida 14th",
+   "section": "house",
+   "kalshi": {
+    "leader": "Kathy Castor",
+    "pct": 72
+   },
+   "polls": {
+    "leader": "Kathy Castor",
+    "margin": 5.0,
+    "count": 1
+   }
+  },
+  "ny-17": {
+   "title": "New York 17th",
+   "section": "house",
+   "polls": {
+    "leader": "Cait Conley",
+    "margin": 2.0,
+    "count": 1
+   }
+  },
+  "oh-07": {
+   "title": "Ohio 7th",
+   "section": "house",
+   "kalshi": {
+    "leader": "Brian Poindexter",
+    "pct": 86
+   },
+   "polls": {
+    "leader": "Brian Poindexter",
+    "margin": 8.0,
+    "count": 1
+   }
+  },
+  "pa-10": {
+   "title": "Pennsylvania 10th",
+   "section": "house",
+   "polls": {
+    "leader": "Janelle Stelson",
+    "margin": 3.0,
+    "count": 1
+   }
+  },
+  "tx-34": {
+   "title": "Texas 34th",
+   "section": "house",
+   "polls": {
+    "leader": "Vicente Gonzalez",
+    "margin": 7.0,
+    "count": 1
+   }
+  },
+  "wa-03": {
+   "title": "Washington 3rd",
+   "section": "house",
+   "polls": {
+    "leader": "John Braun",
+    "margin": 1.0,
+    "count": 1
+   }
+  },
+  "mo-06": {
+   "title": "U.S. House, MO 6th",
+   "section": "missouri",
+   "kalshi": {
+    "leader": "Chris Stigall",
+    "pct": 98
+   }
+  }
+ }
+}
