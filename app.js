@@ -467,6 +467,10 @@ function renderScorecard(pred, results, races) {
       const x = p[k];
       if (!x) return `<td class="note">–</td>`;
       if (k === "polls" && x.margin < 0.05) return `<td class="note">Tied</td>`; // no pick to score
+      if (k !== "polls" && x.pct === 50) { // a true coin flip: no winner pick, but it still counts in the Brier score
+        if (winner) score[k].brier.push(0.25);
+        return `<td class="note">50/50</td>`;
+      }
       const label = k === "polls" ? `${last(x.leader)} +${x.margin}` : `${last(x.leader)} ${x.pct}%`;
       let mark = "";
       if (winner) {
