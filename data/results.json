@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T09:18:14+00:00",
+  "updated": "2026-11-04T09:23:10+00:00",
   "results": {
     "tx-sen": {
       "reporting": 96.61,
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 92.86,
+      "reporting": 93.03,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2402028,
-        "Mike Rogers": 2105144,
-        "Other": 94510
+        "Abdul El-Sayed": 2406485,
+        "Mike Rogers": 2109072,
+        "Other": 94710
       }
     },
     "nh-sen": {
@@ -85,12 +85,12 @@
       }
     },
     "mi-10": {
-      "reporting": 77.59,
+      "reporting": 78.56,
       "called": null,
       "votes": {
-        "Christina Hines": 152896,
-        "Michael Bouchard": 136703,
-        "Other": 7205
+        "Christina Hines": 155224,
+        "Michael Bouchard": 138001,
+        "Other": 7288
       }
     },
     "oh-07": {
@@ -173,8 +173,8 @@
       "reporting": 91.4,
       "called": "Failed",
       "votes": {
-        "No": 2978555,
-        "Yes": 1056732
+        "No": 2980874,
+        "Yes": 1057740
       }
     },
     "me-sen": {
@@ -187,12 +187,12 @@
       }
     },
     "ne-sen": {
-      "reporting": 92.02,
+      "reporting": 92.56,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 356917,
-        "Dan Osborn": 312381,
-        "Other": 42313
+        "Pete Ricketts": 360165,
+        "Dan Osborn": 313077,
+        "Other": 42575
       }
     },
     "mo-a8": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T09:18:14+00:00",
+    "at": "2026-11-04T09:23:10+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
