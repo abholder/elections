@@ -1,6 +1,6 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-11-04T06:52:33+00:00",
+ "updated": "2026-11-04T07:52:56+00:00",
  "control": {
   "Senate": {
    "R": 0,
@@ -37,12 +37,12 @@
    "Adam Hamilton": 100
   },
   "ak-sen": {
-   "Mary Peltola": 90,
-   "Dan Sullivan": 10
+   "Dan Sullivan": 16,
+   "Mary Peltola": 82
   },
   "mi-sen": {
-   "Abdul El-Sayed": 100,
-   "Mike Rogers": 0
+   "Mike Rogers": 0,
+   "Abdul El-Sayed": 100
   },
   "ne-sen": {
    "Pete Ricketts": 100,
@@ -57,12 +57,12 @@
    "Roy Cooper": 100
   },
   "ga-sen": {
-   "Jon Ossoff": 100,
-   "Mike Collins": 0
+   "Mike Collins": 0,
+   "Jon Ossoff": 100
   },
   "mn-sen": {
-   "Peggy Flanagan": 100,
-   "Michele Tafoya": 0
+   "Michele Tafoya": 0,
+   "Peggy Flanagan": 100
   },
   "fl-14": {
    "Kathy Castor": 99,
