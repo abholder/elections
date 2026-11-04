@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T09:08:14+00:00",
+  "updated": "2026-11-04T09:13:13+00:00",
   "results": {
     "tx-sen": {
       "reporting": 96.61,
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 92.8,
+      "reporting": 92.84,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2400636,
-        "Mike Rogers": 2103497,
-        "Other": 94427
+        "Abdul El-Sayed": 2401751,
+        "Mike Rogers": 2104616,
+        "Other": 94492
       }
     },
     "nh-sen": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 91.2,
+      "reporting": 91.3,
       "called": "Failed",
       "votes": {
-        "No": 2976408,
-        "Yes": 1056044
+        "No": 2977993,
+        "Yes": 1056543
       }
     },
     "me-sen": {
@@ -271,12 +271,12 @@
       }
     },
     "mn-sen": {
-      "reporting": 99,
+      "reporting": 100,
       "called": "Peggy Flanagan",
       "votes": {
-        "Peggy Flanagan": 1519712,
-        "Michele Tafoya": 1231407,
-        "Other": 77335
+        "Peggy Flanagan": 1520298,
+        "Michele Tafoya": 1232685,
+        "Other": 77400
       }
     },
     "md-redistricting": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T09:08:14+00:00",
+    "at": "2026-11-04T09:13:13+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
