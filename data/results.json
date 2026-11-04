@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T11:09:23+00:00",
+  "updated": "2026-11-04T11:14:29+00:00",
   "results": {
     "tx-sen": {
       "reporting": 96.99,
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 94.92,
+      "reporting": 95.32,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2461109,
-        "Mike Rogers": 2145101,
-        "Other": 97564
+        "Abdul El-Sayed": 2472226,
+        "Mike Rogers": 2153444,
+        "Other": 97998
       }
     },
     "nh-sen": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 92,
+      "reporting": 92.9,
       "called": "Failed",
       "votes": {
-        "No": 3043198,
-        "Yes": 1081057
+        "No": 3060572,
+        "Yes": 1088225
       }
     },
     "me-sen": {
@@ -304,11 +304,11 @@
       }
     },
     "co-a86": {
-      "reporting": 85.2,
+      "reporting": 85.3,
       "called": null,
       "votes": {
-        "No": 1113455,
-        "Yes": 968714
+        "No": 1121495,
+        "Yes": 978955
       }
     },
     "wa-03": {
@@ -330,7 +330,7 @@
       }
     },
     "nv-abortion": {
-      "reporting": 78.5,
+      "reporting": 83.7,
       "called": null,
       "votes": {
         "Yes": 602736,
@@ -338,7 +338,7 @@
       }
     },
     "nv-q7": {
-      "reporting": 78.7,
+      "reporting": 83.8,
       "called": null,
       "votes": {
         "Yes": 597624,
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T11:09:23+00:00",
+    "at": "2026-11-04T11:14:29+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
