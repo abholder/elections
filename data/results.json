@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T11:04:17+00:00",
+  "updated": "2026-11-04T11:09:23+00:00",
   "results": {
     "tx-sen": {
       "reporting": 96.99,
@@ -330,24 +330,24 @@
       }
     },
     "nv-abortion": {
-      "reporting": 83.6,
+      "reporting": 78.5,
       "called": null,
       "votes": {
-        "Yes": 601545,
-        "No": 348931
+        "Yes": 602736,
+        "No": 349543
       }
     },
     "nv-q7": {
-      "reporting": 83.8,
+      "reporting": 78.7,
       "called": null,
       "votes": {
-        "Yes": 596530,
-        "No": 360556
+        "Yes": 597624,
+        "No": 361262
       }
     }
   },
   "last_run": {
-    "at": "2026-11-04T11:04:17+00:00",
+    "at": "2026-11-04T11:09:23+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
