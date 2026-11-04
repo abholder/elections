@@ -1,6 +1,6 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-11-04T05:52:13+00:00",
+ "updated": "2026-11-04T06:52:33+00:00",
  "control": {
   "Senate": {
    "R": 0,
@@ -37,16 +37,16 @@
    "Adam Hamilton": 100
   },
   "ak-sen": {
-   "Dan Sullivan": 8,
-   "Mary Peltola": 92
+   "Mary Peltola": 90,
+   "Dan Sullivan": 10
   },
   "mi-sen": {
    "Abdul El-Sayed": 100,
    "Mike Rogers": 0
   },
   "ne-sen": {
-   "Pete Ricketts": 99,
-   "Dan Osborn": 1
+   "Pete Ricketts": 100,
+   "Dan Osborn": 0
   },
   "nh-sen": {
    "John E. Sununu": 0,
@@ -65,16 +65,16 @@
    "Michele Tafoya": 0
   },
   "fl-14": {
-   "Mike Beltran": 2,
-   "Kathy Castor": 99
+   "Kathy Castor": 99,
+   "Mike Beltran": 2
   },
   "oh-07": {
-   "Max Miller": 1,
-   "Brian Poindexter": 100
+   "Max Miller": 0,
+   "Brian Poindexter": 99
   },
   "mo-06": {
-   "Josh Smead": 5,
-   "Chris Stigall": 100
+   "Chris Stigall": 100,
+   "Josh Smead": 5
   }
  },
  "problems": []
