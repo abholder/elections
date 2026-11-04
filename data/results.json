@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T02:10:58+00:00",
+  "updated": "2026-11-04T02:14:23+00:00",
   "results": {
     "tx-sen": {
       "reporting": 41.79,
@@ -12,12 +12,12 @@
       }
     },
     "oh-sen": {
-      "reporting": 47.53,
+      "reporting": 48.98,
       "called": null,
       "votes": {
-        "Sherrod Brown": 1183579,
-        "Jon Husted": 987718,
-        "Other": 93248
+        "Sherrod Brown": 1205632,
+        "Jon Husted": 1030170,
+        "Other": 98036
       }
     },
     "sc-sen": {
@@ -32,12 +32,12 @@
       }
     },
     "ks-sen": {
-      "reporting": 41.03,
+      "reporting": 41.23,
       "called": null,
       "votes": {
-        "Adam Hamilton": 291199,
-        "Roger Marshall": 166799,
-        "Other": 12087
+        "Adam Hamilton": 291992,
+        "Roger Marshall": 168190,
+        "Other": 12174
       }
     },
     "mi-sen": {
@@ -68,11 +68,11 @@
       }
     },
     "ga-sen": {
-      "reporting": 54.71,
+      "reporting": 66.31,
       "called": "Jon Ossoff",
       "votes": {
-        "Jon Ossoff": 1612112,
-        "Mike Collins": 941936
+        "Jon Ossoff": 1863444,
+        "Mike Collins": 1232321
       }
     },
     "fl-14": {
@@ -138,11 +138,11 @@
       }
     },
     "mo-a3": {
-      "reporting": 1.7,
+      "reporting": 8.9,
       "called": null,
       "votes": {
-        "No": 66051,
-        "Yes": 35013
+        "No": 121683,
+        "Yes": 95889
       }
     },
     "mo-a7": {
@@ -213,15 +213,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T02:10:58+00:00",
+    "at": "2026-11-04T02:14:23+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87220: HTTP Error 502: Bad Gateway",
-      "race/87242: HTTP Error 502: Bad Gateway",
-      "race/139732: HTTP Error 502: Bad Gateway",
-      "race/87243: HTTP Error 500: Internal Server Error",
-      "race/139733: HTTP Error 502: Bad Gateway"
+      "race/87220: HTTP Error 500: Internal Server Error",
+      "race/87524: HTTP Error 500: Internal Server Error",
+      "race/139733: HTTP Error 500: Internal Server Error",
+      "race/139732: HTTP Error 500: Internal Server Error",
+      "race/139734: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 12
+    "error_count": 16
   }
 }
