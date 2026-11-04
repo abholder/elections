@@ -1,6 +1,6 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-11-04T07:52:56+00:00",
+ "updated": "2026-11-04T08:53:34+00:00",
  "control": {
   "Senate": {
    "R": 0,
@@ -13,8 +13,8 @@
  },
  "races": {
   "tx-sen": {
-   "James Talarico": 100,
-   "Ken Paxton": 0
+   "Ken Paxton": 0,
+   "James Talarico": 100
   },
   "me-sen": {
    "Susan Collins": 0,
@@ -25,28 +25,28 @@
    "Jon Husted": 0
   },
   "sc-sen": {
-   "Darline Graham": 0,
-   "Annie Andrews": 100
+   "Annie Andrews": 100,
+   "Darline Graham": 0
   },
   "ia-sen": {
-   "Ashley Hinson": 0,
-   "Josh Turek": 100
+   "Josh Turek": 100,
+   "Ashley Hinson": 0
   },
   "ks-sen": {
    "Roger Marshall": 0,
    "Adam Hamilton": 100
   },
   "ak-sen": {
-   "Dan Sullivan": 16,
-   "Mary Peltola": 82
+   "Dan Sullivan": 15,
+   "Mary Peltola": 86
   },
   "mi-sen": {
    "Mike Rogers": 0,
    "Abdul El-Sayed": 100
   },
   "ne-sen": {
-   "Pete Ricketts": 100,
-   "Dan Osborn": 0
+   "Dan Osborn": 0,
+   "Pete Ricketts": 100
   },
   "nh-sen": {
    "John E. Sununu": 0,
@@ -61,8 +61,8 @@
    "Jon Ossoff": 100
   },
   "mn-sen": {
-   "Michele Tafoya": 0,
-   "Peggy Flanagan": 100
+   "Peggy Flanagan": 100,
+   "Michele Tafoya": 0
   },
   "fl-14": {
    "Kathy Castor": 99,
@@ -73,8 +73,8 @@
    "Brian Poindexter": 99
   },
   "mo-06": {
-   "Chris Stigall": 100,
-   "Josh Smead": 5
+   "Josh Smead": 5,
+   "Chris Stigall": 100
   }
  },
  "problems": []
