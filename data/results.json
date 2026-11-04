@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T04:59:47+00:00",
+  "updated": "2026-11-04T05:10:34+00:00",
   "results": {
     "tx-sen": {
       "reporting": 72.31,
@@ -85,12 +85,12 @@
       }
     },
     "mi-10": {
-      "reporting": 42.32,
+      "reporting": 48.09,
       "called": null,
       "votes": {
-        "Michael Bouchard": 78996,
-        "Christina Hines": 78296,
-        "Other": 4602
+        "Christina Hines": 91376,
+        "Michael Bouchard": 87677,
+        "Other": 4900
       }
     },
     "oh-07": {
@@ -111,12 +111,12 @@
       }
     },
     "va-02": {
-      "reporting": 89.94,
-      "called": null,
+      "reporting": 90.45,
+      "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 156337,
-        "Jen Kiggans": 140190,
-        "Other": 7116
+        "Elaine Luria": 157386,
+        "Jen Kiggans": 140783,
+        "Other": 7197
       }
     },
     "mo-05": {
@@ -162,19 +162,19 @@
       }
     },
     "va-voting": {
-      "reporting": 99.6,
+      "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1822673,
-        "No": 1468302
+        "Yes": 1844664,
+        "No": 1478585
       }
     },
     "mi-p1": {
-      "reporting": 43.4,
+      "reporting": 50.4,
       "called": null,
       "votes": {
-        "No": 1259895,
-        "Yes": 429318
+        "No": 1434147,
+        "Yes": 490110
       }
     },
     "me-sen": {
@@ -196,11 +196,11 @@
       }
     },
     "mo-a8": {
-      "reporting": 81.6,
+      "reporting": 81.9,
       "called": null,
       "votes": {
-        "Yes": 884616,
-        "No": 773174
+        "Yes": 886630,
+        "No": 774130
       }
     },
     "mo-propa": {
@@ -238,19 +238,19 @@
       }
     },
     "mo-a6": {
-      "reporting": 79.4,
+      "reporting": 82.2,
       "called": null,
       "votes": {
-        "Yes": 926139,
-        "No": 677342
+        "Yes": 964581,
+        "No": 710215
       }
     },
     "va-q1": {
-      "reporting": 99.7,
+      "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 2018952,
-        "No": 1267046
+        "Yes": 2033414,
+        "No": 1272023
       }
     },
     "oh-i3": {
@@ -288,11 +288,11 @@
       }
     },
     "ca-22": {
-      "reporting": 22.47,
+      "reporting": 24.47,
       "called": null,
       "votes": {
-        "Randy Villegas": 36827,
-        "David Valadao": 19756
+        "Randy Villegas": 40019,
+        "David Valadao": 21621
       }
     },
     "ut-b": {
@@ -307,8 +307,8 @@
       "reporting": 82.5,
       "called": null,
       "votes": {
-        "No": 1039406,
-        "Yes": 898413
+        "No": 1047710,
+        "Yes": 902583
       }
     },
     "wa-03": {
@@ -322,15 +322,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T05:04:48+00:00",
+    "at": "2026-11-04T05:10:34+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87524: HTTP Error 502: Bad Gateway",
-      "race/87528: HTTP Error 502: Bad Gateway",
-      "race/87220: HTTP Error 502: Bad Gateway",
-      "race/87242: HTTP Error 502: Bad Gateway",
-      "race/87243: HTTP Error 502: Bad Gateway"
+      "race/87528: The read operation timed out",
+      "race/87243: HTTP Error 502: Bad Gateway",
+      "race/139734: HTTP Error 502: Bad Gateway",
+      "race/140000: HTTP Error 502: Bad Gateway",
+      "race/140001: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 18
+    "error_count": 12
   }
 }
