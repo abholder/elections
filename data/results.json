@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T10:23:53+00:00",
+  "updated": "2026-11-04T10:28:49+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 96.9,
+      "reporting": 96.99,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5227050,
-        "Ken Paxton": 4282878,
-        "Other": 180317
+        "James Talarico": 5233233,
+        "Ken Paxton": 4285395,
+        "Other": 180638
       }
     },
     "oh-sen": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 92.2,
+      "reporting": 92,
       "called": "Failed",
       "votes": {
-        "No": 3041954,
-        "Yes": 1080754
+        "No": 3043198,
+        "Yes": 1081057
       }
     },
     "me-sen": {
@@ -347,11 +347,9 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T10:23:53+00:00",
+    "at": "2026-11-04T10:28:49+00:00",
     "fetched_ok": true,
-    "errors": [
-      "race/139732: HTTP Error 503: Service Unavailable"
-    ],
-    "error_count": 1
+    "errors": [],
+    "error_count": 0
   }
 }
