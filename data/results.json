@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T06:22:08+00:00",
+  "updated": "2026-11-04T06:27:30+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 86.87,
+      "reporting": 87.08,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4847991,
-        "Ken Paxton": 3682908,
-        "Other": 156620
+        "James Talarico": 4857965,
+        "Ken Paxton": 3693077,
+        "Other": 157296
       }
     },
     "oh-sen": {
@@ -85,12 +85,12 @@
       }
     },
     "mi-10": {
-      "reporting": 60.73,
+      "reporting": 61.5,
       "called": null,
       "votes": {
-        "Christina Hines": 116378,
-        "Michael Bouchard": 109910,
-        "Other": 6013
+        "Christina Hines": 118153,
+        "Michael Bouchard": 111067,
+        "Other": 6037
       }
     },
     "oh-07": {
@@ -114,9 +114,9 @@
       "reporting": 100,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 175600,
-        "Jen Kiggans": 149142,
-        "Other": 7879
+        "Elaine Luria": 178696,
+        "Jen Kiggans": 150080,
+        "Other": 8023
       }
     },
     "mo-05": {
@@ -170,29 +170,29 @@
       }
     },
     "mi-p1": {
-      "reporting": 72.9,
+      "reporting": 74.8,
       "called": null,
       "votes": {
-        "No": 2283971,
-        "Yes": 806141
+        "No": 2392198,
+        "Yes": 842254
       }
     },
     "me-sen": {
-      "reporting": 76.9,
+      "reporting": 76.93,
       "called": null,
       "votes": {
-        "Troy Jackson": 305630,
-        "Susan Collins": 264103,
+        "Troy Jackson": 305679,
+        "Susan Collins": 264234,
         "Other": 768
       }
     },
     "ne-sen": {
-      "reporting": 73.77,
+      "reporting": 75.59,
       "called": null,
       "votes": {
-        "Pete Ricketts": 278274,
-        "Dan Osborn": 258473,
-        "Other": 33717
+        "Pete Ricketts": 284291,
+        "Dan Osborn": 265868,
+        "Other": 34419
       }
     },
     "mo-a8": {
@@ -212,12 +212,12 @@
       }
     },
     "ia-sen": {
-      "reporting": 97.15,
+      "reporting": 98.34,
       "called": "Josh Turek",
       "votes": {
-        "Josh Turek": 673399,
-        "Ashley Hinson": 617349,
-        "Other": 41358
+        "Josh Turek": 680403,
+        "Ashley Hinson": 626033,
+        "Other": 41978
       }
     },
     "ny-17": {
@@ -249,8 +249,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 2140825,
-        "No": 1309132
+        "Yes": 2164513,
+        "No": 1312493
       }
     },
     "oh-i3": {
@@ -283,8 +283,8 @@
       "reporting": 99.6,
       "called": null,
       "votes": {
-        "Yes": 1072303,
-        "No": 715729
+        "Yes": 1074428,
+        "No": 716188
       }
     },
     "ca-22": {
@@ -331,9 +331,11 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T06:22:08+00:00",
+    "at": "2026-11-04T06:27:30+00:00",
     "fetched_ok": true,
-    "errors": [],
-    "error_count": 0
+    "errors": [
+      "race/158443: HTTP Error 502: Bad Gateway"
+    ],
+    "error_count": 1
   }
 }
