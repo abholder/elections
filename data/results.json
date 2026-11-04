@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T04:05:49+00:00",
+  "updated": "2026-11-04T04:10:19+00:00",
   "results": {
     "tx-sen": {
       "reporting": 68.62,
@@ -146,11 +146,11 @@
       }
     },
     "mo-a7": {
-      "reporting": 75.5,
+      "reporting": 76.4,
       "called": null,
       "votes": {
-        "No": 911134,
-        "Yes": 622704
+        "No": 913523,
+        "Yes": 625164
       }
     },
     "va-marriage": {
@@ -204,11 +204,11 @@
       }
     },
     "mo-propa": {
-      "reporting": 68.9,
+      "reporting": 76.8,
       "called": null,
       "votes": {
-        "No": 797437,
-        "Yes": 528013
+        "No": 930628,
+        "Yes": 631965
       }
     },
     "ia-sen": {
@@ -238,11 +238,11 @@
       }
     },
     "mo-a6": {
-      "reporting": 68.9,
+      "reporting": 77.1,
       "called": null,
       "votes": {
-        "Yes": 768886,
-        "No": 549013
+        "Yes": 914474,
+        "No": 666926
       }
     },
     "va-q1": {
@@ -289,15 +289,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T04:05:49+00:00",
+    "at": "2026-11-04T04:10:19+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87243: HTTP Error 502: Bad Gateway",
-      "race/139732: HTTP Error 502: Bad Gateway",
-      "race/139734: The read operation timed out",
-      "race/140000: The read operation timed out",
-      "race/140001: The read operation timed out"
+      "race/87220: HTTP Error 502: Bad Gateway",
+      "race/87524: HTTP Error 502: Bad Gateway",
+      "race/87528: HTTP Error 502: Bad Gateway",
+      "race/87242: HTTP Error 502: Bad Gateway",
+      "race/87243: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 12
+    "error_count": 15
   }
 }
