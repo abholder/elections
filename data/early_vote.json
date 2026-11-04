@@ -2,8 +2,8 @@
  "source": "University of Florida Election Lab",
  "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
  "license": "CC BY-NC-ND 4.0",
- "updated": "2026-11-04T03:23:02+00:00",
- "total": 61637813,
+ "updated": "2026-11-04T04:23:25+00:00",
+ "total": 61777741,
  "states": {
   "AK": {
    "name": "Alaska",
@@ -497,14 +497,14 @@
   },
   "OR": {
    "name": "Oregon",
-   "voted_all": 1668842,
+   "voted_all": 1808770,
    "inperson_all": 0,
-   "accept_all": 1668842,
+   "accept_all": 1808770,
    "request_all": 3117439,
    "turn_2022": 1997689,
-   "voted_dem": 667966,
-   "voted_rep": 507499,
-   "voted_none": 493377,
+   "voted_dem": 720033,
+   "voted_rep": 539073,
+   "voted_none": 549664,
    "last_update": "11/3/2026",
    "source": "https://sos.oregon.gov/elections/Documents/2026-general-election-unofficial-ballot-returns.pdf",
    "notes": null
@@ -2044,7 +2044,7 @@
    }
   },
   "2026-11-04": {
-   "total": 61637813,
+   "total": 61777741,
    "states": {
     "AK": 99424,
     "AZ": 1648197,
@@ -2081,7 +2081,7 @@
     "ND": 101160,
     "OH": 1753509,
     "OK": 231090,
-    "OR": 1668842,
+    "OR": 1808770,
     "PA": 1115994,
     "RI": 138314,
     "SC": 1086338,
