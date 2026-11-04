@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T06:02:40+00:00",
+  "updated": "2026-11-04T06:07:25+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 84.71,
+      "reporting": 85.53,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4757913,
-        "Ken Paxton": 3562834,
-        "Other": 150629
+        "James Talarico": 4784422,
+        "Ken Paxton": 3615700,
+        "Other": 152832
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 63.58,
+      "reporting": 65.45,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1592412,
-        "Mike Rogers": 1494520,
-        "Other": 63704
+        "Abdul El-Sayed": 1637089,
+        "Mike Rogers": 1540162,
+        "Other": 65995
       }
     },
     "nh-sen": {
@@ -138,7 +138,7 @@
       }
     },
     "mo-a3": {
-      "reporting": 84.2,
+      "reporting": 85,
       "called": null,
       "votes": {
         "No": 901709,
@@ -157,8 +157,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1911745,
-        "No": 1467097
+        "Yes": 1981152,
+        "No": 1492843
       }
     },
     "va-voting": {
@@ -170,29 +170,29 @@
       }
     },
     "mi-p1": {
-      "reporting": 70.2,
+      "reporting": 70.9,
       "called": null,
       "votes": {
-        "No": 2005801,
-        "Yes": 701763
+        "No": 2064038,
+        "Yes": 719556
       }
     },
     "me-sen": {
-      "reporting": 75.53,
+      "reporting": 75.97,
       "called": null,
       "votes": {
-        "Troy Jackson": 300992,
-        "Susan Collins": 258545,
-        "Other": 764
+        "Troy Jackson": 302988,
+        "Susan Collins": 259845,
+        "Other": 765
       }
     },
     "ne-sen": {
-      "reporting": 67.82,
+      "reporting": 68.76,
       "called": null,
       "votes": {
-        "Pete Ricketts": 254125,
-        "Dan Osborn": 239482,
-        "Other": 30887
+        "Pete Ricketts": 258891,
+        "Dan Osborn": 241556,
+        "Other": 31309
       }
     },
     "mo-a8": {
@@ -271,12 +271,12 @@
       }
     },
     "mn-sen": {
-      "reporting": 84.39,
+      "reporting": 94.5,
       "called": "Peggy Flanagan",
       "votes": {
-        "Peggy Flanagan": 1257240,
-        "Michele Tafoya": 1040922,
-        "Other": 64627
+        "Peggy Flanagan": 1435440,
+        "Michele Tafoya": 1138145,
+        "Other": 72135
       }
     },
     "md-redistricting": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T06:02:40+00:00",
+    "at": "2026-11-04T06:07:25+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
