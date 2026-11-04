@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T05:34:18+00:00",
+  "updated": "2026-11-04T05:38:58+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 81.51,
+      "reporting": 81.9,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4633032,
-        "Ken Paxton": 3376729,
-        "Other": 141683
+        "James Talarico": 4648444,
+        "Ken Paxton": 3398960,
+        "Other": 142618
       }
     },
     "oh-sen": {
@@ -32,21 +32,21 @@
       }
     },
     "ks-sen": {
-      "reporting": 94.82,
+      "reporting": 94.83,
       "called": "Adam Hamilton",
       "votes": {
-        "Adam Hamilton": 554712,
-        "Roger Marshall": 496152,
-        "Other": 35438
+        "Adam Hamilton": 554722,
+        "Roger Marshall": 496209,
+        "Other": 35440
       }
     },
     "mi-sen": {
-      "reporting": 52.99,
+      "reporting": 59.85,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1291540,
-        "Mike Rogers": 1282261,
-        "Other": 51958
+        "Abdul El-Sayed": 1504123,
+        "Mike Rogers": 1402056,
+        "Other": 59638
       }
     },
     "nh-sen": {
@@ -85,12 +85,12 @@
       }
     },
     "mi-10": {
-      "reporting": 48.09,
+      "reporting": 49.73,
       "called": null,
       "votes": {
-        "Christina Hines": 91376,
-        "Michael Bouchard": 87677,
-        "Other": 4900
+        "Christina Hines": 95191,
+        "Michael Bouchard": 89961,
+        "Other": 5075
       }
     },
     "oh-07": {
@@ -111,12 +111,12 @@
       }
     },
     "va-02": {
-      "reporting": 93.21,
+      "reporting": 93.28,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 163459,
-        "Jen Kiggans": 143843,
-        "Other": 7360
+        "Elaine Luria": 163617,
+        "Jen Kiggans": 143906,
+        "Other": 7378
       }
     },
     "mo-05": {
@@ -138,7 +138,7 @@
       }
     },
     "mo-a3": {
-      "reporting": 83.1,
+      "reporting": 83.2,
       "called": null,
       "votes": {
         "No": 883185,
@@ -146,7 +146,7 @@
       }
     },
     "mo-a7": {
-      "reporting": 81.7,
+      "reporting": 81.9,
       "called": null,
       "votes": {
         "No": 984102,
@@ -157,46 +157,46 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1901412,
-        "No": 1458262
+        "Yes": 1901852,
+        "No": 1459574
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1866389,
-        "No": 1488287
+        "Yes": 1866944,
+        "No": 1489476
       }
     },
     "mi-p1": {
-      "reporting": 62.5,
+      "reporting": 63.8,
       "called": null,
       "votes": {
-        "No": 1691408,
-        "Yes": 570265
+        "No": 1866759,
+        "Yes": 649810
       }
     },
     "me-sen": {
-      "reporting": 70.59,
+      "reporting": 71.38,
       "called": null,
       "votes": {
-        "Troy Jackson": 279757,
-        "Susan Collins": 243187,
-        "Other": 746
+        "Troy Jackson": 282161,
+        "Susan Collins": 246634,
+        "Other": 748
       }
     },
     "ne-sen": {
-      "reporting": 63.5,
+      "reporting": 64.37,
       "called": null,
       "votes": {
-        "Pete Ricketts": 236466,
-        "Dan Osborn": 226192,
-        "Other": 28421
+        "Pete Ricketts": 240946,
+        "Dan Osborn": 227922,
+        "Other": 28924
       }
     },
     "mo-a8": {
-      "reporting": 82,
+      "reporting": 82.3,
       "called": null,
       "votes": {
         "Yes": 886630,
@@ -204,7 +204,7 @@
       }
     },
     "mo-propa": {
-      "reporting": 82,
+      "reporting": 82.2,
       "called": null,
       "votes": {
         "No": 982529,
@@ -212,12 +212,12 @@
       }
     },
     "ia-sen": {
-      "reporting": 96.59,
+      "reporting": 96.96,
       "called": "Josh Turek",
       "votes": {
-        "Josh Turek": 670437,
-        "Ashley Hinson": 612937,
-        "Other": 41044
+        "Josh Turek": 672023,
+        "Ashley Hinson": 616185,
+        "Other": 41288
       }
     },
     "ny-17": {
@@ -238,7 +238,7 @@
       }
     },
     "mo-a6": {
-      "reporting": 82.3,
+      "reporting": 82.5,
       "called": null,
       "votes": {
         "Yes": 964581,
@@ -249,8 +249,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 2056222,
-        "No": 1280573
+        "Yes": 2056828,
+        "No": 1281712
       }
     },
     "oh-i3": {
@@ -271,12 +271,12 @@
       }
     },
     "mn-sen": {
-      "reporting": 78.18,
+      "reporting": 84.39,
       "called": "Peggy Flanagan",
       "votes": {
-        "Peggy Flanagan": 1183562,
-        "Michele Tafoya": 946117,
-        "Other": 59237
+        "Peggy Flanagan": 1257240,
+        "Michele Tafoya": 1040922,
+        "Other": 64627
       }
     },
     "md-redistricting": {
@@ -322,11 +322,9 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T05:34:18+00:00",
+    "at": "2026-11-04T05:38:58+00:00",
     "fetched_ok": true,
-    "errors": [
-      "race/140000: HTTP Error 504: Gateway Timeout"
-    ],
-    "error_count": 1
+    "errors": [],
+    "error_count": 0
   }
 }
