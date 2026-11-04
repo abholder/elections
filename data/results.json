@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T10:13:34+00:00",
+  "updated": "2026-11-04T10:23:53+00:00",
   "results": {
     "tx-sen": {
       "reporting": 96.9,
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 93.84,
+      "reporting": 94.87,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2431112,
-        "Mike Rogers": 2123522,
-        "Other": 95529
+        "Abdul El-Sayed": 2460111,
+        "Mike Rogers": 2143780,
+        "Other": 97514
       }
     },
     "nh-sen": {
@@ -85,12 +85,12 @@
       }
     },
     "mi-10": {
-      "reporting": 78.56,
+      "reporting": 89.7,
       "called": null,
       "votes": {
-        "Christina Hines": 155224,
-        "Michael Bouchard": 138001,
-        "Other": 7288
+        "Christina Hines": 177686,
+        "Michael Bouchard": 157063,
+        "Other": 8382
       }
     },
     "oh-07": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 92,
+      "reporting": 92.2,
       "called": "Failed",
       "votes": {
-        "No": 3013061,
-        "Yes": 1068585
+        "No": 3041954,
+        "Yes": 1080754
       }
     },
     "me-sen": {
@@ -347,9 +347,11 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T10:13:34+00:00",
+    "at": "2026-11-04T10:23:53+00:00",
     "fetched_ok": true,
-    "errors": [],
-    "error_count": 0
+    "errors": [
+      "race/139732: HTTP Error 503: Service Unavailable"
+    ],
+    "error_count": 1
   }
 }
