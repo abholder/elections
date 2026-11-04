@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T05:23:42+00:00",
+  "updated": "2026-11-04T05:29:41+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 79.85,
+      "reporting": 80.47,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4557034,
-        "Ken Paxton": 3290440,
-        "Other": 137279
+        "James Talarico": 4573330,
+        "Ken Paxton": 3335040,
+        "Other": 138768
       }
     },
     "oh-sen": {
@@ -21,13 +21,13 @@
       }
     },
     "sc-sen": {
-      "reporting": 99,
+      "reporting": 100,
       "called": "Annie Andrews",
       "votes": {
-        "Annie Andrews": 1034418,
-        "Darline Graham": 948133,
-        "Kasie Whitener": 23441,
-        "Mark Hackett": 16722,
+        "Annie Andrews": 1035543,
+        "Darline Graham": 947775,
+        "Kasie Whitener": 23464,
+        "Mark Hackett": 16733,
         "Other": 4877
       }
     },
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 50.41,
+      "reporting": 51.81,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1233779,
-        "Mike Rogers": 1215376,
-        "Other": 48853
+        "Abdul El-Sayed": 1260740,
+        "Mike Rogers": 1256187,
+        "Other": 50595
       }
     },
     "nh-sen": {
@@ -59,12 +59,12 @@
       }
     },
     "nc-sen": {
-      "reporting": 94.54,
+      "reporting": 94.79,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2453913,
-        "Michael Whatley": 1637481,
-        "Other": 91821
+        "Roy Cooper": 2462277,
+        "Michael Whatley": 1640020,
+        "Other": 92130
       }
     },
     "ga-sen": {
@@ -102,21 +102,21 @@
       }
     },
     "tx-34": {
-      "reporting": 70.84,
+      "reporting": 76.9,
       "called": "Vicente Gonzalez",
       "votes": {
-        "Vicente Gonzalez": 105563,
-        "Eric Flores": 72019,
-        "Other": 8454
+        "Vicente Gonzalez": 112484,
+        "Eric Flores": 80084,
+        "Other": 9371
       }
     },
     "va-02": {
-      "reporting": 92.69,
+      "reporting": 93.21,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 162295,
-        "Jen Kiggans": 143334,
-        "Other": 7287
+        "Elaine Luria": 163459,
+        "Jen Kiggans": 143843,
+        "Other": 7360
       }
     },
     "mo-05": {
@@ -157,42 +157,42 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1900399,
-        "No": 1457305
+        "Yes": 1901412,
+        "No": 1458262
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1865165,
-        "No": 1487539
+        "Yes": 1866389,
+        "No": 1488287
       }
     },
     "mi-p1": {
-      "reporting": 57.1,
+      "reporting": 57.8,
       "called": null,
       "votes": {
-        "No": 1603991,
-        "Yes": 541007
+        "No": 1627671,
+        "Yes": 549116
       }
     },
     "me-sen": {
-      "reporting": 67.28,
+      "reporting": 67.65,
       "called": null,
       "votes": {
-        "Troy Jackson": 267308,
-        "Susan Collins": 231095,
-        "Other": 714
+        "Troy Jackson": 268666,
+        "Susan Collins": 232447,
+        "Other": 722
       }
     },
     "ne-sen": {
-      "reporting": 62.46,
+      "reporting": 63.5,
       "called": null,
       "votes": {
-        "Pete Ricketts": 231361,
-        "Dan Osborn": 223849,
-        "Other": 27847
+        "Pete Ricketts": 236466,
+        "Dan Osborn": 226192,
+        "Other": 28421
       }
     },
     "mo-a8": {
@@ -204,7 +204,7 @@
       }
     },
     "mo-propa": {
-      "reporting": 81.8,
+      "reporting": 81.9,
       "called": null,
       "votes": {
         "No": 982529,
@@ -249,8 +249,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 2054931,
-        "No": 1279892
+        "Yes": 2056222,
+        "No": 1280573
       }
     },
     "oh-i3": {
@@ -288,19 +288,19 @@
       }
     },
     "ca-22": {
-      "reporting": 24.47,
+      "reporting": 24.52,
       "called": null,
       "votes": {
-        "Randy Villegas": 40019,
-        "David Valadao": 21621
+        "Randy Villegas": 40105,
+        "David Valadao": 21645
       }
     },
     "ut-b": {
-      "reporting": 68.6,
+      "reporting": 72.1,
       "called": null,
       "votes": {
-        "No": 374446,
-        "Yes": 228272
+        "No": 377590,
+        "Yes": 231741
       }
     },
     "co-a86": {
@@ -322,11 +322,11 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T05:23:42+00:00",
+    "at": "2026-11-04T05:29:41+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/140001: HTTP Error 504: Gateway Timeout",
-      "race/157054: HTTP Error 504: Gateway Timeout"
+      "race/87243: HTTP Error 502: Bad Gateway",
+      "race/158443: HTTP Error 504: Gateway Timeout"
     ],
     "error_count": 2
   }
