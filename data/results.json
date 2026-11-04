@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T09:23:10+00:00",
+  "updated": "2026-11-04T09:28:11+00:00",
   "results": {
     "tx-sen": {
       "reporting": 96.61,
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 93.03,
+      "reporting": 93.23,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2406485,
-        "Mike Rogers": 2109072,
-        "Other": 94710
+        "Abdul El-Sayed": 2409199,
+        "Mike Rogers": 2115723,
+        "Other": 94913
       }
     },
     "nh-sen": {
@@ -62,17 +62,17 @@
       "reporting": 100,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2462440,
-        "Michael Whatley": 1640368,
-        "Other": 92144
+        "Roy Cooper": 2463773,
+        "Michael Whatley": 1640663,
+        "Other": 92042
       }
     },
     "ga-sen": {
-      "reporting": 89.16,
+      "reporting": 89.41,
       "called": "Jon Ossoff",
       "votes": {
-        "Jon Ossoff": 2453525,
-        "Mike Collins": 1709237
+        "Jon Ossoff": 2463135,
+        "Mike Collins": 1711322
       }
     },
     "fl-14": {
@@ -173,8 +173,8 @@
       "reporting": 91.4,
       "called": "Failed",
       "votes": {
-        "No": 2980874,
-        "Yes": 1057740
+        "No": 2987561,
+        "Yes": 1059994
       }
     },
     "me-sen": {
@@ -212,12 +212,12 @@
       }
     },
     "ia-sen": {
-      "reporting": 98.91,
+      "reporting": 99,
       "called": "Josh Turek",
       "votes": {
-        "Josh Turek": 684910,
-        "Ashley Hinson": 629214,
-        "Other": 42092
+        "Josh Turek": 687967,
+        "Ashley Hinson": 631030,
+        "Other": 42165
       }
     },
     "ny-17": {
@@ -288,11 +288,11 @@
       }
     },
     "ca-22": {
-      "reporting": 27.93,
+      "reporting": 29.56,
       "called": "Randy Villegas",
       "votes": {
-        "Randy Villegas": 45864,
-        "David Valadao": 24471
+        "Randy Villegas": 48821,
+        "David Valadao": 25627
       }
     },
     "ut-b": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T09:23:10+00:00",
+    "at": "2026-11-04T09:28:11+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
