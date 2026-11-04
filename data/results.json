@@ -1,23 +1,23 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T06:42:06+00:00",
+  "updated": "2026-11-04T06:47:18+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 88.99,
+      "reporting": 89.2,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4958522,
-        "Ken Paxton": 3777715,
-        "Other": 162944
+        "James Talarico": 4966409,
+        "Ken Paxton": 3790364,
+        "Other": 163674
       }
     },
     "oh-sen": {
-      "reporting": 90.39,
+      "reporting": 91.11,
       "called": "Sherrod Brown",
       "votes": {
-        "Sherrod Brown": 2109363,
-        "Jon Husted": 1988140,
-        "Other": 209304
+        "Sherrod Brown": 2131644,
+        "Jon Husted": 1998474,
+        "Other": 210715
       }
     },
     "sc-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 78.32,
-      "called": null,
+      "reporting": 79.31,
+      "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2009755,
-        "Mike Rogers": 1791898,
-        "Other": 79630
+        "Abdul El-Sayed": 2034244,
+        "Mike Rogers": 1815504,
+        "Other": 80592
       }
     },
     "nh-sen": {
@@ -94,11 +94,11 @@
       }
     },
     "oh-07": {
-      "reporting": 89.32,
+      "reporting": 93.82,
       "called": "Brian Poindexter",
       "votes": {
-        "Brian Poindexter": 154353,
-        "Max Miller": 129788
+        "Brian Poindexter": 162395,
+        "Max Miller": 136062
       }
     },
     "tx-34": {
@@ -170,16 +170,16 @@
       }
     },
     "mi-p1": {
-      "reporting": 77.7,
+      "reporting": 77.9,
       "called": null,
       "votes": {
-        "No": 2526778,
-        "Yes": 890124
+        "No": 2540372,
+        "Yes": 894834
       }
     },
     "me-sen": {
       "reporting": 78.96,
-      "called": null,
+      "called": "Troy Jackson",
       "votes": {
         "Troy Jackson": 314597,
         "Susan Collins": 270367,
@@ -187,12 +187,12 @@
       }
     },
     "ne-sen": {
-      "reporting": 76.95,
+      "reporting": 77.94,
       "called": null,
       "votes": {
-        "Pete Ricketts": 291364,
-        "Dan Osborn": 268687,
-        "Other": 35058
+        "Pete Ricketts": 297227,
+        "Dan Osborn": 270020,
+        "Other": 35482
       }
     },
     "mo-a8": {
@@ -288,11 +288,11 @@
       }
     },
     "ca-22": {
-      "reporting": 24.98,
+      "reporting": 25.15,
       "called": null,
       "votes": {
-        "Randy Villegas": 40899,
-        "David Valadao": 22022
+        "Randy Villegas": 41211,
+        "David Valadao": 22140
       }
     },
     "ut-b": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T06:42:06+00:00",
+    "at": "2026-11-04T06:47:18+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
