@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T03:39:30+00:00",
+  "updated": "2026-11-04T03:46:04+00:00",
   "results": {
     "tx-sen": {
       "reporting": 60.42,
@@ -94,11 +94,11 @@
       }
     },
     "oh-07": {
-      "reporting": 60.92,
+      "reporting": 65.46,
       "called": null,
       "votes": {
-        "Brian Poindexter": 104490,
-        "Max Miller": 89322
+        "Brian Poindexter": 113116,
+        "Max Miller": 95126
       }
     },
     "tx-34": {
@@ -120,37 +120,37 @@
       }
     },
     "mo-05": {
-      "reporting": 94.1,
+      "reporting": 99,
       "called": "Emanuel Cleaver",
       "votes": {
-        "Emanuel Cleaver": 158932,
-        "Rick Brattin": 57471,
-        "Randy Langkraehr": 4987
+        "Emanuel Cleaver": 168493,
+        "Rick Brattin": 63268,
+        "Randy Langkraehr": 5420
       }
     },
     "mo-06": {
-      "reporting": 91.05,
+      "reporting": 98.07,
       "called": "Chris Stigall",
       "votes": {
-        "Chris Stigall": 126118,
-        "Josh Smead": 85322,
-        "Andy Maidment": 5120
+        "Chris Stigall": 136645,
+        "Josh Smead": 91087,
+        "Andy Maidment": 5518
       }
     },
     "mo-a3": {
-      "reporting": 65.7,
+      "reporting": 71.9,
       "called": null,
       "votes": {
-        "No": 621123,
-        "Yes": 563377
+        "No": 747494,
+        "Yes": 658055
       }
     },
     "mo-a7": {
-      "reporting": 68.3,
+      "reporting": 70.3,
       "called": null,
       "votes": {
-        "No": 785822,
-        "Yes": 519988
+        "No": 820243,
+        "Yes": 545845
       }
     },
     "va-marriage": {
@@ -224,17 +224,17 @@
       "reporting": 99,
       "called": null,
       "votes": {
-        "Mike Lawler": 153290,
-        "Cait Conley": 148028,
-        "Other": 276
+        "Cait Conley": 243084,
+        "Mike Lawler": 204828,
+        "Other": 424
       }
     },
     "pa-10": {
-      "reporting": 57.76,
+      "reporting": 74.45,
       "called": null,
       "votes": {
-        "Janelle Stelson": 121338,
-        "Scott Perry": 84843
+        "Janelle Stelson": 150213,
+        "Scott Perry": 115537
       }
     },
     "mo-a6": {
@@ -289,14 +289,14 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T03:39:30+00:00",
+    "at": "2026-11-04T03:46:04+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87524: HTTP Error 502: Bad Gateway",
-      "race/87242: HTTP Error 502: Bad Gateway",
-      "race/87243: HTTP Error 502: Bad Gateway",
-      "race/139732: HTTP Error 502: Bad Gateway",
-      "race/139734: HTTP Error 502: Bad Gateway"
+      "race/87528: The read operation timed out",
+      "race/87220: The read operation timed out",
+      "race/140001: HTTP Error 500: Internal Server Error",
+      "race/140000: The read operation timed out",
+      "race/155237: HTTP Error 502: Bad Gateway"
     ],
     "error_count": 11
   }
