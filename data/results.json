@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T11:42:40+00:00",
+  "updated": "2026-11-04T11:47:21+00:00",
   "results": {
     "tx-sen": {
       "reporting": 97.03,
@@ -321,12 +321,12 @@
       }
     },
     "ak-sen": {
-      "reporting": 72.49,
+      "reporting": 73.68,
       "called": null,
       "votes": {
-        "Dan Sullivan": 101576,
-        "Mary Peltola": 100504,
-        "Other": 8138
+        "Mary Peltola": 102898,
+        "Dan Sullivan": 102363,
+        "Other": 8416
       }
     },
     "nv-abortion": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T11:42:40+00:00",
+    "at": "2026-11-04T11:47:21+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
