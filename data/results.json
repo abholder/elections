@@ -1,5 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": null,
-  "results": {}
+  "updated": "2026-11-04T00:04:24+00:00",
+  "results": {
+    "nh-sen": {
+      "reporting": 0,
+      "called": null,
+      "votes": {
+        "John E. Sununu": 5,
+        "Chris Pappas": 2
+      }
+    }
+  }
 }
