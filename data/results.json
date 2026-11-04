@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T11:14:29+00:00",
+  "updated": "2026-11-04T11:22:11+00:00",
   "results": {
     "tx-sen": {
       "reporting": 96.99,
@@ -262,12 +262,12 @@
       }
     },
     "az-01": {
-      "reporting": 74.94,
+      "reporting": 88,
       "called": null,
       "votes": {
-        "Amish Shah": 144706,
-        "Jay Feely": 115218,
-        "Other": 5241
+        "Amish Shah": 163584,
+        "Jay Feely": 141196,
+        "Other": 6586
       }
     },
     "mn-sen": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T11:14:29+00:00",
+    "at": "2026-11-04T11:22:11+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
