@@ -1,5 +1,187 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": null,
-  "results": {}
+  "updated": "2026-11-04T01:48:46+00:00",
+  "results": {
+    "tx-sen": {
+      "reporting": 30.64,
+      "called": null,
+      "votes": {
+        "James Talarico": 1795262,
+        "Ken Paxton": 1222027,
+        "Other": 46977
+      }
+    },
+    "oh-sen": {
+      "reporting": 38,
+      "called": null,
+      "votes": {
+        "Sherrod Brown": 1010767,
+        "Jon Husted": 734054,
+        "Other": 65532
+      }
+    },
+    "sc-sen": {
+      "reporting": 41.46,
+      "called": null,
+      "votes": {
+        "Annie Andrews": 435332,
+        "Darline Graham": 391139,
+        "Kasie Whitener": 7279,
+        "Mark Hackett": 5177,
+        "Other": 1670
+      }
+    },
+    "ks-sen": {
+      "reporting": 20.04,
+      "called": null,
+      "votes": {
+        "Adam Hamilton": 141552,
+        "Roger Marshall": 83256,
+        "Other": 4719
+      }
+    },
+    "mi-sen": {
+      "reporting": 8.04,
+      "called": null,
+      "votes": {
+        "Abdul El-Sayed": 223317,
+        "Mike Rogers": 168941,
+        "Other": 6324
+      }
+    },
+    "nh-sen": {
+      "reporting": 29.38,
+      "called": null,
+      "votes": {
+        "Chris Pappas": 112483,
+        "John E. Sununu": 85781,
+        "Other": 4237
+      }
+    },
+    "nc-sen": {
+      "reporting": 58.82,
+      "called": null,
+      "votes": {
+        "Roy Cooper": 1656909,
+        "Michael Whatley": 900736,
+        "Other": 45235
+      }
+    },
+    "ga-sen": {
+      "reporting": 54.71,
+      "called": "Jon Ossoff",
+      "votes": {
+        "Jon Ossoff": 1612112,
+        "Mike Collins": 941936
+      }
+    },
+    "fl-14": {
+      "reporting": 92.7,
+      "called": null,
+      "votes": {
+        "Kathy Castor": 151118,
+        "Mike Beltran": 136004,
+        "Other": 8711
+      }
+    },
+    "mi-10": {
+      "reporting": 5.7,
+      "called": null,
+      "votes": {
+        "Michael Bouchard": 11687,
+        "Christina Hines": 9668,
+        "Other": 434
+      }
+    },
+    "oh-07": {
+      "reporting": 38.89,
+      "called": null,
+      "votes": {
+        "Brian Poindexter": 77173,
+        "Max Miller": 46562
+      }
+    },
+    "tx-34": {
+      "reporting": 26.28,
+      "called": null,
+      "votes": {
+        "Vicente Gonzalez": 34056,
+        "Eric Flores": 31996,
+        "Other": 2970
+      }
+    },
+    "va-02": {
+      "reporting": 27.97,
+      "called": null,
+      "votes": {
+        "Jen Kiggans": 46651,
+        "Elaine Luria": 45178,
+        "Other": 2597
+      }
+    },
+    "mo-a3": {
+      "reporting": 0.9,
+      "called": null,
+      "votes": {
+        "No": 28043,
+        "Yes": 16603
+      }
+    },
+    "mo-a7": {
+      "reporting": 0.6,
+      "called": null,
+      "votes": {
+        "No": 24532,
+        "Yes": 12009
+      }
+    },
+    "mo-a8": {
+      "reporting": 0.4,
+      "called": null,
+      "votes": {
+        "No": 17826,
+        "Yes": 14066
+      }
+    },
+    "mo-propa": {
+      "reporting": 0.9,
+      "called": null,
+      "votes": {
+        "No": 28983,
+        "Yes": 14822
+      }
+    },
+    "va-q1": {
+      "reporting": 55.9,
+      "called": null,
+      "votes": {
+        "Yes": 799024,
+        "No": 489798
+      }
+    },
+    "va-marriage": {
+      "reporting": 55.9,
+      "called": null,
+      "votes": {
+        "Yes": 735612,
+        "No": 555189
+      }
+    },
+    "va-voting": {
+      "reporting": 55.9,
+      "called": null,
+      "votes": {
+        "Yes": 716769,
+        "No": 571368
+      }
+    },
+    "mi-p1": {
+      "reporting": 4.3,
+      "called": null,
+      "votes": {
+        "No": 19759,
+        "Yes": 6363
+      }
+    }
+  }
 }
