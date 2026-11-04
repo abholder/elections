@@ -1,23 +1,23 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T05:48:46+00:00",
+  "updated": "2026-11-04T05:51:57+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 83.2,
+      "reporting": 83.39,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4708330,
-        "Ken Paxton": 3464918,
-        "Other": 146458
+        "James Talarico": 4714339,
+        "Ken Paxton": 3477748,
+        "Other": 146894
       }
     },
     "oh-sen": {
-      "reporting": 89.75,
+      "reporting": 89.82,
       "called": "Sherrod Brown",
       "votes": {
-        "Sherrod Brown": 2091424,
-        "Jon Husted": 1976763,
-        "Other": 208001
+        "Sherrod Brown": 2092273,
+        "Jon Husted": 1978849,
+        "Other": 208244
       }
     },
     "sc-sen": {
@@ -35,9 +35,9 @@
       "reporting": 94.99,
       "called": "Adam Hamilton",
       "votes": {
-        "Adam Hamilton": 555146,
-        "Roger Marshall": 497517,
-        "Other": 35519
+        "Adam Hamilton": 555178,
+        "Roger Marshall": 497526,
+        "Other": 35522
       }
     },
     "mi-sen": {
@@ -138,11 +138,11 @@
       }
     },
     "mo-a3": {
-      "reporting": 83.8,
+      "reporting": 84.1,
       "called": null,
       "votes": {
-        "No": 883185,
-        "Yes": 816573
+        "No": 901709,
+        "Yes": 824577
       }
     },
     "mo-a7": {
@@ -178,12 +178,12 @@
       }
     },
     "me-sen": {
-      "reporting": 73.02,
+      "reporting": 74.87,
       "called": null,
       "votes": {
-        "Troy Jackson": 289695,
-        "Susan Collins": 251255,
-        "Other": 751
+        "Troy Jackson": 298063,
+        "Susan Collins": 256609,
+        "Other": 755
       }
     },
     "ne-sen": {
@@ -254,11 +254,11 @@
       }
     },
     "oh-i3": {
-      "reporting": 98,
+      "reporting": 98.2,
       "called": null,
       "votes": {
-        "Yes": 2757820,
-        "No": 1428514
+        "Yes": 2760254,
+        "No": 1429149
       }
     },
     "az-01": {
@@ -322,7 +322,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T05:48:46+00:00",
+    "at": "2026-11-04T05:51:57+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
