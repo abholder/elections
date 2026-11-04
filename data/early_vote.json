@@ -2,8 +2,8 @@
  "source": "University of Florida Election Lab",
  "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
  "license": "CC BY-NC-ND 4.0",
- "updated": "2026-11-04T04:23:25+00:00",
- "total": 61777741,
+ "updated": "2026-11-04T05:23:48+00:00",
+ "total": 61854301,
  "states": {
   "AK": {
    "name": "Alaska",
@@ -63,14 +63,14 @@
   },
   "CO": {
    "name": "Colorado",
-   "voted_all": 2448419,
-   "inperson_all": 137870,
-   "accept_all": 2310549,
-   "request_all": 4147217,
+   "voted_all": 2524979,
+   "inperson_all": 138132,
+   "accept_all": 2386847,
+   "request_all": 4223515,
    "turn_2022": 2540666,
-   "voted_dem": 710512,
-   "voted_rep": 591048,
-   "voted_none": 1146859,
+   "voted_dem": 727356,
+   "voted_rep": 609204,
+   "voted_none": 1188419,
    "last_update": "11/3/2026",
    "source": "Colorado Secretary of State",
    "notes": null
@@ -2044,13 +2044,13 @@
    }
   },
   "2026-11-04": {
-   "total": 61777741,
+   "total": 61854301,
    "states": {
     "AK": 99424,
     "AZ": 1648197,
     "AR": 612987,
     "CA": 7315224,
-    "CO": 2448419,
+    "CO": 2524979,
     "CT": 513279,
     "DE": 148738,
     "DC": 117893,
