@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T08:47:56+00:00",
+  "updated": "2026-11-04T08:52:56+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 96.43,
+      "reporting": 96.47,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5221915,
-        "Ken Paxton": 4241797,
-        "Other": 179693
+        "James Talarico": 5222436,
+        "Ken Paxton": 4244796,
+        "Other": 179809
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 91.16,
+      "reporting": 91.41,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2355790,
-        "Mike Rogers": 2069010,
-        "Other": 92577
+        "Abdul El-Sayed": 2363552,
+        "Mike Rogers": 2073200,
+        "Other": 92917
       }
     },
     "nh-sen": {
@@ -85,12 +85,12 @@
       }
     },
     "mi-10": {
-      "reporting": 72.01,
+      "reporting": 75.23,
       "called": null,
       "votes": {
-        "Christina Hines": 140495,
-        "Michael Bouchard": 128110,
-        "Other": 6839
+        "Christina Hines": 148543,
+        "Michael Bouchard": 132131,
+        "Other": 7077
       }
     },
     "oh-07": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 89,
+      "reporting": 90.3,
       "called": "Failed",
       "votes": {
-        "No": 2917153,
-        "Yes": 1033257
+        "No": 2925094,
+        "Yes": 1036466
       }
     },
     "me-sen": {
@@ -321,12 +321,12 @@
       }
     },
     "ak-sen": {
-      "reporting": 70.87,
+      "reporting": 71.85,
       "called": null,
       "votes": {
-        "Dan Sullivan": 99955,
-        "Mary Peltola": 97782,
-        "Other": 7797
+        "Dan Sullivan": 101097,
+        "Mary Peltola": 99312,
+        "Other": 7966
       }
     },
     "nv-abortion": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T08:47:56+00:00",
+    "at": "2026-11-04T08:52:56+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
