@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T06:01:56+00:00",
+  "updated": "2026-11-04T06:02:40+00:00",
   "results": {
     "tx-sen": {
       "reporting": 84.71,
@@ -114,9 +114,9 @@
       "reporting": 100,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 165267,
-        "Jen Kiggans": 144398,
-        "Other": 7458
+        "Elaine Luria": 175600,
+        "Jen Kiggans": 149142,
+        "Other": 7879
       }
     },
     "mo-05": {
@@ -165,8 +165,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1878543,
-        "No": 1495317
+        "Yes": 1945673,
+        "No": 1523074
       }
     },
     "mi-p1": {
@@ -249,8 +249,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 2069531,
-        "No": 1286822
+        "Yes": 2137694,
+        "No": 1308280
       }
     },
     "oh-i3": {
@@ -299,8 +299,8 @@
       "reporting": 72.1,
       "called": null,
       "votes": {
-        "No": 379717,
-        "Yes": 233465
+        "No": 396972,
+        "Yes": 240460
       }
     },
     "co-a86": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T06:01:56+00:00",
+    "at": "2026-11-04T06:02:40+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
