@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T04:45:45+00:00",
+  "updated": "2026-11-04T04:51:17+00:00",
   "results": {
     "tx-sen": {
       "reporting": 70.35,
@@ -85,12 +85,12 @@
       }
     },
     "mi-10": {
-      "reporting": 37.32,
+      "reporting": 42.32,
       "called": null,
       "votes": {
-        "Christina Hines": 69983,
-        "Michael Bouchard": 68654,
-        "Other": 4105
+        "Michael Bouchard": 78996,
+        "Christina Hines": 78296,
+        "Other": 4602
       }
     },
     "oh-07": {
@@ -111,12 +111,12 @@
       }
     },
     "va-02": {
-      "reporting": 89.72,
+      "reporting": 89.94,
       "called": null,
       "votes": {
-        "Elaine Luria": 155929,
-        "Jen Kiggans": 139910,
-        "Other": 7044
+        "Elaine Luria": 156337,
+        "Jen Kiggans": 140190,
+        "Other": 7116
       }
     },
     "mo-05": {
@@ -196,11 +196,11 @@
       }
     },
     "mo-a8": {
-      "reporting": 80.5,
+      "reporting": 81.6,
       "called": null,
       "votes": {
-        "Yes": 853594,
-        "No": 746772
+        "Yes": 884616,
+        "No": 773174
       }
     },
     "mo-propa": {
@@ -230,11 +230,11 @@
       }
     },
     "pa-10": {
-      "reporting": 88.46,
+      "reporting": 88.5,
       "called": "Janelle Stelson",
       "votes": {
-        "Janelle Stelson": 173741,
-        "Scott Perry": 142023
+        "Janelle Stelson": 173845,
+        "Scott Perry": 142059
       }
     },
     "mo-a6": {
@@ -288,11 +288,11 @@
       }
     },
     "ca-22": {
-      "reporting": 7.2,
+      "reporting": 22.47,
       "called": null,
       "votes": {
-        "Randy Villegas": 10861,
-        "David Valadao": 7266
+        "Randy Villegas": 36827,
+        "David Valadao": 19756
       }
     },
     "ut-b": {
@@ -307,8 +307,8 @@
       "reporting": 82.2,
       "called": null,
       "votes": {
-        "No": 1037582,
-        "Yes": 895844
+        "No": 1039027,
+        "Yes": 897855
       }
     },
     "wa-03": {
@@ -322,15 +322,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T04:45:45+00:00",
+    "at": "2026-11-04T04:51:17+00:00",
     "fetched_ok": true,
     "errors": [
+      "race/87528: The read operation timed out",
       "race/87243: HTTP Error 502: Bad Gateway",
-      "race/87528: HTTP Error 502: Bad Gateway",
-      "race/139733: The read operation timed out",
-      "race/156339: HTTP Error 502: Bad Gateway",
-      "race/156340: HTTP Error 502: Bad Gateway"
+      "race/139732: HTTP Error 502: Bad Gateway",
+      "race/87220: The read operation timed out",
+      "race/139734: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 9
+    "error_count": 14
   }
 }
