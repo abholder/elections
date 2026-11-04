@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T02:58:49+00:00",
+  "updated": "2026-11-04T03:04:37+00:00",
   "results": {
     "tx-sen": {
       "reporting": 57.27,
@@ -94,11 +94,11 @@
       }
     },
     "oh-07": {
-      "reporting": 55.35,
+      "reporting": 57.04,
       "called": null,
       "votes": {
-        "Brian Poindexter": 96112,
-        "Max Miller": 79962
+        "Brian Poindexter": 98648,
+        "Max Miller": 82799
       }
     },
     "tx-34": {
@@ -120,29 +120,29 @@
       }
     },
     "mo-05": {
-      "reporting": 32.72,
-      "called": null,
+      "reporting": 77.66,
+      "called": "Emanuel Cleaver",
       "votes": {
-        "Emanuel Cleaver": 49035,
-        "Rick Brattin": 26123,
-        "Randy Langkraehr": 1820
+        "Emanuel Cleaver": 135802,
+        "Rick Brattin": 43070,
+        "Randy Langkraehr": 3853
       }
     },
     "mo-06": {
-      "reporting": 78.63,
-      "called": null,
+      "reporting": 81.9,
+      "called": "Chris Stigall",
       "votes": {
-        "Chris Stigall": 105963,
-        "Josh Smead": 76671,
-        "Andy Maidment": 4383
+        "Chris Stigall": 111433,
+        "Josh Smead": 78797,
+        "Andy Maidment": 4563
       }
     },
     "mo-a3": {
-      "reporting": 34.5,
+      "reporting": 46.5,
       "called": null,
       "votes": {
-        "No": 300626,
-        "Yes": 278821
+        "No": 473329,
+        "Yes": 399136
       }
     },
     "mo-a7": {
@@ -196,11 +196,11 @@
       }
     },
     "mo-a8": {
-      "reporting": 25.6,
+      "reporting": 41.9,
       "called": null,
       "votes": {
-        "Yes": 207133,
-        "No": 186547
+        "Yes": 374171,
+        "No": 357745
       }
     },
     "mo-propa": {
@@ -221,12 +221,12 @@
       }
     },
     "ny-17": {
-      "reporting": 28.57,
+      "reporting": 62.42,
       "called": null,
       "votes": {
-        "Cait Conley": 44174,
-        "Mike Lawler": 37520,
-        "Other": 52
+        "Cait Conley": 93020,
+        "Mike Lawler": 85420,
+        "Other": 120
       }
     },
     "pa-10": {
@@ -238,11 +238,11 @@
       }
     },
     "mo-a6": {
-      "reporting": 29.4,
+      "reporting": 41.5,
       "called": null,
       "votes": {
-        "Yes": 280595,
-        "No": 206081
+        "Yes": 440037,
+        "No": 298571
       }
     },
     "va-q1": {
@@ -254,24 +254,24 @@
       }
     },
     "oh-i3": {
-      "reporting": 85.4,
+      "reporting": 86.6,
       "called": null,
       "votes": {
-        "Yes": 2113384,
-        "No": 1111353
+        "Yes": 2199146,
+        "No": 1150208
       }
     }
   },
   "last_run": {
-    "at": "2026-11-04T02:58:49+00:00",
+    "at": "2026-11-04T03:04:37+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87524: HTTP Error 502: Bad Gateway",
-      "race/87242: HTTP Error 502: Bad Gateway",
-      "race/87243: HTTP Error 502: Bad Gateway",
-      "race/139732: HTTP Error 502: Bad Gateway",
-      "race/139734: HTTP Error 502: Bad Gateway"
+      "race/87220: HTTP Error 502: Bad Gateway",
+      "race/87528: HTTP Error 502: Bad Gateway",
+      "race/140000: HTTP Error 502: Bad Gateway",
+      "race/140001: HTTP Error 502: Bad Gateway",
+      "race/140002: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 14
+    "error_count": 9
   }
 }
