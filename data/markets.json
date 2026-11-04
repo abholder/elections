@@ -1,14 +1,14 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-11-04T02:05:38+00:00",
+ "updated": "2026-11-04T02:09:14+00:00",
  "control": {
   "Senate": {
    "D": 99,
    "R": 1
   },
   "House": {
-   "D": 100,
-   "R": 0
+   "D": 99,
+   "R": 1
   }
  },
  "races": {
@@ -22,31 +22,31 @@
   },
   "oh-sen": {
    "Sherrod Brown": 98,
-   "Jon Husted": 2
+   "Jon Husted": 3
   },
   "sc-sen": {
-   "Darline Graham": 2,
-   "Annie Andrews": 98
+   "Annie Andrews": 97,
+   "Darline Graham": 3
   },
   "ia-sen": {
-   "Ashley Hinson": 26,
-   "Josh Turek": 74
+   "Ashley Hinson": 28,
+   "Josh Turek": 72
   },
   "ks-sen": {
-   "Adam Hamilton": 96,
-   "Roger Marshall": 4
+   "Roger Marshall": 4,
+   "Adam Hamilton": 96
   },
   "ak-sen": {
    "Dan Sullivan": 12,
    "Mary Peltola": 88
   },
   "mi-sen": {
-   "Abdul El-Sayed": 95,
-   "Mike Rogers": 5
+   "Mike Rogers": 6,
+   "Abdul El-Sayed": 95
   },
   "ne-sen": {
-   "Dan Osborn": 29,
-   "Pete Ricketts": 72
+   "Pete Ricketts": 76,
+   "Dan Osborn": 28
   },
   "nh-sen": {
    "John E. Sununu": 0,
@@ -61,16 +61,16 @@
    "Mike Collins": 0
   },
   "mn-sen": {
-   "Peggy Flanagan": 97,
-   "Michele Tafoya": 3
+   "Michele Tafoya": 3,
+   "Peggy Flanagan": 98
   },
   "fl-14": {
    "Mike Beltran": 2,
    "Kathy Castor": 99
   },
   "oh-07": {
-   "Max Miller": 14,
-   "Brian Poindexter": 86
+   "Max Miller": 12,
+   "Brian Poindexter": 88
   },
   "mo-06": {
    "Chris Stigall": 98,
