@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T04:28:42+00:00",
+  "updated": "2026-11-04T04:35:33+00:00",
   "results": {
     "tx-sen": {
       "reporting": 70.35,
@@ -146,27 +146,27 @@
       }
     },
     "mo-a7": {
-      "reporting": 78.8,
+      "reporting": 80.2,
       "called": null,
       "votes": {
-        "No": 938614,
-        "Yes": 650056
+        "No": 944518,
+        "Yes": 654426
       }
     },
     "va-marriage": {
-      "reporting": 99.2,
+      "reporting": 99.5,
       "called": null,
       "votes": {
-        "Yes": 1837187,
-        "No": 1405923
+        "Yes": 1851384,
+        "No": 1423020
       }
     },
     "va-voting": {
-      "reporting": 99.2,
+      "reporting": 99.5,
       "called": null,
       "votes": {
-        "Yes": 1796808,
-        "No": 1439823
+        "Yes": 1811365,
+        "No": 1457805
       }
     },
     "mi-p1": {
@@ -196,19 +196,19 @@
       }
     },
     "mo-a8": {
-      "reporting": 79.1,
+      "reporting": 80.5,
       "called": null,
       "votes": {
-        "Yes": 847729,
-        "No": 742343
+        "Yes": 853594,
+        "No": 746772
       }
     },
     "mo-propa": {
-      "reporting": 79.1,
+      "reporting": 80.5,
       "called": null,
       "votes": {
-        "No": 940731,
-        "Yes": 643663
+        "No": 946491,
+        "Yes": 648124
       }
     },
     "ia-sen": {
@@ -254,11 +254,11 @@
       }
     },
     "oh-i3": {
-      "reporting": 97.1,
+      "reporting": 97,
       "called": null,
       "votes": {
-        "Yes": 2695140,
-        "No": 1386404
+        "Yes": 2697734,
+        "No": 1386819
       }
     },
     "az-01": {
@@ -296,11 +296,11 @@
       }
     },
     "ut-b": {
-      "reporting": 58.3,
+      "reporting": 61.8,
       "called": null,
       "votes": {
-        "No": 364314,
-        "Yes": 221538
+        "No": 367165,
+        "Yes": 223095
       }
     },
     "co-a86": {
@@ -322,15 +322,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T04:28:42+00:00",
+    "at": "2026-11-04T04:35:33+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87220: HTTP Error 502: Bad Gateway",
+      "race/87524: HTTP Error 502: Bad Gateway",
       "race/87242: HTTP Error 502: Bad Gateway",
-      "race/87243: HTTP Error 503: Service Unavailable",
-      "race/139732: HTTP Error 502: Bad Gateway",
-      "race/139734: HTTP Error 502: Bad Gateway"
+      "race/87528: The read operation timed out",
+      "race/87220: HTTP Error 502: Bad Gateway",
+      "race/87243: The read operation timed out"
     ],
-    "error_count": 6
+    "error_count": 8
   }
 }
