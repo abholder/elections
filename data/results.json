@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T05:51:57+00:00",
+  "updated": "2026-11-04T05:56:53+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 83.39,
+      "reporting": 84.03,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4714339,
-        "Ken Paxton": 3477748,
-        "Other": 146894
+        "James Talarico": 4730518,
+        "Ken Paxton": 3523693,
+        "Other": 148548
       }
     },
     "oh-sen": {
@@ -32,21 +32,21 @@
       }
     },
     "ks-sen": {
-      "reporting": 94.99,
+      "reporting": 95.02,
       "called": "Adam Hamilton",
       "votes": {
-        "Adam Hamilton": 555178,
-        "Roger Marshall": 497526,
-        "Other": 35522
+        "Adam Hamilton": 555243,
+        "Roger Marshall": 497752,
+        "Other": 35533
       }
     },
     "mi-sen": {
-      "reporting": 60.75,
+      "reporting": 61.22,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1522885,
-        "Mike Rogers": 1426829,
-        "Other": 60716
+        "Abdul El-Sayed": 1534024,
+        "Mike Rogers": 1438247,
+        "Other": 61303
       }
     },
     "nh-sen": {
@@ -114,9 +114,9 @@
       "reporting": 100,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 164602,
-        "Jen Kiggans": 144116,
-        "Other": 7443
+        "Elaine Luria": 165267,
+        "Jen Kiggans": 144398,
+        "Other": 7458
       }
     },
     "mo-05": {
@@ -146,44 +146,44 @@
       }
     },
     "mo-a7": {
-      "reporting": 82.5,
+      "reporting": 82.9,
       "called": null,
       "votes": {
-        "No": 984102,
-        "Yes": 675215
+        "No": 1003041,
+        "Yes": 682277
       }
     },
     "va-marriage": {
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1902699,
-        "No": 1459976
+        "Yes": 1903327,
+        "No": 1460278
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1867906,
-        "No": 1489766
+        "Yes": 1868555,
+        "No": 1490058
       }
     },
     "mi-p1": {
-      "reporting": 67.7,
+      "reporting": 69.2,
       "called": null,
       "votes": {
-        "No": 1920774,
-        "Yes": 672080
+        "No": 1936494,
+        "Yes": 677148
       }
     },
     "me-sen": {
-      "reporting": 74.87,
+      "reporting": 75.4,
       "called": null,
       "votes": {
-        "Troy Jackson": 298063,
-        "Susan Collins": 256609,
-        "Other": 755
+        "Troy Jackson": 300502,
+        "Susan Collins": 258097,
+        "Other": 759
       }
     },
     "ne-sen": {
@@ -196,37 +196,37 @@
       }
     },
     "mo-a8": {
-      "reporting": 82.9,
+      "reporting": 83.2,
       "called": null,
       "votes": {
-        "Yes": 886630,
-        "No": 774130
+        "Yes": 895645,
+        "No": 791052
       }
     },
     "mo-propa": {
-      "reporting": 82.8,
+      "reporting": 83.1,
       "called": null,
       "votes": {
-        "No": 982529,
-        "Yes": 672031
+        "No": 1001361,
+        "Yes": 679053
       }
     },
     "ia-sen": {
-      "reporting": 96.96,
+      "reporting": 97.15,
       "called": "Josh Turek",
       "votes": {
-        "Josh Turek": 672023,
-        "Ashley Hinson": 616185,
-        "Other": 41288
+        "Josh Turek": 673399,
+        "Ashley Hinson": 617349,
+        "Other": 41358
       }
     },
     "ny-17": {
       "reporting": 99,
       "called": null,
       "votes": {
-        "Cait Conley": 252776,
-        "Mike Lawler": 232258,
-        "Other": 520
+        "Cait Conley": 379164,
+        "Mike Lawler": 348387,
+        "Other": 780
       }
     },
     "pa-10": {
@@ -238,19 +238,19 @@
       }
     },
     "mo-a6": {
-      "reporting": 83,
+      "reporting": 83.4,
       "called": null,
       "votes": {
-        "Yes": 964581,
-        "No": 710215
+        "Yes": 983476,
+        "No": 717551
       }
     },
     "va-q1": {
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 2057851,
-        "No": 1281935
+        "Yes": 2058574,
+        "No": 1282153
       }
     },
     "oh-i3": {
@@ -283,8 +283,8 @@
       "reporting": 98.7,
       "called": null,
       "votes": {
-        "Yes": 1050730,
-        "No": 710325
+        "Yes": 1051145,
+        "No": 710540
       }
     },
     "ca-22": {
@@ -304,11 +304,11 @@
       }
     },
     "co-a86": {
-      "reporting": 82.6,
+      "reporting": 82.7,
       "called": null,
       "votes": {
-        "No": 1052091,
-        "Yes": 907526
+        "No": 1054686,
+        "Yes": 911514
       }
     },
     "wa-03": {
@@ -319,10 +319,19 @@
         "John Braun": 115271,
         "Other": 2237
       }
+    },
+    "ak-sen": {
+      "reporting": 22.45,
+      "called": null,
+      "votes": {
+        "Mary Peltola": 35324,
+        "Dan Sullivan": 27940,
+        "Other": 1848
+      }
     }
   },
   "last_run": {
-    "at": "2026-11-04T05:51:57+00:00",
+    "at": "2026-11-04T05:56:53+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
