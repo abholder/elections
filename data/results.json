@@ -1,52 +1,52 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T05:15:15+00:00",
+  "updated": "2026-11-04T05:18:39+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 72.31,
+      "reporting": 76.5,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4246158,
-        "Ken Paxton": 2867515,
-        "Other": 117031
+        "James Talarico": 4443469,
+        "Ken Paxton": 3078664,
+        "Other": 128104
       }
     },
     "oh-sen": {
-      "reporting": 88.39,
+      "reporting": 89.15,
       "called": "Sherrod Brown",
       "votes": {
-        "Sherrod Brown": 2051231,
-        "Jon Husted": 1954862,
-        "Other": 205401
+        "Sherrod Brown": 2073249,
+        "Jon Husted": 1967321,
+        "Other": 206939
       }
     },
     "sc-sen": {
       "reporting": 99,
       "called": "Annie Andrews",
       "votes": {
-        "Annie Andrews": 1034191,
-        "Darline Graham": 947861,
-        "Kasie Whitener": 23429,
-        "Mark Hackett": 16712,
-        "Other": 4875
+        "Annie Andrews": 1034418,
+        "Darline Graham": 948133,
+        "Kasie Whitener": 23441,
+        "Mark Hackett": 16722,
+        "Other": 4877
       }
     },
     "ks-sen": {
-      "reporting": 93.15,
+      "reporting": 94.06,
       "called": "Adam Hamilton",
       "votes": {
-        "Adam Hamilton": 549179,
-        "Roger Marshall": 483337,
-        "Other": 34661
+        "Adam Hamilton": 552291,
+        "Roger Marshall": 490203,
+        "Other": 35015
       }
     },
     "mi-sen": {
-      "reporting": 43.33,
+      "reporting": 50.26,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1080232,
-        "Mike Rogers": 1025619,
-        "Other": 41525
+        "Abdul El-Sayed": 1231418,
+        "Mike Rogers": 1210356,
+        "Other": 48662
       }
     },
     "nh-sen": {
@@ -59,20 +59,20 @@
       }
     },
     "nc-sen": {
-      "reporting": 93.88,
+      "reporting": 94.54,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2436477,
-        "Michael Whatley": 1626904,
-        "Other": 90954
+        "Roy Cooper": 2453913,
+        "Michael Whatley": 1637481,
+        "Other": 91821
       }
     },
     "ga-sen": {
-      "reporting": 88.87,
+      "reporting": 89.16,
       "called": "Jon Ossoff",
       "votes": {
-        "Jon Ossoff": 2448952,
-        "Mike Collins": 1699868
+        "Jon Ossoff": 2453525,
+        "Mike Collins": 1709237
       }
     },
     "fl-14": {
@@ -94,29 +94,29 @@
       }
     },
     "oh-07": {
-      "reporting": 74.87,
+      "reporting": 80.38,
       "called": null,
       "votes": {
-        "Brian Poindexter": 128118,
-        "Max Miller": 110052
+        "Brian Poindexter": 138301,
+        "Max Miller": 117408
       }
     },
     "tx-34": {
-      "reporting": 69.04,
+      "reporting": 70.8,
       "called": "Vicente Gonzalez",
       "votes": {
-        "Vicente Gonzalez": 102575,
-        "Eric Flores": 70437,
-        "Other": 8275
+        "Vicente Gonzalez": 105481,
+        "Eric Flores": 71979,
+        "Other": 8453
       }
     },
     "va-02": {
-      "reporting": 90.45,
+      "reporting": 92.29,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 157386,
-        "Jen Kiggans": 140783,
-        "Other": 7197
+        "Elaine Luria": 161387,
+        "Jen Kiggans": 142931,
+        "Other": 7240
       }
     },
     "mo-05": {
@@ -138,61 +138,61 @@
       }
     },
     "mo-a3": {
-      "reporting": 82.6,
+      "reporting": 83,
       "called": null,
       "votes": {
-        "No": 873170,
-        "Yes": 804897
+        "No": 883185,
+        "Yes": 816573
       }
     },
     "mo-a7": {
-      "reporting": 80.2,
+      "reporting": 81.6,
       "called": null,
       "votes": {
-        "No": 944518,
-        "Yes": 654426
+        "No": 984102,
+        "Yes": 675215
       }
     },
     "va-marriage": {
-      "reporting": 99.8,
+      "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1880846,
-        "No": 1445475
+        "Yes": 1895741,
+        "No": 1455206
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1844664,
-        "No": 1478585
+        "Yes": 1860081,
+        "No": 1485835
       }
     },
     "mi-p1": {
-      "reporting": 50.4,
+      "reporting": 56.9,
       "called": null,
       "votes": {
-        "No": 1434147,
-        "Yes": 490110
+        "No": 1598481,
+        "Yes": 538905
       }
     },
     "me-sen": {
-      "reporting": 50.63,
+      "reporting": 64.9,
       "called": null,
       "votes": {
-        "Susan Collins": 188272,
-        "Troy Jackson": 186834,
-        "Other": 515
+        "Troy Jackson": 255585,
+        "Susan Collins": 225307,
+        "Other": 602
       }
     },
     "ne-sen": {
-      "reporting": 56.59,
+      "reporting": 61.43,
       "called": null,
       "votes": {
-        "Dan Osborn": 210209,
-        "Pete Ricketts": 202502,
-        "Other": 24906
+        "Pete Ricketts": 226126,
+        "Dan Osborn": 221595,
+        "Other": 27345
       }
     },
     "mo-a8": {
@@ -204,29 +204,29 @@
       }
     },
     "mo-propa": {
-      "reporting": 80.5,
+      "reporting": 81.8,
       "called": null,
       "votes": {
-        "No": 946491,
-        "Yes": 648124
+        "No": 982529,
+        "Yes": 672031
       }
     },
     "ia-sen": {
-      "reporting": 93.98,
-      "called": null,
+      "reporting": 96.59,
+      "called": "Josh Turek",
       "votes": {
-        "Josh Turek": 653622,
-        "Ashley Hinson": 595143,
-        "Other": 39846
+        "Josh Turek": 670437,
+        "Ashley Hinson": 612937,
+        "Other": 41044
       }
     },
     "ny-17": {
       "reporting": 99,
       "called": null,
       "votes": {
-        "Cait Conley": 251988,
-        "Mike Lawler": 229240,
-        "Other": 516
+        "Cait Conley": 252776,
+        "Mike Lawler": 232258,
+        "Other": 520
       }
     },
     "pa-10": {
@@ -249,8 +249,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 2033414,
-        "No": 1272023
+        "Yes": 2049432,
+        "No": 1278618
       }
     },
     "oh-i3": {
@@ -271,20 +271,20 @@
       }
     },
     "mn-sen": {
-      "reporting": 46.73,
+      "reporting": 78.18,
       "called": null,
       "votes": {
-        "Michele Tafoya": 669456,
-        "Peggy Flanagan": 600279,
-        "Other": 38597
+        "Peggy Flanagan": 1183562,
+        "Michele Tafoya": 946117,
+        "Other": 59237
       }
     },
     "md-redistricting": {
-      "reporting": 98.2,
+      "reporting": 98.5,
       "called": null,
       "votes": {
-        "Yes": 1039284,
-        "No": 703339
+        "Yes": 1046011,
+        "No": 708556
       }
     },
     "ca-22": {
@@ -296,11 +296,11 @@
       }
     },
     "ut-b": {
-      "reporting": 65.2,
+      "reporting": 68.6,
       "called": null,
       "votes": {
-        "No": 373538,
-        "Yes": 227386
+        "No": 374446,
+        "Yes": 228272
       }
     },
     "co-a86": {
@@ -312,25 +312,19 @@
       }
     },
     "wa-03": {
-      "reporting": 94.27,
+      "reporting": 95.14,
       "called": null,
       "votes": {
-        "Marie Gluesenkamp Perez": 142298,
-        "John Braun": 114028,
-        "Other": 2218
+        "Marie Gluesenkamp Perez": 143417,
+        "John Braun": 115271,
+        "Other": 2237
       }
     }
   },
   "last_run": {
-    "at": "2026-11-04T05:15:15+00:00",
+    "at": "2026-11-04T05:18:39+00:00",
     "fetched_ok": true,
-    "errors": [
-      "race/87528: HTTP Error 502: Bad Gateway",
-      "race/87242: HTTP Error 502: Bad Gateway",
-      "race/87524: The read operation timed out",
-      "race/87220: The read operation timed out",
-      "race/87243: HTTP Error 502: Bad Gateway"
-    ],
-    "error_count": 15
+    "errors": [],
+    "error_count": 0
   }
 }
