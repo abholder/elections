@@ -1,27 +1,27 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T07:12:20+00:00",
+  "updated": "2026-11-04T07:17:40+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 91.42,
+      "reporting": 91.57,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4996491,
-        "Ken Paxton": 3979860,
-        "Other": 165699
+        "James Talarico": 5003905,
+        "Ken Paxton": 3986833,
+        "Other": 166131
       }
     },
     "oh-sen": {
-      "reporting": 92.32,
+      "reporting": 93.08,
       "called": "Sherrod Brown",
       "votes": {
-        "Sherrod Brown": 2172985,
-        "Jon Husted": 2013121,
-        "Other": 212612
+        "Sherrod Brown": 2198268,
+        "Jon Husted": 2022494,
+        "Other": 214196
       }
     },
     "sc-sen": {
-      "reporting": 99,
+      "reporting": 100,
       "called": "Annie Andrews",
       "votes": {
         "Annie Andrews": 1042362,
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 82.38,
+      "reporting": 83.56,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2106185,
-        "Mike Rogers": 1892397,
-        "Other": 83848
+        "Abdul El-Sayed": 2144165,
+        "Mike Rogers": 1912138,
+        "Other": 84738
       }
     },
     "nh-sen": {
@@ -94,11 +94,11 @@
       }
     },
     "oh-07": {
-      "reporting": 93.82,
+      "reporting": 97.49,
       "called": "Brian Poindexter",
       "votes": {
-        "Brian Poindexter": 162395,
-        "Max Miller": 136062
+        "Brian Poindexter": 169502,
+        "Max Miller": 140633
       }
     },
     "tx-34": {
@@ -138,7 +138,7 @@
       }
     },
     "mo-a3": {
-      "reporting": 87.9,
+      "reporting": 89.2,
       "called": "Failed",
       "votes": {
         "No": 901709,
@@ -146,7 +146,7 @@
       }
     },
     "mo-a7": {
-      "reporting": 87.3,
+      "reporting": 88.4,
       "called": "Failed",
       "votes": {
         "No": 1003041,
@@ -170,33 +170,33 @@
       }
     },
     "mi-p1": {
-      "reporting": 80.3,
+      "reporting": 82.5,
       "called": "Failed",
       "votes": {
-        "No": 2617185,
-        "Yes": 922366
+        "No": 2652253,
+        "Yes": 934206
       }
     },
     "me-sen": {
-      "reporting": 82.31,
+      "reporting": 83.37,
       "called": "Troy Jackson",
       "votes": {
-        "Troy Jackson": 328400,
-        "Susan Collins": 281416,
-        "Other": 803
+        "Troy Jackson": 333912,
+        "Susan Collins": 283751,
+        "Other": 806
       }
     },
     "ne-sen": {
-      "reporting": 81.5,
+      "reporting": 81.64,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 309479,
-        "Dan Osborn": 283204,
-        "Other": 37568
+        "Pete Ricketts": 310084,
+        "Dan Osborn": 283594,
+        "Other": 37680
       }
     },
     "mo-a8": {
-      "reporting": 87.3,
+      "reporting": 88.4,
       "called": null,
       "votes": {
         "Yes": 895645,
@@ -204,7 +204,7 @@
       }
     },
     "mo-propa": {
-      "reporting": 87.7,
+      "reporting": 88.8,
       "called": "Failed",
       "votes": {
         "No": 1001361,
@@ -238,7 +238,7 @@
       }
     },
     "mo-a6": {
-      "reporting": 87.3,
+      "reporting": 88.4,
       "called": "Passed",
       "votes": {
         "Yes": 983476,
@@ -254,11 +254,11 @@
       }
     },
     "oh-i3": {
-      "reporting": 98.7,
+      "reporting": 99,
       "called": "Passed",
       "votes": {
-        "Yes": 2820929,
-        "No": 1480527
+        "Yes": 2837878,
+        "No": 1496932
       }
     },
     "az-01": {
@@ -299,8 +299,8 @@
       "reporting": 72.1,
       "called": null,
       "votes": {
-        "No": 407751,
-        "Yes": 248704
+        "No": 409172,
+        "Yes": 250096
       }
     },
     "co-a86": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T07:12:20+00:00",
+    "at": "2026-11-04T07:17:40+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
