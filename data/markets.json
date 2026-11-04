@@ -1,20 +1,20 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-11-04T09:53:46+00:00",
+ "updated": "2026-11-04T10:54:02+00:00",
  "control": {
   "Senate": {
    "R": 0,
    "D": 100
   },
   "House": {
-   "R": 0,
-   "D": 100
+   "D": 100,
+   "R": 0
   }
  },
  "races": {
   "tx-sen": {
-   "Ken Paxton": 0,
-   "James Talarico": 100
+   "James Talarico": 100,
+   "Ken Paxton": 0
   },
   "me-sen": {
    "Susan Collins": 0,
@@ -37,16 +37,16 @@
    "Adam Hamilton": 100
   },
   "ak-sen": {
-   "Dan Sullivan": 9,
-   "Mary Peltola": 90
+   "Mary Peltola": 86,
+   "Dan Sullivan": 13
   },
   "mi-sen": {
    "Mike Rogers": 0,
    "Abdul El-Sayed": 100
   },
   "ne-sen": {
-   "Pete Ricketts": 100,
-   "Dan Osborn": 0
+   "Dan Osborn": 0,
+   "Pete Ricketts": 100
   },
   "nh-sen": {
    "John E. Sununu": 0,
