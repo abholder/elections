@@ -1,78 +1,78 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T02:55:28+00:00",
+  "updated": "2026-11-04T02:58:49+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 55.34,
+      "reporting": 57.27,
       "called": null,
       "votes": {
-        "James Talarico": 3286120,
-        "Ken Paxton": 2164674,
-        "Other": 83728
+        "James Talarico": 3379914,
+        "Ken Paxton": 2259025,
+        "Other": 87785
       }
     },
     "oh-sen": {
-      "reporting": 61.6,
+      "reporting": 69.03,
       "called": null,
       "votes": {
-        "Sherrod Brown": 1445890,
-        "Jon Husted": 1354676,
-        "Other": 134444
+        "Sherrod Brown": 1589676,
+        "Jon Husted": 1544503,
+        "Other": 154942
       }
     },
     "sc-sen": {
-      "reporting": 83.44,
+      "reporting": 88.75,
       "called": null,
       "votes": {
-        "Annie Andrews": 865514,
-        "Darline Graham": 791318,
-        "Kasie Whitener": 18117,
-        "Mark Hackett": 13123,
-        "Other": 3838
+        "Annie Andrews": 918263,
+        "Darline Graham": 842905,
+        "Kasie Whitener": 19737,
+        "Mark Hackett": 14394,
+        "Other": 4153
       }
     },
     "ks-sen": {
-      "reporting": 56.68,
+      "reporting": 63.01,
       "called": null,
       "votes": {
-        "Adam Hamilton": 376870,
-        "Roger Marshall": 254370,
-        "Other": 18049
+        "Adam Hamilton": 413279,
+        "Roger Marshall": 287773,
+        "Other": 20852
       }
     },
     "mi-sen": {
-      "reporting": 14.44,
+      "reporting": 15.94,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 381081,
-        "Mike Rogers": 322189,
-        "Other": 12167
+        "Abdul El-Sayed": 412932,
+        "Mike Rogers": 362927,
+        "Other": 14144
       }
     },
     "nh-sen": {
-      "reporting": 39.54,
+      "reporting": 44.45,
       "called": "Chris Pappas",
       "votes": {
-        "Chris Pappas": 151108,
-        "John E. Sununu": 115824,
-        "Other": 5565
+        "Chris Pappas": 167189,
+        "John E. Sununu": 132881,
+        "Other": 6258
       }
     },
     "nc-sen": {
-      "reporting": 78.35,
+      "reporting": 83.1,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2060124,
-        "Michael Whatley": 1334733,
-        "Other": 71914
+        "Roy Cooper": 2160399,
+        "Michael Whatley": 1438478,
+        "Other": 78389
       }
     },
     "ga-sen": {
-      "reporting": 73.54,
+      "reporting": 54.71,
       "called": "Jon Ossoff",
       "votes": {
-        "Jon Ossoff": 2037903,
-        "Mike Collins": 1395505
+        "Jon Ossoff": 1612112,
+        "Mike Collins": 941936
       }
     },
     "fl-14": {
@@ -170,29 +170,29 @@
       }
     },
     "mi-p1": {
-      "reporting": 3.2,
+      "reporting": 5.1,
       "called": null,
       "votes": {
-        "No": 493937,
-        "Yes": 162052
+        "No": 516345,
+        "Yes": 170503
       }
     },
     "me-sen": {
-      "reporting": 15.09,
+      "reporting": 19.28,
       "called": null,
       "votes": {
-        "Susan Collins": 56448,
-        "Troy Jackson": 55297,
-        "Other": 217
+        "Susan Collins": 74314,
+        "Troy Jackson": 68435,
+        "Other": 269
       }
     },
     "ne-sen": {
-      "reporting": 26.21,
+      "reporting": 38.65,
       "called": null,
       "votes": {
-        "Dan Osborn": 115867,
-        "Pete Ricketts": 76557,
-        "Other": 10248
+        "Dan Osborn": 161540,
+        "Pete Ricketts": 121668,
+        "Other": 15659
       }
     },
     "mo-a8": {
@@ -212,12 +212,12 @@
       }
     },
     "ia-sen": {
-      "reporting": 19.82,
+      "reporting": 26.87,
       "called": null,
       "votes": {
-        "Josh Turek": 166275,
-        "Ashley Hinson": 99058,
-        "Other": 6374
+        "Josh Turek": 215873,
+        "Ashley Hinson": 143588,
+        "Other": 8913
       }
     },
     "ny-17": {
@@ -254,24 +254,24 @@
       }
     },
     "oh-i3": {
-      "reporting": 76.9,
+      "reporting": 85.4,
       "called": null,
       "votes": {
-        "Yes": 2032015,
-        "No": 1085782
+        "Yes": 2113384,
+        "No": 1111353
       }
     }
   },
   "last_run": {
-    "at": "2026-11-04T02:55:28+00:00",
+    "at": "2026-11-04T02:58:49+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87220: HTTP Error 502: Bad Gateway",
-      "race/87528: The read operation timed out",
-      "race/87243: HTTP Error 502: Bad Gateway",
+      "race/87524: HTTP Error 502: Bad Gateway",
       "race/87242: HTTP Error 502: Bad Gateway",
-      "race/139733: The read operation timed out"
+      "race/87243: HTTP Error 502: Bad Gateway",
+      "race/139732: HTTP Error 502: Bad Gateway",
+      "race/139734: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 15
+    "error_count": 14
   }
 }
