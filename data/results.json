@@ -177,5 +177,9 @@
         "Yes": 8545
       }
     }
+  },
+  "last_run": {
+    "at": "2026-11-04T02:06:20+00:00",
+    "crash": "ults.py\", line 110, in main\n    fetched = dict(zip(list(DOCS) + single_ids,\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py\", line 619, in result_iterator\n    yield _result_or_cancel(fs.pop())\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py\", line 317, in _result_or_cancel\n    return fut.result(timeout)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py\", line 456, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/elections/elections/scripts/fetch_results.py\", line 111, in <lambda>\n    pool.map(lambda rid: get(f\"race/{rid}\"), list(DOCS.values()) + single_ids)))\n                         ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/elections/elections/scripts/fetch_results.py\", line 48, in get\n    ERRORS.append(f\"{path}: {e}\")\n                             ^\nUnboundLocalError: cannot access local variable 'e' where it is not associated with a value\n"
   }
 }
