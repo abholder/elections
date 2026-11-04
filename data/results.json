@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T08:02:50+00:00",
+  "updated": "2026-11-04T08:07:40+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 95.38,
+      "reporting": 95.49,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5181544,
-        "Ken Paxton": 4179384,
-        "Other": 176835
+        "James Talarico": 5183684,
+        "Ken Paxton": 4187875,
+        "Other": 177146
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 87.18,
+      "reporting": 87.63,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2238350,
-        "Mike Rogers": 1993415,
-        "Other": 88244
+        "Abdul El-Sayed": 2251850,
+        "Mike Rogers": 2002285,
+        "Other": 88664
       }
     },
     "nh-sen": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 83.7,
+      "reporting": 85.6,
       "called": "Failed",
       "votes": {
-        "No": 2791740,
-        "Yes": 984575
+        "No": 2807010,
+        "Yes": 989927
       }
     },
     "me-sen": {
@@ -212,12 +212,12 @@
       }
     },
     "ia-sen": {
-      "reporting": 98.34,
+      "reporting": 98.71,
       "called": "Josh Turek",
       "votes": {
-        "Josh Turek": 680403,
-        "Ashley Hinson": 626033,
-        "Other": 41978
+        "Josh Turek": 683576,
+        "Ashley Hinson": 627878,
+        "Other": 42024
       }
     },
     "ny-17": {
@@ -288,11 +288,11 @@
       }
     },
     "ca-22": {
-      "reporting": 25.86,
+      "reporting": 26.43,
       "called": "Randy Villegas",
       "votes": {
-        "Randy Villegas": 42350,
-        "David Valadao": 22791
+        "Randy Villegas": 43161,
+        "David Valadao": 23405
       }
     },
     "ut-b": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T08:02:50+00:00",
+    "at": "2026-11-04T08:07:40+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
