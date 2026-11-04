@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T04:10:19+00:00",
+  "updated": "2026-11-04T04:15:04+00:00",
   "results": {
     "tx-sen": {
       "reporting": 68.62,
@@ -85,20 +85,20 @@
       }
     },
     "mi-10": {
-      "reporting": 14.1,
+      "reporting": 33.15,
       "called": null,
       "votes": {
-        "Michael Bouchard": 26737,
-        "Christina Hines": 25793,
-        "Other": 1411
+        "Christina Hines": 62419,
+        "Michael Bouchard": 60726,
+        "Other": 3666
       }
     },
     "oh-07": {
-      "reporting": 67.44,
+      "reporting": 70.12,
       "called": null,
       "votes": {
-        "Brian Poindexter": 115198,
-        "Max Miller": 99348
+        "Brian Poindexter": 120147,
+        "Max Miller": 102917
       }
     },
     "tx-34": {
@@ -111,12 +111,12 @@
       }
     },
     "va-02": {
-      "reporting": 87.13,
+      "reporting": 88.29,
       "called": null,
       "votes": {
-        "Elaine Luria": 152165,
-        "Jen Kiggans": 135275,
-        "Other": 6707
+        "Elaine Luria": 153992,
+        "Jen Kiggans": 137257,
+        "Other": 6821
       }
     },
     "mo-05": {
@@ -129,20 +129,20 @@
       }
     },
     "mo-06": {
-      "reporting": 98.07,
+      "reporting": 99,
       "called": "Chris Stigall",
       "votes": {
-        "Chris Stigall": 136645,
-        "Josh Smead": 91087,
-        "Andy Maidment": 5518
+        "Chris Stigall": 140228,
+        "Josh Smead": 92302,
+        "Andy Maidment": 5607
       }
     },
     "mo-a3": {
-      "reporting": 71.9,
+      "reporting": 78.3,
       "called": null,
       "votes": {
-        "No": 747494,
-        "Yes": 658055
+        "No": 838875,
+        "Yes": 763073
       }
     },
     "mo-a7": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 17.4,
+      "reporting": 21.1,
       "called": null,
       "votes": {
-        "No": 802969,
-        "Yes": 271112
+        "No": 899164,
+        "Yes": 309364
       }
     },
     "me-sen": {
@@ -196,15 +196,15 @@
       }
     },
     "mo-a8": {
-      "reporting": 68,
+      "reporting": 76.8,
       "called": null,
       "votes": {
-        "Yes": 656911,
-        "No": 592720
+        "Yes": 806252,
+        "No": 706452
       }
     },
     "mo-propa": {
-      "reporting": 76.8,
+      "reporting": 77.2,
       "called": null,
       "votes": {
         "No": 930628,
@@ -224,9 +224,9 @@
       "reporting": 99,
       "called": null,
       "votes": {
-        "Cait Conley": 249740,
-        "Mike Lawler": 218386,
-        "Other": 484
+        "Cait Conley": 251728,
+        "Mike Lawler": 228006,
+        "Other": 510
       }
     },
     "pa-10": {
@@ -286,18 +286,34 @@
         "Yes": 948274,
         "No": 631799
       }
+    },
+    "ca-22": {
+      "reporting": 7.2,
+      "called": null,
+      "votes": {
+        "Randy Villegas": 10861,
+        "David Valadao": 7266
+      }
+    },
+    "ut-b": {
+      "reporting": 58.3,
+      "called": null,
+      "votes": {
+        "No": 363925,
+        "Yes": 221133
+      }
     }
   },
   "last_run": {
-    "at": "2026-11-04T04:10:19+00:00",
+    "at": "2026-11-04T04:15:04+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87220: HTTP Error 502: Bad Gateway",
-      "race/87524: HTTP Error 502: Bad Gateway",
-      "race/87528: HTTP Error 502: Bad Gateway",
-      "race/87242: HTTP Error 502: Bad Gateway",
-      "race/87243: HTTP Error 502: Bad Gateway"
+      "race/87528: The read operation timed out",
+      "race/139732: HTTP Error 500: Internal Server Error",
+      "race/139733: HTTP Error 500: Internal Server Error",
+      "race/139734: HTTP Error 500: Internal Server Error",
+      "race/140000: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 15
+    "error_count": 12
   }
 }
