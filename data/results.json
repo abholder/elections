@@ -1,34 +1,34 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T06:47:18+00:00",
+  "updated": "2026-11-04T06:52:27+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 89.2,
+      "reporting": 89.54,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4966409,
-        "Ken Paxton": 3790364,
-        "Other": 163674
+        "James Talarico": 4983580,
+        "Ken Paxton": 3805709,
+        "Other": 164952
       }
     },
     "oh-sen": {
-      "reporting": 91.11,
+      "reporting": 92.32,
       "called": "Sherrod Brown",
       "votes": {
-        "Sherrod Brown": 2131644,
-        "Jon Husted": 1998474,
-        "Other": 210715
+        "Sherrod Brown": 2172985,
+        "Jon Husted": 2013121,
+        "Other": 212612
       }
     },
     "sc-sen": {
       "reporting": 100,
       "called": "Annie Andrews",
       "votes": {
-        "Annie Andrews": 1035543,
-        "Darline Graham": 947775,
-        "Kasie Whitener": 23464,
-        "Mark Hackett": 16733,
-        "Other": 4877
+        "Annie Andrews": 1040451,
+        "Darline Graham": 950161,
+        "Kasie Whitener": 23522,
+        "Mark Hackett": 16775,
+        "Other": 4888
       }
     },
     "ks-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 79.31,
+      "reporting": 79.87,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2034244,
-        "Mike Rogers": 1815504,
-        "Other": 80592
+        "Abdul El-Sayed": 2046796,
+        "Mike Rogers": 1829769,
+        "Other": 81245
       }
     },
     "nh-sen": {
@@ -85,12 +85,12 @@
       }
     },
     "mi-10": {
-      "reporting": 61.5,
+      "reporting": 62.43,
       "called": null,
       "votes": {
-        "Christina Hines": 118153,
-        "Michael Bouchard": 111067,
-        "Other": 6037
+        "Christina Hines": 120413,
+        "Michael Bouchard": 112252,
+        "Other": 6131
       }
     },
     "oh-07": {
@@ -170,29 +170,29 @@
       }
     },
     "mi-p1": {
-      "reporting": 77.9,
+      "reporting": 76.4,
       "called": null,
       "votes": {
-        "No": 2540372,
-        "Yes": 894834
+        "No": 2565249,
+        "Yes": 904185
       }
     },
     "me-sen": {
-      "reporting": 78.96,
+      "reporting": 79.25,
       "called": "Troy Jackson",
       "votes": {
-        "Troy Jackson": 314597,
-        "Susan Collins": 270367,
-        "Other": 780
+        "Troy Jackson": 315440,
+        "Susan Collins": 271707,
+        "Other": 781
       }
     },
     "ne-sen": {
-      "reporting": 77.94,
+      "reporting": 78.68,
       "called": null,
       "votes": {
-        "Pete Ricketts": 297227,
-        "Dan Osborn": 270020,
-        "Other": 35482
+        "Pete Ricketts": 301444,
+        "Dan Osborn": 271189,
+        "Other": 35855
       }
     },
     "mo-a8": {
@@ -254,11 +254,11 @@
       }
     },
     "oh-i3": {
-      "reporting": 98.3,
+      "reporting": 98.7,
       "called": null,
       "votes": {
-        "Yes": 2791898,
-        "No": 1454456
+        "Yes": 2820929,
+        "No": 1480527
       }
     },
     "az-01": {
@@ -283,16 +283,16 @@
       "reporting": 99.7,
       "called": null,
       "votes": {
-        "Yes": 1075585,
-        "No": 716346
+        "Yes": 1075750,
+        "No": 716562
       }
     },
     "ca-22": {
-      "reporting": 25.15,
+      "reporting": 25.16,
       "called": null,
       "votes": {
-        "Randy Villegas": 41211,
-        "David Valadao": 22140
+        "Randy Villegas": 41225,
+        "David Valadao": 22146
       }
     },
     "ut-b": {
@@ -307,8 +307,8 @@
       "reporting": 84.7,
       "called": null,
       "votes": {
-        "No": 1084416,
-        "Yes": 936375
+        "No": 1086385,
+        "Yes": 939058
       }
     },
     "wa-03": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T06:47:18+00:00",
+    "at": "2026-11-04T06:52:27+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
