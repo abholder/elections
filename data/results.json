@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T09:03:00+00:00",
+  "updated": "2026-11-04T09:08:14+00:00",
   "results": {
     "tx-sen": {
       "reporting": 96.61,
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 92.45,
+      "reporting": 92.8,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2392279,
-        "Mike Rogers": 2095306,
-        "Other": 94042
+        "Abdul El-Sayed": 2400636,
+        "Mike Rogers": 2103497,
+        "Other": 94427
       }
     },
     "nh-sen": {
@@ -85,12 +85,12 @@
       }
     },
     "mi-10": {
-      "reporting": 75.23,
+      "reporting": 77.59,
       "called": null,
       "votes": {
-        "Christina Hines": 148543,
-        "Michael Bouchard": 132131,
-        "Other": 7077
+        "Christina Hines": 152896,
+        "Michael Bouchard": 136703,
+        "Other": 7205
       }
     },
     "oh-07": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 91.1,
+      "reporting": 91.2,
       "called": "Failed",
       "votes": {
-        "No": 2964765,
-        "Yes": 1052284
+        "No": 2976408,
+        "Yes": 1056044
       }
     },
     "me-sen": {
@@ -212,12 +212,12 @@
       }
     },
     "ia-sen": {
-      "reporting": 98.71,
+      "reporting": 98.91,
       "called": "Josh Turek",
       "votes": {
-        "Josh Turek": 683576,
-        "Ashley Hinson": 627878,
-        "Other": 42024
+        "Josh Turek": 684910,
+        "Ashley Hinson": 629214,
+        "Other": 42092
       }
     },
     "ny-17": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T09:03:00+00:00",
+    "at": "2026-11-04T09:08:14+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
