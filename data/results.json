@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T06:27:30+00:00",
+  "updated": "2026-11-04T06:32:03+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 87.08,
+      "reporting": 87.62,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4857965,
-        "Ken Paxton": 3693077,
-        "Other": 157296
+        "James Talarico": 4886084,
+        "Ken Paxton": 3717274,
+        "Other": 158877
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 75.72,
+      "reporting": 76.36,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1942973,
-        "Mike Rogers": 1732496,
-        "Other": 76722
+        "Abdul El-Sayed": 1959254,
+        "Mike Rogers": 1747432,
+        "Other": 77343
       }
     },
     "nh-sen": {
@@ -95,19 +95,19 @@
     },
     "oh-07": {
       "reporting": 89.32,
-      "called": null,
+      "called": "Brian Poindexter",
       "votes": {
         "Brian Poindexter": 154353,
         "Max Miller": 129788
       }
     },
     "tx-34": {
-      "reporting": 76.96,
+      "reporting": 77.17,
       "called": "Vicente Gonzalez",
       "votes": {
-        "Vicente Gonzalez": 112547,
-        "Eric Flores": 80168,
-        "Other": 9376
+        "Vicente Gonzalez": 112667,
+        "Eric Flores": 80572,
+        "Other": 9406
       }
     },
     "va-02": {
@@ -157,42 +157,42 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1983709,
-        "No": 1494274
+        "Yes": 2006211,
+        "No": 1498960
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1948494,
-        "No": 1524234
+        "Yes": 1971568,
+        "No": 1528317
       }
     },
     "mi-p1": {
-      "reporting": 74.8,
+      "reporting": 77.1,
       "called": null,
       "votes": {
-        "No": 2392198,
-        "Yes": 842254
+        "No": 2477458,
+        "Yes": 870987
       }
     },
     "me-sen": {
-      "reporting": 76.93,
+      "reporting": 77.78,
       "called": null,
       "votes": {
-        "Troy Jackson": 305679,
-        "Susan Collins": 264234,
-        "Other": 768
+        "Troy Jackson": 308912,
+        "Susan Collins": 267356,
+        "Other": 775
       }
     },
     "ne-sen": {
-      "reporting": 75.59,
+      "reporting": 76.7,
       "called": null,
       "votes": {
-        "Pete Ricketts": 284291,
-        "Dan Osborn": 265868,
-        "Other": 34419
+        "Pete Ricketts": 289873,
+        "Dan Osborn": 268313,
+        "Other": 34933
       }
     },
     "mo-a8": {
@@ -291,7 +291,7 @@
       "reporting": 24.98,
       "called": null,
       "votes": {
-        "Randy Villegas": 40898,
+        "Randy Villegas": 40899,
         "David Valadao": 22022
       }
     },
@@ -331,11 +331,9 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T06:27:30+00:00",
+    "at": "2026-11-04T06:32:03+00:00",
     "fetched_ok": true,
-    "errors": [
-      "race/158443: HTTP Error 502: Bad Gateway"
-    ],
-    "error_count": 1
+    "errors": [],
+    "error_count": 0
   }
 }
