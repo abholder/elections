@@ -1,6 +1,6 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-11-04T08:53:34+00:00",
+ "updated": "2026-11-04T09:53:46+00:00",
  "control": {
   "Senate": {
    "R": 0,
@@ -25,8 +25,8 @@
    "Jon Husted": 0
   },
   "sc-sen": {
-   "Annie Andrews": 100,
-   "Darline Graham": 0
+   "Darline Graham": 0,
+   "Annie Andrews": 100
   },
   "ia-sen": {
    "Josh Turek": 100,
@@ -37,16 +37,16 @@
    "Adam Hamilton": 100
   },
   "ak-sen": {
-   "Dan Sullivan": 15,
-   "Mary Peltola": 86
+   "Dan Sullivan": 9,
+   "Mary Peltola": 90
   },
   "mi-sen": {
    "Mike Rogers": 0,
    "Abdul El-Sayed": 100
   },
   "ne-sen": {
-   "Dan Osborn": 0,
-   "Pete Ricketts": 100
+   "Pete Ricketts": 100,
+   "Dan Osborn": 0
   },
   "nh-sen": {
    "John E. Sununu": 0,
