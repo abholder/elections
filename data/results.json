@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T08:52:56+00:00",
+  "updated": "2026-11-04T08:57:59+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 96.47,
+      "reporting": 96.6,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5222436,
-        "Ken Paxton": 4244796,
-        "Other": 179809
+        "James Talarico": 5225080,
+        "Ken Paxton": 4254604,
+        "Other": 180147
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 91.41,
+      "reporting": 91.49,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2363552,
-        "Mike Rogers": 2073200,
-        "Other": 92917
+        "Abdul El-Sayed": 2365265,
+        "Mike Rogers": 2075769,
+        "Other": 93027
       }
     },
     "nh-sen": {
@@ -173,8 +173,8 @@
       "reporting": 90.3,
       "called": "Failed",
       "votes": {
-        "No": 2925094,
-        "Yes": 1036466
+        "No": 2927913,
+        "Yes": 1037435
       }
     },
     "me-sen": {
@@ -187,12 +187,12 @@
       }
     },
     "ne-sen": {
-      "reporting": 91.78,
+      "reporting": 91.81,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 355758,
-        "Dan Osborn": 311853,
-        "Other": 42174
+        "Pete Ricketts": 355907,
+        "Dan Osborn": 311880,
+        "Other": 42198
       }
     },
     "mo-a8": {
@@ -283,16 +283,16 @@
       "reporting": 99.8,
       "called": null,
       "votes": {
-        "Yes": 1078300,
-        "No": 717646
+        "Yes": 1079738,
+        "No": 718333
       }
     },
     "ca-22": {
-      "reporting": 26.56,
+      "reporting": 27.93,
       "called": "Randy Villegas",
       "votes": {
-        "Randy Villegas": 43391,
-        "David Valadao": 23495
+        "Randy Villegas": 45864,
+        "David Valadao": 24471
       }
     },
     "ut-b": {
@@ -307,8 +307,8 @@
       "reporting": 85.2,
       "called": null,
       "votes": {
-        "No": 1112587,
-        "Yes": 967834
+        "No": 1113455,
+        "Yes": 968714
       }
     },
     "wa-03": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T08:52:56+00:00",
+    "at": "2026-11-04T08:57:59+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
