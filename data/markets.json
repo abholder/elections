@@ -1,6 +1,6 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-11-04T05:23:55+00:00",
+ "updated": "2026-11-04T05:52:13+00:00",
  "control": {
   "Senate": {
    "R": 0,
@@ -17,16 +17,16 @@
    "Ken Paxton": 0
   },
   "me-sen": {
-   "Troy Jackson": 100,
-   "Susan Collins": 0
+   "Susan Collins": 0,
+   "Troy Jackson": 100
   },
   "oh-sen": {
    "Sherrod Brown": 100,
    "Jon Husted": 0
   },
   "sc-sen": {
-   "Annie Andrews": 100,
-   "Darline Graham": 0
+   "Darline Graham": 0,
+   "Annie Andrews": 100
   },
   "ia-sen": {
    "Ashley Hinson": 0,
@@ -37,20 +37,20 @@
    "Adam Hamilton": 100
   },
   "ak-sen": {
-   "Mary Peltola": 93,
-   "Dan Sullivan": 7
+   "Dan Sullivan": 8,
+   "Mary Peltola": 92
   },
   "mi-sen": {
-   "Abdul El-Sayed": 99,
-   "Mike Rogers": 2
+   "Abdul El-Sayed": 100,
+   "Mike Rogers": 0
   },
   "ne-sen": {
-   "Pete Ricketts": 98,
+   "Pete Ricketts": 99,
    "Dan Osborn": 1
   },
   "nh-sen": {
-   "Chris Pappas": 100,
-   "John E. Sununu": 0
+   "John E. Sununu": 0,
+   "Chris Pappas": 100
   },
   "nc-sen": {
    "Michael Whatley": 0,
@@ -70,7 +70,7 @@
   },
   "oh-07": {
    "Max Miller": 1,
-   "Brian Poindexter": 99
+   "Brian Poindexter": 100
   },
   "mo-06": {
    "Josh Smead": 5,
