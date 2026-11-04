@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T08:07:40+00:00",
+  "updated": "2026-11-04T08:12:43+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 95.49,
+      "reporting": 95.55,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5183684,
-        "Ken Paxton": 4187875,
-        "Other": 177146
+        "James Talarico": 5184666,
+        "Ken Paxton": 4193087,
+        "Other": 177353
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 87.63,
+      "reporting": 87.65,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2251850,
-        "Mike Rogers": 2002285,
-        "Other": 88664
+        "Abdul El-Sayed": 2252043,
+        "Mike Rogers": 2002717,
+        "Other": 88682
       }
     },
     "nh-sen": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 85.6,
+      "reporting": 85.9,
       "called": "Failed",
       "votes": {
-        "No": 2807010,
-        "Yes": 989927
+        "No": 2807361,
+        "Yes": 990086
       }
     },
     "me-sen": {
@@ -187,12 +187,12 @@
       }
     },
     "ne-sen": {
-      "reporting": 85.14,
+      "reporting": 85.68,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 327973,
-        "Dan Osborn": 291159,
-        "Other": 39311
+        "Pete Ricketts": 330842,
+        "Dan Osborn": 292225,
+        "Other": 39557
       }
     },
     "mo-a8": {
@@ -288,11 +288,11 @@
       }
     },
     "ca-22": {
-      "reporting": 26.43,
+      "reporting": 26.44,
       "called": "Randy Villegas",
       "votes": {
-        "Randy Villegas": 43161,
-        "David Valadao": 23405
+        "Randy Villegas": 43179,
+        "David Valadao": 23414
       }
     },
     "ut-b": {
@@ -304,11 +304,11 @@
       }
     },
     "co-a86": {
-      "reporting": 85.1,
+      "reporting": 85.2,
       "called": null,
       "votes": {
-        "No": 1105669,
-        "Yes": 963178
+        "No": 1106182,
+        "Yes": 963671
       }
     },
     "wa-03": {
@@ -330,24 +330,24 @@
       }
     },
     "nv-abortion": {
-      "reporting": 0,
+      "reporting": 15.6,
       "called": null,
       "votes": {
-        "Yes": 470927,
-        "No": 269447
+        "Yes": 472130,
+        "No": 270643
       }
     },
     "nv-q7": {
-      "reporting": 0,
+      "reporting": 15.6,
       "called": null,
       "votes": {
-        "Yes": 455608,
-        "No": 289870
+        "Yes": 457409,
+        "No": 290475
       }
     }
   },
   "last_run": {
-    "at": "2026-11-04T08:07:40+00:00",
+    "at": "2026-11-04T08:12:43+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
