@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T04:54:39+00:00",
+  "updated": "2026-11-04T04:59:47+00:00",
   "results": {
     "tx-sen": {
       "reporting": 72.31,
@@ -280,11 +280,11 @@
       }
     },
     "md-redistricting": {
-      "reporting": 97.5,
+      "reporting": 98.2,
       "called": null,
       "votes": {
-        "Yes": 1030660,
-        "No": 692626
+        "Yes": 1039284,
+        "No": 703339
       }
     },
     "ca-22": {
@@ -304,11 +304,11 @@
       }
     },
     "co-a86": {
-      "reporting": 82.2,
+      "reporting": 82.5,
       "called": null,
       "votes": {
-        "No": 1039027,
-        "Yes": 897855
+        "No": 1039406,
+        "Yes": 898413
       }
     },
     "wa-03": {
@@ -322,15 +322,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T04:54:39+00:00",
+    "at": "2026-11-04T04:59:47+00:00",
     "fetched_ok": true,
     "errors": [
       "race/87524: HTTP Error 502: Bad Gateway",
-      "race/139732: The read operation timed out",
-      "race/87243: The read operation timed out",
-      "race/140002: HTTP Error 502: Bad Gateway",
-      "race/155237: HTTP Error 502: Bad Gateway"
+      "race/87528: HTTP Error 502: Bad Gateway",
+      "race/87220: HTTP Error 502: Bad Gateway",
+      "race/87242: HTTP Error 502: Bad Gateway",
+      "race/87243: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 14
+    "error_count": 18
   }
 }
