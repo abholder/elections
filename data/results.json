@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T11:27:13+00:00",
+  "updated": "2026-11-04T11:32:22+00:00",
   "results": {
     "tx-sen": {
       "reporting": 97.03,
@@ -46,7 +46,7 @@
       "votes": {
         "Abdul El-Sayed": 2480577,
         "Mike Rogers": 2154946,
-        "Other": 98179
+        "Other": 98193
       }
     },
     "nh-sen": {
@@ -288,11 +288,11 @@
       }
     },
     "ca-22": {
-      "reporting": 29.56,
+      "reporting": 100,
       "called": "Randy Villegas",
       "votes": {
-        "Randy Villegas": 48821,
-        "David Valadao": 25627
+        "Randy Villegas": 54337,
+        "David Valadao": 27480
       }
     },
     "ut-b": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T11:27:13+00:00",
+    "at": "2026-11-04T11:32:22+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
