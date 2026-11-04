@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T05:29:41+00:00",
+  "updated": "2026-11-04T05:34:18+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 80.47,
+      "reporting": 81.51,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4573330,
-        "Ken Paxton": 3335040,
-        "Other": 138768
+        "James Talarico": 4633032,
+        "Ken Paxton": 3376729,
+        "Other": 141683
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 51.81,
+      "reporting": 52.99,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1260740,
-        "Mike Rogers": 1256187,
-        "Other": 50595
+        "Abdul El-Sayed": 1291540,
+        "Mike Rogers": 1282261,
+        "Other": 51958
       }
     },
     "nh-sen": {
@@ -102,12 +102,12 @@
       }
     },
     "tx-34": {
-      "reporting": 76.9,
+      "reporting": 76.96,
       "called": "Vicente Gonzalez",
       "votes": {
-        "Vicente Gonzalez": 112484,
-        "Eric Flores": 80084,
-        "Other": 9371
+        "Vicente Gonzalez": 112547,
+        "Eric Flores": 80168,
+        "Other": 9376
       }
     },
     "va-02": {
@@ -138,7 +138,7 @@
       }
     },
     "mo-a3": {
-      "reporting": 83,
+      "reporting": 83.1,
       "called": null,
       "votes": {
         "No": 883185,
@@ -146,7 +146,7 @@
       }
     },
     "mo-a7": {
-      "reporting": 81.6,
+      "reporting": 81.7,
       "called": null,
       "votes": {
         "No": 984102,
@@ -170,20 +170,20 @@
       }
     },
     "mi-p1": {
-      "reporting": 57.8,
+      "reporting": 62.5,
       "called": null,
       "votes": {
-        "No": 1627671,
-        "Yes": 549116
+        "No": 1691408,
+        "Yes": 570265
       }
     },
     "me-sen": {
-      "reporting": 67.65,
+      "reporting": 70.59,
       "called": null,
       "votes": {
-        "Troy Jackson": 268666,
-        "Susan Collins": 232447,
-        "Other": 722
+        "Troy Jackson": 279757,
+        "Susan Collins": 243187,
+        "Other": 746
       }
     },
     "ne-sen": {
@@ -196,7 +196,7 @@
       }
     },
     "mo-a8": {
-      "reporting": 81.9,
+      "reporting": 82,
       "called": null,
       "votes": {
         "Yes": 886630,
@@ -204,7 +204,7 @@
       }
     },
     "mo-propa": {
-      "reporting": 81.9,
+      "reporting": 82,
       "called": null,
       "votes": {
         "No": 982529,
@@ -238,7 +238,7 @@
       }
     },
     "mo-a6": {
-      "reporting": 82.2,
+      "reporting": 82.3,
       "called": null,
       "votes": {
         "Yes": 964581,
@@ -254,7 +254,7 @@
       }
     },
     "oh-i3": {
-      "reporting": 97.5,
+      "reporting": 97.9,
       "called": null,
       "votes": {
         "Yes": 2742639,
@@ -307,8 +307,8 @@
       "reporting": 82.6,
       "called": null,
       "votes": {
-        "No": 1050471,
-        "Yes": 905424
+        "No": 1051129,
+        "Yes": 906232
       }
     },
     "wa-03": {
@@ -322,12 +322,11 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T05:29:41+00:00",
+    "at": "2026-11-04T05:34:18+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87243: HTTP Error 502: Bad Gateway",
-      "race/158443: HTTP Error 504: Gateway Timeout"
+      "race/140000: HTTP Error 504: Gateway Timeout"
     ],
-    "error_count": 2
+    "error_count": 1
   }
 }
