@@ -1,23 +1,23 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T01:53:11+00:00",
+  "updated": "2026-11-04T02:10:58+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 37.07,
+      "reporting": 41.79,
       "called": null,
       "votes": {
-        "James Talarico": 2200336,
-        "Ken Paxton": 1449895,
-        "Other": 56386
+        "James Talarico": 2472404,
+        "Ken Paxton": 1642742,
+        "Other": 63545
       }
     },
     "oh-sen": {
-      "reporting": 40.32,
+      "reporting": 47.53,
       "called": null,
       "votes": {
-        "Sherrod Brown": 1050409,
-        "Jon Husted": 797686,
-        "Other": 72932
+        "Sherrod Brown": 1183579,
+        "Jon Husted": 987718,
+        "Other": 93248
       }
     },
     "sc-sen": {
@@ -32,47 +32,47 @@
       }
     },
     "ks-sen": {
-      "reporting": 37.38,
+      "reporting": 41.03,
       "called": null,
       "votes": {
-        "Adam Hamilton": 273801,
-        "Roger Marshall": 146772,
-        "Other": 7642
+        "Adam Hamilton": 291199,
+        "Roger Marshall": 166799,
+        "Other": 12087
       }
     },
     "mi-sen": {
-      "reporting": 8.58,
+      "reporting": 11.43,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 235487,
-        "Mike Rogers": 182956,
-        "Other": 6794
+        "Abdul El-Sayed": 298637,
+        "Mike Rogers": 258475,
+        "Other": 9351
       }
     },
     "nh-sen": {
-      "reporting": 30.16,
+      "reporting": 34.59,
       "called": null,
       "votes": {
-        "Chris Pappas": 115036,
-        "John E. Sununu": 88477,
-        "Other": 4365
+        "Chris Pappas": 132378,
+        "John E. Sununu": 101015,
+        "Other": 4998
       }
     },
     "nc-sen": {
-      "reporting": 60.22,
+      "reporting": 67.03,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 1677702,
-        "Michael Whatley": 939803,
-        "Other": 47003
+        "Roy Cooper": 1815990,
+        "Michael Whatley": 1095234,
+        "Other": 54993
       }
     },
     "ga-sen": {
-      "reporting": 61.39,
+      "reporting": 54.71,
       "called": "Jon Ossoff",
       "votes": {
-        "Jon Ossoff": 1733537,
-        "Mike Collins": 1132481
+        "Jon Ossoff": 1612112,
+        "Mike Collins": 941936
       }
     },
     "fl-14": {
@@ -85,29 +85,29 @@
       }
     },
     "mi-10": {
-      "reporting": 5.7,
+      "reporting": 10.02,
       "called": null,
       "votes": {
-        "Michael Bouchard": 11687,
-        "Christina Hines": 9668,
-        "Other": 434
+        "Christina Hines": 19140,
+        "Michael Bouchard": 18197,
+        "Other": 1003
       }
     },
     "oh-07": {
-      "reporting": 38.89,
+      "reporting": 43.95,
       "called": null,
       "votes": {
-        "Brian Poindexter": 77173,
-        "Max Miller": 46562
+        "Brian Poindexter": 82765,
+        "Max Miller": 57062
       }
     },
     "tx-34": {
-      "reporting": 26.28,
+      "reporting": 28.62,
       "called": null,
       "votes": {
-        "Vicente Gonzalez": 34056,
-        "Eric Flores": 31996,
-        "Other": 2970
+        "Vicente Gonzalez": 37465,
+        "Eric Flores": 34521,
+        "Other": 3162
       }
     },
     "va-02": {
@@ -120,21 +120,21 @@
       }
     },
     "mo-05": {
-      "reporting": 16.93,
+      "reporting": 17.65,
       "called": null,
       "votes": {
-        "Emanuel Cleaver": 28315,
-        "Rick Brattin": 10853,
-        "Randy Langkraehr": 671
+        "Emanuel Cleaver": 29269,
+        "Rick Brattin": 11520,
+        "Randy Langkraehr": 733
       }
     },
     "mo-06": {
-      "reporting": 19.26,
+      "reporting": 32.21,
       "called": null,
       "votes": {
-        "Josh Smead": 24338,
-        "Chris Stigall": 20731,
-        "Andy Maidment": 734
+        "Chris Stigall": 37979,
+        "Josh Smead": 37012,
+        "Andy Maidment": 1609
       }
     },
     "mo-a3": {
@@ -176,10 +176,52 @@
         "No": 24827,
         "Yes": 8545
       }
+    },
+    "me-sen": {
+      "reporting": 5.93,
+      "called": null,
+      "votes": {
+        "Susan Collins": 23333,
+        "Troy Jackson": 20468,
+        "Other": 177
+      }
+    },
+    "ne-sen": {
+      "reporting": 23.17,
+      "called": null,
+      "votes": {
+        "Dan Osborn": 107448,
+        "Pete Ricketts": 62870,
+        "Other": 8856
+      }
+    },
+    "mo-a8": {
+      "reporting": 3.7,
+      "called": null,
+      "votes": {
+        "No": 62363,
+        "Yes": 58818
+      }
+    },
+    "mo-propa": {
+      "reporting": 6.5,
+      "called": null,
+      "votes": {
+        "No": 117106,
+        "Yes": 69343
+      }
     }
   },
   "last_run": {
-    "at": "2026-11-04T02:08:17+00:00",
-    "crash": "ults.py\", line 110, in main\n    fetched = dict(zip(list(DOCS) + single_ids,\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py\", line 619, in result_iterator\n    yield _result_or_cancel(fs.pop())\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py\", line 317, in _result_or_cancel\n    return fut.result(timeout)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py\", line 456, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/elections/elections/scripts/fetch_results.py\", line 111, in <lambda>\n    pool.map(lambda rid: get(f\"race/{rid}\"), list(DOCS.values()) + single_ids)))\n                         ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/elections/elections/scripts/fetch_results.py\", line 48, in get\n    ERRORS.append(f\"{path}: {e}\")\n                             ^\nUnboundLocalError: cannot access local variable 'e' where it is not associated with a value\n"
+    "at": "2026-11-04T02:10:58+00:00",
+    "fetched_ok": true,
+    "errors": [
+      "race/87220: HTTP Error 502: Bad Gateway",
+      "race/87242: HTTP Error 502: Bad Gateway",
+      "race/139732: HTTP Error 502: Bad Gateway",
+      "race/87243: HTTP Error 500: Internal Server Error",
+      "race/139733: HTTP Error 502: Bad Gateway"
+    ],
+    "error_count": 12
   }
 }
