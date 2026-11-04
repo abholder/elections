@@ -1,6 +1,6 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-11-04T11:22:34+00:00",
+ "updated": "2026-11-04T18:37:01+00:00",
  "control": {
   "Senate": {
    "R": 0,
@@ -37,8 +37,8 @@
    "Adam Hamilton": 100
   },
   "ak-sen": {
-   "Mary Peltola": 86,
-   "Dan Sullivan": 14
+   "Dan Sullivan": 9,
+   "Mary Peltola": 91
   },
   "mi-sen": {
    "Mike Rogers": 0,
@@ -61,16 +61,16 @@
    "Jon Ossoff": 100
   },
   "mn-sen": {
-   "Peggy Flanagan": 100,
-   "Michele Tafoya": 0
+   "Michele Tafoya": 0,
+   "Peggy Flanagan": 100
   },
   "fl-14": {
-   "Kathy Castor": 99,
-   "Mike Beltran": 2
+   "Mike Beltran": 2,
+   "Kathy Castor": 99
   },
   "oh-07": {
-   "Max Miller": 0,
-   "Brian Poindexter": 99
+   "Brian Poindexter": 99,
+   "Max Miller": 0
   },
   "mo-06": {
    "Josh Smead": 5,
