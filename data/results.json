@@ -1,23 +1,23 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T06:12:03+00:00",
+  "updated": "2026-11-04T06:17:20+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 86.45,
+      "reporting": 86.67,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4835747,
-        "Ken Paxton": 3654103,
-        "Other": 155466
+        "James Talarico": 4842900,
+        "Ken Paxton": 3668355,
+        "Other": 156025
       }
     },
     "oh-sen": {
-      "reporting": 89.82,
+      "reporting": 90.39,
       "called": "Sherrod Brown",
       "votes": {
-        "Sherrod Brown": 2092273,
-        "Jon Husted": 1978849,
-        "Other": 208244
+        "Sherrod Brown": 2109363,
+        "Jon Husted": 1988140,
+        "Other": 209304
       }
     },
     "sc-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 70,
+      "reporting": 73.49,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1787172,
-        "Mike Rogers": 1610332,
-        "Other": 71346
+        "Abdul El-Sayed": 1883174,
+        "Mike Rogers": 1683778,
+        "Other": 74748
       }
     },
     "nh-sen": {
@@ -85,20 +85,20 @@
       }
     },
     "mi-10": {
-      "reporting": 49.73,
+      "reporting": 60.73,
       "called": null,
       "votes": {
-        "Christina Hines": 95191,
-        "Michael Bouchard": 89961,
-        "Other": 5075
+        "Christina Hines": 116378,
+        "Michael Bouchard": 109910,
+        "Other": 6013
       }
     },
     "oh-07": {
-      "reporting": 85.66,
+      "reporting": 89.32,
       "called": null,
       "votes": {
-        "Brian Poindexter": 147995,
-        "Max Miller": 124516
+        "Brian Poindexter": 154353,
+        "Max Miller": 129788
       }
     },
     "tx-34": {
@@ -170,29 +170,29 @@
       }
     },
     "mi-p1": {
-      "reporting": 70.9,
+      "reporting": 72.5,
       "called": null,
       "votes": {
-        "No": 2164997,
-        "Yes": 764309
+        "No": 2248009,
+        "Yes": 794069
       }
     },
     "me-sen": {
-      "reporting": 76.16,
+      "reporting": 76.58,
       "called": null,
       "votes": {
-        "Troy Jackson": 303333,
-        "Susan Collins": 260924,
-        "Other": 766
+        "Troy Jackson": 304732,
+        "Susan Collins": 262624,
+        "Other": 767
       }
     },
     "ne-sen": {
-      "reporting": 68.94,
+      "reporting": 69.85,
       "called": null,
       "votes": {
-        "Pete Ricketts": 259674,
-        "Dan Osborn": 242032,
-        "Other": 31412
+        "Pete Ricketts": 262931,
+        "Dan Osborn": 245275,
+        "Other": 31975
       }
     },
     "mo-a8": {
@@ -224,9 +224,9 @@
       "reporting": 99,
       "called": null,
       "votes": {
-        "Cait Conley": 379164,
-        "Mike Lawler": 348387,
-        "Other": 780
+        "Cait Conley": 385995,
+        "Mike Lawler": 354139,
+        "Other": 797
       }
     },
     "pa-10": {
@@ -257,8 +257,8 @@
       "reporting": 98.2,
       "called": null,
       "votes": {
-        "Yes": 2760254,
-        "No": 1429149
+        "Yes": 2774641,
+        "No": 1440211
       }
     },
     "az-01": {
@@ -288,11 +288,11 @@
       }
     },
     "ca-22": {
-      "reporting": 24.78,
+      "reporting": 24.98,
       "called": null,
       "votes": {
-        "Randy Villegas": 40555,
-        "David Valadao": 21862
+        "Randy Villegas": 40898,
+        "David Valadao": 22022
       }
     },
     "ut-b": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T06:12:03+00:00",
+    "at": "2026-11-04T06:17:20+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
