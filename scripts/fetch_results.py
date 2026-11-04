@@ -174,4 +174,14 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception:
+        # Don't fail silently: record the error in results.json (keeping the saved results)
+        # so it can be read without access to the job logs.
+        import traceback
+        tb = traceback.format_exc()
+        print(tb)
+        prev = json.loads(OUT.read_text()) if OUT.exists() else {"results": {}}
+        prev["last_run"] = {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "crash": tb[-1500:]}
+        OUT.write_text(json.dumps(prev, indent=2) + "\n")
