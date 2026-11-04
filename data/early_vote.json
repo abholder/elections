@@ -2,8 +2,8 @@
  "source": "University of Florida Election Lab",
  "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
  "license": "CC BY-NC-ND 4.0",
- "updated": "2026-11-04T01:36:00+00:00",
- "total": 61049842,
+ "updated": "2026-11-04T01:54:23+00:00",
+ "total": 61406446,
  "states": {
   "AK": {
    "name": "Alaska",
@@ -637,15 +637,15 @@
   },
   "WA": {
    "name": "Washington",
-   "voted_all": 1992533,
+   "voted_all": 2349137,
    "inperson_all": 0,
-   "accept_all": 1992533,
+   "accept_all": 2349137,
    "request_all": 5131622,
    "turn_2022": 3067686,
    "voted_dem": 0,
    "voted_rep": 0,
    "voted_none": 0,
-   "last_update": "11/2/2026",
+   "last_update": "11/3/2026",
    "source": "https://www.sos.wa.gov/elections/data-research/election-data-and-maps/ballot-return-statistics",
    "notes": null
   },
@@ -2044,7 +2044,7 @@
    }
   },
   "2026-11-04": {
-   "total": 61049842,
+   "total": 61406446,
    "states": {
     "AK": 99424,
     "AZ": 1648197,
@@ -2091,7 +2091,7 @@
     "UT": 583623,
     "VT": 171730,
     "VA": 1644509,
-    "WA": 1992533,
+    "WA": 2349137,
     "WV": 114391,
     "WI": 796607,
     "WY": 73895
