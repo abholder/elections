@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T04:35:33+00:00",
+  "updated": "2026-11-04T04:40:12+00:00",
   "results": {
     "tx-sen": {
       "reporting": 70.35,
@@ -138,11 +138,11 @@
       }
     },
     "mo-a3": {
-      "reporting": 78.6,
+      "reporting": 82.6,
       "called": null,
       "votes": {
-        "No": 844130,
-        "Yes": 767248
+        "No": 873170,
+        "Yes": 804897
       }
     },
     "mo-a7": {
@@ -154,27 +154,27 @@
       }
     },
     "va-marriage": {
-      "reporting": 99.5,
+      "reporting": 99.6,
       "called": null,
       "votes": {
-        "Yes": 1851384,
-        "No": 1423020
+        "Yes": 1861615,
+        "No": 1433512
       }
     },
     "va-voting": {
-      "reporting": 99.5,
+      "reporting": 99.6,
       "called": null,
       "votes": {
-        "Yes": 1811365,
-        "No": 1457805
+        "Yes": 1821786,
+        "No": 1468219
       }
     },
     "mi-p1": {
-      "reporting": 22.8,
+      "reporting": 40,
       "called": null,
       "votes": {
-        "No": 913940,
-        "Yes": 314600
+        "No": 1128168,
+        "Yes": 382516
       }
     },
     "me-sen": {
@@ -246,19 +246,19 @@
       }
     },
     "va-q1": {
-      "reporting": 99.4,
+      "reporting": 99.6,
       "called": null,
       "votes": {
-        "Yes": 1997661,
-        "No": 1252993
+        "Yes": 2009127,
+        "No": 1262982
       }
     },
     "oh-i3": {
       "reporting": 97,
       "called": null,
       "votes": {
-        "Yes": 2697734,
-        "No": 1386819
+        "Yes": 2713248,
+        "No": 1399051
       }
     },
     "az-01": {
@@ -299,16 +299,16 @@
       "reporting": 61.8,
       "called": null,
       "votes": {
-        "No": 367165,
-        "Yes": 223095
+        "No": 367189,
+        "Yes": 223123
       }
     },
     "co-a86": {
-      "reporting": 81.9,
+      "reporting": 82.2,
       "called": null,
       "votes": {
-        "No": 1035460,
-        "Yes": 893069
+        "No": 1037582,
+        "Yes": 895844
       }
     },
     "wa-03": {
@@ -322,15 +322,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T04:35:33+00:00",
+    "at": "2026-11-04T04:40:12+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87524: HTTP Error 502: Bad Gateway",
       "race/87242: HTTP Error 502: Bad Gateway",
+      "race/87524: HTTP Error 500: Internal Server Error",
       "race/87528: The read operation timed out",
-      "race/87220: HTTP Error 502: Bad Gateway",
-      "race/87243: The read operation timed out"
+      "race/140002: HTTP Error 502: Bad Gateway",
+      "race/140000: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 8
+    "error_count": 13
   }
 }
