@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T10:33:51+00:00",
+  "updated": "2026-11-04T10:44:05+00:00",
   "results": {
     "tx-sen": {
       "reporting": 96.99,
@@ -12,12 +12,12 @@
       }
     },
     "oh-sen": {
-      "reporting": 95.07,
+      "reporting": 96.58,
       "called": "Sherrod Brown",
       "votes": {
-        "Sherrod Brown": 2249214,
-        "Jon Husted": 2060829,
-        "Other": 219704
+        "Sherrod Brown": 2301042,
+        "Jon Husted": 2077748,
+        "Other": 222781
       }
     },
     "sc-sen": {
@@ -94,11 +94,11 @@
       }
     },
     "oh-07": {
-      "reporting": 97.49,
+      "reporting": 99,
       "called": "Brian Poindexter",
       "votes": {
-        "Brian Poindexter": 169502,
-        "Max Miller": 140633
+        "Brian Poindexter": 180614,
+        "Max Miller": 148177
       }
     },
     "tx-34": {
@@ -257,8 +257,8 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2901321,
-        "No": 1523799
+        "Yes": 2934245,
+        "No": 1556864
       }
     },
     "az-01": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T10:33:51+00:00",
+    "at": "2026-11-04T10:44:05+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
