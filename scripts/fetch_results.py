@@ -38,14 +38,16 @@ def get(path):
     req = urllib.request.Request(f"{BASE}/{path}", headers={"User-Agent": "abholder-elections/1.0"})
     # civicAPI gets slow under election-night traffic: short timeouts and one retry, so a whole
     # run finishes in a couple of minutes instead of being cut off by the next one.
+    last_error = "unknown error"
     for attempt in range(2):
         try:
             with urllib.request.urlopen(req, timeout=25) as r:
                 return json.load(r)
         except Exception as e:
+            last_error = str(e)  # Python forgets `e` after this block, so keep a copy
             print(f"  {path}: {e} (try {attempt + 1}/2)")
             time.sleep(2)
-    ERRORS.append(f"{path}: {e}")
+    ERRORS.append(f"{path}: {last_error}")
     return None
 
 
