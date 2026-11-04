@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T06:32:03+00:00",
+  "updated": "2026-11-04T06:37:09+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 87.62,
+      "reporting": 88.49,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4886084,
-        "Ken Paxton": 3717274,
-        "Other": 158877
+        "James Talarico": 4939456,
+        "Ken Paxton": 3748045,
+        "Other": 161479
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 76.36,
+      "reporting": 77.76,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1959254,
-        "Mike Rogers": 1747432,
-        "Other": 77343
+        "Abdul El-Sayed": 1995543,
+        "Mike Rogers": 1779101,
+        "Other": 78951
       }
     },
     "nh-sen": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 77.1,
+      "reporting": 77.5,
       "called": null,
       "votes": {
-        "No": 2477458,
-        "Yes": 870987
+        "No": 2508746,
+        "Yes": 883364
       }
     },
     "me-sen": {
@@ -271,12 +271,12 @@
       }
     },
     "mn-sen": {
-      "reporting": 94.5,
+      "reporting": 96.93,
       "called": "Peggy Flanagan",
       "votes": {
-        "Peggy Flanagan": 1435440,
-        "Michele Tafoya": 1138145,
-        "Other": 72135
+        "Peggy Flanagan": 1474598,
+        "Michele Tafoya": 1165152,
+        "Other": 74033
       }
     },
     "md-redistricting": {
@@ -299,8 +299,8 @@
       "reporting": 72.1,
       "called": null,
       "votes": {
-        "No": 402599,
-        "Yes": 244882
+        "No": 407751,
+        "Yes": 248704
       }
     },
     "co-a86": {
@@ -321,17 +321,17 @@
       }
     },
     "ak-sen": {
-      "reporting": 22.45,
+      "reporting": 56.5,
       "called": null,
       "votes": {
-        "Mary Peltola": 35324,
-        "Dan Sullivan": 27940,
-        "Other": 1848
+        "Mary Peltola": 79137,
+        "Dan Sullivan": 78763,
+        "Other": 5966
       }
     }
   },
   "last_run": {
-    "at": "2026-11-04T06:32:03+00:00",
+    "at": "2026-11-04T06:37:09+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
