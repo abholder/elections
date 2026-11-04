@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T05:38:58+00:00",
+  "updated": "2026-11-04T05:43:41+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 81.9,
+      "reporting": 82.27,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4648444,
-        "Ken Paxton": 3398960,
-        "Other": 142618
+        "James Talarico": 4662204,
+        "Ken Paxton": 3421504,
+        "Other": 143684
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 59.85,
+      "reporting": 60.26,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1504123,
-        "Mike Rogers": 1402056,
-        "Other": 59638
+        "Abdul El-Sayed": 1510882,
+        "Mike Rogers": 1415317,
+        "Other": 60206
       }
     },
     "nh-sen": {
@@ -111,12 +111,12 @@
       }
     },
     "va-02": {
-      "reporting": 93.28,
+      "reporting": 100,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 163617,
-        "Jen Kiggans": 143906,
-        "Other": 7378
+        "Elaine Luria": 164602,
+        "Jen Kiggans": 144116,
+        "Other": 7443
       }
     },
     "mo-05": {
@@ -138,7 +138,7 @@
       }
     },
     "mo-a3": {
-      "reporting": 83.2,
+      "reporting": 83.8,
       "called": null,
       "votes": {
         "No": 883185,
@@ -146,7 +146,7 @@
       }
     },
     "mo-a7": {
-      "reporting": 81.9,
+      "reporting": 82.5,
       "called": null,
       "votes": {
         "No": 984102,
@@ -157,32 +157,32 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1901852,
-        "No": 1459574
+        "Yes": 1902699,
+        "No": 1459976
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1866944,
-        "No": 1489476
+        "Yes": 1867906,
+        "No": 1489766
       }
     },
     "mi-p1": {
-      "reporting": 63.8,
+      "reporting": 65.2,
       "called": null,
       "votes": {
-        "No": 1866759,
-        "Yes": 649810
+        "No": 1891966,
+        "Yes": 661128
       }
     },
     "me-sen": {
-      "reporting": 71.38,
+      "reporting": 71.68,
       "called": null,
       "votes": {
-        "Troy Jackson": 282161,
-        "Susan Collins": 246634,
+        "Troy Jackson": 282999,
+        "Susan Collins": 248037,
         "Other": 748
       }
     },
@@ -196,7 +196,7 @@
       }
     },
     "mo-a8": {
-      "reporting": 82.3,
+      "reporting": 82.9,
       "called": null,
       "votes": {
         "Yes": 886630,
@@ -204,7 +204,7 @@
       }
     },
     "mo-propa": {
-      "reporting": 82.2,
+      "reporting": 82.8,
       "called": null,
       "votes": {
         "No": 982529,
@@ -249,16 +249,16 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 2056828,
-        "No": 1281712
+        "Yes": 2057851,
+        "No": 1281935
       }
     },
     "oh-i3": {
-      "reporting": 97.9,
+      "reporting": 98,
       "called": null,
       "votes": {
-        "Yes": 2742639,
-        "No": 1416997
+        "Yes": 2757820,
+        "No": 1428514
       }
     },
     "az-01": {
@@ -283,8 +283,8 @@
       "reporting": 98.7,
       "called": null,
       "votes": {
-        "Yes": 1049293,
-        "No": 709933
+        "Yes": 1050730,
+        "No": 710325
       }
     },
     "ca-22": {
@@ -299,16 +299,16 @@
       "reporting": 72.1,
       "called": null,
       "votes": {
-        "No": 377590,
-        "Yes": 231741
+        "No": 378808,
+        "Yes": 232548
       }
     },
     "co-a86": {
       "reporting": 82.6,
       "called": null,
       "votes": {
-        "No": 1051129,
-        "Yes": 906232
+        "No": 1052091,
+        "Yes": 907526
       }
     },
     "wa-03": {
@@ -322,7 +322,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T05:38:58+00:00",
+    "at": "2026-11-04T05:43:41+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
