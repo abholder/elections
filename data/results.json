@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T00:14:59+00:00",
+  "updated": "2026-11-04T00:26:33+00:00",
   "results": {
     "nh-sen": {
       "reporting": 0,
@@ -10,28 +10,45 @@
         "Chris Pappas": 2
       }
     },
-    "va-q1": {
-      "reporting": 0.2,
+    "ga-sen": {
+      "reporting": 17.04,
       "called": null,
       "votes": {
-        "Yes": 7496,
-        "No": 7257
+        "Jon Ossoff": 563565,
+        "Mike Collins": 231911
+      }
+    },
+    "va-02": {
+      "reporting": 0.36,
+      "called": null,
+      "votes": {
+        "Elaine Luria": 592,
+        "Jen Kiggans": 582,
+        "Other": 32
+      }
+    },
+    "va-q1": {
+      "reporting": 3.2,
+      "called": null,
+      "votes": {
+        "Yes": 27033,
+        "No": 19830
       }
     },
     "va-marriage": {
-      "reporting": 0.2,
+      "reporting": 3.2,
       "called": null,
       "votes": {
-        "No": 8354,
-        "Yes": 6417
+        "Yes": 24183,
+        "No": 22727
       }
     },
     "va-voting": {
-      "reporting": 0.2,
+      "reporting": 4.3,
       "called": null,
       "votes": {
-        "No": 8005,
-        "Yes": 6787
+        "No": 28609,
+        "Yes": 28233
       }
     }
   }
