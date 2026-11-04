@@ -1,23 +1,23 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T04:51:17+00:00",
+  "updated": "2026-11-04T04:54:39+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 70.35,
+      "reporting": 72.31,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4155536,
-        "Ken Paxton": 2767417,
-        "Other": 112103
+        "James Talarico": 4246158,
+        "Ken Paxton": 2867515,
+        "Other": 117031
       }
     },
     "oh-sen": {
-      "reporting": 87.38,
+      "reporting": 88.39,
       "called": "Sherrod Brown",
       "votes": {
-        "Sherrod Brown": 2024344,
-        "Jon Husted": 1936096,
-        "Other": 203028
+        "Sherrod Brown": 2051231,
+        "Jon Husted": 1954862,
+        "Other": 205401
       }
     },
     "sc-sen": {
@@ -32,21 +32,21 @@
       }
     },
     "ks-sen": {
-      "reporting": 90.9,
+      "reporting": 93.15,
       "called": "Adam Hamilton",
       "votes": {
-        "Adam Hamilton": 541315,
-        "Roger Marshall": 466435,
-        "Other": 33585
+        "Adam Hamilton": 549179,
+        "Roger Marshall": 483337,
+        "Other": 34661
       }
     },
     "mi-sen": {
-      "reporting": 32.1,
+      "reporting": 43.33,
       "called": null,
       "votes": {
-        "Mike Rogers": 794697,
-        "Abdul El-Sayed": 764489,
-        "Other": 31390
+        "Abdul El-Sayed": 1080232,
+        "Mike Rogers": 1025619,
+        "Other": 41525
       }
     },
     "nh-sen": {
@@ -59,20 +59,20 @@
       }
     },
     "nc-sen": {
-      "reporting": 93.49,
+      "reporting": 93.88,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2425734,
-        "Michael Whatley": 1620891,
-        "Other": 90488
+        "Roy Cooper": 2436477,
+        "Michael Whatley": 1626904,
+        "Other": 90954
       }
     },
     "ga-sen": {
-      "reporting": 87.29,
+      "reporting": 88.87,
       "called": "Jon Ossoff",
       "votes": {
-        "Jon Ossoff": 2402123,
-        "Mike Collins": 1673127
+        "Jon Ossoff": 2448952,
+        "Mike Collins": 1699868
       }
     },
     "fl-14": {
@@ -154,11 +154,11 @@
       }
     },
     "va-marriage": {
-      "reporting": 99.6,
+      "reporting": 99.8,
       "called": null,
       "votes": {
-        "Yes": 1862529,
-        "No": 1433573
+        "Yes": 1880846,
+        "No": 1445475
       }
     },
     "va-voting": {
@@ -170,29 +170,29 @@
       }
     },
     "mi-p1": {
-      "reporting": 40.7,
+      "reporting": 43.4,
       "called": null,
       "votes": {
-        "No": 1172456,
-        "Yes": 398325
+        "No": 1259895,
+        "Yes": 429318
       }
     },
     "me-sen": {
-      "reporting": 43.84,
+      "reporting": 50.63,
       "called": null,
       "votes": {
-        "Susan Collins": 165071,
-        "Troy Jackson": 159782,
-        "Other": 378
+        "Susan Collins": 188272,
+        "Troy Jackson": 186834,
+        "Other": 515
       }
     },
     "ne-sen": {
-      "reporting": 51.32,
+      "reporting": 56.59,
       "called": null,
       "votes": {
-        "Dan Osborn": 195158,
-        "Pete Ricketts": 179933,
-        "Other": 21783
+        "Dan Osborn": 210209,
+        "Pete Ricketts": 202502,
+        "Other": 24906
       }
     },
     "mo-a8": {
@@ -212,12 +212,12 @@
       }
     },
     "ia-sen": {
-      "reporting": 90.94,
+      "reporting": 93.98,
       "called": null,
       "votes": {
-        "Josh Turek": 635000,
-        "Ashley Hinson": 573706,
-        "Other": 38253
+        "Josh Turek": 653622,
+        "Ashley Hinson": 595143,
+        "Other": 39846
       }
     },
     "ny-17": {
@@ -246,11 +246,11 @@
       }
     },
     "va-q1": {
-      "reporting": 99.6,
+      "reporting": 99.7,
       "called": null,
       "votes": {
-        "Yes": 2009127,
-        "No": 1262982
+        "Yes": 2018952,
+        "No": 1267046
       }
     },
     "oh-i3": {
@@ -271,12 +271,12 @@
       }
     },
     "mn-sen": {
-      "reporting": 31.34,
+      "reporting": 46.73,
       "called": null,
       "votes": {
-        "Michele Tafoya": 452520,
-        "Peggy Flanagan": 399832,
-        "Other": 25127
+        "Michele Tafoya": 669456,
+        "Peggy Flanagan": 600279,
+        "Other": 38597
       }
     },
     "md-redistricting": {
@@ -322,14 +322,14 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T04:51:17+00:00",
+    "at": "2026-11-04T04:54:39+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87528: The read operation timed out",
-      "race/87243: HTTP Error 502: Bad Gateway",
-      "race/139732: HTTP Error 502: Bad Gateway",
-      "race/87220: The read operation timed out",
-      "race/139734: HTTP Error 502: Bad Gateway"
+      "race/87524: HTTP Error 502: Bad Gateway",
+      "race/139732: The read operation timed out",
+      "race/87243: The read operation timed out",
+      "race/140002: HTTP Error 502: Bad Gateway",
+      "race/155237: HTTP Error 502: Bad Gateway"
     ],
     "error_count": 14
   }
