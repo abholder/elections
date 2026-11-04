@@ -1,80 +1,80 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-11-04T00:22:02+00:00",
+ "updated": "2026-11-04T01:22:28+00:00",
  "control": {
   "Senate": {
-   "R": 22,
-   "D": 78
+   "D": 97,
+   "R": 4
   },
   "House": {
-   "D": 97,
-   "R": 3
+   "D": 99,
+   "R": 1
   }
  },
  "races": {
   "tx-sen": {
-   "James Talarico": 74,
-   "Ken Paxton": 26
+   "James Talarico": 93,
+   "Ken Paxton": 7
   },
   "me-sen": {
-   "Susan Collins": 30,
-   "Troy Jackson": 70
+   "Troy Jackson": 84,
+   "Susan Collins": 16
   },
   "oh-sen": {
-   "Sherrod Brown": 78,
-   "Jon Husted": 22
+   "Sherrod Brown": 94,
+   "Jon Husted": 6
   },
   "sc-sen": {
-   "Annie Andrews": 28,
-   "Darline Graham": 72
+   "Darline Graham": 16,
+   "Annie Andrews": 84
   },
   "ia-sen": {
-   "Ashley Hinson": 40,
-   "Josh Turek": 60
+   "Ashley Hinson": 18,
+   "Josh Turek": 82
   },
   "ks-sen": {
-   "Adam Hamilton": 70,
-   "Roger Marshall": 30
+   "Roger Marshall": 12,
+   "Adam Hamilton": 88
   },
   "ak-sen": {
-   "Mary Peltola": 70,
-   "Dan Sullivan": 30
+   "Dan Sullivan": 18,
+   "Mary Peltola": 82
   },
   "mi-sen": {
-   "Mike Rogers": 18,
-   "Abdul El-Sayed": 82
+   "Mike Rogers": 7,
+   "Abdul El-Sayed": 93
   },
   "ne-sen": {
-   "Pete Ricketts": 70,
-   "Dan Osborn": 30
+   "Dan Osborn": 68,
+   "Pete Ricketts": 31
   },
   "nh-sen": {
-   "Chris Pappas": 95,
-   "John E. Sununu": 5
+   "John E. Sununu": 1,
+   "Chris Pappas": 100
   },
   "nc-sen": {
-   "Roy Cooper": 98,
-   "Michael Whatley": 2
+   "Roy Cooper": 100,
+   "Michael Whatley": 1
   },
   "ga-sen": {
    "Jon Ossoff": 100,
    "Mike Collins": 0
   },
   "mn-sen": {
-   "Peggy Flanagan": 93,
-   "Michele Tafoya": 7
+   "Peggy Flanagan": 96,
+   "Michele Tafoya": 4
   },
   "fl-14": {
-   "Mike Beltran": 9,
-   "Kathy Castor": 90
+   "Kathy Castor": 99,
+   "Mike Beltran": 2
   },
   "oh-07": {
-   "Brian Poindexter": 92,
-   "Max Miller": 8
+   "Max Miller": 28,
+   "Brian Poindexter": 73
   },
   "mo-06": {
-   "Josh Smead": 2,
-   "Chris Stigall": 98
+   "Chris Stigall": 98,
+   "Josh Smead": 3
   }
  },
  "problems": []
