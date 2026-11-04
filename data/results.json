@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T07:42:31+00:00",
+  "updated": "2026-11-04T07:47:41+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 93.86,
+      "reporting": 94.15,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5096455,
-        "Ken Paxton": 4117021,
-        "Other": 172403
+        "James Talarico": 5107574,
+        "Ken Paxton": 4134236,
+        "Other": 173245
       }
     },
     "oh-sen": {
@@ -283,16 +283,16 @@
       "reporting": 99.7,
       "called": null,
       "votes": {
-        "Yes": 1075750,
-        "No": 716562
+        "Yes": 1077217,
+        "No": 717163
       }
     },
     "ca-22": {
       "reporting": 25.86,
       "called": "Randy Villegas",
       "votes": {
-        "Randy Villegas": 42338,
-        "David Valadao": 22789
+        "Randy Villegas": 42350,
+        "David Valadao": 22791
       }
     },
     "ut-b": {
@@ -304,11 +304,11 @@
       }
     },
     "co-a86": {
-      "reporting": 84.8,
+      "reporting": 85.1,
       "called": null,
       "votes": {
-        "No": 1097053,
-        "Yes": 951853
+        "No": 1105669,
+        "Yes": 963178
       }
     },
     "wa-03": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T07:42:31+00:00",
+    "at": "2026-11-04T07:47:41+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
