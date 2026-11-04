@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T11:52:25+00:00",
+  "updated": "2026-11-04T11:57:24+00:00",
   "results": {
     "tx-sen": {
       "reporting": 97.03,
@@ -62,9 +62,9 @@
       "reporting": 100,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2463773,
-        "Michael Whatley": 1640663,
-        "Other": 92042
+        "Roy Cooper": 2467963,
+        "Michael Whatley": 1643088,
+        "Other": 92130
       }
     },
     "ga-sen": {
@@ -187,12 +187,12 @@
       }
     },
     "ne-sen": {
-      "reporting": 94.46,
+      "reporting": 95.08,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 367378,
-        "Dan Osborn": 319810,
-        "Other": 43307
+        "Pete Ricketts": 370411,
+        "Dan Osborn": 321218,
+        "Other": 43631
       }
     },
     "mo-a8": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T11:52:25+00:00",
+    "at": "2026-11-04T11:57:24+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
