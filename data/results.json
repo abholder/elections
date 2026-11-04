@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T02:14:23+00:00",
+  "updated": "2026-11-04T02:19:11+00:00",
   "results": {
     "tx-sen": {
       "reporting": 41.79,
@@ -85,29 +85,29 @@
       }
     },
     "mi-10": {
-      "reporting": 10.02,
+      "reporting": 11.13,
       "called": null,
       "votes": {
-        "Christina Hines": 19140,
-        "Michael Bouchard": 18197,
-        "Other": 1003
+        "Christina Hines": 21502,
+        "Michael Bouchard": 19930,
+        "Other": 1133
       }
     },
     "oh-07": {
-      "reporting": 43.95,
+      "reporting": 44.07,
       "called": null,
       "votes": {
-        "Brian Poindexter": 82765,
-        "Max Miller": 57062
+        "Brian Poindexter": 83051,
+        "Max Miller": 57150
       }
     },
     "tx-34": {
-      "reporting": 28.62,
+      "reporting": 58.58,
       "called": null,
       "votes": {
-        "Vicente Gonzalez": 37465,
-        "Eric Flores": 34521,
-        "Other": 3162
+        "Vicente Gonzalez": 87373,
+        "Eric Flores": 59653,
+        "Other": 6809
       }
     },
     "va-02": {
@@ -120,29 +120,29 @@
       }
     },
     "mo-05": {
-      "reporting": 17.65,
+      "reporting": 18.18,
       "called": null,
       "votes": {
-        "Emanuel Cleaver": 29269,
-        "Rick Brattin": 11520,
-        "Randy Langkraehr": 733
+        "Emanuel Cleaver": 30103,
+        "Rick Brattin": 11900,
+        "Randy Langkraehr": 769
       }
     },
     "mo-06": {
-      "reporting": 32.21,
+      "reporting": 42.18,
       "called": null,
       "votes": {
-        "Chris Stigall": 37979,
-        "Josh Smead": 37012,
-        "Andy Maidment": 1609
+        "Chris Stigall": 52248,
+        "Josh Smead": 45768,
+        "Andy Maidment": 2309
       }
     },
     "mo-a3": {
-      "reporting": 8.9,
+      "reporting": 10.4,
       "called": null,
       "votes": {
-        "No": 121683,
-        "Yes": 95889
+        "No": 132825,
+        "Yes": 109022
       }
     },
     "mo-a7": {
@@ -213,15 +213,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T02:14:23+00:00",
+    "at": "2026-11-04T02:19:11+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87220: HTTP Error 500: Internal Server Error",
-      "race/87524: HTTP Error 500: Internal Server Error",
-      "race/139733: HTTP Error 500: Internal Server Error",
-      "race/139732: HTTP Error 500: Internal Server Error",
-      "race/139734: HTTP Error 502: Bad Gateway"
+      "race/87220: The read operation timed out",
+      "race/139733: HTTP Error 502: Bad Gateway",
+      "race/87528: The read operation timed out",
+      "race/140002: HTTP Error 502: Bad Gateway",
+      "race/155237: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 16
+    "error_count": 13
   }
 }
