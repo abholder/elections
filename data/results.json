@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T05:18:39+00:00",
+  "updated": "2026-11-04T05:23:42+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 76.5,
+      "reporting": 79.85,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4443469,
-        "Ken Paxton": 3078664,
-        "Other": 128104
+        "James Talarico": 4557034,
+        "Ken Paxton": 3290440,
+        "Other": 137279
       }
     },
     "oh-sen": {
@@ -32,21 +32,21 @@
       }
     },
     "ks-sen": {
-      "reporting": 94.06,
+      "reporting": 94.82,
       "called": "Adam Hamilton",
       "votes": {
-        "Adam Hamilton": 552291,
-        "Roger Marshall": 490203,
-        "Other": 35015
+        "Adam Hamilton": 554712,
+        "Roger Marshall": 496152,
+        "Other": 35438
       }
     },
     "mi-sen": {
-      "reporting": 50.26,
+      "reporting": 50.41,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1231418,
-        "Mike Rogers": 1210356,
-        "Other": 48662
+        "Abdul El-Sayed": 1233779,
+        "Mike Rogers": 1215376,
+        "Other": 48853
       }
     },
     "nh-sen": {
@@ -102,21 +102,21 @@
       }
     },
     "tx-34": {
-      "reporting": 70.8,
+      "reporting": 70.84,
       "called": "Vicente Gonzalez",
       "votes": {
-        "Vicente Gonzalez": 105481,
-        "Eric Flores": 71979,
-        "Other": 8453
+        "Vicente Gonzalez": 105563,
+        "Eric Flores": 72019,
+        "Other": 8454
       }
     },
     "va-02": {
-      "reporting": 92.29,
+      "reporting": 92.69,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 161387,
-        "Jen Kiggans": 142931,
-        "Other": 7240
+        "Elaine Luria": 162295,
+        "Jen Kiggans": 143334,
+        "Other": 7287
       }
     },
     "mo-05": {
@@ -157,42 +157,42 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1895741,
-        "No": 1455206
+        "Yes": 1900399,
+        "No": 1457305
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1860081,
-        "No": 1485835
+        "Yes": 1865165,
+        "No": 1487539
       }
     },
     "mi-p1": {
-      "reporting": 56.9,
+      "reporting": 57.1,
       "called": null,
       "votes": {
-        "No": 1598481,
-        "Yes": 538905
+        "No": 1603991,
+        "Yes": 541007
       }
     },
     "me-sen": {
-      "reporting": 64.9,
+      "reporting": 67.28,
       "called": null,
       "votes": {
-        "Troy Jackson": 255585,
-        "Susan Collins": 225307,
-        "Other": 602
+        "Troy Jackson": 267308,
+        "Susan Collins": 231095,
+        "Other": 714
       }
     },
     "ne-sen": {
-      "reporting": 61.43,
+      "reporting": 62.46,
       "called": null,
       "votes": {
-        "Pete Ricketts": 226126,
-        "Dan Osborn": 221595,
-        "Other": 27345
+        "Pete Ricketts": 231361,
+        "Dan Osborn": 223849,
+        "Other": 27847
       }
     },
     "mo-a8": {
@@ -249,8 +249,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 2049432,
-        "No": 1278618
+        "Yes": 2054931,
+        "No": 1279892
       }
     },
     "oh-i3": {
@@ -272,7 +272,7 @@
     },
     "mn-sen": {
       "reporting": 78.18,
-      "called": null,
+      "called": "Peggy Flanagan",
       "votes": {
         "Peggy Flanagan": 1183562,
         "Michele Tafoya": 946117,
@@ -280,11 +280,11 @@
       }
     },
     "md-redistricting": {
-      "reporting": 98.5,
+      "reporting": 98.7,
       "called": null,
       "votes": {
-        "Yes": 1046011,
-        "No": 708556
+        "Yes": 1049293,
+        "No": 709933
       }
     },
     "ca-22": {
@@ -304,11 +304,11 @@
       }
     },
     "co-a86": {
-      "reporting": 82.5,
+      "reporting": 82.6,
       "called": null,
       "votes": {
-        "No": 1047970,
-        "Yes": 902801
+        "No": 1050471,
+        "Yes": 905424
       }
     },
     "wa-03": {
@@ -322,9 +322,12 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T05:18:39+00:00",
+    "at": "2026-11-04T05:23:42+00:00",
     "fetched_ok": true,
-    "errors": [],
-    "error_count": 0
+    "errors": [
+      "race/140001: HTTP Error 504: Gateway Timeout",
+      "race/157054: HTTP Error 504: Gateway Timeout"
+    ],
+    "error_count": 2
   }
 }
