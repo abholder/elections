@@ -31,6 +31,9 @@ ELECTION_DATE = "2026-11-03"
 ALLOW_TEST = "--test" in sys.argv  # civicAPI runs fake "test elections" before the real night
 
 
+ERRORS = []  # what went wrong this run, saved into results.json so it's visible without logs
+
+
 def get(path):
     req = urllib.request.Request(f"{BASE}/{path}", headers={"User-Agent": "abholder-elections/1.0"})
     # civicAPI gets slow under election-night traffic: short timeouts and one retry, so a whole
@@ -42,6 +45,7 @@ def get(path):
         except Exception as e:
             print(f"  {path}: {e} (try {attempt + 1}/2)")
             time.sleep(2)
+    ERRORS.append(f"{path}: {e}")
     return None
 
 
@@ -102,7 +106,7 @@ def main():
     from concurrent.futures import ThreadPoolExecutor
     single_ids = sorted({rid for sec in races["sections"] for item in sec.get("races", []) + sec.get("measures", [])
                          for rid in (item.get("civic") or {}).get("races", [])})
-    with ThreadPoolExecutor(max_workers=8) as pool:
+    with ThreadPoolExecutor(max_workers=3) as pool:  # gentle: civicAPI is busy tonight
         fetched = dict(zip(list(DOCS) + single_ids,
                            pool.map(lambda rid: get(f"race/{rid}"), list(DOCS.values()) + single_ids)))
     docs = {name: fetched[name] for name in DOCS}
@@ -153,10 +157,18 @@ def main():
         except Exception as e:
             print(f"WARN Alaska report: {e}")
 
+    # Never lose good data: start from the last saved results and replace only the races we
+    # just fetched successfully. If civicAPI failed entirely, the old numbers stay up.
+    previous = json.loads(OUT.read_text()) if OUT.exists() else {}
+    merged = {**previous.get("results", {}), **results}
+    fetched_ok = len(ERRORS) < len(fetched)
     OUT.write_text(json.dumps({
         "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-        "updated": datetime.now(timezone.utc).isoformat(timespec="seconds") if results else None,
-        "results": results,
+        "updated": (datetime.now(timezone.utc).isoformat(timespec="seconds") if results
+                    else previous.get("updated")),
+        "results": merged,
+        "last_run": {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                     "fetched_ok": fetched_ok, "errors": ERRORS[:5], "error_count": len(ERRORS)},
     }, indent=2) + "\n")
     print(f"wrote {len(results)} results to data/{OUT.name}")
 
