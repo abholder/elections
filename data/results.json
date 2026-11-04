@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T09:58:27+00:00",
+  "updated": "2026-11-04T10:03:29+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 96.61,
+      "reporting": 96.9,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5225263,
-        "Ken Paxton": 4255355,
-        "Other": 180187
+        "James Talarico": 5227050,
+        "Ken Paxton": 4282878,
+        "Other": 180317
       }
     },
     "oh-sen": {
@@ -170,7 +170,7 @@
       }
     },
     "mi-p1": {
-      "reporting": 91.9,
+      "reporting": 92,
       "called": "Failed",
       "votes": {
         "No": 3013061,
@@ -187,12 +187,12 @@
       }
     },
     "ne-sen": {
-      "reporting": 94.2,
+      "reporting": 94.46,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 366063,
-        "Dan Osborn": 319285,
-        "Other": 43164
+        "Pete Ricketts": 367378,
+        "Dan Osborn": 319810,
+        "Other": 43307
       }
     },
     "mo-a8": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T09:58:27+00:00",
+    "at": "2026-11-04T10:03:29+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
