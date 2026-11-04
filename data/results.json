@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T11:57:24+00:00",
+  "updated": "2026-11-04T19:41:55+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 97.03,
+      "reporting": 99,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5236234,
-        "Ken Paxton": 4285900,
-        "Other": 180669
+        "James Talarico": 5408693,
+        "Ken Paxton": 4417403,
+        "Other": 188786
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 95.52,
+      "reporting": 96.05,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2480577,
-        "Mike Rogers": 2154946,
-        "Other": 98193
+        "Abdul El-Sayed": 2497852,
+        "Mike Rogers": 2162890,
+        "Other": 98889
       }
     },
     "nh-sen": {
@@ -81,16 +81,16 @@
       "votes": {
         "Kathy Castor": 153586,
         "Mike Beltran": 137599,
-        "Other": 9041
+        "Other": 8730
       }
     },
     "mi-10": {
-      "reporting": 89.7,
-      "called": null,
+      "reporting": 100,
+      "called": "Christina Hines",
       "votes": {
-        "Christina Hines": 177686,
-        "Michael Bouchard": 157063,
-        "Other": 8382
+        "Christina Hines": 188078,
+        "Michael Bouchard": 162347,
+        "Other": 8742
       }
     },
     "oh-07": {
@@ -114,9 +114,9 @@
       "reporting": 100,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 178696,
-        "Jen Kiggans": 150080,
-        "Other": 8023
+        "Elaine Luria": 178884,
+        "Jen Kiggans": 150389,
+        "Other": 8040
       }
     },
     "mo-05": {
@@ -157,42 +157,42 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2030841,
-        "No": 1513822
+        "Yes": 2031151,
+        "No": 1514079
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 1995266,
-        "No": 1544016
+        "Yes": 1995456,
+        "No": 1544338
       }
     },
     "mi-p1": {
-      "reporting": 92.9,
+      "reporting": 93.1,
       "called": "Failed",
       "votes": {
-        "No": 3067673,
-        "Yes": 1090520
+        "No": 3085791,
+        "Yes": 1097918
       }
     },
     "me-sen": {
-      "reporting": 83.37,
+      "reporting": 91.05,
       "called": "Troy Jackson",
       "votes": {
-        "Troy Jackson": 333912,
-        "Susan Collins": 283751,
-        "Other": 806
+        "Troy Jackson": 361071,
+        "Susan Collins": 313533,
+        "Other": 862
       }
     },
     "ne-sen": {
-      "reporting": 95.08,
+      "reporting": 100,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 370411,
-        "Dan Osborn": 321218,
-        "Other": 43631
+        "Pete Ricketts": 373115,
+        "Dan Osborn": 322625,
+        "Other": 43952
       }
     },
     "mo-a8": {
@@ -249,8 +249,8 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2189634,
-        "No": 1325579
+        "Yes": 2189916,
+        "No": 1325825
       }
     },
     "oh-i3": {
@@ -274,17 +274,17 @@
       "reporting": 100,
       "called": "Peggy Flanagan",
       "votes": {
-        "Peggy Flanagan": 1520298,
+        "Peggy Flanagan": 1520299,
         "Michele Tafoya": 1232685,
         "Other": 77400
       }
     },
     "md-redistricting": {
-      "reporting": 99.8,
+      "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1079738,
-        "No": 718333
+        "Yes": 1081044,
+        "No": 718949
       }
     },
     "ca-22": {
@@ -296,7 +296,7 @@
       }
     },
     "ut-b": {
-      "reporting": 72.1,
+      "reporting": 79,
       "called": null,
       "votes": {
         "No": 430908,
@@ -313,7 +313,7 @@
     },
     "wa-03": {
       "reporting": 95.14,
-      "called": null,
+      "called": "Marie Gluesenkamp Perez",
       "votes": {
         "Marie Gluesenkamp Perez": 143417,
         "John Braun": 115271,
@@ -331,7 +331,7 @@
     },
     "nv-abortion": {
       "reporting": 83.7,
-      "called": null,
+      "called": "Passed",
       "votes": {
         "Yes": 602736,
         "No": 349543
@@ -339,7 +339,7 @@
     },
     "nv-q7": {
       "reporting": 83.8,
-      "called": null,
+      "called": "Passed",
       "votes": {
         "Yes": 597624,
         "No": 361262
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T11:57:24+00:00",
+    "at": "2026-11-04T19:41:55+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
