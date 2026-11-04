@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T07:02:21+00:00",
+  "updated": "2026-11-04T07:07:20+00:00",
   "results": {
     "tx-sen": {
       "reporting": 91.2,
@@ -32,21 +32,21 @@
       }
     },
     "ks-sen": {
-      "reporting": 95.02,
+      "reporting": 95.47,
       "called": "Adam Hamilton",
       "votes": {
-        "Adam Hamilton": 555243,
-        "Roger Marshall": 497752,
-        "Other": 35533
+        "Adam Hamilton": 556580,
+        "Roger Marshall": 501408,
+        "Other": 35746
       }
     },
     "mi-sen": {
-      "reporting": 80.49,
+      "reporting": 80.53,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2061455,
-        "Mike Rogers": 1845165,
-        "Other": 81966
+        "Abdul El-Sayed": 2062372,
+        "Mike Rogers": 1846215,
+        "Other": 82021
       }
     },
     "nh-sen": {
@@ -138,7 +138,7 @@
       }
     },
     "mo-a3": {
-      "reporting": 86,
+      "reporting": 87,
       "called": "Failed",
       "votes": {
         "No": 901709,
@@ -147,7 +147,7 @@
     },
     "mo-a7": {
       "reporting": 85.1,
-      "called": null,
+      "called": "Failed",
       "votes": {
         "No": 1003041,
         "Yes": 682277
@@ -170,19 +170,19 @@
       }
     },
     "mi-p1": {
-      "reporting": 79,
+      "reporting": 80.2,
       "called": "Failed",
       "votes": {
-        "No": 2590597,
-        "Yes": 913225
+        "No": 2591857,
+        "Yes": 913804
       }
     },
     "me-sen": {
-      "reporting": 81,
+      "reporting": 81.1,
       "called": "Troy Jackson",
       "votes": {
-        "Troy Jackson": 323186,
-        "Susan Collins": 276896,
+        "Troy Jackson": 323673,
+        "Susan Collins": 277215,
         "Other": 788
       }
     },
@@ -204,7 +204,7 @@
       }
     },
     "mo-propa": {
-      "reporting": 85.4,
+      "reporting": 85.5,
       "called": "Failed",
       "votes": {
         "No": 1001361,
@@ -239,7 +239,7 @@
     },
     "mo-a6": {
       "reporting": 85.3,
-      "called": null,
+      "called": "Passed",
       "votes": {
         "Yes": 983476,
         "No": 717551
@@ -307,8 +307,8 @@
       "reporting": 84.8,
       "called": null,
       "votes": {
-        "No": 1088745,
-        "Yes": 943425
+        "No": 1095008,
+        "Yes": 949237
       }
     },
     "wa-03": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T07:02:21+00:00",
+    "at": "2026-11-04T07:07:20+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
