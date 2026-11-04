@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T08:17:45+00:00",
+  "updated": "2026-11-04T08:22:46+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 95.76,
+      "reporting": 95.85,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5189478,
-        "Ken Paxton": 4208522,
-        "Other": 177934
+        "James Talarico": 5191698,
+        "Ken Paxton": 4215558,
+        "Other": 178210
       }
     },
     "oh-sen": {
@@ -85,12 +85,12 @@
       }
     },
     "mi-10": {
-      "reporting": 65.32,
+      "reporting": 70.45,
       "called": null,
       "votes": {
-        "Christina Hines": 124993,
-        "Michael Bouchard": 118512,
-        "Other": 6345
+        "Christina Hines": 136105,
+        "Michael Bouchard": 126695,
+        "Other": 6667
       }
     },
     "oh-07": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 86.4,
+      "reporting": 88.6,
       "called": "Failed",
       "votes": {
-        "No": 2822154,
-        "Yes": 995285
+        "No": 2830169,
+        "Yes": 998988
       }
     },
     "me-sen": {
@@ -262,12 +262,12 @@
       }
     },
     "az-01": {
-      "reporting": 73.01,
+      "reporting": 74.94,
       "called": null,
       "votes": {
-        "Amish Shah": 141631,
-        "Jay Feely": 111699,
-        "Other": 5001
+        "Amish Shah": 144706,
+        "Jay Feely": 115218,
+        "Other": 5241
       }
     },
     "mn-sen": {
@@ -283,8 +283,8 @@
       "reporting": 99.8,
       "called": null,
       "votes": {
-        "Yes": 1078027,
-        "No": 717298
+        "Yes": 1078300,
+        "No": 717646
       }
     },
     "ca-22": {
@@ -307,8 +307,8 @@
       "reporting": 85.2,
       "called": null,
       "votes": {
-        "No": 1106182,
-        "Yes": 963671
+        "No": 1112587,
+        "Yes": 967834
       }
     },
     "wa-03": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T08:17:45+00:00",
+    "at": "2026-11-04T08:22:46+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
