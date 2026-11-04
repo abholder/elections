@@ -1,23 +1,23 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T07:37:32+00:00",
+  "updated": "2026-11-04T07:42:31+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 93.47,
+      "reporting": 93.86,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5085612,
-        "Ken Paxton": 4089606,
-        "Other": 171503
+        "James Talarico": 5096455,
+        "Ken Paxton": 4117021,
+        "Other": 172403
       }
     },
     "oh-sen": {
-      "reporting": 93.08,
+      "reporting": 95.01,
       "called": "Sherrod Brown",
       "votes": {
-        "Sherrod Brown": 2198268,
-        "Jon Husted": 2022494,
-        "Other": 214196
+        "Sherrod Brown": 2247543,
+        "Jon Husted": 2059623,
+        "Other": 219533
       }
     },
     "sc-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 85.68,
+      "reporting": 85.75,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2206235,
-        "Mike Rogers": 1952991,
-        "Other": 86934
+        "Abdul El-Sayed": 2207507,
+        "Mike Rogers": 1955024,
+        "Other": 87035
       }
     },
     "nh-sen": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 83.8,
+      "reporting": 83.9,
       "called": "Failed",
       "votes": {
-        "No": 2743724,
-        "Yes": 967280
+        "No": 2746762,
+        "Yes": 968586
       }
     },
     "me-sen": {
@@ -187,12 +187,12 @@
       }
     },
     "ne-sen": {
-      "reporting": 82.49,
+      "reporting": 83.24,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 314793,
-        "Dan Osborn": 285022,
-        "Other": 38122
+        "Pete Ricketts": 318483,
+        "Dan Osborn": 286800,
+        "Other": 38465
       }
     },
     "mo-a8": {
@@ -254,11 +254,11 @@
       }
     },
     "oh-i3": {
-      "reporting": 99.1,
+      "reporting": 99.8,
       "called": "Passed",
       "votes": {
-        "Yes": 2837878,
-        "No": 1496932
+        "Yes": 2899467,
+        "No": 1522786
       }
     },
     "az-01": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T07:37:32+00:00",
+    "at": "2026-11-04T07:42:31+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
