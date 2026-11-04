@@ -289,15 +289,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T03:46:04+00:00",
-    "fetched_ok": true,
+    "at": "2026-11-04T03:49:36+00:00",
+    "fetched_ok": false,
     "errors": [
-      "race/87528: The read operation timed out",
-      "race/87220: The read operation timed out",
-      "race/140001: HTTP Error 500: Internal Server Error",
-      "race/140000: The read operation timed out",
-      "race/155237: HTTP Error 502: Bad Gateway"
+      "race/87524: HTTP Error 502: Bad Gateway",
+      "race/87242: HTTP Error 502: Bad Gateway",
+      "race/87243: HTTP Error 502: Bad Gateway",
+      "race/139732: HTTP Error 502: Bad Gateway",
+      "race/139733: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 11
+    "error_count": 21
   }
 }
