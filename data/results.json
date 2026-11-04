@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T07:22:20+00:00",
+  "updated": "2026-11-04T07:27:27+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 92.49,
+      "reporting": 92.79,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5056748,
-        "Ken Paxton": 4023650,
-        "Other": 168768
+        "James Talarico": 5067306,
+        "Ken Paxton": 4041988,
+        "Other": 169788
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 85.16,
+      "reporting": 85.17,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2186467,
-        "Mike Rogers": 1947158,
-        "Other": 86503
+        "Abdul El-Sayed": 2186539,
+        "Mike Rogers": 1947378,
+        "Other": 86512
       }
     },
     "nh-sen": {
@@ -157,24 +157,24 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2006211,
-        "No": 1498960
+        "Yes": 2021269,
+        "No": 1504907
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 1971568,
-        "No": 1528317
+        "Yes": 1986189,
+        "No": 1534656
       }
     },
     "mi-p1": {
-      "reporting": 83.2,
+      "reporting": 83.3,
       "called": "Failed",
       "votes": {
-        "No": 2697357,
-        "Yes": 951047
+        "No": 2733956,
+        "Yes": 965378
       }
     },
     "me-sen": {
@@ -187,12 +187,12 @@
       }
     },
     "ne-sen": {
-      "reporting": 81.64,
+      "reporting": 81.92,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 310084,
-        "Dan Osborn": 283594,
-        "Other": 37680
+        "Pete Ricketts": 311642,
+        "Dan Osborn": 284092,
+        "Other": 37818
       }
     },
     "mo-a8": {
@@ -249,8 +249,8 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2164513,
-        "No": 1312493
+        "Yes": 2179232,
+        "No": 1317518
       }
     },
     "oh-i3": {
@@ -299,16 +299,16 @@
       "reporting": 72.1,
       "called": null,
       "votes": {
-        "No": 409172,
-        "Yes": 250096
+        "No": 410797,
+        "Yes": 251645
       }
     },
     "co-a86": {
       "reporting": 84.8,
       "called": null,
       "votes": {
-        "No": 1096591,
-        "Yes": 951054
+        "No": 1096688,
+        "Yes": 951275
       }
     },
     "wa-03": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T07:22:20+00:00",
+    "at": "2026-11-04T07:27:27+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
