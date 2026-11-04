@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T03:19:37+00:00",
+  "updated": "2026-11-04T03:24:47+00:00",
   "results": {
     "tx-sen": {
       "reporting": 57.27,
@@ -102,12 +102,12 @@
       }
     },
     "tx-34": {
-      "reporting": 61.31,
+      "reporting": 64.67,
       "called": null,
       "votes": {
-        "Vicente Gonzalez": 91105,
-        "Eric Flores": 62678,
-        "Other": 7223
+        "Vicente Gonzalez": 96316,
+        "Eric Flores": 65822,
+        "Other": 7695
       }
     },
     "va-02": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 7.1,
+      "reporting": 7.2,
       "called": null,
       "votes": {
-        "No": 568119,
-        "Yes": 187481
+        "No": 615516,
+        "Yes": 204744
       }
     },
     "me-sen": {
@@ -221,12 +221,12 @@
       }
     },
     "ny-17": {
-      "reporting": 96.69,
+      "reporting": 99,
       "called": null,
       "votes": {
-        "Mike Lawler": 140056,
-        "Cait Conley": 136300,
-        "Other": 250
+        "Mike Lawler": 146642,
+        "Cait Conley": 142860,
+        "Other": 266
       }
     },
     "pa-10": {
@@ -254,11 +254,11 @@
       }
     },
     "oh-i3": {
-      "reporting": 86.6,
+      "reporting": 90,
       "called": null,
       "votes": {
-        "Yes": 2199146,
-        "No": 1150208
+        "Yes": 2432911,
+        "No": 1255017
       }
     },
     "az-01": {
@@ -272,15 +272,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T03:19:37+00:00",
+    "at": "2026-11-04T03:24:47+00:00",
     "fetched_ok": true,
     "errors": [
       "race/87528: HTTP Error 502: Bad Gateway",
-      "race/155237: HTTP Error 502: Bad Gateway",
+      "race/87243: HTTP Error 502: Bad Gateway",
       "race/87242: The read operation timed out",
-      "race/140002: The read operation timed out",
-      "race/156341: HTTP Error 502: Bad Gateway"
+      "race/139732: HTTP Error 502: Bad Gateway",
+      "race/139734: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 12
+    "error_count": 15
   }
 }
