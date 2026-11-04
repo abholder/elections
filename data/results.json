@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T06:07:25+00:00",
+  "updated": "2026-11-04T06:12:03+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 85.53,
+      "reporting": 86.45,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4784422,
-        "Ken Paxton": 3615700,
-        "Other": 152832
+        "James Talarico": 4835747,
+        "Ken Paxton": 3654103,
+        "Other": 155466
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 65.45,
+      "reporting": 70,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1637089,
-        "Mike Rogers": 1540162,
-        "Other": 65995
+        "Abdul El-Sayed": 1787172,
+        "Mike Rogers": 1610332,
+        "Other": 71346
       }
     },
     "nh-sen": {
@@ -146,7 +146,7 @@
       }
     },
     "mo-a7": {
-      "reporting": 83,
+      "reporting": 83.9,
       "called": null,
       "votes": {
         "No": 1003041,
@@ -173,30 +173,30 @@
       "reporting": 70.9,
       "called": null,
       "votes": {
-        "No": 2064038,
-        "Yes": 719556
+        "No": 2164997,
+        "Yes": 764309
       }
     },
     "me-sen": {
-      "reporting": 75.97,
+      "reporting": 76.16,
       "called": null,
       "votes": {
-        "Troy Jackson": 302988,
-        "Susan Collins": 259845,
-        "Other": 765
+        "Troy Jackson": 303333,
+        "Susan Collins": 260924,
+        "Other": 766
       }
     },
     "ne-sen": {
-      "reporting": 68.76,
+      "reporting": 68.94,
       "called": null,
       "votes": {
-        "Pete Ricketts": 258891,
-        "Dan Osborn": 241556,
-        "Other": 31309
+        "Pete Ricketts": 259674,
+        "Dan Osborn": 242032,
+        "Other": 31412
       }
     },
     "mo-a8": {
-      "reporting": 83.3,
+      "reporting": 84.1,
       "called": null,
       "votes": {
         "Yes": 895645,
@@ -204,7 +204,7 @@
       }
     },
     "mo-propa": {
-      "reporting": 83.3,
+      "reporting": 84.1,
       "called": null,
       "votes": {
         "No": 1001361,
@@ -238,7 +238,7 @@
       }
     },
     "mo-a6": {
-      "reporting": 83.4,
+      "reporting": 84.2,
       "called": null,
       "votes": {
         "Yes": 983476,
@@ -280,35 +280,35 @@
       }
     },
     "md-redistricting": {
-      "reporting": 98.7,
+      "reporting": 99.6,
       "called": null,
       "votes": {
-        "Yes": 1051145,
-        "No": 710540
+        "Yes": 1072303,
+        "No": 715729
       }
     },
     "ca-22": {
-      "reporting": 24.52,
+      "reporting": 24.78,
       "called": null,
       "votes": {
-        "Randy Villegas": 40105,
-        "David Valadao": 21645
+        "Randy Villegas": 40555,
+        "David Valadao": 21862
       }
     },
     "ut-b": {
       "reporting": 72.1,
       "called": null,
       "votes": {
-        "No": 396972,
-        "Yes": 240460
+        "No": 402599,
+        "Yes": 244882
       }
     },
     "co-a86": {
-      "reporting": 82.7,
+      "reporting": 82.9,
       "called": null,
       "votes": {
-        "No": 1058192,
-        "Yes": 913520
+        "No": 1062755,
+        "Yes": 919194
       }
     },
     "wa-03": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T06:07:25+00:00",
+    "at": "2026-11-04T06:12:03+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
