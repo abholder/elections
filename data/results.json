@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T08:12:43+00:00",
+  "updated": "2026-11-04T08:17:45+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 95.55,
+      "reporting": 95.76,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5184666,
-        "Ken Paxton": 4193087,
-        "Other": 177353
+        "James Talarico": 5189478,
+        "Ken Paxton": 4208522,
+        "Other": 177934
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 87.65,
+      "reporting": 88.39,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2252043,
-        "Mike Rogers": 2002717,
-        "Other": 88682
+        "Abdul El-Sayed": 2270057,
+        "Mike Rogers": 2020609,
+        "Other": 89489
       }
     },
     "nh-sen": {
@@ -157,24 +157,24 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2021269,
-        "No": 1504907
+        "Yes": 2030841,
+        "No": 1513822
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 1986189,
-        "No": 1534656
+        "Yes": 1995266,
+        "No": 1544016
       }
     },
     "mi-p1": {
-      "reporting": 85.9,
+      "reporting": 86.4,
       "called": "Failed",
       "votes": {
-        "No": 2807361,
-        "Yes": 990086
+        "No": 2822154,
+        "Yes": 995285
       }
     },
     "me-sen": {
@@ -187,12 +187,12 @@
       }
     },
     "ne-sen": {
-      "reporting": 85.68,
+      "reporting": 86.17,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 330842,
-        "Dan Osborn": 292225,
-        "Other": 39557
+        "Pete Ricketts": 333411,
+        "Dan Osborn": 293182,
+        "Other": 39831
       }
     },
     "mo-a8": {
@@ -249,8 +249,8 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2179232,
-        "No": 1317518
+        "Yes": 2189634,
+        "No": 1325579
       }
     },
     "oh-i3": {
@@ -274,9 +274,9 @@
       "reporting": 99,
       "called": "Peggy Flanagan",
       "votes": {
-        "Peggy Flanagan": 1512130,
-        "Michele Tafoya": 1222389,
-        "Other": 76981
+        "Peggy Flanagan": 1519712,
+        "Michele Tafoya": 1231407,
+        "Other": 77335
       }
     },
     "md-redistricting": {
@@ -321,16 +321,16 @@
       }
     },
     "ak-sen": {
-      "reporting": 69.17,
+      "reporting": 70.87,
       "called": null,
       "votes": {
-        "Dan Sullivan": 97823,
-        "Mary Peltola": 95272,
-        "Other": 7506
+        "Dan Sullivan": 99955,
+        "Mary Peltola": 97782,
+        "Other": 7797
       }
     },
     "nv-abortion": {
-      "reporting": 15.6,
+      "reporting": 77.7,
       "called": null,
       "votes": {
         "Yes": 472130,
@@ -338,7 +338,7 @@
       }
     },
     "nv-q7": {
-      "reporting": 15.6,
+      "reporting": 77.8,
       "called": null,
       "votes": {
         "Yes": 457409,
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T08:12:43+00:00",
+    "at": "2026-11-04T08:17:45+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
