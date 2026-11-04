@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T08:22:46+00:00",
+  "updated": "2026-11-04T08:27:47+00:00",
   "results": {
     "tx-sen": {
       "reporting": 95.85,
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 88.39,
+      "reporting": 88.41,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2270057,
-        "Mike Rogers": 2020609,
-        "Other": 89489
+        "Abdul El-Sayed": 2270357,
+        "Mike Rogers": 2021333,
+        "Other": 89511
       }
     },
     "nh-sen": {
@@ -187,12 +187,12 @@
       }
     },
     "ne-sen": {
-      "reporting": 86.17,
+      "reporting": 90.94,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 333411,
-        "Dan Osborn": 293182,
-        "Other": 39831
+        "Pete Ricketts": 351064,
+        "Dan Osborn": 310419,
+        "Other": 41780
       }
     },
     "mo-a8": {
@@ -254,7 +254,7 @@
       }
     },
     "oh-i3": {
-      "reporting": 99.7,
+      "reporting": 99.8,
       "called": "Passed",
       "votes": {
         "Yes": 2901321,
@@ -330,24 +330,24 @@
       }
     },
     "nv-abortion": {
-      "reporting": 77.7,
+      "reporting": 81.2,
       "called": null,
       "votes": {
-        "Yes": 472130,
-        "No": 270643
+        "Yes": 472239,
+        "No": 270802
       }
     },
     "nv-q7": {
-      "reporting": 77.8,
+      "reporting": 81.4,
       "called": null,
       "votes": {
-        "Yes": 457409,
-        "No": 290475
+        "Yes": 457638,
+        "No": 290517
       }
     }
   },
   "last_run": {
-    "at": "2026-11-04T08:22:46+00:00",
+    "at": "2026-11-04T08:27:47+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
