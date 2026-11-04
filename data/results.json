@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T04:20:25+00:00",
+  "updated": "2026-11-04T04:27:08+00:00",
   "results": {
     "tx-sen": {
       "reporting": 69.87,
@@ -85,20 +85,20 @@
       }
     },
     "mi-10": {
-      "reporting": 33.15,
+      "reporting": 37.32,
       "called": null,
       "votes": {
-        "Christina Hines": 62419,
-        "Michael Bouchard": 60726,
-        "Other": 3666
+        "Christina Hines": 69983,
+        "Michael Bouchard": 68654,
+        "Other": 4105
       }
     },
     "oh-07": {
-      "reporting": 70.12,
+      "reporting": 70.9,
       "called": null,
       "votes": {
-        "Brian Poindexter": 120147,
-        "Max Miller": 102917
+        "Brian Poindexter": 120934,
+        "Max Miller": 104628
       }
     },
     "tx-34": {
@@ -111,12 +111,12 @@
       }
     },
     "va-02": {
-      "reporting": 88.91,
+      "reporting": 89.42,
       "called": null,
       "votes": {
-        "Elaine Luria": 154631,
-        "Jen Kiggans": 138648,
-        "Other": 6889
+        "Elaine Luria": 155102,
+        "Jen Kiggans": 139849,
+        "Other": 6930
       }
     },
     "mo-05": {
@@ -132,9 +132,9 @@
       "reporting": 99,
       "called": "Chris Stigall",
       "votes": {
-        "Chris Stigall": 142812,
-        "Josh Smead": 95961,
-        "Andy Maidment": 5762
+        "Chris Stigall": 144780,
+        "Josh Smead": 96643,
+        "Andy Maidment": 5819
       }
     },
     "mo-a3": {
@@ -254,11 +254,11 @@
       }
     },
     "oh-i3": {
-      "reporting": 93.4,
+      "reporting": 97,
       "called": null,
       "votes": {
-        "Yes": 2684938,
-        "No": 1381812
+        "Yes": 2694083,
+        "No": 1386236
       }
     },
     "az-01": {
@@ -280,11 +280,11 @@
       }
     },
     "md-redistricting": {
-      "reporting": 90.5,
+      "reporting": 95.5,
       "called": null,
       "votes": {
-        "Yes": 948274,
-        "No": 631799
+        "Yes": 1010345,
+        "No": 676792
       }
     },
     "ca-22": {
@@ -304,24 +304,24 @@
       }
     },
     "co-a86": {
-      "reporting": 81.5,
+      "reporting": 81.9,
       "called": null,
       "votes": {
-        "No": 1034986,
-        "Yes": 892200
+        "No": 1035460,
+        "Yes": 893069
       }
     }
   },
   "last_run": {
-    "at": "2026-11-04T04:20:25+00:00",
+    "at": "2026-11-04T04:27:08+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/139733: The read operation timed out",
-      "race/140000: HTTP Error 502: Bad Gateway",
-      "race/155237: HTTP Error 502: Bad Gateway",
-      "race/156339: HTTP Error 502: Bad Gateway",
-      "race/156340: HTTP Error 502: Bad Gateway"
+      "race/87220: The read operation timed out",
+      "race/87528: The read operation timed out",
+      "race/87243: HTTP Error 502: Bad Gateway",
+      "race/139733: HTTP Error 502: Bad Gateway",
+      "race/87242: The read operation timed out"
     ],
-    "error_count": 7
+    "error_count": 14
   }
 }
