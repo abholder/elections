@@ -1,23 +1,23 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T07:57:34+00:00",
+  "updated": "2026-11-04T08:02:50+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 95,
+      "reporting": 95.38,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5161565,
-        "Ken Paxton": 4163048,
-        "Other": 175727
+        "James Talarico": 5181544,
+        "Ken Paxton": 4179384,
+        "Other": 176835
       }
     },
     "oh-sen": {
-      "reporting": 95.01,
+      "reporting": 95.07,
       "called": "Sherrod Brown",
       "votes": {
-        "Sherrod Brown": 2247543,
-        "Jon Husted": 2059623,
-        "Other": 219533
+        "Sherrod Brown": 2249214,
+        "Jon Husted": 2060829,
+        "Other": 219704
       }
     },
     "sc-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 86.84,
+      "reporting": 87.18,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2229275,
-        "Mike Rogers": 1986043,
-        "Other": 87892
+        "Abdul El-Sayed": 2238350,
+        "Mike Rogers": 1993415,
+        "Other": 88244
       }
     },
     "nh-sen": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 84.5,
+      "reporting": 83.7,
       "called": "Failed",
       "votes": {
-        "No": 2781130,
-        "Yes": 980306
+        "No": 2791740,
+        "Yes": 984575
       }
     },
     "me-sen": {
@@ -280,11 +280,11 @@
       }
     },
     "md-redistricting": {
-      "reporting": 99.7,
+      "reporting": 99.8,
       "called": null,
       "votes": {
-        "Yes": 1077217,
-        "No": 717163
+        "Yes": 1078027,
+        "No": 717298
       }
     },
     "ca-22": {
@@ -328,10 +328,26 @@
         "Mary Peltola": 95272,
         "Other": 7506
       }
+    },
+    "nv-abortion": {
+      "reporting": 0,
+      "called": null,
+      "votes": {
+        "Yes": 470927,
+        "No": 269447
+      }
+    },
+    "nv-q7": {
+      "reporting": 0,
+      "called": null,
+      "votes": {
+        "Yes": 455608,
+        "No": 289870
+      }
     }
   },
   "last_run": {
-    "at": "2026-11-04T07:57:34+00:00",
+    "at": "2026-11-04T08:02:50+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
