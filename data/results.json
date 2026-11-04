@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T02:49:26+00:00",
+  "updated": "2026-11-04T02:55:28+00:00",
   "results": {
     "tx-sen": {
       "reporting": 55.34,
@@ -94,11 +94,11 @@
       }
     },
     "oh-07": {
-      "reporting": 54.12,
+      "reporting": 55.35,
       "called": null,
       "votes": {
-        "Brian Poindexter": 94682,
-        "Max Miller": 77487
+        "Brian Poindexter": 96112,
+        "Max Miller": 79962
       }
     },
     "tx-34": {
@@ -120,21 +120,21 @@
       }
     },
     "mo-05": {
-      "reporting": 24.19,
+      "reporting": 32.72,
       "called": null,
       "votes": {
-        "Emanuel Cleaver": 37389,
-        "Rick Brattin": 18349,
-        "Randy Langkraehr": 1184
+        "Emanuel Cleaver": 49035,
+        "Rick Brattin": 26123,
+        "Randy Langkraehr": 1820
       }
     },
     "mo-06": {
-      "reporting": 69.02,
+      "reporting": 78.63,
       "called": null,
       "votes": {
-        "Chris Stigall": 91656,
-        "Josh Smead": 68654,
-        "Andy Maidment": 3856
+        "Chris Stigall": 105963,
+        "Josh Smead": 76671,
+        "Andy Maidment": 4383
       }
     },
     "mo-a3": {
@@ -221,20 +221,20 @@
       }
     },
     "ny-17": {
-      "reporting": 25.02,
+      "reporting": 28.57,
       "called": null,
       "votes": {
-        "Cait Conley": 40216,
-        "Mike Lawler": 31328,
-        "Other": 40
+        "Cait Conley": 44174,
+        "Mike Lawler": 37520,
+        "Other": 52
       }
     },
     "pa-10": {
-      "reporting": 26.95,
+      "reporting": 42.47,
       "called": null,
       "votes": {
-        "Janelle Stelson": 56144,
-        "Scott Perry": 40070
+        "Janelle Stelson": 93165,
+        "Scott Perry": 58447
       }
     },
     "mo-a6": {
@@ -263,15 +263,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T02:49:26+00:00",
+    "at": "2026-11-04T02:55:28+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/139733: HTTP Error 502: Bad Gateway",
-      "race/139734: HTTP Error 502: Bad Gateway",
-      "race/140000: HTTP Error 502: Bad Gateway",
+      "race/87220: HTTP Error 502: Bad Gateway",
       "race/87528: The read operation timed out",
-      "race/156340: HTTP Error 502: Bad Gateway"
+      "race/87243: HTTP Error 502: Bad Gateway",
+      "race/87242: HTTP Error 502: Bad Gateway",
+      "race/139733: The read operation timed out"
     ],
-    "error_count": 9
+    "error_count": 15
   }
 }
