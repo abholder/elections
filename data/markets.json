@@ -1,80 +1,80 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-11-03T22:00:02+00:00",
+ "updated": "2026-11-04T00:00:43+00:00",
  "control": {
   "Senate": {
-   "R": 26,
-   "D": 74
+   "R": 14,
+   "D": 88
   },
   "House": {
-   "D": 93,
-   "R": 7
+   "D": 97,
+   "R": 3
   }
  },
  "races": {
   "tx-sen": {
-   "Ken Paxton": 26,
-   "James Talarico": 74
+   "James Talarico": 80,
+   "Ken Paxton": 20
   },
   "me-sen": {
-   "Susan Collins": 32,
-   "Troy Jackson": 70
+   "Susan Collins": 26,
+   "Troy Jackson": 74
   },
   "oh-sen": {
-   "Sherrod Brown": 72,
-   "Jon Husted": 30
+   "Sherrod Brown": 80,
+   "Jon Husted": 18
   },
   "sc-sen": {
-   "Annie Andrews": 30,
-   "Darline Graham": 70
+   "Annie Andrews": 38,
+   "Darline Graham": 61
   },
   "ia-sen": {
-   "Josh Turek": 50,
-   "Ashley Hinson": 50
+   "Ashley Hinson": 38,
+   "Josh Turek": 62
   },
   "ks-sen": {
-   "Adam Hamilton": 64,
-   "Roger Marshall": 36
+   "Roger Marshall": 26,
+   "Adam Hamilton": 74
   },
   "ak-sen": {
-   "Dan Sullivan": 32,
-   "Mary Peltola": 68
+   "Mary Peltola": 72,
+   "Dan Sullivan": 30
   },
   "mi-sen": {
-   "Mike Rogers": 24,
-   "Abdul El-Sayed": 76
+   "Abdul El-Sayed": 86,
+   "Mike Rogers": 15
   },
   "ne-sen": {
-   "Dan Osborn": 28,
-   "Pete Ricketts": 72
+   "Pete Ricketts": 64,
+   "Dan Osborn": 38
   },
   "nh-sen": {
-   "Chris Pappas": 94,
-   "John E. Sununu": 7
+   "Chris Pappas": 95,
+   "John E. Sununu": 5
   },
   "nc-sen": {
-   "Roy Cooper": 97,
-   "Michael Whatley": 3
+   "Roy Cooper": 98,
+   "Michael Whatley": 2
   },
   "ga-sen": {
-   "Mike Collins": 3,
-   "Jon Ossoff": 97
+   "Mike Collins": 2,
+   "Jon Ossoff": 98
   },
   "mn-sen": {
-   "Michele Tafoya": 9,
-   "Peggy Flanagan": 91
+   "Michele Tafoya": 6,
+   "Peggy Flanagan": 94
   },
   "fl-14": {
-   "Kathy Castor": 72,
-   "Mike Beltran": 28
+   "Mike Beltran": 26,
+   "Kathy Castor": 75
   },
   "oh-07": {
-   "Max Miller": 16,
-   "Brian Poindexter": 86
+   "Brian Poindexter": 90,
+   "Max Miller": 10
   },
   "mo-06": {
    "Josh Smead": 2,
-   "Chris Stigall": 98
+   "Chris Stigall": 97
   }
  },
  "problems": []
