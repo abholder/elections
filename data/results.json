@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T06:37:09+00:00",
+  "updated": "2026-11-04T06:42:06+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 88.49,
+      "reporting": 88.99,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4939456,
-        "Ken Paxton": 3748045,
-        "Other": 161479
+        "James Talarico": 4958522,
+        "Ken Paxton": 3777715,
+        "Other": 162944
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 77.76,
+      "reporting": 78.32,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1995543,
-        "Mike Rogers": 1779101,
-        "Other": 78951
+        "Abdul El-Sayed": 2009755,
+        "Mike Rogers": 1791898,
+        "Other": 79630
       }
     },
     "nh-sen": {
@@ -170,29 +170,29 @@
       }
     },
     "mi-p1": {
-      "reporting": 77.5,
+      "reporting": 77.7,
       "called": null,
       "votes": {
-        "No": 2508746,
-        "Yes": 883364
+        "No": 2526778,
+        "Yes": 890124
       }
     },
     "me-sen": {
-      "reporting": 77.78,
+      "reporting": 78.96,
       "called": null,
       "votes": {
-        "Troy Jackson": 308912,
-        "Susan Collins": 267356,
-        "Other": 775
+        "Troy Jackson": 314597,
+        "Susan Collins": 270367,
+        "Other": 780
       }
     },
     "ne-sen": {
-      "reporting": 76.7,
+      "reporting": 76.95,
       "called": null,
       "votes": {
-        "Pete Ricketts": 289873,
-        "Dan Osborn": 268313,
-        "Other": 34933
+        "Pete Ricketts": 291364,
+        "Dan Osborn": 268687,
+        "Other": 35058
       }
     },
     "mo-a8": {
@@ -254,11 +254,11 @@
       }
     },
     "oh-i3": {
-      "reporting": 98.2,
+      "reporting": 98.3,
       "called": null,
       "votes": {
-        "Yes": 2774641,
-        "No": 1440211
+        "Yes": 2791898,
+        "No": 1454456
       }
     },
     "az-01": {
@@ -280,11 +280,11 @@
       }
     },
     "md-redistricting": {
-      "reporting": 99.6,
+      "reporting": 99.7,
       "called": null,
       "votes": {
-        "Yes": 1074428,
-        "No": 716188
+        "Yes": 1075585,
+        "No": 716346
       }
     },
     "ca-22": {
@@ -304,11 +304,11 @@
       }
     },
     "co-a86": {
-      "reporting": 84.5,
+      "reporting": 84.7,
       "called": null,
       "votes": {
-        "No": 1071700,
-        "Yes": 928536
+        "No": 1084416,
+        "Yes": 936375
       }
     },
     "wa-03": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T06:37:09+00:00",
+    "at": "2026-11-04T06:42:06+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
