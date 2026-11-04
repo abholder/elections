@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T08:37:50+00:00",
+  "updated": "2026-11-04T08:42:57+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 96.17,
+      "reporting": 96.39,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5206111,
-        "Ken Paxton": 4231552,
-        "Other": 179101
+        "James Talarico": 5221338,
+        "Ken Paxton": 4238064,
+        "Other": 179553
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 90.67,
+      "reporting": 91.11,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2341679,
-        "Mike Rogers": 2059684,
-        "Other": 91992
+        "Abdul El-Sayed": 2354388,
+        "Mike Rogers": 2068094,
+        "Other": 92508
       }
     },
     "nh-sen": {
@@ -187,12 +187,12 @@
       }
     },
     "ne-sen": {
-      "reporting": 91.73,
+      "reporting": 91.78,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 355492,
-        "Dan Osborn": 311791,
-        "Other": 42134
+        "Pete Ricketts": 355758,
+        "Dan Osborn": 311853,
+        "Other": 42174
       }
     },
     "mo-a8": {
@@ -299,8 +299,8 @@
       "reporting": 72.1,
       "called": null,
       "votes": {
-        "No": 410797,
-        "Yes": 251645
+        "No": 430908,
+        "Yes": 260755
       }
     },
     "co-a86": {
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T08:37:50+00:00",
+    "at": "2026-11-04T08:42:57+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
