@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T07:27:27+00:00",
+  "updated": "2026-11-04T07:32:28+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 92.79,
+      "reporting": 93,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5067306,
-        "Ken Paxton": 4041988,
-        "Other": 169788
+        "James Talarico": 5072681,
+        "Ken Paxton": 4057068,
+        "Other": 170299
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 85.17,
+      "reporting": 85.34,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2186539,
-        "Mike Rogers": 1947378,
-        "Other": 86512
+        "Abdul El-Sayed": 2192519,
+        "Mike Rogers": 1949841,
+        "Other": 86731
       }
     },
     "nh-sen": {
@@ -170,7 +170,7 @@
       }
     },
     "mi-p1": {
-      "reporting": 83.3,
+      "reporting": 83.4,
       "called": "Failed",
       "votes": {
         "No": 2733956,
@@ -274,9 +274,9 @@
       "reporting": 99,
       "called": "Peggy Flanagan",
       "votes": {
-        "Peggy Flanagan": 1506412,
-        "Michele Tafoya": 1215731,
-        "Other": 76566
+        "Peggy Flanagan": 1512130,
+        "Michele Tafoya": 1222389,
+        "Other": 76981
       }
     },
     "md-redistricting": {
@@ -307,8 +307,8 @@
       "reporting": 84.8,
       "called": null,
       "votes": {
-        "No": 1096688,
-        "Yes": 951275
+        "No": 1097053,
+        "Yes": 951853
       }
     },
     "wa-03": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T07:27:27+00:00",
+    "at": "2026-11-04T07:32:28+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
