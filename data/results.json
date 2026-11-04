@@ -1,23 +1,23 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T01:48:46+00:00",
+  "updated": "2026-11-04T01:53:11+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 30.64,
+      "reporting": 37.07,
       "called": null,
       "votes": {
-        "James Talarico": 1795262,
-        "Ken Paxton": 1222027,
-        "Other": 46977
+        "James Talarico": 2200336,
+        "Ken Paxton": 1449895,
+        "Other": 56386
       }
     },
     "oh-sen": {
-      "reporting": 38,
+      "reporting": 40.32,
       "called": null,
       "votes": {
-        "Sherrod Brown": 1010767,
-        "Jon Husted": 734054,
-        "Other": 65532
+        "Sherrod Brown": 1050409,
+        "Jon Husted": 797686,
+        "Other": 72932
       }
     },
     "sc-sen": {
@@ -32,47 +32,47 @@
       }
     },
     "ks-sen": {
-      "reporting": 20.04,
+      "reporting": 37.38,
       "called": null,
       "votes": {
-        "Adam Hamilton": 141552,
-        "Roger Marshall": 83256,
-        "Other": 4719
+        "Adam Hamilton": 273801,
+        "Roger Marshall": 146772,
+        "Other": 7642
       }
     },
     "mi-sen": {
-      "reporting": 8.04,
+      "reporting": 8.58,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 223317,
-        "Mike Rogers": 168941,
-        "Other": 6324
+        "Abdul El-Sayed": 235487,
+        "Mike Rogers": 182956,
+        "Other": 6794
       }
     },
     "nh-sen": {
-      "reporting": 29.38,
+      "reporting": 30.16,
       "called": null,
       "votes": {
-        "Chris Pappas": 112483,
-        "John E. Sununu": 85781,
-        "Other": 4237
+        "Chris Pappas": 115036,
+        "John E. Sununu": 88477,
+        "Other": 4365
       }
     },
     "nc-sen": {
-      "reporting": 58.82,
-      "called": null,
+      "reporting": 60.22,
+      "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 1656909,
-        "Michael Whatley": 900736,
-        "Other": 45235
+        "Roy Cooper": 1677702,
+        "Michael Whatley": 939803,
+        "Other": 47003
       }
     },
     "ga-sen": {
-      "reporting": 54.71,
+      "reporting": 61.39,
       "called": "Jon Ossoff",
       "votes": {
-        "Jon Ossoff": 1612112,
-        "Mike Collins": 941936
+        "Jon Ossoff": 1733537,
+        "Mike Collins": 1132481
       }
     },
     "fl-14": {
@@ -119,44 +119,38 @@
         "Other": 2597
       }
     },
-    "mo-a3": {
-      "reporting": 0.9,
+    "mo-05": {
+      "reporting": 16.93,
       "called": null,
       "votes": {
-        "No": 28043,
-        "Yes": 16603
+        "Emanuel Cleaver": 28315,
+        "Rick Brattin": 10853,
+        "Randy Langkraehr": 671
+      }
+    },
+    "mo-06": {
+      "reporting": 19.26,
+      "called": null,
+      "votes": {
+        "Josh Smead": 24338,
+        "Chris Stigall": 20731,
+        "Andy Maidment": 734
+      }
+    },
+    "mo-a3": {
+      "reporting": 1.7,
+      "called": null,
+      "votes": {
+        "No": 66051,
+        "Yes": 35013
       }
     },
     "mo-a7": {
-      "reporting": 0.6,
-      "called": null,
-      "votes": {
-        "No": 24532,
-        "Yes": 12009
-      }
-    },
-    "mo-a8": {
-      "reporting": 0.4,
-      "called": null,
-      "votes": {
-        "No": 17826,
-        "Yes": 14066
-      }
-    },
-    "mo-propa": {
       "reporting": 0.9,
       "called": null,
       "votes": {
-        "No": 28983,
-        "Yes": 14822
-      }
-    },
-    "va-q1": {
-      "reporting": 55.9,
-      "called": null,
-      "votes": {
-        "Yes": 799024,
-        "No": 489798
+        "No": 29820,
+        "Yes": 14249
       }
     },
     "va-marriage": {
@@ -179,8 +173,8 @@
       "reporting": 4.3,
       "called": null,
       "votes": {
-        "No": 19759,
-        "Yes": 6363
+        "No": 24827,
+        "Yes": 8545
       }
     }
   }
