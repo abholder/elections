@@ -1,7 +1,18 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T00:26:33+00:00",
+  "updated": "2026-11-04T00:36:16+00:00",
   "results": {
+    "sc-sen": {
+      "reporting": 0.62,
+      "called": null,
+      "votes": {
+        "Annie Andrews": 7017,
+        "Darline Graham": 5456,
+        "Kasie Whitener": 91,
+        "Mark Hackett": 71,
+        "Other": 11
+      }
+    },
     "nh-sen": {
       "reporting": 0,
       "called": null,
@@ -11,44 +22,53 @@
       }
     },
     "ga-sen": {
-      "reporting": 17.04,
+      "reporting": 21.91,
       "called": null,
       "votes": {
-        "Jon Ossoff": 563565,
-        "Mike Collins": 231911
+        "Jon Ossoff": 694033,
+        "Mike Collins": 329018
+      }
+    },
+    "fl-14": {
+      "reporting": 65.09,
+      "called": null,
+      "votes": {
+        "Kathy Castor": 114570,
+        "Mike Beltran": 87700,
+        "Other": 5458
       }
     },
     "va-02": {
-      "reporting": 0.36,
+      "reporting": 4.62,
       "called": null,
       "votes": {
-        "Elaine Luria": 592,
-        "Jen Kiggans": 582,
-        "Other": 32
+        "Jen Kiggans": 8498,
+        "Elaine Luria": 6671,
+        "Other": 422
       }
     },
     "va-q1": {
-      "reporting": 3.2,
+      "reporting": 12,
       "called": null,
       "votes": {
-        "Yes": 27033,
-        "No": 19830
+        "Yes": 108519,
+        "No": 64849
       }
     },
     "va-marriage": {
-      "reporting": 3.2,
+      "reporting": 12,
       "called": null,
       "votes": {
-        "Yes": 24183,
-        "No": 22727
+        "Yes": 100018,
+        "No": 73493
       }
     },
     "va-voting": {
-      "reporting": 4.3,
+      "reporting": 12,
       "called": null,
       "votes": {
-        "No": 28609,
-        "Yes": 28233
+        "Yes": 96344,
+        "No": 76707
       }
     }
   }
