@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T10:09:00+00:00",
+  "updated": "2026-11-04T10:13:34+00:00",
   "results": {
     "tx-sen": {
       "reporting": 96.9,
@@ -347,7 +347,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T10:09:00+00:00",
+    "at": "2026-11-04T10:13:34+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
