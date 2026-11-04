@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T03:04:37+00:00",
+  "updated": "2026-11-04T03:10:30+00:00",
   "results": {
     "tx-sen": {
       "reporting": 57.27,
@@ -138,11 +138,11 @@
       }
     },
     "mo-a3": {
-      "reporting": 46.5,
+      "reporting": 53.9,
       "called": null,
       "votes": {
-        "No": 473329,
-        "Yes": 399136
+        "No": 522476,
+        "Yes": 457027
       }
     },
     "mo-a7": {
@@ -263,15 +263,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T03:04:37+00:00",
+    "at": "2026-11-04T03:10:30+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87220: HTTP Error 502: Bad Gateway",
-      "race/87528: HTTP Error 502: Bad Gateway",
-      "race/140000: HTTP Error 502: Bad Gateway",
-      "race/140001: HTTP Error 502: Bad Gateway",
-      "race/140002: HTTP Error 502: Bad Gateway"
+      "race/87524: HTTP Error 500: Internal Server Error",
+      "race/87242: HTTP Error 502: Bad Gateway",
+      "race/87220: The read operation timed out",
+      "race/87528: The read operation timed out",
+      "race/139734: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 9
+    "error_count": 19
   }
 }
