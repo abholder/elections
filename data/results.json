@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T07:32:28+00:00",
+  "updated": "2026-11-04T07:37:32+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 93,
+      "reporting": 93.47,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5072681,
-        "Ken Paxton": 4057068,
-        "Other": 170299
+        "James Talarico": 5085612,
+        "Ken Paxton": 4089606,
+        "Other": 171503
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 85.34,
+      "reporting": 85.68,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2192519,
-        "Mike Rogers": 1949841,
-        "Other": 86731
+        "Abdul El-Sayed": 2206235,
+        "Mike Rogers": 1952991,
+        "Other": 86934
       }
     },
     "nh-sen": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 83.4,
+      "reporting": 83.8,
       "called": "Failed",
       "votes": {
-        "No": 2733956,
-        "Yes": 965378
+        "No": 2743724,
+        "Yes": 967280
       }
     },
     "me-sen": {
@@ -187,12 +187,12 @@
       }
     },
     "ne-sen": {
-      "reporting": 81.92,
+      "reporting": 82.49,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 311642,
-        "Dan Osborn": 284092,
-        "Other": 37818
+        "Pete Ricketts": 314793,
+        "Dan Osborn": 285022,
+        "Other": 38122
       }
     },
     "mo-a8": {
@@ -254,7 +254,7 @@
       }
     },
     "oh-i3": {
-      "reporting": 99,
+      "reporting": 99.1,
       "called": "Passed",
       "votes": {
         "Yes": 2837878,
@@ -288,11 +288,11 @@
       }
     },
     "ca-22": {
-      "reporting": 25.17,
+      "reporting": 25.86,
       "called": "Randy Villegas",
       "votes": {
-        "Randy Villegas": 41249,
-        "David Valadao": 22151
+        "Randy Villegas": 42338,
+        "David Valadao": 22789
       }
     },
     "ut-b": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T07:32:28+00:00",
+    "at": "2026-11-04T07:37:32+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
