@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T08:32:48+00:00",
+  "updated": "2026-11-04T08:37:50+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 95.94,
+      "reporting": 96.17,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5193751,
-        "Ken Paxton": 4222320,
-        "Other": 178511
+        "James Talarico": 5206111,
+        "Ken Paxton": 4231552,
+        "Other": 179101
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 90.19,
+      "reporting": 90.67,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2326428,
-        "Mike Rogers": 2051690,
-        "Other": 91543
+        "Abdul El-Sayed": 2341679,
+        "Mike Rogers": 2059684,
+        "Other": 91992
       }
     },
     "nh-sen": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 89,
+      "reporting": 89.1,
       "called": "Failed",
       "votes": {
-        "No": 2896014,
-        "Yes": 1024319
+        "No": 2910273,
+        "Yes": 1030781
       }
     },
     "me-sen": {
@@ -187,12 +187,12 @@
       }
     },
     "ne-sen": {
-      "reporting": 90.94,
+      "reporting": 91.73,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 351064,
-        "Dan Osborn": 310419,
-        "Other": 41780
+        "Pete Ricketts": 355492,
+        "Dan Osborn": 311791,
+        "Other": 42134
       }
     },
     "mo-a8": {
@@ -330,24 +330,24 @@
       }
     },
     "nv-abortion": {
-      "reporting": 81.2,
+      "reporting": 82.1,
       "called": null,
       "votes": {
-        "Yes": 472239,
-        "No": 270802
+        "Yes": 489701,
+        "No": 283087
       }
     },
     "nv-q7": {
-      "reporting": 81.4,
+      "reporting": 82.2,
       "called": null,
       "votes": {
-        "Yes": 457638,
-        "No": 290517
+        "Yes": 478608,
+        "No": 299361
       }
     }
   },
   "last_run": {
-    "at": "2026-11-04T08:32:48+00:00",
+    "at": "2026-11-04T08:37:50+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
