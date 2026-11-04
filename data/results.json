@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T06:52:27+00:00",
+  "updated": "2026-11-04T06:57:23+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 89.54,
+      "reporting": 91.15,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4983580,
-        "Ken Paxton": 3805709,
-        "Other": 164952
+        "James Talarico": 4983963,
+        "Ken Paxton": 3965988,
+        "Other": 165003
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 79.87,
+      "reporting": 80.1,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2046796,
-        "Mike Rogers": 1829769,
-        "Other": 81245
+        "Abdul El-Sayed": 2051991,
+        "Mike Rogers": 1835801,
+        "Other": 81509
       }
     },
     "nh-sen": {
@@ -138,15 +138,15 @@
       }
     },
     "mo-a3": {
-      "reporting": 85,
-      "called": null,
+      "reporting": 85.8,
+      "called": "Failed",
       "votes": {
         "No": 901709,
         "Yes": 824577
       }
     },
     "mo-a7": {
-      "reporting": 83.9,
+      "reporting": 84.7,
       "called": null,
       "votes": {
         "No": 1003041,
@@ -155,7 +155,7 @@
     },
     "va-marriage": {
       "reporting": 99.9,
-      "called": null,
+      "called": "Passed",
       "votes": {
         "Yes": 2006211,
         "No": 1498960
@@ -163,18 +163,18 @@
     },
     "va-voting": {
       "reporting": 99.9,
-      "called": null,
+      "called": "Passed",
       "votes": {
         "Yes": 1971568,
         "No": 1528317
       }
     },
     "mi-p1": {
-      "reporting": 76.4,
-      "called": null,
+      "reporting": 79.9,
+      "called": "Failed",
       "votes": {
-        "No": 2565249,
-        "Yes": 904185
+        "No": 2577154,
+        "Yes": 908866
       }
     },
     "me-sen": {
@@ -187,16 +187,16 @@
       }
     },
     "ne-sen": {
-      "reporting": 78.68,
-      "called": null,
+      "reporting": 78.73,
+      "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 301444,
-        "Dan Osborn": 271189,
-        "Other": 35855
+        "Pete Ricketts": 301644,
+        "Dan Osborn": 271357,
+        "Other": 35887
       }
     },
     "mo-a8": {
-      "reporting": 84.1,
+      "reporting": 84.8,
       "called": null,
       "votes": {
         "Yes": 895645,
@@ -204,8 +204,8 @@
       }
     },
     "mo-propa": {
-      "reporting": 84.1,
-      "called": null,
+      "reporting": 84.9,
+      "called": "Failed",
       "votes": {
         "No": 1001361,
         "Yes": 679053
@@ -238,7 +238,7 @@
       }
     },
     "mo-a6": {
-      "reporting": 84.2,
+      "reporting": 84.9,
       "called": null,
       "votes": {
         "Yes": 983476,
@@ -247,7 +247,7 @@
     },
     "va-q1": {
       "reporting": 99.9,
-      "called": null,
+      "called": "Passed",
       "votes": {
         "Yes": 2164513,
         "No": 1312493
@@ -255,7 +255,7 @@
     },
     "oh-i3": {
       "reporting": 98.7,
-      "called": null,
+      "called": "Passed",
       "votes": {
         "Yes": 2820929,
         "No": 1480527
@@ -289,7 +289,7 @@
     },
     "ca-22": {
       "reporting": 25.16,
-      "called": null,
+      "called": "Randy Villegas",
       "votes": {
         "Randy Villegas": 41225,
         "David Valadao": 22146
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T06:52:27+00:00",
+    "at": "2026-11-04T06:57:23+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
