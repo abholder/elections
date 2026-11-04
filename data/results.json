@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T05:56:53+00:00",
+  "updated": "2026-11-04T06:01:56+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 84.03,
+      "reporting": 84.71,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4730518,
-        "Ken Paxton": 3523693,
-        "Other": 148548
+        "James Talarico": 4757913,
+        "Ken Paxton": 3562834,
+        "Other": 150629
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 61.22,
+      "reporting": 63.58,
       "called": null,
       "votes": {
-        "Abdul El-Sayed": 1534024,
-        "Mike Rogers": 1438247,
-        "Other": 61303
+        "Abdul El-Sayed": 1592412,
+        "Mike Rogers": 1494520,
+        "Other": 63704
       }
     },
     "nh-sen": {
@@ -59,12 +59,12 @@
       }
     },
     "nc-sen": {
-      "reporting": 94.79,
+      "reporting": 100,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2462277,
-        "Michael Whatley": 1640020,
-        "Other": 92130
+        "Roy Cooper": 2462440,
+        "Michael Whatley": 1640368,
+        "Other": 92144
       }
     },
     "ga-sen": {
@@ -138,7 +138,7 @@
       }
     },
     "mo-a3": {
-      "reporting": 84.1,
+      "reporting": 84.2,
       "called": null,
       "votes": {
         "No": 901709,
@@ -146,7 +146,7 @@
       }
     },
     "mo-a7": {
-      "reporting": 82.9,
+      "reporting": 83,
       "called": null,
       "votes": {
         "No": 1003041,
@@ -157,46 +157,46 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1903327,
-        "No": 1460278
+        "Yes": 1911745,
+        "No": 1467097
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1868555,
-        "No": 1490058
+        "Yes": 1878543,
+        "No": 1495317
       }
     },
     "mi-p1": {
-      "reporting": 69.2,
+      "reporting": 70.2,
       "called": null,
       "votes": {
-        "No": 1936494,
-        "Yes": 677148
+        "No": 2005801,
+        "Yes": 701763
       }
     },
     "me-sen": {
-      "reporting": 75.4,
+      "reporting": 75.53,
       "called": null,
       "votes": {
-        "Troy Jackson": 300502,
-        "Susan Collins": 258097,
-        "Other": 759
+        "Troy Jackson": 300992,
+        "Susan Collins": 258545,
+        "Other": 764
       }
     },
     "ne-sen": {
-      "reporting": 65.24,
+      "reporting": 67.82,
       "called": null,
       "votes": {
-        "Pete Ricketts": 245763,
-        "Dan Osborn": 229515,
-        "Other": 29283
+        "Pete Ricketts": 254125,
+        "Dan Osborn": 239482,
+        "Other": 30887
       }
     },
     "mo-a8": {
-      "reporting": 83.2,
+      "reporting": 83.3,
       "called": null,
       "votes": {
         "Yes": 895645,
@@ -204,7 +204,7 @@
       }
     },
     "mo-propa": {
-      "reporting": 83.1,
+      "reporting": 83.3,
       "called": null,
       "votes": {
         "No": 1001361,
@@ -249,8 +249,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 2058574,
-        "No": 1282153
+        "Yes": 2069531,
+        "No": 1286822
       }
     },
     "oh-i3": {
@@ -262,12 +262,12 @@
       }
     },
     "az-01": {
-      "reporting": 70.17,
+      "reporting": 73.01,
       "called": null,
       "votes": {
-        "Amish Shah": 136277,
-        "Jay Feely": 107247,
-        "Other": 4751
+        "Amish Shah": 141631,
+        "Jay Feely": 111699,
+        "Other": 5001
       }
     },
     "mn-sen": {
@@ -307,8 +307,8 @@
       "reporting": 82.7,
       "called": null,
       "votes": {
-        "No": 1054686,
-        "Yes": 911514
+        "No": 1058192,
+        "Yes": 913520
       }
     },
     "wa-03": {
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T05:56:53+00:00",
+    "at": "2026-11-04T06:01:56+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
