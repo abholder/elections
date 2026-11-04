@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T07:07:20+00:00",
+  "updated": "2026-11-04T07:12:20+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 91.2,
+      "reporting": 91.42,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 4987401,
-        "Ken Paxton": 3967939,
-        "Other": 165222
+        "James Talarico": 4996491,
+        "Ken Paxton": 3979860,
+        "Other": 165699
       }
     },
     "oh-sen": {
@@ -21,14 +21,14 @@
       }
     },
     "sc-sen": {
-      "reporting": 100,
+      "reporting": 99,
       "called": "Annie Andrews",
       "votes": {
-        "Annie Andrews": 1040451,
-        "Darline Graham": 950161,
-        "Kasie Whitener": 23522,
-        "Mark Hackett": 16775,
-        "Other": 4888
+        "Annie Andrews": 1042362,
+        "Darline Graham": 951165,
+        "Kasie Whitener": 23560,
+        "Mark Hackett": 16799,
+        "Other": 4895
       }
     },
     "ks-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 80.53,
+      "reporting": 82.38,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2062372,
-        "Mike Rogers": 1846215,
-        "Other": 82021
+        "Abdul El-Sayed": 2106185,
+        "Mike Rogers": 1892397,
+        "Other": 83848
       }
     },
     "nh-sen": {
@@ -138,7 +138,7 @@
       }
     },
     "mo-a3": {
-      "reporting": 87,
+      "reporting": 87.9,
       "called": "Failed",
       "votes": {
         "No": 901709,
@@ -146,7 +146,7 @@
       }
     },
     "mo-a7": {
-      "reporting": 85.1,
+      "reporting": 87.3,
       "called": "Failed",
       "votes": {
         "No": 1003041,
@@ -170,33 +170,33 @@
       }
     },
     "mi-p1": {
-      "reporting": 80.2,
+      "reporting": 80.3,
       "called": "Failed",
       "votes": {
-        "No": 2591857,
-        "Yes": 913804
+        "No": 2617185,
+        "Yes": 922366
       }
     },
     "me-sen": {
-      "reporting": 81.1,
+      "reporting": 82.31,
       "called": "Troy Jackson",
       "votes": {
-        "Troy Jackson": 323673,
-        "Susan Collins": 277215,
-        "Other": 788
+        "Troy Jackson": 328400,
+        "Susan Collins": 281416,
+        "Other": 803
       }
     },
     "ne-sen": {
-      "reporting": 78.8,
+      "reporting": 81.5,
       "called": "Pete Ricketts",
       "votes": {
-        "Pete Ricketts": 301918,
-        "Dan Osborn": 271521,
-        "Other": 35925
+        "Pete Ricketts": 309479,
+        "Dan Osborn": 283204,
+        "Other": 37568
       }
     },
     "mo-a8": {
-      "reporting": 85.2,
+      "reporting": 87.3,
       "called": null,
       "votes": {
         "Yes": 895645,
@@ -204,7 +204,7 @@
       }
     },
     "mo-propa": {
-      "reporting": 85.5,
+      "reporting": 87.7,
       "called": "Failed",
       "votes": {
         "No": 1001361,
@@ -238,7 +238,7 @@
       }
     },
     "mo-a6": {
-      "reporting": 85.3,
+      "reporting": 87.3,
       "called": "Passed",
       "votes": {
         "Yes": 983476,
@@ -331,7 +331,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T07:07:20+00:00",
+    "at": "2026-11-04T07:12:20+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
