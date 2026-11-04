@@ -382,7 +382,8 @@ const LIVE_FROM = Date.parse("2026-11-03T23:00:00Z"); // 6pm Central: first poll
 
 async function civic(id) {
   try {
-    const res = await fetch(`${CIVIC}/race/${id}`);
+    // Give up on a slow request after 15 seconds so one stuck race can't freeze the page.
+    const res = await fetch(`${CIVIC}/race/${id}`, { signal: AbortSignal.timeout(15000) });
     if (!res.ok) return null;
     const doc = await res.json();
     if (doc.test_data && !REHEARSAL) return null; // never show test data as real
@@ -517,16 +518,21 @@ async function refresh() {
       load("markets").catch(() => ({ races: {}, control: {} })),
       load("predictions_final").catch(() => null),
     ]).then((all) => { PRED = all.pop(); MARKETS = all.pop(); POLLS = all.pop(); return all; });
+    // Draw right away with the saved copy, then lay live numbers over it when they arrive,
+    // so a slow results feed never leaves the page looking frozen.
     OFFICIAL = races.official_results || {};
     renderEarlyVote(ev, races);
-    // Live numbers win over the saved copy, except hand-entered local results civicAPI doesn't have.
-    const live = await liveResults(races);
-    const liveCount = Object.keys(live).length;
-    if (liveCount) results.results = { ...results.results, ...live };
-
     renderOverview(fc);
     renderScorecard(PRED, results, races);
     renderSections(races, moneyData, fc, results);
+    if (results.updated) status.innerHTML = `<span class="dot"></span>Results updated ${ago(results.updated)} · checking for newer results…`;
+    const live = await liveResults(races);
+    const liveCount = Object.keys(live).length;
+    if (liveCount) {
+      results.results = { ...results.results, ...live };
+      renderScorecard(PRED, results, races);
+      renderSections(races, moneyData, fc, results);
+    }
     const resultsNote = liveCount
       ? `Live results from <a href="https://civicapi.org">civicAPI</a>, checked ${new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}`
       : results.updated ? `Results updated ${ago(results.updated)}` : "Results start after polls close Nov. 3";

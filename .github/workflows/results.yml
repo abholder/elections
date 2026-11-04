@@ -17,7 +17,7 @@ permissions:
 
 concurrency:
   group: update-results
-  cancel-in-progress: true
+  cancel-in-progress: false   # let a slow run finish; the next one waits instead of killing it
 
 jobs:
   results:
@@ -29,7 +29,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install pdftotext (reads Alaska's results PDF)
-        run: sudo apt-get install -y poppler-utils
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+        continue-on-error: true   # if this fails, only Alaska's measure is skipped
       - run: python scripts/fetch_results.py
       - name: Commit if anything changed
         # Two runs can overlap (a push and the timer, say). If another run saved data first,

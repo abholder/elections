@@ -33,13 +33,15 @@ ALLOW_TEST = "--test" in sys.argv  # civicAPI runs fake "test elections" before 
 
 def get(path):
     req = urllib.request.Request(f"{BASE}/{path}", headers={"User-Agent": "abholder-elections/1.0"})
-    for attempt in range(3):
+    # civicAPI gets slow under election-night traffic: short timeouts and one retry, so a whole
+    # run finishes in a couple of minutes instead of being cut off by the next one.
+    for attempt in range(2):
         try:
-            with urllib.request.urlopen(req, timeout=60) as r:
+            with urllib.request.urlopen(req, timeout=25) as r:
                 return json.load(r)
         except Exception as e:
-            print(f"  {path}: {e} (try {attempt + 1}/3)")
-            time.sleep(5 * (attempt + 1))
+            print(f"  {path}: {e} (try {attempt + 1}/2)")
+            time.sleep(2)
     return None
 
 
@@ -96,11 +98,18 @@ def match(our_candidates, civic_candidates, percent_reporting):
 
 def main():
     races = json.loads(RACES.read_text())
-    docs = {name: get(f"race/{rid}") for name, rid in DOCS.items()}
+    # Fetch everything at once (in parallel) rather than one request after another.
+    from concurrent.futures import ThreadPoolExecutor
+    single_ids = sorted({rid for sec in races["sections"] for item in sec.get("races", []) + sec.get("measures", [])
+                         for rid in (item.get("civic") or {}).get("races", [])})
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        fetched = dict(zip(list(DOCS) + single_ids,
+                           pool.map(lambda rid: get(f"race/{rid}"), list(DOCS.values()) + single_ids)))
+    docs = {name: fetched[name] for name in DOCS}
     for name, doc in docs.items():
         if doc and doc.get("test_data") and not ALLOW_TEST:
             print(f"civicAPI {name} document is TEST data; ignoring it")
-    cache = {}
+    cache = {rid: fetched[rid] for rid in single_ids}
 
     results = {}
     for section in races["sections"]:
