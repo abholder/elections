@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T07:17:40+00:00",
+  "updated": "2026-11-04T07:22:20+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 91.57,
+      "reporting": 92.49,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5003905,
-        "Ken Paxton": 3986833,
-        "Other": 166131
+        "James Talarico": 5056748,
+        "Ken Paxton": 4023650,
+        "Other": 168768
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 83.56,
+      "reporting": 85.16,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2144165,
-        "Mike Rogers": 1912138,
-        "Other": 84738
+        "Abdul El-Sayed": 2186467,
+        "Mike Rogers": 1947158,
+        "Other": 86503
       }
     },
     "nh-sen": {
@@ -146,7 +146,7 @@
       }
     },
     "mo-a7": {
-      "reporting": 88.4,
+      "reporting": 88.8,
       "called": "Failed",
       "votes": {
         "No": 1003041,
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 82.5,
+      "reporting": 83.2,
       "called": "Failed",
       "votes": {
-        "No": 2652253,
-        "Yes": 934206
+        "No": 2697357,
+        "Yes": 951047
       }
     },
     "me-sen": {
@@ -196,7 +196,7 @@
       }
     },
     "mo-a8": {
-      "reporting": 88.4,
+      "reporting": 88.8,
       "called": null,
       "votes": {
         "Yes": 895645,
@@ -204,7 +204,7 @@
       }
     },
     "mo-propa": {
-      "reporting": 88.8,
+      "reporting": 89.2,
       "called": "Failed",
       "votes": {
         "No": 1001361,
@@ -238,7 +238,7 @@
       }
     },
     "mo-a6": {
-      "reporting": 88.4,
+      "reporting": 88.8,
       "called": "Passed",
       "votes": {
         "Yes": 983476,
@@ -288,11 +288,11 @@
       }
     },
     "ca-22": {
-      "reporting": 25.16,
+      "reporting": 25.17,
       "called": "Randy Villegas",
       "votes": {
-        "Randy Villegas": 41225,
-        "David Valadao": 22146
+        "Randy Villegas": 41249,
+        "David Valadao": 22151
       }
     },
     "ut-b": {
@@ -307,8 +307,8 @@
       "reporting": 84.8,
       "called": null,
       "votes": {
-        "No": 1095008,
-        "Yes": 949237
+        "No": 1096591,
+        "Yes": 951054
       }
     },
     "wa-03": {
@@ -321,17 +321,17 @@
       }
     },
     "ak-sen": {
-      "reporting": 56.5,
+      "reporting": 69.17,
       "called": null,
       "votes": {
-        "Mary Peltola": 79137,
-        "Dan Sullivan": 78763,
-        "Other": 5966
+        "Dan Sullivan": 97823,
+        "Mary Peltola": 95272,
+        "Other": 7506
       }
     }
   },
   "last_run": {
-    "at": "2026-11-04T07:17:40+00:00",
+    "at": "2026-11-04T07:22:20+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
