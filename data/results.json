@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T03:30:20+00:00",
+  "updated": "2026-11-04T03:34:44+00:00",
   "results": {
     "tx-sen": {
       "reporting": 60.25,
@@ -146,11 +146,11 @@
       }
     },
     "mo-a7": {
-      "reporting": 57,
+      "reporting": 67,
       "called": null,
       "votes": {
-        "No": 558029,
-        "Yes": 365505
+        "No": 774040,
+        "Yes": 510141
       }
     },
     "va-marriage": {
@@ -170,11 +170,11 @@
       }
     },
     "mi-p1": {
-      "reporting": 7.2,
+      "reporting": 9,
       "called": null,
       "votes": {
-        "No": 616986,
-        "Yes": 205259
+        "No": 641121,
+        "Yes": 214516
       }
     },
     "me-sen": {
@@ -204,11 +204,11 @@
       }
     },
     "mo-propa": {
-      "reporting": 57,
+      "reporting": 67.3,
       "called": null,
       "votes": {
-        "No": 602683,
-        "Yes": 398029
+        "No": 774420,
+        "Yes": 509657
       }
     },
     "ia-sen": {
@@ -238,11 +238,11 @@
       }
     },
     "mo-a6": {
-      "reporting": 63.8,
+      "reporting": 67.6,
       "called": null,
       "votes": {
-        "Yes": 636050,
-        "No": 468696
+        "Yes": 757850,
+        "No": 538245
       }
     },
     "va-q1": {
@@ -254,11 +254,11 @@
       }
     },
     "oh-i3": {
-      "reporting": 90.5,
+      "reporting": 90.7,
       "called": null,
       "votes": {
-        "Yes": 2441504,
-        "No": 1257161
+        "Yes": 2473805,
+        "No": 1275191
       }
     },
     "az-01": {
@@ -289,15 +289,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T03:30:20+00:00",
+    "at": "2026-11-04T03:34:44+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/139733: HTTP Error 502: Bad Gateway",
-      "race/139734: HTTP Error 502: Bad Gateway",
-      "race/156340: HTTP Error 502: Bad Gateway",
-      "race/156341: HTTP Error 502: Bad Gateway",
-      "race/156342: The read operation timed out"
+      "race/87524: The read operation timed out",
+      "race/87528: The read operation timed out",
+      "race/87243: HTTP Error 502: Bad Gateway",
+      "race/139732: HTTP Error 502: Bad Gateway",
+      "race/139733: HTTP Error 502: Bad Gateway"
     ],
-    "error_count": 7
+    "error_count": 12
   }
 }
