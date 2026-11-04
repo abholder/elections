@@ -1,43 +1,43 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T02:40:06+00:00",
+  "updated": "2026-11-04T02:45:32+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 55.18,
+      "reporting": 55.34,
       "called": null,
       "votes": {
-        "James Talarico": 3279504,
-        "Ken Paxton": 2155823,
-        "Other": 83260
+        "James Talarico": 3286120,
+        "Ken Paxton": 2164674,
+        "Other": 83728
       }
     },
     "oh-sen": {
-      "reporting": 61.58,
+      "reporting": 61.6,
       "called": null,
       "votes": {
-        "Sherrod Brown": 1445656,
-        "Jon Husted": 1354014,
-        "Other": 134372
+        "Sherrod Brown": 1445890,
+        "Jon Husted": 1354676,
+        "Other": 134444
       }
     },
     "sc-sen": {
-      "reporting": 82.85,
+      "reporting": 83.44,
       "called": null,
       "votes": {
-        "Annie Andrews": 860854,
-        "Darline Graham": 784293,
-        "Kasie Whitener": 17949,
-        "Mark Hackett": 13019,
-        "Other": 3819
+        "Annie Andrews": 865514,
+        "Darline Graham": 791318,
+        "Kasie Whitener": 18117,
+        "Mark Hackett": 13123,
+        "Other": 3838
       }
     },
     "ks-sen": {
-      "reporting": 56.34,
+      "reporting": 56.68,
       "called": null,
       "votes": {
-        "Adam Hamilton": 375403,
-        "Roger Marshall": 252054,
-        "Other": 17956
+        "Adam Hamilton": 376870,
+        "Roger Marshall": 254370,
+        "Other": 18049
       }
     },
     "mi-sen": {
@@ -50,29 +50,29 @@
       }
     },
     "nh-sen": {
-      "reporting": 39.25,
+      "reporting": 39.54,
       "called": "Chris Pappas",
       "votes": {
-        "Chris Pappas": 149990,
-        "John E. Sununu": 115029,
-        "Other": 5512
+        "Chris Pappas": 151108,
+        "John E. Sununu": 115824,
+        "Other": 5565
       }
     },
     "nc-sen": {
-      "reporting": 77.86,
+      "reporting": 78.35,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2050325,
-        "Michael Whatley": 1323893,
-        "Other": 71189
+        "Roy Cooper": 2060124,
+        "Michael Whatley": 1334733,
+        "Other": 71914
       }
     },
     "ga-sen": {
-      "reporting": 54.71,
+      "reporting": 73.54,
       "called": "Jon Ossoff",
       "votes": {
-        "Jon Ossoff": 1612112,
-        "Mike Collins": 941936
+        "Jon Ossoff": 2037903,
+        "Mike Collins": 1395505
       }
     },
     "fl-14": {
@@ -85,12 +85,12 @@
       }
     },
     "mi-10": {
-      "reporting": 11.13,
+      "reporting": 14.1,
       "called": null,
       "votes": {
-        "Christina Hines": 21502,
-        "Michael Bouchard": 19930,
-        "Other": 1133
+        "Michael Bouchard": 26737,
+        "Christina Hines": 25793,
+        "Other": 1411
       }
     },
     "oh-07": {
@@ -102,12 +102,12 @@
       }
     },
     "tx-34": {
-      "reporting": 59.1,
+      "reporting": 59.59,
       "called": null,
       "votes": {
-        "Vicente Gonzalez": 88073,
-        "Eric Flores": 60217,
-        "Other": 6898
+        "Vicente Gonzalez": 88542,
+        "Eric Flores": 60963,
+        "Other": 6976
       }
     },
     "va-02": {
@@ -120,29 +120,29 @@
       }
     },
     "mo-05": {
-      "reporting": 18.18,
+      "reporting": 20.42,
       "called": null,
       "votes": {
-        "Emanuel Cleaver": 30103,
-        "Rick Brattin": 11900,
-        "Randy Langkraehr": 769
+        "Emanuel Cleaver": 32827,
+        "Rick Brattin": 14328,
+        "Randy Langkraehr": 890
       }
     },
     "mo-06": {
-      "reporting": 55.87,
+      "reporting": 56.5,
       "called": null,
       "votes": {
-        "Chris Stigall": 73437,
-        "Josh Smead": 56367,
-        "Andy Maidment": 3076
+        "Chris Stigall": 74549,
+        "Josh Smead": 56724,
+        "Andy Maidment": 3100
       }
     },
     "mo-a3": {
-      "reporting": 27.3,
+      "reporting": 30.4,
       "called": null,
       "votes": {
-        "No": 235510,
-        "Yes": 211521
+        "No": 253691,
+        "Yes": 232641
       }
     },
     "mo-a7": {
@@ -170,20 +170,20 @@
       }
     },
     "mi-p1": {
-      "reporting": 2.7,
+      "reporting": 3.1,
       "called": null,
       "votes": {
-        "No": 446807,
-        "Yes": 146843
+        "No": 491047,
+        "Yes": 161136
       }
     },
     "me-sen": {
-      "reporting": 13.18,
+      "reporting": 15.09,
       "called": null,
       "votes": {
-        "Susan Collins": 49285,
-        "Troy Jackson": 48280,
-        "Other": 216
+        "Susan Collins": 56448,
+        "Troy Jackson": 55297,
+        "Other": 217
       }
     },
     "ne-sen": {
@@ -196,19 +196,19 @@
       }
     },
     "mo-a8": {
-      "reporting": 10.2,
+      "reporting": 25.6,
       "called": null,
       "votes": {
-        "No": 120565,
-        "Yes": 108722
+        "Yes": 207133,
+        "No": 186547
       }
     },
     "mo-propa": {
-      "reporting": 12.9,
+      "reporting": 29.9,
       "called": null,
       "votes": {
-        "No": 180686,
-        "Yes": 103124
+        "No": 280449,
+        "Yes": 193747
       }
     },
     "ia-sen": {
@@ -255,15 +255,15 @@
     }
   },
   "last_run": {
-    "at": "2026-11-04T02:40:06+00:00",
+    "at": "2026-11-04T02:45:32+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/87220: HTTP Error 502: Bad Gateway",
-      "race/87242: HTTP Error 500: Internal Server Error",
       "race/139733: HTTP Error 502: Bad Gateway",
-      "race/140002: HTTP Error 502: Bad Gateway",
-      "race/156341: HTTP Error 502: Bad Gateway"
+      "race/139734: HTTP Error 502: Bad Gateway",
+      "race/140000: HTTP Error 502: Bad Gateway",
+      "race/140001: HTTP Error 502: Bad Gateway",
+      "race/87242: The read operation timed out"
     ],
-    "error_count": 13
+    "error_count": 12
   }
 }
