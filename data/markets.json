@@ -1,6 +1,6 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-11-05T03:23:20+00:00",
+ "updated": "2026-11-05T18:42:22+00:00",
  "control": {
   "Senate": {
    "R": 0,
@@ -17,12 +17,12 @@
    "James Talarico": 100
   },
   "me-sen": {
-   "Troy Jackson": 100,
-   "Susan Collins": 0
+   "Susan Collins": 0,
+   "Troy Jackson": 100
   },
   "oh-sen": {
-   "Jon Husted": 0,
-   "Sherrod Brown": 100
+   "Sherrod Brown": 100,
+   "Jon Husted": 0
   },
   "sc-sen": {
    "Darline Graham": 0,
@@ -37,16 +37,16 @@
    "Roger Marshall": 0
   },
   "ak-sen": {
-   "Dan Sullivan": 7,
-   "Mary Peltola": 93
+   "Dan Sullivan": 5,
+   "Mary Peltola": 95
   },
   "mi-sen": {
-   "Mike Rogers": 0,
-   "Abdul El-Sayed": 100
+   "Abdul El-Sayed": 100,
+   "Mike Rogers": 0
   },
   "ne-sen": {
-   "Dan Osborn": 0,
-   "Pete Ricketts": 100
+   "Pete Ricketts": 100,
+   "Dan Osborn": 0
   },
   "nh-sen": {
    "John E. Sununu": 0,
