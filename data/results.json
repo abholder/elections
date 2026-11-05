@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-04T19:41:55+00:00",
+  "updated": "2026-11-05T06:30:47+00:00",
   "results": {
     "tx-sen": {
       "reporting": 99,
@@ -32,12 +32,12 @@
       }
     },
     "ks-sen": {
-      "reporting": 95.47,
+      "reporting": 100,
       "called": "Adam Hamilton",
       "votes": {
-        "Adam Hamilton": 556580,
-        "Roger Marshall": 501408,
-        "Other": 35746
+        "Adam Hamilton": 559853,
+        "Roger Marshall": 504950,
+        "Other": 33117
       }
     },
     "mi-sen": {
@@ -50,12 +50,12 @@
       }
     },
     "nh-sen": {
-      "reporting": 59.29,
+      "reporting": 90.97,
       "called": "Chris Pappas",
       "votes": {
-        "Chris Pappas": 219480,
-        "John E. Sununu": 180913,
-        "Other": 8223
+        "Chris Pappas": 349147,
+        "John E. Sununu": 265306,
+        "Other": 12535
       }
     },
     "nc-sen": {
@@ -79,9 +79,9 @@
       "reporting": 100,
       "called": "Kathy Castor",
       "votes": {
-        "Kathy Castor": 153586,
-        "Mike Beltran": 137599,
-        "Other": 8730
+        "Kathy Castor": 153354,
+        "Mike Beltran": 137465,
+        "Other": 8705
       }
     },
     "mi-10": {
@@ -221,20 +221,20 @@
       }
     },
     "ny-17": {
-      "reporting": 99,
+      "reporting": 89.27,
       "called": null,
       "votes": {
-        "Cait Conley": 385995,
-        "Mike Lawler": 354139,
-        "Other": 797
+        "Cait Conley": 133219,
+        "Mike Lawler": 121881,
+        "Other": 277
       }
     },
     "pa-10": {
       "reporting": 100,
       "called": "Janelle Stelson",
       "votes": {
-        "Janelle Stelson": 173845,
-        "Scott Perry": 142059
+        "Janelle Stelson": 173500,
+        "Scott Perry": 141690
       }
     },
     "mo-a6": {
@@ -262,12 +262,12 @@
       }
     },
     "az-01": {
-      "reporting": 88,
+      "reporting": 90.42,
       "called": null,
       "votes": {
-        "Amish Shah": 163584,
-        "Jay Feely": 141196,
-        "Other": 6586
+        "Amish Shah": 167807,
+        "Jay Feely": 145313,
+        "Other": 6809
       }
     },
     "mn-sen": {
@@ -283,8 +283,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1081044,
-        "No": 718949
+        "Yes": 1081731,
+        "No": 719399
       }
     },
     "ca-22": {
@@ -296,11 +296,11 @@
       }
     },
     "ut-b": {
-      "reporting": 79,
+      "reporting": 92.8,
       "called": null,
       "votes": {
-        "No": 430908,
-        "Yes": 260755
+        "No": 470015,
+        "Yes": 293380
       }
     },
     "co-a86": {
@@ -312,42 +312,42 @@
       }
     },
     "wa-03": {
-      "reporting": 95.14,
+      "reporting": 99,
       "called": "Marie Gluesenkamp Perez",
       "votes": {
-        "Marie Gluesenkamp Perez": 143417,
-        "John Braun": 115271,
-        "Other": 2237
+        "Marie Gluesenkamp Perez": 157272,
+        "John Braun": 130192,
+        "Other": 2554
       }
     },
     "ak-sen": {
-      "reporting": 73.68,
+      "reporting": 73.87,
       "called": null,
       "votes": {
-        "Mary Peltola": 102898,
-        "Dan Sullivan": 102363,
-        "Other": 8416
+        "Mary Peltola": 103171,
+        "Dan Sullivan": 102617,
+        "Other": 8458
       }
     },
     "nv-abortion": {
-      "reporting": 83.7,
+      "reporting": 55.7,
       "called": "Passed",
       "votes": {
-        "Yes": 602736,
-        "No": 349543
+        "Yes": 612083,
+        "No": 357645
       }
     },
     "nv-q7": {
-      "reporting": 83.8,
+      "reporting": 55.8,
       "called": "Passed",
       "votes": {
-        "Yes": 597624,
-        "No": 361262
+        "Yes": 610336,
+        "No": 366110
       }
     }
   },
   "last_run": {
-    "at": "2026-11-04T19:41:55+00:00",
+    "at": "2026-11-05T06:30:47+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
