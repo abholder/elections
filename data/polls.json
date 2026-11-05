@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-04T18:37:01+00:00",
+ "updated": "2026-11-05T03:23:19+00:00",
  "races": {
   "ak-sen": {
    "count": 3,
@@ -441,13 +441,13 @@
    ]
   },
   "mi-sen": {
-   "count": 14,
-   "from": "2026-09-20",
+   "count": 13,
+   "from": "2026-09-21",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Abdul El-Sayed": 49.4,
-    "Mike Rogers": 44.6
+    "Abdul El-Sayed": 49.5,
+    "Mike Rogers": 45.0
    },
    "polls": [
     {
@@ -870,7 +870,7 @@
    "count": 1,
    "from": "2026-09-20",
    "to": "2026-09-20",
-   "stale": false,
+   "stale": true,
    "avg": {
     "Janelle Stelson": 47.0,
     "Scott Perry": 44.0

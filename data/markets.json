@@ -1,28 +1,28 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-11-04T18:37:01+00:00",
+ "updated": "2026-11-05T03:23:20+00:00",
  "control": {
   "Senate": {
    "R": 0,
    "D": 100
   },
   "House": {
-   "D": 100,
-   "R": 0
+   "R": 0,
+   "D": 100
   }
  },
  "races": {
   "tx-sen": {
-   "James Talarico": 100,
-   "Ken Paxton": 0
+   "Ken Paxton": 0,
+   "James Talarico": 100
   },
   "me-sen": {
-   "Susan Collins": 0,
-   "Troy Jackson": 100
+   "Troy Jackson": 100,
+   "Susan Collins": 0
   },
   "oh-sen": {
-   "Sherrod Brown": 100,
-   "Jon Husted": 0
+   "Jon Husted": 0,
+   "Sherrod Brown": 100
   },
   "sc-sen": {
    "Darline Graham": 0,
@@ -33,12 +33,12 @@
    "Ashley Hinson": 0
   },
   "ks-sen": {
-   "Roger Marshall": 0,
-   "Adam Hamilton": 100
+   "Adam Hamilton": 100,
+   "Roger Marshall": 0
   },
   "ak-sen": {
-   "Dan Sullivan": 9,
-   "Mary Peltola": 91
+   "Dan Sullivan": 7,
+   "Mary Peltola": 93
   },
   "mi-sen": {
    "Mike Rogers": 0,
@@ -53,8 +53,8 @@
    "Chris Pappas": 100
   },
   "nc-sen": {
-   "Michael Whatley": 0,
-   "Roy Cooper": 100
+   "Roy Cooper": 100,
+   "Michael Whatley": 0
   },
   "ga-sen": {
    "Mike Collins": 0,
@@ -69,8 +69,8 @@
    "Kathy Castor": 99
   },
   "oh-07": {
-   "Brian Poindexter": 99,
-   "Max Miller": 0
+   "Max Miller": 0,
+   "Brian Poindexter": 99
   },
   "mo-06": {
    "Josh Smead": 5,
