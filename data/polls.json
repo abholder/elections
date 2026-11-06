@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-05T18:42:22+00:00",
+ "updated": "2026-11-06T03:20:25+00:00",
  "races": {
   "ak-sen": {
    "count": 3,
@@ -441,13 +441,13 @@
    ]
   },
   "mi-sen": {
-   "count": 13,
-   "from": "2026-09-21",
+   "count": 12,
+   "from": "2026-09-23",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Abdul El-Sayed": 49.5,
-    "Mike Rogers": 45.0
+    "Abdul El-Sayed": 49.9,
+    "Mike Rogers": 45.4
    },
    "polls": [
     {

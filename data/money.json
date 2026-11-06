@@ -1,8 +1,94 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-11-05T18:42:14+00:00",
+  "updated": "2026-11-06T03:20:17+00:00",
   "candidates": {
+    "va-02|Elaine Luria": {
+      "fec_id": "H6VA02198",
+      "fec_name": "LURIA, ELAINE",
+      "raised": 8044063.94,
+      "spent": 7565201.72,
+      "cash_on_hand": 478862.22,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-06T03:19:52+00:00"
+    },
+    "va-02|Jen Kiggans": {
+      "fec_id": "H2VA02064",
+      "fec_name": "KIGGANS, JENNIFER",
+      "raised": 7589812.06,
+      "spent": 6342881.09,
+      "cash_on_hand": 1292408.37,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-06T03:19:53+00:00"
+    },
+    "wa-03|Marie Gluesenkamp Perez": {
+      "fec_id": "H2WA03217",
+      "fec_name": "GLUESENKAMP PEREZ, MARIE",
+      "raised": 9472266.66,
+      "spent": 9264207.1,
+      "cash_on_hand": 234519.93,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-06T03:19:54+00:00"
+    },
+    "wa-03|John Braun": {
+      "fec_id": "H6WA03275",
+      "fec_name": "BRAUN, JOHN",
+      "raised": 3311756.42,
+      "spent": 2639837.28,
+      "cash_on_hand": 671919.14,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-06T03:19:55+00:00"
+    },
+    "mo-05|Emanuel Cleaver": {
+      "fec_id": "H4MO05234",
+      "fec_name": "CLEAVER II, EMANUEL",
+      "raised": 1766864.4,
+      "spent": 1773542.92,
+      "cash_on_hand": 882948.3,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-06T03:19:55+00:00"
+    },
+    "mo-05|Rick Brattin": {
+      "fec_id": "H2MO04199",
+      "fec_name": "BRATTIN, RICHARD",
+      "raised": 457467.1,
+      "spent": 457107.77,
+      "cash_on_hand": 359.33,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-06T03:19:56+00:00"
+    },
+    "tx-sen|James Talarico": {
+      "fec_id": "S6TX00479",
+      "fec_name": "TALARICO, JAMES",
+      "raised": 146349912.38,
+      "spent": 136427054.98,
+      "cash_on_hand": 9922857.4,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-06T03:19:57+00:00"
+    },
+    "mo-05|Randy Langkraehr": {
+      "fec_id": "H6MO05197",
+      "fec_name": "LANGKRAEHR, RANDALL DAVID (RANDY)",
+      "fetched_at": "2026-11-06T03:19:58+00:00"
+    },
+    "mo-06|Josh Smead": {
+      "fec_id": "H6MO06260",
+      "fec_name": "SMEAD, JOSH",
+      "raised": 145752.57,
+      "spent": 110551.76,
+      "cash_on_hand": 35200.81,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-06T03:20:00+00:00"
+    },
+    "mo-06|Chris Stigall": {
+      "fec_id": "H6MO06310",
+      "fec_name": "STIGALL, CHRIS",
+      "raised": 1045323.71,
+      "spent": 834318.78,
+      "cash_on_hand": 211004.93,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-06T03:20:01+00:00"
+    },
     "ny-17|Mike Lawler": {
       "fec_id": "H2NY17162",
       "fec_name": "LAWLER, MICHAEL VINCENT",
@@ -372,74 +458,6 @@
       "through": "2026-10-14",
       "fetched_at": "2026-11-04T11:22:09+00:00"
     },
-    "wa-03|Marie Gluesenkamp Perez": {
-      "fec_id": "H2WA03217",
-      "fec_name": "GLUESENKAMP PEREZ, MARIE",
-      "raised": 9472266.66,
-      "spent": 9264207.1,
-      "cash_on_hand": 234519.93,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-04T10:53:31+00:00"
-    },
-    "wa-03|John Braun": {
-      "fec_id": "H6WA03275",
-      "fec_name": "BRAUN, JOHN",
-      "raised": 3311756.42,
-      "spent": 2639837.28,
-      "cash_on_hand": 671919.14,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-04T10:53:32+00:00"
-    },
-    "mo-05|Emanuel Cleaver": {
-      "fec_id": "H4MO05234",
-      "fec_name": "CLEAVER II, EMANUEL",
-      "raised": 1766864.4,
-      "spent": 1773542.92,
-      "cash_on_hand": 882948.3,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-04T10:53:33+00:00"
-    },
-    "mo-05|Rick Brattin": {
-      "fec_id": "H2MO04199",
-      "fec_name": "BRATTIN, RICHARD",
-      "raised": 457467.1,
-      "spent": 457107.77,
-      "cash_on_hand": 359.33,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-04T10:53:33+00:00"
-    },
-    "tx-sen|James Talarico": {
-      "fec_id": "S6TX00479",
-      "fec_name": "TALARICO, JAMES",
-      "raised": 146349912.38,
-      "spent": 136427054.98,
-      "cash_on_hand": 9922857.4,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-04T10:53:34+00:00"
-    },
-    "mo-05|Randy Langkraehr": {
-      "fec_id": "H6MO05197",
-      "fec_name": "LANGKRAEHR, RANDALL DAVID (RANDY)",
-      "fetched_at": "2026-11-04T10:53:35+00:00"
-    },
-    "mo-06|Josh Smead": {
-      "fec_id": "H6MO06260",
-      "fec_name": "SMEAD, JOSH",
-      "raised": 145752.57,
-      "spent": 110551.76,
-      "cash_on_hand": 35200.81,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-04T10:53:35+00:00"
-    },
-    "mo-06|Chris Stigall": {
-      "fec_id": "H6MO06310",
-      "fec_name": "STIGALL, CHRIS",
-      "raised": 1045323.71,
-      "spent": 834318.78,
-      "cash_on_hand": 211004.93,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-04T10:53:36+00:00"
-    },
     "tx-sen|Ken Paxton": {
       "fec_id": "S6TX00388",
       "fec_name": "PAXTON, WARREN KENNETH JR.",
@@ -453,24 +471,6 @@
       "fec_id": "H2MO06269",
       "fec_name": "MAIDMENT, EDWARD A. (ANDY)",
       "fetched_at": "2026-11-04T10:53:37+00:00"
-    },
-    "va-02|Elaine Luria": {
-      "fec_id": "H6VA02198",
-      "fec_name": "LURIA, ELAINE",
-      "raised": 8044063.94,
-      "spent": 7565201.72,
-      "cash_on_hand": 478862.22,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-04T09:53:21+00:00"
-    },
-    "va-02|Jen Kiggans": {
-      "fec_id": "H2VA02064",
-      "fec_name": "KIGGANS, JENNIFER",
-      "raised": 7589812.06,
-      "spent": 6342881.09,
-      "cash_on_hand": 1292408.37,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-04T09:53:22+00:00"
     }
   },
   "problems": [
