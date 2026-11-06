@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-05T19:52:02+00:00",
+  "updated": "2026-11-06T06:26:34+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 98.94,
+      "reporting": 98.95,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5445000,
-        "Ken Paxton": 4249741,
-        "Other": 199916
+        "James Talarico": 5445156,
+        "Ken Paxton": 4249762,
+        "Other": 199922
       }
     },
     "oh-sen": {
@@ -41,21 +41,21 @@
       }
     },
     "mi-sen": {
-      "reporting": 96.05,
+      "reporting": 96.38,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2497852,
-        "Mike Rogers": 2162890,
-        "Other": 98889
+        "Abdul El-Sayed": 2505871,
+        "Mike Rogers": 2171078,
+        "Other": 99190
       }
     },
     "nh-sen": {
-      "reporting": 92.54,
+      "reporting": 100,
       "called": "Chris Pappas",
       "votes": {
-        "Chris Pappas": 356332,
-        "John E. Sununu": 268586,
-        "Other": 12850
+        "Chris Pappas": 355898,
+        "John E. Sununu": 268559,
+        "Other": 12867
       }
     },
     "nc-sen": {
@@ -116,7 +116,7 @@
       "called": "Elaine Luria",
       "votes": {
         "Elaine Luria": 178741,
-        "Jen Kiggans": 150095,
+        "Jen Kiggans": 150299,
         "Other": 8161
       }
     },
@@ -133,49 +133,49 @@
       "reporting": 99,
       "called": "Chris Stigall",
       "votes": {
-        "Chris Stigall": 151219,
-        "Josh Smead": 100416,
-        "Andy Maidment": 6028
+        "Chris Stigall": 151360,
+        "Josh Smead": 100450,
+        "Andy Maidment": 6030
       }
     },
     "mo-a3": {
       "reporting": 89.2,
       "called": "Failed",
       "votes": {
-        "No": 901709,
-        "Yes": 824577
+        "No": 901997,
+        "Yes": 825039
       }
     },
     "mo-a7": {
       "reporting": 88.9,
       "called": "Failed",
       "votes": {
-        "No": 1003041,
-        "Yes": 682277
+        "No": 1003437,
+        "Yes": 682623
       }
     },
     "va-marriage": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2037814,
-        "No": 1506810
+        "Yes": 2037969,
+        "No": 1506937
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2001016,
-        "No": 1536860
+        "Yes": 2001153,
+        "No": 1536997
       }
     },
     "mi-p1": {
-      "reporting": 93.1,
+      "reporting": 89.2,
       "called": "Failed",
       "votes": {
-        "No": 3085791,
-        "Yes": 1097918
+        "No": 3128841,
+        "Yes": 1112770
       }
     },
     "me-sen": {
@@ -200,16 +200,16 @@
       "reporting": 88.9,
       "called": null,
       "votes": {
-        "Yes": 895645,
-        "No": 791052
+        "Yes": 896117,
+        "No": 791323
       }
     },
     "mo-propa": {
       "reporting": 89.2,
       "called": "Failed",
       "votes": {
-        "No": 1001361,
-        "Yes": 679053
+        "No": 1001716,
+        "Yes": 679439
       }
     },
     "ia-sen": {
@@ -222,12 +222,12 @@
       }
     },
     "ny-17": {
-      "reporting": 93.92,
-      "called": null,
+      "reporting": 99,
+      "called": "Cait Conley",
       "votes": {
-        "Cait Conley": 140109,
-        "Mike Lawler": 128285,
-        "Other": 293
+        "Cait Conley": 159170,
+        "Mike Lawler": 142035,
+        "Other": 324
       }
     },
     "pa-10": {
@@ -242,16 +242,16 @@
       "reporting": 88.9,
       "called": "Passed",
       "votes": {
-        "Yes": 983476,
-        "No": 717551
+        "Yes": 983812,
+        "No": 717959
       }
     },
     "va-q1": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2194842,
-        "No": 1318343
+        "Yes": 2194634,
+        "No": 1318461
       }
     },
     "oh-i3": {
@@ -263,20 +263,20 @@
       }
     },
     "az-01": {
-      "reporting": 91.46,
+      "reporting": 94.86,
       "called": "Amish Shah",
       "votes": {
-        "Amish Shah": 169687,
-        "Jay Feely": 146978,
-        "Other": 6960
+        "Amish Shah": 175722,
+        "Jay Feely": 152544,
+        "Other": 7367
       }
     },
     "mn-sen": {
       "reporting": 100,
       "called": "Peggy Flanagan",
       "votes": {
-        "Peggy Flanagan": 1520868,
-        "Michele Tafoya": 1233462,
+        "Peggy Flanagan": 1520864,
+        "Michele Tafoya": 1233460,
         "Other": 77447
       }
     },
@@ -284,41 +284,41 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1085305,
-        "No": 720372
+        "Yes": 1149530,
+        "No": 752916
       }
     },
     "ca-22": {
       "reporting": 100,
       "called": "Randy Villegas",
       "votes": {
-        "Randy Villegas": 54337,
-        "David Valadao": 27480
+        "Randy Villegas": 61492,
+        "David Valadao": 30871
       }
     },
     "ut-b": {
-      "reporting": 92.8,
+      "reporting": 96.2,
       "called": null,
       "votes": {
-        "No": 470784,
-        "Yes": 294057
+        "No": 519359,
+        "Yes": 328880
       }
     },
     "co-a86": {
       "reporting": 85.4,
       "called": null,
       "votes": {
-        "No": 1220321,
-        "Yes": 1079541
+        "No": 1338181,
+        "Yes": 1181247
       }
     },
     "wa-03": {
       "reporting": 99,
       "called": "Marie Gluesenkamp Perez",
       "votes": {
-        "Marie Gluesenkamp Perez": 157272,
-        "John Braun": 130192,
-        "Other": 2554
+        "Marie Gluesenkamp Perez": 176744,
+        "John Braun": 149916,
+        "Other": 2951
       }
     },
     "ak-sen": {
@@ -331,24 +331,24 @@
       }
     },
     "nv-abortion": {
-      "reporting": 88.3,
+      "reporting": 89.4,
       "called": "Passed",
       "votes": {
-        "Yes": 634548,
-        "No": 368396
+        "Yes": 650821,
+        "No": 376328
       }
     },
     "nv-q7": {
-      "reporting": 88.5,
+      "reporting": 89.4,
       "called": "Passed",
       "votes": {
-        "Yes": 630098,
-        "No": 379847
+        "Yes": 644209,
+        "No": 390115
       }
     }
   },
   "last_run": {
-    "at": "2026-11-05T19:52:02+00:00",
+    "at": "2026-11-06T06:26:34+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
