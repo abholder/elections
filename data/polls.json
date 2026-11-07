@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-06T17:55:46+00:00",
+ "updated": "2026-11-07T02:39:38+00:00",
  "races": {
   "ak-sen": {
    "count": 3,
@@ -363,8 +363,8 @@
    ]
   },
   "me-sen": {
-   "count": 12,
-   "from": "2026-09-22",
+   "count": 11,
+   "from": "2026-09-30",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
@@ -687,13 +687,13 @@
    ]
   },
   "nh-sen": {
-   "count": 4,
-   "from": "2026-09-22",
+   "count": 3,
+   "from": "2026-10-19",
    "to": "2026-10-31",
    "stale": false,
    "avg": {
-    "Chris Pappas": 50.5,
-    "John E. Sununu": 42.8
+    "Chris Pappas": 50.7,
+    "John E. Sununu": 42.0
    },
    "polls": [
     {
@@ -727,17 +727,6 @@
      "values": {
       "Chris Pappas": 48.0,
       "John E. Sununu": 41.0
-     }
-    },
-    {
-     "pollster": "The New York Times/Siena University",
-     "end": "2026-09-22",
-     "pop": "lv",
-     "n": 613,
-     "url": "https://www.nytimes.com/2026/09/24/us/politics/democrats-show-strength-in-michigan-senate-race-but-trail-in-maine-polls-find.html",
-     "values": {
-      "Chris Pappas": 50.0,
-      "John E. Sununu": 45.0
      }
     }
    ]
