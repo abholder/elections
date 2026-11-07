@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-07T05:49:10+00:00",
+  "updated": "2026-11-07T17:42:52+00:00",
   "results": {
     "tx-sen": {
       "reporting": 98.96,
@@ -76,7 +76,7 @@
       }
     },
     "fl-14": {
-      "reporting": 93.98,
+      "reporting": 91.96,
       "called": "Kathy Castor",
       "votes": {
         "Kathy Castor": 153586,
@@ -85,7 +85,7 @@
       }
     },
     "mi-10": {
-      "reporting": 93.9,
+      "reporting": 96.75,
       "called": "Christina Hines",
       "votes": {
         "Christina Hines": 188078,
@@ -94,7 +94,7 @@
       }
     },
     "oh-07": {
-      "reporting": 99,
+      "reporting": 93.37,
       "called": "Brian Poindexter",
       "votes": {
         "Brian Poindexter": 180614,
@@ -103,7 +103,7 @@
       }
     },
     "tx-34": {
-      "reporting": 77.17,
+      "reporting": 94.4,
       "called": "Vicente Gonzalez",
       "votes": {
         "Vicente Gonzalez": 112667,
@@ -158,16 +158,16 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2051069,
-        "No": 1510651
+        "Yes": 2052869,
+        "No": 1511233
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2013675,
-        "No": 1541146
+        "Yes": 2015435,
+        "No": 1541763
       }
     },
     "mi-p1": {
@@ -222,7 +222,7 @@
       }
     },
     "ny-17": {
-      "reporting": 99,
+      "reporting": 90.85,
       "called": "Cait Conley",
       "votes": {
         "Cait Conley": 164256,
@@ -231,7 +231,7 @@
       }
     },
     "pa-10": {
-      "reporting": 88.36,
+      "reporting": 88.31,
       "called": "Janelle Stelson",
       "votes": {
         "Janelle Stelson": 173671,
@@ -250,8 +250,8 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2208359,
-        "No": 1321040
+        "Yes": 2210310,
+        "No": 1321481
       }
     },
     "oh-i3": {
@@ -263,7 +263,7 @@
       }
     },
     "az-01": {
-      "reporting": 99,
+      "reporting": 79.43,
       "called": "Amish Shah",
       "votes": {
         "Amish Shah": 184253,
@@ -289,7 +289,7 @@
       }
     },
     "ca-22": {
-      "reporting": 37.07,
+      "reporting": 62.34,
       "called": "Randy Villegas",
       "votes": {
         "Randy Villegas": 62193,
@@ -300,16 +300,16 @@
       "reporting": 79.2,
       "called": null,
       "votes": {
-        "No": 592403,
-        "Yes": 375539
+        "No": 594077,
+        "Yes": 376709
       }
     },
     "co-a86": {
       "reporting": 85.4,
       "called": null,
       "votes": {
-        "No": 1356338,
-        "Yes": 1196030
+        "No": 1360111,
+        "Yes": 1199114
       }
     },
     "wa-03": {
@@ -331,24 +331,24 @@
       }
     },
     "nv-abortion": {
-      "reporting": 89.7,
+      "reporting": 90.3,
       "called": "Passed",
       "votes": {
-        "Yes": 669791,
-        "No": 384527
+        "Yes": 671236,
+        "No": 385952
       }
     },
     "nv-q7": {
-      "reporting": 89.7,
+      "reporting": 90.3,
       "called": "Passed",
       "votes": {
-        "Yes": 659766,
-        "No": 401895
+        "Yes": 662000,
+        "No": 402552
       }
     }
   },
   "last_run": {
-    "at": "2026-11-07T05:49:10+00:00",
+    "at": "2026-11-07T17:42:52+00:00",
     "fetched_ok": true,
     "errors": [],
     "error_count": 0
