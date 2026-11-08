@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-07T17:42:52+00:00",
+  "updated": "2026-11-08T05:51:25+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 98.96,
+      "reporting": 98.97,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5446279,
-        "Ken Paxton": 4250075,
-        "Other": 199955
+        "James Talarico": 5447039,
+        "Ken Paxton": 4250573,
+        "Other": 199987
       }
     },
     "oh-sen": {
@@ -72,16 +72,16 @@
       "called": "Jon Ossoff",
       "votes": {
         "Jon Ossoff": 2466695,
-        "Mike Collins": 1712586
+        "Mike Collins": 1712587
       }
     },
     "fl-14": {
-      "reporting": 91.96,
+      "reporting": 92.16,
       "called": "Kathy Castor",
       "votes": {
-        "Kathy Castor": 153586,
-        "Mike Beltran": 137599,
-        "Other": 8730
+        "Kathy Castor": 153785,
+        "Mike Beltran": 137702,
+        "Other": 9058
       }
     },
     "mi-10": {
@@ -133,8 +133,8 @@
       "reporting": 99,
       "called": "Chris Stigall",
       "votes": {
-        "Chris Stigall": 151366,
-        "Josh Smead": 100454,
+        "Chris Stigall": 151367,
+        "Josh Smead": 100456,
         "Andy Maidment": 6031
       }
     },
@@ -142,16 +142,16 @@
       "reporting": 89.6,
       "called": "Failed",
       "votes": {
-        "No": 902931,
-        "Yes": 827746
+        "No": 902935,
+        "Yes": 827751
       }
     },
     "mo-a7": {
       "reporting": 89.6,
       "called": "Failed",
       "votes": {
-        "No": 1004987,
-        "Yes": 684684
+        "No": 1004992,
+        "Yes": 684689
       }
     },
     "va-marriage": {
@@ -200,16 +200,16 @@
       "reporting": 89.6,
       "called": null,
       "votes": {
-        "Yes": 898736,
-        "No": 792321
+        "Yes": 898743,
+        "No": 792325
       }
     },
     "mo-propa": {
       "reporting": 89.6,
       "called": "Failed",
       "votes": {
-        "No": 1003174,
-        "Yes": 681586
+        "No": 1003178,
+        "Yes": 681591
       }
     },
     "ia-sen": {
@@ -242,8 +242,8 @@
       "reporting": 89.6,
       "called": "Passed",
       "votes": {
-        "Yes": 985092,
-        "No": 720295
+        "Yes": 985098,
+        "No": 720298
       }
     },
     "va-q1": {
@@ -263,12 +263,12 @@
       }
     },
     "az-01": {
-      "reporting": 79.43,
+      "reporting": 79.57,
       "called": "Amish Shah",
       "votes": {
-        "Amish Shah": 184253,
-        "Jay Feely": 159954,
-        "Other": 7902
+        "Amish Shah": 184534,
+        "Jay Feely": 160244,
+        "Other": 7918
       }
     },
     "mn-sen": {
@@ -284,8 +284,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1177861,
-        "No": 762498
+        "Yes": 1202179,
+        "No": 770992
       }
     },
     "ca-22": {
@@ -300,25 +300,25 @@
       "reporting": 79.2,
       "called": null,
       "votes": {
-        "No": 594077,
-        "Yes": 376709
+        "No": 609425,
+        "Yes": 384409
       }
     },
     "co-a86": {
       "reporting": 85.4,
       "called": null,
       "votes": {
-        "No": 1360111,
-        "Yes": 1199114
+        "No": 1361552,
+        "Yes": 1200579
       }
     },
     "wa-03": {
       "reporting": 99,
       "called": "Marie Gluesenkamp Perez",
       "votes": {
-        "Marie Gluesenkamp Perez": 186903,
-        "John Braun": 158478,
-        "Other": 3216
+        "Marie Gluesenkamp Perez": 187232,
+        "John Braun": 158922,
+        "Other": 3227
       }
     },
     "ak-sen": {
@@ -331,26 +331,30 @@
       }
     },
     "nv-abortion": {
-      "reporting": 90.3,
+      "reporting": 90.6,
       "called": "Passed",
       "votes": {
-        "Yes": 671236,
-        "No": 385952
+        "Yes": 671509,
+        "No": 386040
       }
     },
     "nv-q7": {
-      "reporting": 90.3,
+      "reporting": 90.6,
       "called": "Passed",
       "votes": {
-        "Yes": 662000,
-        "No": 402552
+        "Yes": 662160,
+        "No": 402752
       }
     }
   },
   "last_run": {
-    "at": "2026-11-07T17:42:52+00:00",
+    "at": "2026-11-08T05:51:25+00:00",
     "fetched_ok": true,
-    "errors": [],
-    "error_count": 0
+    "errors": [
+      "race/140000: HTTP Error 404: Not Found",
+      "race/140001: HTTP Error 404: Not Found",
+      "race/140002: HTTP Error 404: Not Found"
+    ],
+    "error_count": 3
   }
 }
