@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-09T06:04:51+00:00",
+  "updated": "2026-11-09T22:15:07+00:00",
   "results": {
     "tx-sen": {
       "reporting": 98.97,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5447039,
-        "Ken Paxton": 4250573,
-        "Other": 199987
+        "James Talarico": 5447050,
+        "Ken Paxton": 4250613,
+        "Other": 199989
       }
     },
     "oh-sen": {
@@ -46,7 +46,7 @@
       "votes": {
         "Abdul El-Sayed": 2506953,
         "Mike Rogers": 2172463,
-        "Other": 99254
+        "Other": 99256
       }
     },
     "nh-sen": {
@@ -62,17 +62,17 @@
       "reporting": 94.99,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2467972,
-        "Michael Whatley": 1643114,
-        "Other": 92132
+        "Roy Cooper": 2467962,
+        "Michael Whatley": 1643094,
+        "Other": 92112
       }
     },
     "ga-sen": {
-      "reporting": 89.52,
+      "reporting": 89.59,
       "called": "Jon Ossoff",
       "votes": {
-        "Jon Ossoff": 2466695,
-        "Mike Collins": 1712587
+        "Jon Ossoff": 2468835,
+        "Mike Collins": 1713602
       }
     },
     "fl-14": {
@@ -115,9 +115,9 @@
       "reporting": 99,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 179126,
-        "Jen Kiggans": 150456,
-        "Other": 8197
+        "Elaine Luria": 180533,
+        "Jen Kiggans": 151200,
+        "Other": 8291
       }
     },
     "mo-05": {
@@ -133,8 +133,8 @@
       "reporting": 99,
       "called": "Chris Stigall",
       "votes": {
-        "Chris Stigall": 151367,
-        "Josh Smead": 100456,
+        "Chris Stigall": 151374,
+        "Josh Smead": 100459,
         "Andy Maidment": 6031
       }
     },
@@ -142,36 +142,36 @@
       "reporting": 89.6,
       "called": "Failed",
       "votes": {
-        "No": 902935,
-        "Yes": 827751
+        "No": 903540,
+        "Yes": 828562
       }
     },
     "mo-a7": {
       "reporting": 89.6,
       "called": "Failed",
       "votes": {
-        "No": 1004992,
-        "Yes": 684689
+        "No": 1005710,
+        "Yes": 685352
       }
     },
     "va-marriage": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2054919,
-        "No": 1511518
+        "Yes": 2059181,
+        "No": 1513229
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2017293,
-        "No": 1542214
+        "Yes": 2021328,
+        "No": 1544115
       }
     },
     "mi-p1": {
-      "reporting": 89.2,
+      "reporting": 89.3,
       "called": "Failed",
       "votes": {
         "No": 3130554,
@@ -200,16 +200,16 @@
       "reporting": 89.6,
       "called": null,
       "votes": {
-        "Yes": 898743,
-        "No": 792325
+        "Yes": 899575,
+        "No": 792875
       }
     },
     "mo-propa": {
       "reporting": 89.6,
       "called": "Failed",
       "votes": {
-        "No": 1003178,
-        "Yes": 681591
+        "No": 1003900,
+        "Yes": 682239
       }
     },
     "ia-sen": {
@@ -225,33 +225,33 @@
       "reporting": 90.85,
       "called": "Cait Conley",
       "votes": {
-        "Cait Conley": 164256,
-        "Mike Lawler": 145546,
+        "Cait Conley": 164270,
+        "Mike Lawler": 145552,
         "Other": 328
       }
     },
     "pa-10": {
-      "reporting": 88.31,
+      "reporting": 88.39,
       "called": "Janelle Stelson",
       "votes": {
-        "Janelle Stelson": 173671,
-        "Scott Perry": 141731
+        "Janelle Stelson": 173906,
+        "Scott Perry": 141802
       }
     },
     "mo-a6": {
       "reporting": 89.6,
       "called": "Passed",
       "votes": {
-        "Yes": 985098,
-        "No": 720298
+        "Yes": 985842,
+        "No": 720940
       }
     },
     "va-q1": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2212366,
-        "No": 1321759
+        "Yes": 2216899,
+        "No": 1323207
       }
     },
     "oh-i3": {
@@ -275,17 +275,17 @@
       "reporting": 99,
       "called": "Peggy Flanagan",
       "votes": {
-        "Peggy Flanagan": 1520571,
-        "Michele Tafoya": 1233465,
-        "Other": 77382
+        "Peggy Flanagan": 1520908,
+        "Michele Tafoya": 1233468,
+        "Other": 77383
       }
     },
     "md-redistricting": {
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1207692,
-        "No": 773586
+        "Yes": 1208121,
+        "No": 773771
       }
     },
     "ca-22": {
@@ -334,25 +334,25 @@
       "reporting": 90.6,
       "called": "Passed",
       "votes": {
-        "Yes": 671509,
-        "No": 386040
+        "Yes": 671547,
+        "No": 386067
       }
     },
     "nv-q7": {
       "reporting": 90.6,
       "called": "Passed",
       "votes": {
-        "Yes": 662160,
-        "No": 402752
+        "Yes": 662199,
+        "No": 402778
       }
     }
   },
   "last_run": {
-    "at": "2026-11-09T06:04:51+00:00",
+    "at": "2026-11-09T22:15:07+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/140000: HTTP Error 404: Not Found",
       "race/140001: HTTP Error 404: Not Found",
+      "race/140000: HTTP Error 404: Not Found",
       "race/140002: HTTP Error 404: Not Found"
     ],
     "error_count": 3
