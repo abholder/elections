@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-08T17:53:18+00:00",
+  "updated": "2026-11-09T06:04:51+00:00",
   "results": {
     "tx-sen": {
       "reporting": 98.97,
@@ -158,16 +158,16 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2054800,
-        "No": 1511455
+        "Yes": 2054919,
+        "No": 1511518
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2017173,
-        "No": 1542152
+        "Yes": 2017293,
+        "No": 1542214
       }
     },
     "mi-p1": {
@@ -250,8 +250,8 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2212228,
-        "No": 1321714
+        "Yes": 2212366,
+        "No": 1321759
       }
     },
     "oh-i3": {
@@ -284,8 +284,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1202179,
-        "No": 770992
+        "Yes": 1207692,
+        "No": 773586
       }
     },
     "ca-22": {
@@ -300,8 +300,8 @@
       "reporting": 79.2,
       "called": null,
       "votes": {
-        "No": 609425,
-        "Yes": 384409
+        "No": 610430,
+        "Yes": 385155
       }
     },
     "co-a86": {
@@ -348,12 +348,12 @@
     }
   },
   "last_run": {
-    "at": "2026-11-08T17:53:18+00:00",
+    "at": "2026-11-09T06:04:51+00:00",
     "fetched_ok": true,
     "errors": [
       "race/140000: HTTP Error 404: Not Found",
-      "race/140002: HTTP Error 404: Not Found",
-      "race/140001: HTTP Error 404: Not Found"
+      "race/140001: HTTP Error 404: Not Found",
+      "race/140002: HTTP Error 404: Not Found"
     ],
     "error_count": 3
   }
