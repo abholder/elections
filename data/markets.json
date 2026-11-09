@@ -1,6 +1,6 @@
 {
  "source": "Kalshi (kalshi.com)",
- "updated": "2026-11-09T02:32:00+00:00",
+ "updated": "2026-11-09T21:25:53+00:00",
  "control": {
   "Senate": {
    "R": 0,
@@ -13,20 +13,20 @@
  },
  "races": {
   "tx-sen": {
-   "Ken Paxton": 0,
-   "James Talarico": 100
+   "James Talarico": 100,
+   "Ken Paxton": 0
   },
   "me-sen": {
-   "Susan Collins": 0,
-   "Troy Jackson": 100
+   "Troy Jackson": 100,
+   "Susan Collins": 0
   },
   "oh-sen": {
    "Sherrod Brown": 100,
    "Jon Husted": 0
   },
   "sc-sen": {
-   "Darline Graham": 0,
-   "Annie Andrews": 100
+   "Annie Andrews": 100,
+   "Darline Graham": 0
   },
   "ia-sen": {
    "Josh Turek": 100,
@@ -45,24 +45,24 @@
    "Mike Rogers": 0
   },
   "ne-sen": {
-   "Pete Ricketts": 100,
-   "Dan Osborn": 0
+   "Dan Osborn": 0,
+   "Pete Ricketts": 100
   },
   "nh-sen": {
-   "John E. Sununu": 0,
-   "Chris Pappas": 100
+   "Chris Pappas": 100,
+   "John E. Sununu": 0
   },
   "nc-sen": {
    "Roy Cooper": 100,
    "Michael Whatley": 0
   },
   "ga-sen": {
-   "Mike Collins": 0,
-   "Jon Ossoff": 100
+   "Jon Ossoff": 100,
+   "Mike Collins": 0
   },
   "mn-sen": {
-   "Michele Tafoya": 0,
-   "Peggy Flanagan": 100
+   "Peggy Flanagan": 100,
+   "Michele Tafoya": 0
   },
   "fl-14": {
    "Mike Beltran": 2,
