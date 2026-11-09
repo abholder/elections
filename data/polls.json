@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-08T17:01:46+00:00",
+ "updated": "2026-11-09T02:32:00+00:00",
  "races": {
   "ak-sen": {
    "count": 3,
@@ -285,13 +285,13 @@
    ]
   },
   "ks-sen": {
-   "count": 7,
-   "from": "2026-09-24",
+   "count": 6,
+   "from": "2026-10-14",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Adam Hamilton": 49.5,
-    "Roger Marshall": 45.4
+    "Adam Hamilton": 49.4,
+    "Roger Marshall": 45.0
    },
    "polls": [
     {
