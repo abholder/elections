@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-10T07:06:05+00:00",
+  "updated": "2026-11-10T19:38:49+00:00",
   "results": {
     "tx-sen": {
       "reporting": 98.99,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5447795,
-        "Ken Paxton": 4250913,
-        "Other": 200006
+        "James Talarico": 5447831,
+        "Ken Paxton": 4250928,
+        "Other": 200007
       }
     },
     "oh-sen": {
@@ -44,8 +44,8 @@
       "reporting": 96.43,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2506954,
-        "Mike Rogers": 2172463,
+        "Abdul El-Sayed": 2506961,
+        "Mike Rogers": 2172464,
         "Other": 99256
       }
     },
@@ -59,12 +59,12 @@
       }
     },
     "nc-sen": {
-      "reporting": 94.99,
+      "reporting": 95,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2467962,
-        "Michael Whatley": 1643094,
-        "Other": 92112
+        "Roy Cooper": 2468323,
+        "Michael Whatley": 1643407,
+        "Other": 92148
       }
     },
     "ga-sen": {
@@ -115,9 +115,9 @@
       "reporting": 99,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 180533,
-        "Jen Kiggans": 151200,
-        "Other": 8291
+        "Elaine Luria": 180557,
+        "Jen Kiggans": 151202,
+        "Other": 8293
       }
     },
     "mo-05": {
@@ -158,24 +158,24 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2059790,
-        "No": 1513506
+        "Yes": 2060717,
+        "No": 1514031
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2021902,
-        "No": 1544431
+        "Yes": 2022830,
+        "No": 1544943
       }
     },
     "mi-p1": {
-      "reporting": 89.3,
+      "reporting": 88.1,
       "called": "Failed",
       "votes": {
-        "No": 3130555,
-        "Yes": 1113358
+        "No": 3130559,
+        "Yes": 1113362
       }
     },
     "me-sen": {
@@ -250,8 +250,8 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2217506,
-        "No": 1323424
+        "Yes": 2218505,
+        "No": 1323869
       }
     },
     "oh-i3": {
@@ -276,7 +276,7 @@
       "called": "Peggy Flanagan",
       "votes": {
         "Peggy Flanagan": 1520908,
-        "Michele Tafoya": 1233468,
+        "Michele Tafoya": 1233467,
         "Other": 77383
       }
     },
@@ -284,8 +284,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1225637,
-        "No": 779126
+        "Yes": 1228499,
+        "No": 780476
       }
     },
     "ca-22": {
@@ -300,8 +300,8 @@
       "reporting": 72.3,
       "called": null,
       "votes": {
-        "No": 611070,
-        "Yes": 385466
+        "No": 611098,
+        "Yes": 385477
       }
     },
     "co-a86": {
@@ -309,7 +309,7 @@
       "called": null,
       "votes": {
         "No": 1364358,
-        "Yes": 1203620
+        "Yes": 1203621
       }
     },
     "wa-03": {
@@ -331,29 +331,29 @@
       }
     },
     "nv-abortion": {
-      "reporting": 90.6,
+      "reporting": 90.7,
       "called": "Passed",
       "votes": {
-        "Yes": 671565,
-        "No": 386076
+        "Yes": 671842,
+        "No": 386261
       }
     },
     "nv-q7": {
-      "reporting": 90.6,
+      "reporting": 90.7,
       "called": "Passed",
       "votes": {
-        "Yes": 662216,
-        "No": 402788
+        "Yes": 662551,
+        "No": 402920
       }
     }
   },
   "last_run": {
-    "at": "2026-11-10T07:06:05+00:00",
+    "at": "2026-11-10T19:38:49+00:00",
     "fetched_ok": true,
     "errors": [
       "race/140000: HTTP Error 404: Not Found",
-      "race/140001: HTTP Error 404: Not Found",
-      "race/140002: HTTP Error 404: Not Found"
+      "race/140002: HTTP Error 404: Not Found",
+      "race/140001: HTTP Error 404: Not Found"
     ],
     "error_count": 3
   }
