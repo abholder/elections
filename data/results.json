@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-09T22:15:07+00:00",
+  "updated": "2026-11-10T07:06:05+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 98.97,
+      "reporting": 98.99,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5447050,
-        "Ken Paxton": 4250613,
-        "Other": 199989
+        "James Talarico": 5447795,
+        "Ken Paxton": 4250913,
+        "Other": 200006
       }
     },
     "oh-sen": {
@@ -44,7 +44,7 @@
       "reporting": 96.43,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2506953,
+        "Abdul El-Sayed": 2506954,
         "Mike Rogers": 2172463,
         "Other": 99256
       }
@@ -71,8 +71,8 @@
       "reporting": 89.59,
       "called": "Jon Ossoff",
       "votes": {
-        "Jon Ossoff": 2468835,
-        "Mike Collins": 1713602
+        "Jon Ossoff": 2468985,
+        "Mike Collins": 1713656
       }
     },
     "fl-14": {
@@ -134,7 +134,7 @@
       "called": "Chris Stigall",
       "votes": {
         "Chris Stigall": 151374,
-        "Josh Smead": 100459,
+        "Josh Smead": 100460,
         "Andy Maidment": 6031
       }
     },
@@ -150,7 +150,7 @@
       "reporting": 89.6,
       "called": "Failed",
       "votes": {
-        "No": 1005710,
+        "No": 1005711,
         "Yes": 685352
       }
     },
@@ -158,23 +158,23 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2059181,
-        "No": 1513229
+        "Yes": 2059790,
+        "No": 1513506
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2021328,
-        "No": 1544115
+        "Yes": 2021902,
+        "No": 1544431
       }
     },
     "mi-p1": {
       "reporting": 89.3,
       "called": "Failed",
       "votes": {
-        "No": 3130554,
+        "No": 3130555,
         "Yes": 1113358
       }
     },
@@ -201,14 +201,14 @@
       "called": null,
       "votes": {
         "Yes": 899575,
-        "No": 792875
+        "No": 792876
       }
     },
     "mo-propa": {
       "reporting": 89.6,
       "called": "Failed",
       "votes": {
-        "No": 1003900,
+        "No": 1003901,
         "Yes": 682239
       }
     },
@@ -222,12 +222,12 @@
       }
     },
     "ny-17": {
-      "reporting": 90.85,
+      "reporting": 91.28,
       "called": "Cait Conley",
       "votes": {
-        "Cait Conley": 164270,
-        "Mike Lawler": 145552,
-        "Other": 328
+        "Cait Conley": 165399,
+        "Mike Lawler": 145890,
+        "Other": 333
       }
     },
     "pa-10": {
@@ -242,7 +242,7 @@
       "reporting": 89.6,
       "called": "Passed",
       "votes": {
-        "Yes": 985842,
+        "Yes": 985843,
         "No": 720940
       }
     },
@@ -250,8 +250,8 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2216899,
-        "No": 1323207
+        "Yes": 2217506,
+        "No": 1323424
       }
     },
     "oh-i3": {
@@ -263,12 +263,12 @@
       }
     },
     "az-01": {
-      "reporting": 79.57,
+      "reporting": 79.66,
       "called": "Amish Shah",
       "votes": {
-        "Amish Shah": 184534,
-        "Jay Feely": 160244,
-        "Other": 7918
+        "Amish Shah": 184770,
+        "Jay Feely": 160408,
+        "Other": 7930
       }
     },
     "mn-sen": {
@@ -284,75 +284,75 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1208121,
-        "No": 773771
+        "Yes": 1225637,
+        "No": 779126
       }
     },
     "ca-22": {
-      "reporting": 62.34,
+      "reporting": 79.79,
       "called": "Randy Villegas",
       "votes": {
-        "Randy Villegas": 62193,
-        "David Valadao": 31179
+        "Randy Villegas": 81446,
+        "David Valadao": 38069
       }
     },
     "ut-b": {
-      "reporting": 79.2,
+      "reporting": 72.3,
       "called": null,
       "votes": {
-        "No": 610430,
-        "Yes": 385155
+        "No": 611070,
+        "Yes": 385466
       }
     },
     "co-a86": {
       "reporting": 85.4,
       "called": null,
       "votes": {
-        "No": 1361552,
-        "Yes": 1200579
+        "No": 1364358,
+        "Yes": 1203620
       }
     },
     "wa-03": {
       "reporting": 99,
       "called": "Marie Gluesenkamp Perez",
       "votes": {
-        "Marie Gluesenkamp Perez": 187232,
-        "John Braun": 158922,
-        "Other": 3227
+        "Marie Gluesenkamp Perez": 188073,
+        "John Braun": 159505,
+        "Other": 3249
       }
     },
     "ak-sen": {
-      "reporting": 73.87,
+      "reporting": 75.39,
       "called": null,
       "votes": {
-        "Mary Peltola": 103171,
-        "Dan Sullivan": 102617,
-        "Other": 8458
+        "Mary Peltola": 106321,
+        "Dan Sullivan": 103804,
+        "Other": 8516
       }
     },
     "nv-abortion": {
       "reporting": 90.6,
       "called": "Passed",
       "votes": {
-        "Yes": 671547,
-        "No": 386067
+        "Yes": 671565,
+        "No": 386076
       }
     },
     "nv-q7": {
       "reporting": 90.6,
       "called": "Passed",
       "votes": {
-        "Yes": 662199,
-        "No": 402778
+        "Yes": 662216,
+        "No": 402788
       }
     }
   },
   "last_run": {
-    "at": "2026-11-09T22:15:07+00:00",
+    "at": "2026-11-10T07:06:05+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/140001: HTTP Error 404: Not Found",
       "race/140000: HTTP Error 404: Not Found",
+      "race/140001: HTTP Error 404: Not Found",
       "race/140002: HTTP Error 404: Not Found"
     ],
     "error_count": 3
