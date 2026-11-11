@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-11T05:57:57+00:00",
+  "updated": "2026-11-11T19:30:41+00:00",
   "results": {
     "tx-sen": {
       "reporting": 99,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5449167,
-        "Ken Paxton": 4251595,
-        "Other": 200076
+        "James Talarico": 5449424,
+        "Ken Paxton": 4251750,
+        "Other": 200085
       }
     },
     "oh-sen": {
@@ -59,12 +59,12 @@
       }
     },
     "nc-sen": {
-      "reporting": 95.4,
+      "reporting": 95.43,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2480272,
-        "Michael Whatley": 1648464,
-        "Other": 92765
+        "Roy Cooper": 2481017,
+        "Michael Whatley": 1648945,
+        "Other": 92807
       }
     },
     "ga-sen": {
@@ -158,16 +158,16 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2069581,
-        "No": 1517776
+        "Yes": 2069966,
+        "No": 1519525
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2031513,
-        "No": 1548769
+        "Yes": 2031925,
+        "No": 1550479
       }
     },
     "mi-p1": {
@@ -222,11 +222,11 @@
       }
     },
     "ny-17": {
-      "reporting": 92.37,
+      "reporting": 92.39,
       "called": "Cait Conley",
       "votes": {
-        "Cait Conley": 166935,
-        "Mike Lawler": 148040,
+        "Cait Conley": 167001,
+        "Mike Lawler": 148067,
         "Other": 341
       }
     },
@@ -250,8 +250,8 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2227989,
-        "No": 1326982
+        "Yes": 2228372,
+        "No": 1328735
       }
     },
     "oh-i3": {
@@ -334,21 +334,21 @@
       "reporting": 90.7,
       "called": "Passed",
       "votes": {
-        "Yes": 671870,
-        "No": 386284
+        "Yes": 672089,
+        "No": 386428
       }
     },
     "nv-q7": {
       "reporting": 90.7,
       "called": "Passed",
       "votes": {
-        "Yes": 662591,
-        "No": 402933
+        "Yes": 662861,
+        "No": 403033
       }
     }
   },
   "last_run": {
-    "at": "2026-11-11T05:57:57+00:00",
+    "at": "2026-11-11T19:30:41+00:00",
     "fetched_ok": true,
     "errors": [
       "race/140000: HTTP Error 404: Not Found",
