@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-10T19:38:49+00:00",
+  "updated": "2026-11-11T05:57:57+00:00",
   "results": {
     "tx-sen": {
-      "reporting": 98.99,
+      "reporting": 99,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5447831,
-        "Ken Paxton": 4250928,
-        "Other": 200007
+        "James Talarico": 5449167,
+        "Ken Paxton": 4251595,
+        "Other": 200076
       }
     },
     "oh-sen": {
@@ -24,11 +24,11 @@
       "reporting": 99,
       "called": "Annie Andrews",
       "votes": {
-        "Annie Andrews": 1043744,
-        "Darline Graham": 952013,
-        "Kasie Whitener": 23597,
-        "Mark Hackett": 16820,
-        "Other": 4899
+        "Annie Andrews": 1044033,
+        "Darline Graham": 952308,
+        "Kasie Whitener": 23599,
+        "Mark Hackett": 16825,
+        "Other": 4900
       }
     },
     "ks-sen": {
@@ -44,9 +44,9 @@
       "reporting": 96.43,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2506961,
-        "Mike Rogers": 2172464,
-        "Other": 99256
+        "Abdul El-Sayed": 2506990,
+        "Mike Rogers": 2172474,
+        "Other": 99257
       }
     },
     "nh-sen": {
@@ -59,20 +59,20 @@
       }
     },
     "nc-sen": {
-      "reporting": 95,
+      "reporting": 95.4,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2468323,
-        "Michael Whatley": 1643407,
-        "Other": 92148
+        "Roy Cooper": 2480272,
+        "Michael Whatley": 1648464,
+        "Other": 92765
       }
     },
     "ga-sen": {
       "reporting": 89.59,
       "called": "Jon Ossoff",
       "votes": {
-        "Jon Ossoff": 2468985,
-        "Mike Collins": 1713656
+        "Jon Ossoff": 2468990,
+        "Mike Collins": 1713658
       }
     },
     "fl-14": {
@@ -115,9 +115,9 @@
       "reporting": 99,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 180557,
-        "Jen Kiggans": 151202,
-        "Other": 8293
+        "Elaine Luria": 180974,
+        "Jen Kiggans": 151326,
+        "Other": 8335
       }
     },
     "mo-05": {
@@ -158,24 +158,24 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2060717,
-        "No": 1514031
+        "Yes": 2069581,
+        "No": 1517776
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2022830,
-        "No": 1544943
+        "Yes": 2031513,
+        "No": 1548769
       }
     },
     "mi-p1": {
-      "reporting": 88.1,
+      "reporting": 86.9,
       "called": "Failed",
       "votes": {
-        "No": 3130559,
-        "Yes": 1113362
+        "No": 3130581,
+        "Yes": 1113370
       }
     },
     "me-sen": {
@@ -222,20 +222,20 @@
       }
     },
     "ny-17": {
-      "reporting": 91.28,
+      "reporting": 92.37,
       "called": "Cait Conley",
       "votes": {
-        "Cait Conley": 165399,
-        "Mike Lawler": 145890,
-        "Other": 333
+        "Cait Conley": 166935,
+        "Mike Lawler": 148040,
+        "Other": 341
       }
     },
     "pa-10": {
-      "reporting": 88.39,
+      "reporting": 88.64,
       "called": "Janelle Stelson",
       "votes": {
-        "Janelle Stelson": 173906,
-        "Scott Perry": 141802
+        "Janelle Stelson": 174576,
+        "Scott Perry": 141994
       }
     },
     "mo-a6": {
@@ -250,8 +250,8 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2218505,
-        "No": 1323869
+        "Yes": 2227989,
+        "No": 1326982
       }
     },
     "oh-i3": {
@@ -263,12 +263,12 @@
       }
     },
     "az-01": {
-      "reporting": 79.66,
+      "reporting": 80.05,
       "called": "Amish Shah",
       "votes": {
-        "Amish Shah": 184770,
-        "Jay Feely": 160408,
-        "Other": 7930
+        "Amish Shah": 185799,
+        "Jay Feely": 161092,
+        "Other": 7972
       }
     },
     "mn-sen": {
@@ -276,7 +276,7 @@
       "called": "Peggy Flanagan",
       "votes": {
         "Peggy Flanagan": 1520908,
-        "Michele Tafoya": 1233467,
+        "Michele Tafoya": 1233466,
         "Other": 77383
       }
     },
@@ -284,76 +284,76 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1228499,
-        "No": 780476
+        "Yes": 1245740,
+        "No": 785923
       }
     },
     "ca-22": {
-      "reporting": 79.79,
+      "reporting": 89.76,
       "called": "Randy Villegas",
       "votes": {
-        "Randy Villegas": 81446,
-        "David Valadao": 38069
+        "Randy Villegas": 91305,
+        "David Valadao": 43153
       }
     },
     "ut-b": {
-      "reporting": 72.3,
+      "reporting": 58.6,
       "called": null,
       "votes": {
-        "No": 611098,
-        "Yes": 385477
+        "No": 614180,
+        "Yes": 387243
       }
     },
     "co-a86": {
       "reporting": 85.4,
       "called": null,
       "votes": {
-        "No": 1364358,
-        "Yes": 1203621
+        "No": 1364807,
+        "Yes": 1204196
       }
     },
     "wa-03": {
       "reporting": 99,
       "called": "Marie Gluesenkamp Perez",
       "votes": {
-        "Marie Gluesenkamp Perez": 188073,
-        "John Braun": 159505,
-        "Other": 3249
+        "Marie Gluesenkamp Perez": 189105,
+        "John Braun": 160174,
+        "Other": 3284
       }
     },
     "ak-sen": {
-      "reporting": 75.39,
+      "reporting": 83.77,
       "called": null,
       "votes": {
-        "Mary Peltola": 106321,
-        "Dan Sullivan": 103804,
-        "Other": 8516
+        "Mary Peltola": 118926,
+        "Dan Sullivan": 114676,
+        "Other": 9345
       }
     },
     "nv-abortion": {
       "reporting": 90.7,
       "called": "Passed",
       "votes": {
-        "Yes": 671842,
-        "No": 386261
+        "Yes": 671870,
+        "No": 386284
       }
     },
     "nv-q7": {
       "reporting": 90.7,
       "called": "Passed",
       "votes": {
-        "Yes": 662551,
-        "No": 402920
+        "Yes": 662591,
+        "No": 402933
       }
     }
   },
   "last_run": {
-    "at": "2026-11-10T19:38:49+00:00",
+    "at": "2026-11-11T05:57:57+00:00",
     "fetched_ok": true,
     "errors": [
       "race/140000: HTTP Error 404: Not Found",
-      "race/140002: HTTP Error 404: Not Found",
-      "race/140001: HTTP Error 404: Not Found"
+      "race/140001: HTTP Error 404: Not Found",
+      "race/140002: HTTP Error 404: Not Found"
     ],
     "error_count": 3
   }
