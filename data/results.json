@@ -1,6 +1,6 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-11T19:30:41+00:00",
+  "updated": "2026-11-12T07:00:07+00:00",
   "results": {
     "tx-sen": {
       "reporting": 99,
@@ -115,8 +115,8 @@
       "reporting": 99,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 180974,
-        "Jen Kiggans": 151326,
+        "Elaine Luria": 180981,
+        "Jen Kiggans": 151336,
         "Other": 8335
       }
     },
@@ -158,16 +158,16 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2069966,
-        "No": 1519525
+        "Yes": 2070046,
+        "No": 1519614
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2031925,
-        "No": 1550479
+        "Yes": 2032018,
+        "No": 1550551
       }
     },
     "mi-p1": {
@@ -250,8 +250,8 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2228372,
-        "No": 1328735
+        "Yes": 2228470,
+        "No": 1328804
       }
     },
     "oh-i3": {
@@ -263,11 +263,11 @@
       }
     },
     "az-01": {
-      "reporting": 80.05,
+      "reporting": 80.06,
       "called": "Amish Shah",
       "votes": {
-        "Amish Shah": 185799,
-        "Jay Feely": 161092,
+        "Amish Shah": 185813,
+        "Jay Feely": 161118,
         "Other": 7972
       }
     },
@@ -289,19 +289,19 @@
       }
     },
     "ca-22": {
-      "reporting": 89.76,
+      "reporting": 91.54,
       "called": "Randy Villegas",
       "votes": {
-        "Randy Villegas": 91305,
-        "David Valadao": 43153
+        "Randy Villegas": 93110,
+        "David Valadao": 44013
       }
     },
     "ut-b": {
       "reporting": 58.6,
       "called": null,
       "votes": {
-        "No": 614180,
-        "Yes": 387243
+        "No": 614603,
+        "Yes": 387681
       }
     },
     "co-a86": {
@@ -322,12 +322,12 @@
       }
     },
     "ak-sen": {
-      "reporting": 83.77,
+      "reporting": 85.69,
       "called": null,
       "votes": {
-        "Mary Peltola": 118926,
-        "Dan Sullivan": 114676,
-        "Other": 9345
+        "Mary Peltola": 121487,
+        "Dan Sullivan": 117512,
+        "Other": 9526
       }
     },
     "nv-abortion": {
@@ -348,7 +348,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-11T19:30:41+00:00",
+    "at": "2026-11-12T07:00:07+00:00",
     "fetched_ok": true,
     "errors": [
       "race/140000: HTTP Error 404: Not Found",
