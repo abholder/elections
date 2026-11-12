@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-11T18:39:41+00:00",
+ "updated": "2026-11-12T03:42:43+00:00",
  "races": {
   "ak-sen": {
    "count": 3,
@@ -441,13 +441,13 @@
    ]
   },
   "mi-sen": {
-   "count": 11,
-   "from": "2026-09-27",
+   "count": 10,
+   "from": "2026-09-28",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Abdul El-Sayed": 49.9,
-    "Mike Rogers": 45.0
+    "Abdul El-Sayed": 50.1,
+    "Mike Rogers": 45.2
    },
    "polls": [
     {
@@ -778,13 +778,13 @@
    ]
   },
   "oh-sen": {
-   "count": 11,
-   "from": "2026-09-27",
+   "count": 10,
+   "from": "2026-10-05",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Sherrod Brown": 48.3,
-    "Jon Husted": 44.1
+    "Sherrod Brown": 48.5,
+    "Jon Husted": 44.3
    },
    "polls": [
     {
@@ -1047,7 +1047,7 @@
    "count": 1,
    "from": "2026-09-27",
    "to": "2026-09-27",
-   "stale": false,
+   "stale": true,
    "avg": {
     "Marie Gluesenkamp Perez": 47.0,
     "John Braun": 48.0
