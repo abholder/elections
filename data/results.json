@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-12T07:00:07+00:00",
+  "updated": "2026-11-12T19:50:17+00:00",
   "results": {
     "tx-sen": {
       "reporting": 99,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5449424,
-        "Ken Paxton": 4251750,
-        "Other": 200085
+        "James Talarico": 5452466,
+        "Ken Paxton": 4253003,
+        "Other": 200169
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 96.43,
+      "reporting": 96.45,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2506990,
-        "Mike Rogers": 2172474,
-        "Other": 99257
+        "Abdul El-Sayed": 2507457,
+        "Mike Rogers": 2173033,
+        "Other": 99277
       }
     },
     "nh-sen": {
@@ -62,9 +62,9 @@
       "reporting": 95.43,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2481017,
-        "Michael Whatley": 1648945,
-        "Other": 92807
+        "Roy Cooper": 2481018,
+        "Michael Whatley": 1648946,
+        "Other": 92806
       }
     },
     "ga-sen": {
@@ -115,9 +115,9 @@
       "reporting": 99,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 180981,
-        "Jen Kiggans": 151336,
-        "Other": 8335
+        "Elaine Luria": 182524,
+        "Jen Kiggans": 151966,
+        "Other": 8441
       }
     },
     "mo-05": {
@@ -158,24 +158,24 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2070046,
-        "No": 1519614
+        "Yes": 2079199,
+        "No": 1522221
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2032018,
-        "No": 1550551
+        "Yes": 2040848,
+        "No": 1553408
       }
     },
     "mi-p1": {
-      "reporting": 86.9,
+      "reporting": 85.7,
       "called": "Failed",
       "votes": {
-        "No": 3130581,
-        "Yes": 1113370
+        "No": 3131315,
+        "Yes": 1113610
       }
     },
     "me-sen": {
@@ -222,11 +222,11 @@
       }
     },
     "ny-17": {
-      "reporting": 92.39,
+      "reporting": 92.45,
       "called": "Cait Conley",
       "votes": {
-        "Cait Conley": 167001,
-        "Mike Lawler": 148067,
+        "Cait Conley": 167112,
+        "Mike Lawler": 148149,
         "Other": 341
       }
     },
@@ -250,8 +250,8 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2228470,
-        "No": 1328804
+        "Yes": 2238069,
+        "No": 1330963
       }
     },
     "oh-i3": {
@@ -276,7 +276,7 @@
       "called": "Peggy Flanagan",
       "votes": {
         "Peggy Flanagan": 1520908,
-        "Michele Tafoya": 1233466,
+        "Michele Tafoya": 1233467,
         "Other": 77383
       }
     },
@@ -284,8 +284,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1245740,
-        "No": 785923
+        "Yes": 1251604,
+        "No": 788952
       }
     },
     "ca-22": {
@@ -297,19 +297,19 @@
       }
     },
     "ut-b": {
-      "reporting": 58.6,
+      "reporting": 51.7,
       "called": null,
       "votes": {
-        "No": 614603,
-        "Yes": 387681
+        "No": 615846,
+        "Yes": 388420
       }
     },
     "co-a86": {
       "reporting": 85.4,
       "called": null,
       "votes": {
-        "No": 1364807,
-        "Yes": 1204196
+        "No": 1364811,
+        "Yes": 1204210
       }
     },
     "wa-03": {
@@ -334,26 +334,26 @@
       "reporting": 90.7,
       "called": "Passed",
       "votes": {
-        "Yes": 672089,
-        "No": 386428
+        "Yes": 672112,
+        "No": 386436
       }
     },
     "nv-q7": {
       "reporting": 90.7,
       "called": "Passed",
       "votes": {
-        "Yes": 662861,
-        "No": 403033
+        "Yes": 662883,
+        "No": 403043
       }
     }
   },
   "last_run": {
-    "at": "2026-11-12T07:00:07+00:00",
+    "at": "2026-11-12T19:50:17+00:00",
     "fetched_ok": true,
     "errors": [
       "race/140000: HTTP Error 404: Not Found",
-      "race/140001: HTTP Error 404: Not Found",
-      "race/140002: HTTP Error 404: Not Found"
+      "race/140002: HTTP Error 404: Not Found",
+      "race/140001: HTTP Error 404: Not Found"
     ],
     "error_count": 3
   }
