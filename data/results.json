@@ -1,14 +1,14 @@
 {
   "source": "civicAPI (civicapi.org); Alaska Division of Elections",
-  "updated": "2026-11-13T06:27:00+00:00",
+  "updated": "2026-11-13T19:33:54+00:00",
   "results": {
     "tx-sen": {
       "reporting": 99,
       "called": "James Talarico",
       "votes": {
-        "James Talarico": 5453742,
-        "Ken Paxton": 4253630,
-        "Other": 200202
+        "James Talarico": 5453761,
+        "Ken Paxton": 4253652,
+        "Other": 200205
       }
     },
     "oh-sen": {
@@ -41,12 +41,12 @@
       }
     },
     "mi-sen": {
-      "reporting": 96.45,
+      "reporting": 96.46,
       "called": "Abdul El-Sayed",
       "votes": {
-        "Abdul El-Sayed": 2507457,
-        "Mike Rogers": 2173033,
-        "Other": 99277
+        "Abdul El-Sayed": 2507550,
+        "Mike Rogers": 2173066,
+        "Other": 99279
       }
     },
     "nh-sen": {
@@ -59,20 +59,20 @@
       }
     },
     "nc-sen": {
-      "reporting": 95.43,
+      "reporting": 95.42,
       "called": "Roy Cooper",
       "votes": {
-        "Roy Cooper": 2481056,
-        "Michael Whatley": 1648965,
-        "Other": 92808
+        "Roy Cooper": 2480810,
+        "Michael Whatley": 1648901,
+        "Other": 92801
       }
     },
     "ga-sen": {
       "reporting": 89.59,
       "called": "Jon Ossoff",
       "votes": {
-        "Jon Ossoff": 2468990,
-        "Mike Collins": 1713658
+        "Jon Ossoff": 2469037,
+        "Mike Collins": 1713664
       }
     },
     "fl-14": {
@@ -115,9 +115,9 @@
       "reporting": 99,
       "called": "Elaine Luria",
       "votes": {
-        "Elaine Luria": 182524,
-        "Jen Kiggans": 151966,
-        "Other": 8442
+        "Elaine Luria": 182868,
+        "Jen Kiggans": 152104,
+        "Other": 8463
       }
     },
     "mo-05": {
@@ -158,24 +158,24 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2094209,
-        "No": 1526443
+        "Yes": 2096809,
+        "No": 1527321
       }
     },
     "va-voting": {
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2055661,
-        "No": 1557679
+        "Yes": 2058419,
+        "No": 1558386
       }
     },
     "mi-p1": {
-      "reporting": 85.7,
+      "reporting": 89.1,
       "called": "Failed",
       "votes": {
-        "No": 3131315,
-        "Yes": 1113610
+        "No": 3131391,
+        "Yes": 1113648
       }
     },
     "me-sen": {
@@ -250,8 +250,8 @@
       "reporting": 99.9,
       "called": "Passed",
       "votes": {
-        "Yes": 2253673,
-        "No": 1333976
+        "Yes": 2256566,
+        "No": 1334543
       }
     },
     "oh-i3": {
@@ -284,8 +284,8 @@
       "reporting": 99.9,
       "called": null,
       "votes": {
-        "Yes": 1290533,
-        "No": 806064
+        "Yes": 1291761,
+        "No": 806913
       }
     },
     "ca-22": {
@@ -297,19 +297,19 @@
       }
     },
     "ut-b": {
-      "reporting": 44.8,
+      "reporting": 37.9,
       "called": null,
       "votes": {
-        "No": 616713,
-        "Yes": 388992
+        "No": 616916,
+        "Yes": 389116
       }
     },
     "co-a86": {
-      "reporting": 85.5,
+      "reporting": 85.6,
       "called": null,
       "votes": {
-        "No": 1364827,
-        "Yes": 1204219
+        "No": 1365772,
+        "Yes": 1205343
       }
     },
     "wa-03": {
@@ -334,25 +334,25 @@
       "reporting": 90.7,
       "called": "Passed",
       "votes": {
-        "Yes": 672131,
-        "No": 386453
+        "Yes": 672463,
+        "No": 386731
       }
     },
     "nv-q7": {
       "reporting": 90.7,
       "called": "Passed",
       "votes": {
-        "Yes": 662914,
-        "No": 403048
+        "Yes": 663358,
+        "No": 403219
       }
     }
   },
   "last_run": {
-    "at": "2026-11-13T06:27:00+00:00",
+    "at": "2026-11-13T19:33:54+00:00",
     "fetched_ok": true,
     "errors": [
-      "race/140000: HTTP Error 404: Not Found",
       "race/140001: HTTP Error 404: Not Found",
+      "race/140000: HTTP Error 404: Not Found",
       "race/140002: HTTP Error 404: Not Found"
     ],
     "error_count": 3
