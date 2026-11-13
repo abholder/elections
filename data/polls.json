@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-12T18:52:02+00:00",
+ "updated": "2026-11-13T03:20:42+00:00",
  "races": {
   "ak-sen": {
    "count": 3,
@@ -207,13 +207,13 @@
    ]
   },
   "ia-sen": {
-   "count": 11,
-   "from": "2026-09-28",
+   "count": 10,
+   "from": "2026-10-05",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Josh Turek": 46.0,
-    "Ashley Hinson": 46.0
+    "Josh Turek": 45.7,
+    "Ashley Hinson": 45.9
    },
    "polls": [
     {
@@ -441,13 +441,13 @@
    ]
   },
   "mi-sen": {
-   "count": 10,
-   "from": "2026-09-28",
+   "count": 9,
+   "from": "2026-10-18",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
     "Abdul El-Sayed": 50.1,
-    "Mike Rogers": 45.2
+    "Mike Rogers": 44.7
    },
    "polls": [
     {
@@ -966,13 +966,13 @@
    ]
   },
   "tx-sen": {
-   "count": 17,
-   "from": "2026-09-28",
+   "count": 15,
+   "from": "2026-10-08",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "James Talarico": 48.8,
-    "Ken Paxton": 45.8
+    "James Talarico": 49.2,
+    "Ken Paxton": 46.0
    },
    "polls": [
     {
