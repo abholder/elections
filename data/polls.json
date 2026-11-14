@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-13T18:30:15+00:00",
+ "updated": "2026-11-14T02:59:13+00:00",
  "races": {
   "ak-sen": {
    "count": 3,
@@ -575,13 +575,13 @@
    ]
   },
   "nc-sen": {
-   "count": 9,
-   "from": "2026-09-29",
+   "count": 8,
+   "from": "2026-10-08",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Roy Cooper": 53.2,
-    "Michael Whatley": 41.0
+    "Roy Cooper": 53.5,
+    "Michael Whatley": 41.3
    },
    "polls": [
     {
@@ -735,7 +735,7 @@
    "count": 1,
    "from": "2026-09-29",
    "to": "2026-09-29",
-   "stale": false,
+   "stale": true,
    "avg": {
     "Cait Conley": 48.0,
     "Mike Lawler": 46.0
@@ -879,15 +879,15 @@
    ]
   },
   "sc-sen": {
-   "count": 4,
-   "from": "2026-09-29",
+   "count": 3,
+   "from": "2026-10-24",
    "to": "2026-10-30",
    "stale": false,
    "avg": {
-    "Annie Andrews": 46.0,
-    "Darline Graham": 47.1,
-    "Mark Hackett": 1.7,
-    "Kasie Whitener": 1.7
+    "Annie Andrews": 46.4,
+    "Darline Graham": 47.5,
+    "Mark Hackett": 1.0,
+    "Kasie Whitener": 1.5
    },
    "polls": [
     {
@@ -925,19 +925,6 @@
       "Annie Andrews": 47.0,
       "Kasie Whitener": 1.0,
       "Mark Hackett": 1.0
-     }
-    },
-    {
-     "pollster": "InsiderAdvantage",
-     "end": "2026-09-29",
-     "pop": "lv",
-     "n": 1200,
-     "url": "https://insideradvantage.com/insideradvantage-south-carolina-senate-graham-leads-by-one-point/",
-     "values": {
-      "Darline Graham": 46.0,
-      "Annie Andrews": 45.0,
-      "Kasie Whitener": 2.0,
-      "Mark Hackett": 3.0
      }
     }
    ]
