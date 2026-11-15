@@ -1,16 +1,16 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-14T17:01:15+00:00",
+ "updated": "2026-11-15T02:30:27+00:00",
  "races": {
   "ak-sen": {
-   "count": 3,
-   "from": "2026-09-30",
+   "count": 2,
+   "from": "2026-10-16",
    "to": "2026-10-30",
    "stale": false,
    "avg": {
-    "Mary Peltola": 48.7,
-    "Dan Sullivan": 47.6
+    "Mary Peltola": 49.5,
+    "Dan Sullivan": 47.5
    },
    "polls": [
     {
@@ -33,17 +33,6 @@
      "values": {
       "Mary Peltola": 51.0,
       "Dan Sullivan": 49.0
-     }
-    },
-    {
-     "pollster": "Quantus Insights",
-     "end": "2026-09-30",
-     "pop": "lv",
-     "n": 758,
-     "url": "https://quantusinsights.org/polling/f/quantus-insights-survey-sullivan-peltola-deadlocked-in-alaska",
-     "values": {
-      "Mary Peltola": 47.2,
-      "Dan Sullivan": 47.8
      }
     }
    ]
@@ -363,13 +352,13 @@
    ]
   },
   "me-sen": {
-   "count": 11,
-   "from": "2026-09-30",
+   "count": 10,
+   "from": "2026-10-01",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Troy Jackson": 50.0,
-    "Susan Collins": 46.3
+    "Troy Jackson": 50.4,
+    "Susan Collins": 46.1
    },
    "polls": [
     {
@@ -519,13 +508,13 @@
    ]
   },
   "mn-sen": {
-   "count": 4,
-   "from": "2026-09-30",
+   "count": 3,
+   "from": "2026-10-12",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Peggy Flanagan": 47.0,
-    "Michele Tafoya": 44.5
+    "Peggy Flanagan": 47.3,
+    "Michele Tafoya": 44.7
    },
    "polls": [
     {
@@ -559,17 +548,6 @@
      "values": {
       "Peggy Flanagan": 45.0,
       "Michele Tafoya": 42.0
-     }
-    },
-    {
-     "pollster": "Big Data Poll",
-     "end": "2026-09-30",
-     "pop": "lv",
-     "n": 622,
-     "url": "https://www.bigdatapoll.com/blog/lone-star-state-poll-peggy-flanagan-holds-slight-lead-over-michele-tafoya-for-us-senate-in-minnesota/",
-     "values": {
-      "Peggy Flanagan": 46.0,
-      "Michele Tafoya": 44.0
      }
     }
    ]
