@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-15T17:40:54+00:00",
+ "updated": "2026-11-16T02:39:53+00:00",
  "races": {
   "ak-sen": {
    "count": 2,
@@ -38,13 +38,13 @@
    ]
   },
   "az-01": {
-   "count": 2,
-   "from": "2026-10-01",
+   "count": 1,
+   "from": "2026-10-28",
    "to": "2026-10-28",
    "stale": false,
    "avg": {
-    "Amish Shah": 46.7,
-    "Jay Feely": 43.3
+    "Amish Shah": 49.0,
+    "Jay Feely": 45.0
    },
    "polls": [
     {
@@ -56,17 +56,6 @@
      "values": {
       "Amish Shah": 49.0,
       "Jay Feely": 45.0
-     }
-    },
-    {
-     "pollster": "FirstStrategic",
-     "end": "2026-10-01",
-     "pop": "lv",
-     "n": 400,
-     "url": "https://s3.documentcloud.org/documents/28722214/shahfeeley-poll-release.pdf",
-     "values": {
-      "Amish Shah": 44.4,
-      "Jay Feely": 41.6
      }
     }
    ]
@@ -352,13 +341,13 @@
    ]
   },
   "me-sen": {
-   "count": 10,
-   "from": "2026-10-01",
+   "count": 9,
+   "from": "2026-10-05",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Troy Jackson": 50.4,
-    "Susan Collins": 46.1
+    "Troy Jackson": 50.2,
+    "Susan Collins": 45.9
    },
    "polls": [
     {
