@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-17T19:48:11+00:00",
+ "updated": "2026-11-18T04:06:38+00:00",
  "races": {
   "ak-sen": {
    "count": 2,
@@ -107,13 +107,13 @@
    ]
   },
   "ga-sen": {
-   "count": 6,
-   "from": "2026-10-03",
+   "count": 5,
+   "from": "2026-10-15",
    "to": "2026-11-02",
    "stale": false,
    "avg": {
-    "Jon Ossoff": 52.8,
-    "Mike Collins": 43.6
+    "Jon Ossoff": 52.4,
+    "Mike Collins": 43.4
    },
    "polls": [
     {
@@ -169,17 +169,6 @@
      "values": {
       "Jon Ossoff": 48.0,
       "Mike Collins": 40.0
-     }
-    },
-    {
-     "pollster": "Wedgewood Polls",
-     "end": "2026-10-03",
-     "pop": "lv",
-     "n": 600,
-     "url": "https://drive.google.com/file/d/1ztqd_FYClBh1OknXwKOqi6zJXxECcqDK/view?usp=sharing",
-     "values": {
-      "Jon Ossoff": 55.0,
-      "Mike Collins": 45.0
      }
     }
    ]
