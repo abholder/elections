@@ -1,8 +1,98 @@
 {
   "source": "Federal Election Commission (api.open.fec.gov)",
   "cycle": 2026,
-  "updated": "2026-11-22T02:56:22+00:00",
+  "updated": "2026-11-22T18:28:38+00:00",
   "candidates": {
+    "oh-sen|Sherrod Brown": {
+      "fec_id": "S6OH00163",
+      "fec_name": "BROWN, SHERROD",
+      "raised": 68409199.85,
+      "spent": 63956396.53,
+      "cash_on_hand": 4452803.32,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-22T18:28:17+00:00"
+    },
+    "oh-sen|Jon Husted": {
+      "fec_id": "S6OH00304",
+      "fec_name": "HUSTED, JON",
+      "raised": 19894785.94,
+      "spent": 15655689.37,
+      "cash_on_hand": 4239096.57,
+      "through": "2026-10-22",
+      "fetched_at": "2026-11-22T18:28:18+00:00"
+    },
+    "ia-sen|Josh Turek": {
+      "fec_id": "S6IA00298",
+      "fec_name": "TUREK, JOSHUA",
+      "raised": 24290521.1,
+      "spent": 21217670.1,
+      "cash_on_hand": 3072851.0,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-22T18:28:18+00:00"
+    },
+    "ia-sen|Ashley Hinson": {
+      "fec_id": "S6IA00314",
+      "fec_name": "ARENHOLZ, ASHLEY HINSON",
+      "raised": 14147972.57,
+      "spent": 13903059.38,
+      "cash_on_hand": 2172988.59,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-22T18:28:19+00:00"
+    },
+    "ks-sen|Adam Hamilton": {
+      "fec_id": "S6KS00312",
+      "fec_name": "HAMILTON, ADAM",
+      "raised": 19175044.34,
+      "spent": 16300680.6,
+      "cash_on_hand": 2874363.74,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-22T18:28:19+00:00"
+    },
+    "ks-sen|Roger Marshall": {
+      "fec_id": "S0KS00315",
+      "fec_name": "MARSHALL, ROGER W",
+      "raised": 7546611.06,
+      "spent": 6946763.46,
+      "cash_on_hand": 809806.46,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-22T18:28:20+00:00"
+    },
+    "ak-sen|Mary Peltola": {
+      "fec_id": "S6AK00276",
+      "fec_name": "PELTOLA, MARY",
+      "raised": 36887509.15,
+      "spent": 32785383.22,
+      "cash_on_hand": 4102125.93,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-22T18:28:20+00:00"
+    },
+    "ak-sen|Dan Sullivan": {
+      "fec_id": "S4AK00214",
+      "fec_name": "SULLIVAN, DAN",
+      "raised": 14107205.4,
+      "spent": 11999190.88,
+      "cash_on_hand": 2839757.54,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-22T18:28:21+00:00"
+    },
+    "mi-sen|Abdul El-Sayed": {
+      "fec_id": "S6MI00418",
+      "fec_name": "EL-SAYED, ABDUL",
+      "raised": 53830872.19,
+      "spent": 51096843.3,
+      "cash_on_hand": 2734028.89,
+      "through": "2026-10-14",
+      "fetched_at": "2026-11-22T18:28:22+00:00"
+    },
+    "mi-sen|Mike Rogers": {
+      "fec_id": "S4MI00595",
+      "fec_name": "ROGERS, MICHAEL J",
+      "raised": 23016438.64,
+      "spent": 19369636.6,
+      "cash_on_hand": 3902505.76,
+      "through": "2026-10-22",
+      "fetched_at": "2026-11-22T18:28:22+00:00"
+    },
     "mo-05|Emanuel Cleaver": {
       "fec_id": "H4MO05234",
       "fec_name": "CLEAVER II, EMANUEL",
@@ -355,69 +445,6 @@
       "through": "2026-10-14",
       "fetched_at": "2026-11-20T19:04:12+00:00"
     },
-    "ia-sen|Ashley Hinson": {
-      "fec_id": "S6IA00314",
-      "fec_name": "ARENHOLZ, ASHLEY HINSON",
-      "raised": 14147972.57,
-      "spent": 13903059.38,
-      "cash_on_hand": 2172988.59,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-20T03:55:18+00:00"
-    },
-    "ks-sen|Adam Hamilton": {
-      "fec_id": "S6KS00312",
-      "fec_name": "HAMILTON, ADAM",
-      "raised": 19175044.34,
-      "spent": 16300680.6,
-      "cash_on_hand": 2874363.74,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-20T03:55:18+00:00"
-    },
-    "ks-sen|Roger Marshall": {
-      "fec_id": "S0KS00315",
-      "fec_name": "MARSHALL, ROGER W",
-      "raised": 7546611.06,
-      "spent": 6946763.46,
-      "cash_on_hand": 809806.46,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-20T03:55:19+00:00"
-    },
-    "ak-sen|Mary Peltola": {
-      "fec_id": "S6AK00276",
-      "fec_name": "PELTOLA, MARY",
-      "raised": 36887509.15,
-      "spent": 32785383.22,
-      "cash_on_hand": 4102125.93,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-20T03:55:20+00:00"
-    },
-    "ak-sen|Dan Sullivan": {
-      "fec_id": "S4AK00214",
-      "fec_name": "SULLIVAN, DAN",
-      "raised": 14107205.4,
-      "spent": 11999190.88,
-      "cash_on_hand": 2839757.54,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-20T03:55:21+00:00"
-    },
-    "mi-sen|Abdul El-Sayed": {
-      "fec_id": "S6MI00418",
-      "fec_name": "EL-SAYED, ABDUL",
-      "raised": 53830872.19,
-      "spent": 51096843.3,
-      "cash_on_hand": 2734028.89,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-20T03:55:22+00:00"
-    },
-    "mi-sen|Mike Rogers": {
-      "fec_id": "S4MI00595",
-      "fec_name": "ROGERS, MICHAEL J",
-      "raised": 23016438.64,
-      "spent": 19369636.6,
-      "cash_on_hand": 3902505.76,
-      "through": "2026-10-22",
-      "fetched_at": "2026-11-20T03:55:23+00:00"
-    },
     "ne-sen|Dan Osborn": {
       "fec_id": "S4NE00207",
       "fec_name": "OSBORN, DAN",
@@ -444,33 +471,6 @@
       "cash_on_hand": 1984365.82,
       "through": "2026-10-14",
       "fetched_at": "2026-11-20T03:55:25+00:00"
-    },
-    "oh-sen|Sherrod Brown": {
-      "fec_id": "S6OH00163",
-      "fec_name": "BROWN, SHERROD",
-      "raised": 68409199.85,
-      "spent": 63956396.53,
-      "cash_on_hand": 4452803.32,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-19T19:28:11+00:00"
-    },
-    "oh-sen|Jon Husted": {
-      "fec_id": "S6OH00304",
-      "fec_name": "HUSTED, JON",
-      "raised": 19894785.94,
-      "spent": 15655689.37,
-      "cash_on_hand": 4239096.57,
-      "through": "2026-10-22",
-      "fetched_at": "2026-11-19T19:28:11+00:00"
-    },
-    "ia-sen|Josh Turek": {
-      "fec_id": "S6IA00298",
-      "fec_name": "TUREK, JOSHUA",
-      "raised": 24290521.1,
-      "spent": 21217670.1,
-      "cash_on_hand": 3072851.0,
-      "through": "2026-10-14",
-      "fetched_at": "2026-11-19T19:28:12+00:00"
     }
   },
   "problems": [
