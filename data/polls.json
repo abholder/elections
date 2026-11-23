@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-22T18:28:46+00:00",
+ "updated": "2026-11-23T03:38:27+00:00",
  "races": {
   "ak-sen": {
    "count": 2,
@@ -531,13 +531,13 @@
    ]
   },
   "nc-sen": {
-   "count": 8,
-   "from": "2026-10-08",
+   "count": 7,
+   "from": "2026-10-11",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Roy Cooper": 53.5,
-    "Michael Whatley": 41.3
+    "Roy Cooper": 53.7,
+    "Michael Whatley": 41.6
    },
    "polls": [
     {
@@ -909,13 +909,13 @@
    ]
   },
   "tx-sen": {
-   "count": 15,
-   "from": "2026-10-08",
+   "count": 14,
+   "from": "2026-10-13",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
     "James Talarico": 49.2,
-    "Ken Paxton": 46.0
+    "Ken Paxton": 46.1
    },
    "polls": [
     {
