@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-23T22:36:09+00:00",
+ "updated": "2026-11-24T06:52:36+00:00",
  "races": {
   "ak-sen": {
    "count": 2,
@@ -734,13 +734,13 @@
    ]
   },
   "oh-sen": {
-   "count": 9,
-   "from": "2026-10-09",
+   "count": 8,
+   "from": "2026-10-13",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Sherrod Brown": 48.5,
-    "Jon Husted": 44.4
+    "Sherrod Brown": 48.6,
+    "Jon Husted": 44.7
    },
    "polls": [
     {
