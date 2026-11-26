@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-25T05:20:29+00:00",
+ "updated": "2026-11-26T04:50:49+00:00",
  "races": {
   "ak-sen": {
    "count": 2,
@@ -174,13 +174,13 @@
    ]
   },
   "ia-sen": {
-   "count": 8,
-   "from": "2026-10-11",
+   "count": 7,
+   "from": "2026-10-12",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Josh Turek": 46.1,
-    "Ashley Hinson": 45.9
+    "Josh Turek": 45.9,
+    "Ashley Hinson": 46.0
    },
    "polls": [
     {
@@ -531,13 +531,13 @@
    ]
   },
   "nc-sen": {
-   "count": 7,
-   "from": "2026-10-11",
+   "count": 6,
+   "from": "2026-10-20",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Roy Cooper": 53.7,
-    "Michael Whatley": 41.6
+    "Roy Cooper": 53.6,
+    "Michael Whatley": 41.9
    },
    "polls": [
     {
