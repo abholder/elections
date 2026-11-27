@@ -1,7 +1,7 @@
 {
  "source": "VoteHub (votehub.com)",
  "method": "Simple average: polls ending in the last 45 days, no internal or party-sponsored polls, one poll per pollster (latest; likely voters preferred).",
- "updated": "2026-11-26T20:07:26+00:00",
+ "updated": "2026-11-27T04:53:51+00:00",
  "races": {
   "ak-sen": {
    "count": 2,
@@ -174,13 +174,13 @@
    ]
   },
   "ia-sen": {
-   "count": 7,
-   "from": "2026-10-12",
+   "count": 5,
+   "from": "2026-10-13",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Josh Turek": 45.9,
-    "Ashley Hinson": 46.0
+    "Josh Turek": 46.0,
+    "Ashley Hinson": 45.8
    },
    "polls": [
     {
@@ -236,17 +236,6 @@
      "values": {
       "Ashley Hinson": 44.0,
       "Josh Turek": 46.0
-     }
-    },
-    {
-     "pollster": "YouGov",
-     "end": "2026-10-12",
-     "pop": "lv",
-     "n": 2245,
-     "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ia_20261006_lv.pdf",
-     "values": {
-      "Ashley Hinson": 46.0,
-      "Josh Turek": 47.0
      }
     }
    ]
@@ -486,13 +475,13 @@
    ]
   },
   "mn-sen": {
-   "count": 3,
-   "from": "2026-10-12",
+   "count": 2,
+   "from": "2026-10-30",
    "to": "2026-11-01",
    "stale": false,
    "avg": {
-    "Peggy Flanagan": 47.3,
-    "Michele Tafoya": 44.7
+    "Peggy Flanagan": 48.5,
+    "Michele Tafoya": 46.0
    },
    "polls": [
     {
@@ -515,17 +504,6 @@
      "values": {
       "Peggy Flanagan": 49.0,
       "Michele Tafoya": 46.0
-     }
-    },
-    {
-     "pollster": "SurveyUSA",
-     "end": "2026-10-12",
-     "pop": "lv",
-     "n": 718,
-     "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-swing-in-senate-and-ag-races-klobuchar-up-slightly-on-demuth/",
-     "values": {
-      "Peggy Flanagan": 45.0,
-      "Michele Tafoya": 42.0
      }
     }
    ]
